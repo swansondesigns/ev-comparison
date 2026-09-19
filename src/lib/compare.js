@@ -32,6 +32,8 @@ function deltaText(v, ref, [more, less], same) {
   return d === 0 ? same : `${Math.abs(d).toFixed(1)} in ${d > 0 ? more : less}`;
 }
 export const widthText = (w, ref = COROLLA.width_in) => deltaText(w, ref, ['wider', 'narrower'], 'same width');
+// Page two prints the difference as a bare number under an "inches wider" subhead; narrower is negative.
+export const widthDelta = (w, ref = COROLLA.width_in) => (w == null ? null : Math.round((w - ref) * 10) / 10);
 // A width the maker gives only with mirrors can't be set against a mirrorless one, so it is printed as is.
 const MIRRORS = { folded: 'mirrors folded', true: 'with mirrors' };
 export const mirrorsText = (m) => (m.width_in?.with_mirrors ? MIRRORS[m.width_in.with_mirrors] ?? 'with mirrors' : null);
@@ -57,7 +59,9 @@ export const rows = passers
     name: m.name,
     year: m.model_year?.value ?? null,
     length: val(m.length_in),
-    width: mirrorsText(m) ? `${val(m.width_in)} in wide, ${mirrorsText(m)}` : widthText(val(m.width_in)),
+    // A width given only with mirrors can't be compared, so it gets its figure in words, not a delta.
+    widthDelta: mirrorsText(m) ? null : widthDelta(val(m.width_in)),
+    widthNote: mirrorsText(m) ? `${val(m.width_in)} wide, ${mirrorsText(m)}` : null,
     awd: awdText(m),
     plug: plug(m),
     range: range(m),

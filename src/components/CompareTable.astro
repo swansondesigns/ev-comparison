@@ -1,11 +1,18 @@
 ---
 // Page two's table: one row per model that passes both gates, on shared size and range tracks, with
-// its "Sort by" control. Model names link to their one-sheet.
+// its "Sort by" control and its filters: a length trim on the size track and a Hide box per row, both
+// remembered in the browser. Model names link to their one-sheet.
 import SizeTrack from './SizeTrack.astro';
+import LengthTrim from './LengthTrim.astro';
 import RangeTrack from './RangeTrack.astro';
 import { rows, rangeText } from '../lib/compare.js';
 import { sheetHref } from '../lib/links.js';
+
+// A bare number under the "inches wider" subhead; a narrower car reads as a true minus.
+const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed(1));
 ---
+<div class="compare-wrap" data-filterable>
+<div class="controls">
 <fieldset class="sort">
   <legend>Sort by</legend>
   <label><input type="radio" name="sort" value="length" data-dir="ascending" checked /> Length</label>
@@ -13,37 +20,57 @@ import { sheetHref } from '../lib/links.js';
   <label><input type="radio" name="sort" value="alpha" data-dir="ascending" /> A–Z</label>
 </fieldset>
 
+<p class="status" data-filter-status aria-live="polite">
+  <span data-count></span>
+  <span class="part" data-trimmed hidden><span data-trim-text></span> long</span>
+  <span class="part" data-hidden-part hidden>
+    <span data-hidden-count></span> hidden
+    <button type="button" data-toggle-hidden aria-pressed="false">Show them</button>
+  </span>
+  <button type="button" class="reset" data-reset hidden>Reset</button>
+</p>
+</div>
+
 <div class="scroll">
   <table class="compare">
     <thead>
       <tr>
         <th scope="col" class="model">Model</th>
-        <th scope="col" class="size">
-          Size <span class="cap">width vs. your Corolla</span>
+        <th scope="col" class="length">
+          Length <span class="cap">drag the ends to trim</span>
           <SizeTrack head />
+          <LengthTrim />
         </th>
-        <th scope="col" class="awd">AWD</th>
+        <th scope="col" class="size">
+          Size
+          <span class="cap cap-num">Length in inches</span>
+          <span class="cap cap-sub">Inches wider than Corolla</span>
+        </th>
+        <th scope="col" class="awd">AWD <span class="cap cap-sub">Available on listed models</span></th>
         <th scope="col" class="plug">Tesla plug</th>
         <th scope="col" class="range">
           Range <span class="cap">EPA, AWD versions</span>
           <RangeTrack head />
         </th>
+        <th scope="col" class="hide">Hide</th>
       </tr>
     </thead>
     <tbody>
       {rows.map((r) => (
-        <tr data-alpha={r.alpha} data-length={r.length ?? 1e9} data-range={r.range ? r.range.max : -1}>
+        <tr data-slug={r.slug} data-alpha={r.alpha} data-length={r.length ?? 1e9} data-range={r.range ? r.range.max : -1}>
           <th scope="row" class="model">
             <a class="name" href={sheetHref(r.slug)}>{r.name}</a>
             {r.year && <span class="year">{r.year}</span>}
           </th>
 
+          <td class="length"><SizeTrack length={r.length} /></td>
+
           <td class="size">
-            <SizeTrack length={r.length} />
             {r.length != null
-              ? <span class="num">{r.length} in</span>
+              ? <span class="num">{r.length}</span>
               : <span class="none">—<span class="sr-only">No data</span></span>}
-            {r.width && <span class="sub">{r.width}</span>}
+            {r.widthDelta != null && <span class="sub sub-num">{delta(r.widthDelta)}</span>}
+            {r.widthNote && <span class="sub">{r.widthNote}</span>}
           </td>
 
           <td class="awd">{r.awd}</td>
@@ -60,14 +87,22 @@ import { sheetHref } from '../lib/links.js';
               ? <span class="num">{rangeText(r.range)}{r.range.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
               : <span class="none">—<span class="sr-only">No data</span></span>}
           </td>
+
+          <td class="hide">
+            <label><input type="checkbox" data-hide /><span class="sr-only">Hide {r.name}</span></label>
+          </td>
         </tr>
       ))}
     </tbody>
   </table>
 </div>
+</div>
 
 <script>
   import { sortRows } from '../scripts/sort-table.js';
+  import { filterable } from '../scripts/filter-table.js';
+  document.querySelectorAll('[data-filterable]').forEach((root) => filterable(root));
+
   const body = document.querySelector('table.compare tbody');
   document.querySelectorAll<HTMLInputElement>('.sort input').forEach((input) => {
     input.addEventListener('change', () => sortRows(body, input.value, input.dataset.dir));
@@ -75,13 +110,40 @@ import { sheetHref } from '../lib/links.js';
 </script>
 
 <style>
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem 2rem;
+    margin: 0 0 1.5rem;
+  }
+
+  /* Filter status: what's showing, what's been hidden, and the way back. */
+  .status { margin: 0; font-size: 0.875rem; color: var(--muted); }
+  .status .part::before { content: '·'; margin: 0 0.5em 0 0.25em; }
+  .status button {
+    all: unset;
+    cursor: pointer;
+    margin-left: 0.35em;
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+  }
+  .status button[hidden] { display: none; } /* `all: unset` above would otherwise undo the attribute */
+  .status button:hover { text-decoration-color: var(--ink); }
+  .status button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+  .status .reset { margin-left: 1rem; }
+
   /* Sort control: a row of plain text options, the active one underlined. */
   .sort {
     display: flex;
     align-items: baseline;
     gap: 1.25rem;
     border: 0;
-    margin: 0 0 1.5rem;
+    margin: 0;
     padding: 0;
     font-size: 0.875rem;
   }
@@ -100,15 +162,16 @@ import { sheetHref } from '../lib/links.js';
   .scroll { overflow-x: auto; }
 
   .compare {
-    --size-w: 11rem;
+    --size-w: 10rem;
     --range-w: 10rem;
     --track-gap: 1rem;
+    --track-head-h: 2.25rem; /* room for the track labels above the trim handles */
     border-collapse: collapse;
-    min-width: 62rem;
+    min-width: 66rem;
     width: 100%;
   }
   .compare th, .compare td {
-    padding: 0.85rem 1rem;
+    padding: 0.85rem 0.75rem;
     border-bottom: 1px solid var(--rule);
     text-align: left;
     vertical-align: middle;
@@ -118,7 +181,7 @@ import { sheetHref } from '../lib/links.js';
   .compare thead th {
     vertical-align: top;
     border-bottom-color: var(--ink);
-    padding-bottom: 1.75rem;
+    padding-bottom: 2.6rem;
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -137,22 +200,38 @@ import { sheetHref } from '../lib/links.js';
   .model .name { display: block; font-weight: 700; text-decoration-color: var(--rule); }
   .model .name:hover { text-decoration-color: var(--ink); }
   .model .year { font-family: var(--font-data); font-size: 0.8125rem; color: var(--muted); }
-  tbody th.model { font-weight: 400; min-width: 11rem; }
+  tbody th.model { font-weight: 400; min-width: 12rem; }
+  .model .name { text-wrap: balance; } /* a long name breaks evenly rather than widening the column */
+  th.size .cap, th.plug { white-space: nowrap; }
 
   .num { display: block; font-family: var(--font-data); font-size: 0.875rem; white-space: nowrap; }
   .sub { display: block; font-size: 0.8125rem; color: var(--muted); }
+  .sub-num { font-variant-numeric: tabular-nums; }
+
+  /* Size's two subheads are a legend for the two stacked values: each is set like the value it names. */
+  .cap-num { font-family: var(--font-data); font-size: 0.875rem; color: var(--ink); }
+  .cap-sub { font-size: 0.8125rem; color: var(--muted); }
+  /* No track strip to make room for in these two, and a subhead may need a third line. */
+  .compare thead th.size, .compare thead th.awd { padding-bottom: 0.85rem; }
   .none { color: var(--muted); }
 
-  .compare td.awd { min-width: 11rem; max-width: 15rem; }
+  .compare td.awd { min-width: 10rem; max-width: 15rem; }
   td.awd, td.plug { font-size: 0.9375rem; }
 
-  /* Track hosts: the tracks sit to the left inside the cell (styles/tracks.css); the printed values
-     sit to their right. */
-  .size, .range { position: relative; }
-  .size { --track-w: var(--size-w); }
+  /* Track hosts (styles/tracks.css). The length track has a column to itself, as wide as the track;
+     the range track sits to the left inside its cell, with the printed values to its right. */
+  .length, .range { position: relative; }
+  .length { --track-w: var(--size-w); }
   .range { --track-w: var(--range-w); }
-  .compare td.size { padding-left: calc(var(--size-w) + var(--track-gap) * 2); }
+  .compare th.length, .compare td.length { min-width: calc(var(--size-w) + var(--track-gap) * 2); }
   .compare td.range { padding-left: calc(var(--range-w) + var(--track-gap) * 2); }
+
+  /* Hide: a box per row. A hidden row leaves the table; "Show them" brings hidden rows back dimmed,
+     boxes still ticked, so one can be unticked. */
+  .compare th.hide, .compare td.hide { width: 3rem; padding-right: 0; text-align: center; }
+  .hide label { display: inline-flex; padding: 0.5rem; cursor: pointer; }
+  .hide input { width: 1rem; height: 1rem; margin: 0; accent-color: var(--ink); cursor: pointer; }
+  tbody tr.is-hidden > :not(.hide) { opacity: 0.4; }
 
   tbody tr:hover { background: color-mix(in srgb, var(--rule) 22%, transparent); }
 </style>

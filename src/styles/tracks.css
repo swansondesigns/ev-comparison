@@ -2,7 +2,7 @@
    positioned host and fills its height, so reference lines and ticks run unbroken from row to row.
    The host sets --track-w, and --track-gap where the track is inset. */
 .track { position: absolute; top: 0; bottom: 0; left: var(--track-gap, 0); width: var(--track-w); }
-.track-head { top: auto; height: 1.4rem; bottom: -1px; }
+.track-head { top: auto; height: var(--track-head-h, 1.4rem); bottom: -1px; }
 
 .track-ref, .track-tick { position: absolute; top: 0; bottom: 0; left: var(--x); width: 0; }
 .track-ref-corolla { border-left: 1.5px dashed var(--muted); }
