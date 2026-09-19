@@ -86,7 +86,7 @@
   },
   "heat_pump": {
     "entries": [
-      { "applies_to": "All versions", "value": "unknown", "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/", "retrieved": "2026-09-19", "note": "Feature list includes 'Heat pump'; availability by version isn't in the saved page." }
+      { "applies_to": "Plus (the only trim listed)", "value": "optional", "package": null, "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/", "retrieved": "2026-09-19", "note": "Features list on Volvo's US specifications page: 'Heat pump' is 'Optional in Plus', the only trim the page lists; no package is named. The status renders client-side, so it was read in the browser rather than from the saved HTML." }
     ]
   },
   "cargo_cu_ft": {

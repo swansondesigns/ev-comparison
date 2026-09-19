@@ -83,23 +83,22 @@
   },
   "heat_pump": {
     "entries": [
-      { "applies_to": "SE ALL4", "value": "unknown", "note": "Not in the text of MINI's Countryman pages (the full spec table renders client-side)." }
+      { "applies_to": "SE ALL4", "value": "unknown", "note": "Not in the text of MINI's Countryman pages, including the compare page rendered in a browser on 2026-09-19 (no heat pump row)." }
     ]
   },
   "cargo_cu_ft": {
-    "seats_up": 24.8,
-    "seats_down": 56.2,
-    "secondary": true,
-    "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
+    "seats_up": 24.83,
+    "seats_down": 56.18,
+    "source": "https://www.miniusa.com/model/electric-vehicles/countryman/specs.html",
     "retrieved": "2026-09-19",
-    "note": "MINI's spec table renders client-side (sources/mini-us-countryman-specs.html has no figures); C/D behind second / first row used."
+    "note": "'Cargo Capacity (cu Ft)' 24.83-56.18 in the SE ALL4 column of MINI's compare page, read in the browser (the table renders client-side). C/D's 24.8 / 56.2 are the same figures rounded."
   },
   "turning_circle_ft": {
     "value": 38.7,
     "secondary": true,
     "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
     "retrieved": "2026-09-19",
-    "note": "C/D; no MINI figure in saved text."
+    "note": "C/D; MINI's compare page, read in the browser on 2026-09-19, has no turning circle row."
   },
   "height_in": {
     "value": 64.6,
@@ -112,7 +111,7 @@
     "secondary": true,
     "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
     "retrieved": "2026-09-19",
-    "note": "C/D; no MINI figure in saved text."
+    "note": "C/D; MINI's compare page, read in the browser on 2026-09-19, has no ground clearance row."
   },
   "warranty": {
     "battery": {
@@ -133,7 +132,7 @@
     { "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "trim_tested": "Countryman SE ALL4", "result_mi": 180, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
   ],
   "notes": [
-    { "tag": "provenance", "text": "Cargo, turning circle and ground clearance are Car and Driver's figures; MINI's spec table didn't load as text." },
+    { "tag": "provenance", "text": "Cargo is MINI's figure from its compare page. Turning circle and ground clearance are Car and Driver's; MINI's compare page has no rows for them." },
     { "tag": "provenance", "text": "Port type is inferred; MINI says an adapter is needed for Superchargers but not whether one is included." }
   ]
 }

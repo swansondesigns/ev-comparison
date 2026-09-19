@@ -80,13 +80,15 @@
   },
   "dc_peak_kw": {
     "entries": [
-      { "applies_to": "All trims", "value": null, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "Not published in the fetched Kia sources (media specifications, features, pricing release). Kia's consumer compare page (https://www.kia.com/us/en/ev3/specs-compare) renders client-side; saved HTML has no figures. C/D hasn't tested the EV3." }
+      { "applies_to": "All trims", "value": null, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "Not published in the fetched Kia sources (media specifications, features, pricing release) or on Kia's consumer compare page (https://www.kia.com/us/en/ev3/specs-compare, rendered in a browser on 2026-09-19), which lists only 10-80% times at 50 kW and 350 kW chargers. C/D hasn't tested the EV3." }
     ]
   },
   "dc_10_80": {
     "entries": [
       { "applies_to": "Light", "minutes": 29, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 29 minutes." },
-      { "applies_to": "All other trims", "minutes": 31, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 31 minutes." }
+      { "applies_to": "All other trims", "minutes": 31, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 31 minutes." },
+      { "applies_to": "Light", "minutes": 55, "charger_kw": 50, "source": "https://www.kia.com/us/en/ev3/specs-compare", "retrieved": "2026-09-19", "note": "'DC Fast Charge Time (10-80% @ 50 kW via Electric Vehicle Supply Equipment)' Approx. 55 min. Compare page rendered in a browser; its 350 kW row (29 min.) matches Kia media." },
+      { "applies_to": "All other trims", "minutes": 79, "charger_kw": 50, "source": "https://www.kia.com/us/en/ev3/specs-compare", "retrieved": "2026-09-19", "note": "'DC Fast Charge Time (10-80% @ 50 kW via Electric Vehicle Supply Equipment)' Approx. 79 min. Compare page rendered in a browser; its 350 kW row (31 min.) matches Kia media." }
     ]
   },
   "heat_pump": {

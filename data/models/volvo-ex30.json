@@ -90,7 +90,7 @@
   },
   "heat_pump": {
     "entries": [
-      { "applies_to": "All versions", "value": "unknown", "source": "https://www.volvocars.com/us/cars/ex30-electric/specifications/", "retrieved": "2026-09-19", "note": "Volvo's feature list includes 'Heat pump', but whether it is included or optional per version loads client-side and isn't in the saved page." }
+      { "applies_to": "Plus, Ultra (all powertrains)", "value": "standard", "source": "https://www.volvocars.com/us/cars/ex30-electric/specifications/", "retrieved": "2026-09-19", "note": "Features list on Volvo's US specifications page: 'Heat pump' is 'Included in Plus' and 'Included in Ultra', the only two trims the page lists. The status renders client-side, so it was read in the browser rather than from the saved HTML." }
     ]
   },
   "cargo_cu_ft": {
