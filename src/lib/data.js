@@ -3,11 +3,18 @@ import { gates, passes } from './gates.mjs';
 
 const files = import.meta.glob('../../data/models/*.json', { eager: true, import: 'default' });
 
+// Not data: a joke for the reader, shown after the model's name wherever the site prints it. It lives
+// here so the sourced files, and the scripts that read them, never see it.
+const FLAIR = { 'tesla-model-y': '🤮' };
+
 export const models = Object.entries(files).map(([file, m]) => {
   const g = gates(m);
+  const slug = file.split('/').pop().replace(/\.json$/, '');
+  const flair = FLAIR[slug] ?? '';
   return {
-    slug: file.split('/').pop().replace(/\.json$/, ''),
-    name: `${m.make} ${m.model}`,
+    slug,
+    name: [m.make, m.model, flair].filter(Boolean).join(' '),
+    flair,
     ...m,
     gates: g,
     pass: passes(g),

@@ -85,7 +85,7 @@ export function sheet(m) {
   return {
     slug: m.slug,
     make: m.make,
-    model: m.model,
+    model: [m.model, m.flair].filter(Boolean).join(' '),
     year: m.model_year?.value ?? null,
     isRef,
     size: {
