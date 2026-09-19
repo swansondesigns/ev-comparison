@@ -1,0 +1,45 @@
+{
+  "make": "Mercedes-Benz",
+  "model": "GLC-Class EV",
+  "length_in": {
+    "value": 190.8,
+    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+    "retrieved": "2026-09-19",
+    "note": "Mercedes-Benz USA, GLC 400 4MATIC Electric SUV, 'Overall length — B'.",
+    "cross_check": [
+      { "value": 190.8, "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev/specs", "retrieved": "2026-09-19", "note": "2027 GLC 400 Electric 4MATIC" }
+    ]
+  },
+  "width_in": {
+    "value": 78.1,
+    "with_mirrors": false,
+    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+    "retrieved": "2026-09-19",
+    "note": "'Overall width w/o mirrors — E: 78.1 in'; w/mirrors 82.2 in.",
+    "discrepancy": "C/D lists 75.3 in 'without mirrors' (2027 GLC 400); Mercedes lists 78.1 in. Not gate-relevant (fails on length).",
+    "cross_check": [
+      { "value": 75.3, "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["GLC 400 4MATIC"],
+    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+    "retrieved": "2026-09-19",
+    "note": "'Drive configuration: Fully variable 4MATIC All-Wheel Drive with Torque Shift'. C/D also lists a 2027 'GLC300+' submodel; its drivetrain wasn't checked."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+    "retrieved": "2026-09-19",
+    "note": "'DC charging connector type: North American Charging Standard (NACS)'; 'An adapter may be required for Combined Charging System (CCS1) connectors.'"
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": null,
+    "on_sale_date": null,
+    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+    "retrieved": "2026-09-19",
+    "note": "Starting MSRP and 'View Inventory' link on Mercedes-Benz USA. Model year not stated on the page; C/D lists it as 2027."
+  }
+}

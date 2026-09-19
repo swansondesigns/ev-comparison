@@ -1,0 +1,44 @@
+{
+  "make": "Subaru",
+  "model": "Trailseeker",
+  "length_in": {
+    "value": 190.8,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+    "retrieved": "2026-09-19",
+    "note": "2027 Subaru Trailseeker Specifications and Equipment, 'Overall Length'. Saved as sources/subaru-2027-trailseeker-specifications.pdf.",
+    "cross_check": [
+      { "value": 190.8, "source": "https://www.caranddriver.com/subaru/trailseeker/specs", "retrieved": "2026-09-19", "note": "2026 Premium AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 73.2,
+    "with_mirrors": false,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width: 73.2 in. / 83.4 in. including mirrors'.",
+    "cross_check": [
+      { "value": 73.2, "source": "https://www.caranddriver.com/subaru/trailseeker/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["Premium", "Limited", "Touring"],
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+    "retrieved": "2026-09-19",
+    "note": "'Standard Subaru Symmetrical All-Wheel Drive'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+    "retrieved": "2026-09-19",
+    "note": "'NACS charge port on right fender'; 'standard NACS charge port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://media.subaru.com/newsrelease.do?id=2472&mid=396",
+    "retrieved": "2026-09-19",
+    "note": "2027 press kit: 'After a successful debut in early 2026'; 2027 'Available at retailers nationwide later this fall'."
+  }
+}

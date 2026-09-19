@@ -1,0 +1,45 @@
+{
+  "make": "Audi",
+  "model": "SQ6 e-tron",
+  "length_in": {
+    "value": 187.9,
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2027 Audi Q6 e-tron / SQ6 e-tron Technical Specifications, SQ6 e-tron column. Rows offset in text extraction; column read in row order.",
+    "cross_check": [
+      { "value": 187.9, "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs", "retrieved": "2026-09-19", "note": "2025 Premium quattro" }
+    ]
+  },
+  "width_in": {
+    "value": 76.3,
+    "with_mirrors": false,
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width without Mirrors' 76.3 in; with mirrors 86.3 in.",
+    "discrepancy": "C/D lists 77.4 in (2025 Premium quattro, 'without mirrors'); Audi's 2027 sheet lists 76.3 in. Not gate-relevant (fails on length).",
+    "cross_check": [
+      { "value": 77.4, "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs", "retrieved": "2026-09-19", "note": "2025 Premium quattro, Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["SQ6 e-tron (all)"],
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "Two electric motors, 'All-Wheel Drive'. C/D trims are all quattro."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Charge Port (Driver side): J1772 / CCS'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://media.audiusa.com/api/models/sq6-e-tron",
+    "retrieved": "2026-09-19",
+    "note": "Audi USA media has 2027 SQ6 press kit and 2027MY technical specs; model in market since 2025."
+  }
+}

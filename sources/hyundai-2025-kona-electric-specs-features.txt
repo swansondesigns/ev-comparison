@@ -1,0 +1,600 @@
+                                                      Hyundai Motor America                               HyundaiNews.com    HyundaiUSA.com
+                                                      10550 Talbert Avenue, Fountain Valley, CA 92708
+
+MECHANICAL                                                                 SE                    N Line                      SEL, Limited
+
+Electric Motor                                                                                         S
+
+Permanent-Magnet Synchronous Motor (PMSM)
+
+Power Output                                                               99 kW (133HP)                     150 kW (201HP)
+
+Torque                                                                                           188 lb-ft.
+
+All Electric Range                                                                   200 miles   230 miles                   261 miles
+
+Battery                                                                    SE (Standard Range)   SEL, N Line, Limited (Long Range)
+
+Battery Type                                                                        Lithium ion              Lithium ion
+Voltage                                                                                 269V
+                                                                                                             358V
+
+Battery System Capacity                                                    48.6 kWh                          64.8 kWh
+
+Max Vehicle Operation Speed, Electronically Governed                         101 MPH                          107 MPH
+                                                                           4 hrs 55 min                      6 hrs 5 min
+Charge Time*                   Level II, Standard (11 kW onboard charger)
+                               (from 10%  100% charge)                       ~43 min                          ~43 min
+Note: Charge times calculated
+based on                       Level III, Quick Charge- 100kW
+10%  80% or 10%  100%          (from 10%  80% charge)
+charge (prev 0%  80%)
+
+Charge Port                                                                1P72S                 Front Grille / Driver Side
+Battery Heating System                                                                                    Standard
+Structure                                                                                                                           1P96S
+
+                                                                                                                                Subject to Change
+                                                                                    Subject to Change
+
+MECHANICAL                          SE                                              SEL, N Line, Limited
+
+Battery (cont.)                     128 kW                                          182 kW
+
+Power Output                        63.3 (standard charge)                          69.1 (standard charge)
+Energy Density (Wh/lb.)
+Weight (lbs.)                       767.9 (not including cooling / hosepipe)        938.2 (not including cooling / hosepipe)
+
+On-Board Charger (OBC)              SE                                              SEL, N Line, Limited
+
+Fast Charger (up to 400V / 100 kW)                                            S
+Max Capacity (kW)
+Output Density (kVA/liter)                                                    10.8
+
+                                                                              1.07
+MECHANICAL (cont'd)                                                          Subject to Change
+
+Non-traction electrical system                Single-speed Reduction Gear  All Models
+                                              Shift-by-wire
+Transmission and Drive System                                                  12-volt
+
+Drive Configuration                                                        All Models
+
+Transmission Type                                                               FWD
+                                                                                  S
+Gear Ratio
+                                                                                10.65
+Lubricant Oil Capacity (liters)                                                  2.8
+                                                                                  S
+Drive Mode Select (Eco  Normal  Sport  Snow)
+                                                                           All Models
+Steering
+                                                                                  S
+Rack and pinion type steering gear                                                S
+                                                                               13.6 : 1
+Motor Driven Power Steering (C-MDPS) - Power assisted, column-mounted            2.5
+                                                                                34.8
+Overall Ratio
+
+Turns (lock to lock)
+
+Turning Diameter (curb to curb, ft)
+MECHANICAL (cont'd)                           Type                                           Subject to Change
+                                              Size (diameter x thickness, mm)
+Brakes                                                                                          All Models
+                                              Type
+Front                                         Size (diameter x thickness, mm)                  Ventilated Disc
+                                                                                                    305 x 25
+Rear                                                                                               Solid Disc
+                                                                                                    300 x 10
+ABS with Electronic Brake-force Distribution  Number of Wheels
+(EBD)                                         Number of Channels                                         S
+                                              Number of Sensors                                          4
+Hillstart Assist Control (HAC)                                                                           4
+Brake-Booster                                 Active Hydraulic Booster (Regenerative Brake)              4
+Brake Assist
+Electric Parking Brake                                                                                   S
+Regenerative brake control paddles                                                                       S
+                                                                                                         S
+                                                                                                         S
+                                                                                                         S
+MECHANICAL (cont'd)  Type                                         Subject to Change
+                     Shock Absorbers
+Suspension           Type                                  All Models
+                     Shock Absorbers
+Front                                            MacPherson strut with coil spring
+                                                                       S
+Rear
+                                                                 Multi-link
+Body/Chassis                                                           S
+
+Type                                                       All Models
+Materials
+                                                    Unibody (Monocoque body)
+                                      Advanced High-Strength Steel; High Tensile Steel
+                                                                    Subject to Change
+
+EXTERIOR                                           SE  SEL  N Line  Limited
+
+Wheels & Tires            17 X 7.0J Alloys         S   S    -       S
+                          19 X 7.5J Alloys
+Wheels                    Wheel Design
+
+                                                   -   -    S       -
+
+Tires                     215/60R17                S   S    -       S
+                          235/45R19
+Spare Tire                Tire Mobility Kit (TMK)  -   -    S       -
+
+Lights                                             S   S    S       S
+
+LED Projector headlights                           SE  SEL  N Line  Limited
+
+                                                   S   S    S                  S
+                                                                    (+LED turn signal)
+
+LED Daytime Running Lights                         S   S    S               S
+Automatic headlights                                                (Full-line LED)
+LED Center High-Mount Stop Lamp (CHMSL)
+LED combi taillights                               S   S    S       S
+High Beam Assist
+                                                   S   S    S       S
+
+                                                   S   S    S                  S
+                                                                    (+LED turn signal)
+
+                                                   S   S    S       S
+                                                                                  Subject to Change
+
+EXTERIOR (cont'd)                                               SE        SEL      N Line      Limited
+
+Outside Mirrors                                                   S          S          S            S
+                                                                  S          S          S            S
+Bodycolor                                                         S          S          S            S
+Heated
+LED Turn Signal Indicators                                      SE        SEL      N Line      Limited
+
+Moldings & Trim                                                   S          S          S            S
+                                                                  S          S          S            S
+Active grille shutters (internal-type, lower front grille)  Bodycolor  Bodycolor  Bodycolor   Gloss Black
+                                                            Bodycolor  Bodycolor  Bodycolor    Bodycolor
+Bumpers                     Bodycolor                          Black      Black      Black   Satin Chrome
+                                                                  S          S          S            S
+Lower Door Garnish                                              PIO        PIO        PIO           PIO
+
+Body cladding                                                   SE        SEL      N Line      Limited
+
+Window Beltline Molding                                           S          S          S            S
+                                                                  -          S          S            S
+Door Handles                Bodycolor
+
+Mud Guards                  Front/Rear
+
+Glass
+
+Solar front glass           Front Door, Windshield
+
+Privacy glass               Rear/quarter/back glass
+                                                                                              Subject to Change
+
+EXTERIOR (cont'd)                                                           SE        SEL       N Line       Limited
+
+Wipers                                                                        S          S           S             S
+                                                                              S          S           S             S
+Front 2-speed/variable intermittent windshield wipers                         S          S           S             S
+                                                                              S          S           S             S
+Washer fluid sensor
+                                                                            SE        SEL       N Line       Limited
+Intermittent rear window wiper/washer (non-variable)
+                                                                              -          -           S             S
+"Aero" wiper blades           Power tilt-and-slide with sunshade        Bodycolor  Bodycolor  Bodycolor +  Satin Chrome
+                                                                                              Gloss Black
+Other                                                                         -          S                         S
+                                                                              -        PIO           S            PIO
+Sunroof                                                                       S                    PIO
+                                                                              -          S                         S
+Rear spoiler                  Integrated with CHMSL                           S          -           S             S
+                                                                                         S                         S
+Roof rails                    Black                                                                  -
+
+Roof cross rails                                                                                     S
+
+Roof Antenna                  Shark-fin
+
+Hands-free Smart Liftgate w/  Push open and close, integrated in front
+auto-open                     bumper
+
+Charge-port Door
+EXTERIOR (cont'd)                    Subject to Change
+
+Badging            *US-spec Kona Electric N Line applies rear spoiler
+                                 (Front, L+R profile)
+                                                            *Images for reference only
+                                                                                                  Subject to Change
+
+INTERIOR          Cloth                                                             SE     SEL    N Line  Limited
+                  N Line Black Alcantara® Combi Seats
+Seating           H-Tex® Leatherette Trimmed Seats                                    5       5       5        5
+                  6-way adjustable driver's seat                                      S       S       -        -
+Capacity          8-way power driver's seat                                           -       -       S        -
+Seating Surfaces  Power driver lumbar support                                         -       -       -        S
+                  Height adjustment driver                                            S       -       -        -
+Front Seats       Height adjustment front passenger                                   -       S       S        S
+                  Heated front seats                                                  -       S       S        S
+Rear Seat         Ventilated front seats                                          Manual  Power   Power    Power
+Cargo Area        60/40 Split flat rear seatback with adjustable head restraints  Manual  Manual  Manual   Manual
+                  (left, center, right)                                               -       S       S        S
+                  Recline function                                                    -       -       -        S
+                  Map Pocket (driver and front passenger seatbacks)
+                  Dual level cargo floor                                              S       S       S        S
+                  Cargo area anchors (plastic, x4 in corners)                         S       S       S        S
+                                                                                      -       -       S        S
+
+                                                                                      S       S       S        S
+                                                                                      S       S       S        S
+                                                                                           Subject to Change
+
+INTERIOR (cont'd)
+
+Audio                                                                          SE  SEL  N Line     Limited
+
+             12.3-inch Touchscreen Navigation (ccNC):  Resolution: 1920 x      S   S    S          S
+             AM/FM/SiriusXM®/HD Radio® System with 6-  720
+             speakers
+
+Head Unit &  Bose premium audio w/external amp and 8 Speakers (2 Front-door-   -   -    S          S
+Speakers     mounted Speakers, 2 Tweeters, 2 Rear Speakers, and center front)
+
+             Android Auto & Apple CarPlay (Wireless)                           S   S    S          S
+
+             Front dual 3-amp USB-C outlets (1x Power/Data & 1x Power)         S   S    S          S
+
+             Rear dual 3-amp USB-C outlets (2x Power)                          S   S    S          S
+
+Rear view monitor with parking guidance                                        S   S    S          S
+
+Surround View Monitor                                                          -   -    -          S
+
+Wireless Device Charging (For Supported Devices)                               -   -    S          S
+
+Trim                                                                           SE  SEL  N Line     Limited
+
+Headliner              Knit-Type                                               S   S    S - Black  S
+
+Door Panels            Premium Soft-Touch                                      -   -    S          S
+                                                                             Subject to Change
+
+INTERIOR (cont'd)       Front and rear                        SE     SEL         N Line        Limited
+                        Front and rear (1x per door)
+TRIM (cont'd)           Front and rear                       Black   Black     Metal Paint    Metal Paint
+                        Dual vanity mirror with cover                        (Dark Chrome)  (Satin Chrome)
+Door handles            w/ sliding function                     S       S
+Door storage pockets    w/ Illumination                         S       S             S              S
+Door bottle holders                                             S       S             S              S
+Power Window Switches   Column-type (stalk); shift-by-wire      S       S             S              S
+                                                                S       S             S              S
+Sunvisors               Needle Punch                            S   S (LED)           S              S
+                        Carpeted                                                  S (LED)        S (LED)
+Shift Selector          Fixed shelf-type, carpeted/plastic      S       S
+Floor covering          1x cargo area corners                                         S              S
+Floor mats              Plastic                                 S       S
+Cargo-area cover        Plastic + N Line Accent               PIO     PIO             S              S
+Cargo-area anchors (4)                                                              PIO             PIO
+                                                                S       S
+Door sill plates                                                S       S             S              S
+                                                                S       S             S              S
+Pedals                                                          -       -                            S
+                                                            Rubber  Rubber            S
+                                                                               Metal Sport           _
+                                                                                                 Rubber
+                                                                                            Subject to Change
+
+INTERIOR (cont'd)
+
+HVAC/Defogger                                                          SE  SEL  N Line      Limited
+
+Dual Automatic Temperature Control w/ Auto Defog and driver-only mode  S   S    S           S
+
+2nd Row AC Vents                                                       -   S    S           S
+
+Rear seat heater ducts                                                 S   S    S           S
+
+PTC Heater                                                             S   S    S           S
+
+Cabin air filter                                                       S   S    S           S
+
+Rear window defroster with timer                                       S   S    S           S
+
+Steering Wheel                                                         SE  SEL  N Line      Limited
+
+3-Spoke                                                                S   S    S           S
+
+Leather-wrapped                                                        -   S    S (N Logo)  S
+
+Brake Regen Paddle Shifters                                            S   S    S           S
+
+Heated                                                                 -   -    -           S
+
+Haptic Feedback                                                        S   S    S           S
+
+Tilt + Telescoping                                                     S   S    S           S
+
+Audio controls (Volume up/down, Seek up/down, Mode)                    S   S    S           S
+
+Bluetooth® controls                                                    S   S    S           S
+
+Smart Cruise/HDA controls                                              S   S    S           S
+                                                                                            Subject to Change
+
+INTERIOR (cont'd)
+
+Instrumentation                                                                 SE  SEL  N Line  Limited
+
+Meters/          12.3-inch digital instrument cluster                           S   S    S       S
+Gauges
+
+                 Speedometer                                                    S   S    S       S
+
+                 System Power Gauge                                             S   S    S       S
+
+                 Charge level                                                   S   S    S       S
+
+                 Odometer, digital                                              S   S    S       S
+
+                 Trip Odometer                                                  S   S    S       S
+
+                 PRND, Regenerative Braking Level (momentary)                   S   S    S       S
+
+                 Smart Cruise Control                                           S   S    S       S
+
+                 Turn signal/hazard                                             S   S    S       S
+
+                 High beam assist                                               S   S    S       S
+
+Indicators       Parking brake                                                  S   S    S       S
+(if equipped)                                                                   S
+                 Low power, trunk lid open, brake, check engine, ABS, TPMS,
+                 ESC, MDPS                                                          S    S       S
+
+                 Low washer fluid, immobilizer                                  S   S    S       S
+
+                 Drive Mode & Ready to Drive Status                             S   S    S       S
+
+                 BCW, LKA, DAW, FCA, SEW, ROA, HDA                              S   S    S       S
+
+Warning Lights   Battery charge, door ajar, airbag, seatbelt, headlight, power  S   S    S       S
+                 steering
+
+                 Seatbelt Reminder (Driver & all passengers)                    S   S    S       S
+
+Adjustable illumination level                                                   S   S    S       S
+                                                                                                      Subject to Change
+
+INTERIOR (cont'd)
+
+Convenience Features                                                                         SE  SEL  N Line  Limited
+
+Navigation-based Smart Cruise control w/ Stop & Go                                           S   S    S       S
+
+Intelligent Speed Limit Assist (ISLA)                                                        S   S    S       S
+
+Remote Smart Parking Assist (RSPA)                                                           -   -    -       S
+
+12.3-inch Digital Instrument Cluster                                                         S   S    S       S
+
+Blind-Spot View Monitor                                                                      -   -    -       S
+
+                                           with driver auto-down                             S   S    -       -
+                                           with front auto-up/down
+Power windows
+
+                                                                                             -   -    S       S
+
+Power door locks                                                                             S   S    S       S
+
+Remote keyless entry system with alarm and panic                                             S   S    S       S
+
+Proximity key entry with push button start and remote start                                  S   S    S       S
+
+Remote releases (hood & fuel filler door)                                                    S   S    S       S
+Storage tray
+                                           Center Stack / Center Console / Above glovebox    S   S    S       S
+
+Front center console                       Fixed armrest storage with tray                   S   S    S       S
+
+Front dual cupholders                      Center console-mounted, retractable rotary-style  S   S    S       S
+
+Rear center armrest with cupholders                                                          S   S    S       S
+
+12-volt outlet                             Front                                             S   S    S       S
+
+Assist grips (3) & rear coat hanger (1)                                                      S   S    S       S
+                                                                                                                    Subject to Change
+
+INTERIOR (cont'd)
+
+Convenience Features (cont'd)                                                                              SE  SEL  N Line  Limited
+
+Glove compartment                 With Damper                                                              S     S      S        S
+                                                                                                                 S      S        S
+                                  Illuminated                                                              S     S      -        -
+                                                                                                                 -      S        -
+                                  Manual day/night                                                         S     -      -        S
+
+Inside rearview mirror            Auto-Dimming EC Mirror                                                   -   SEL  N Line  Limited
+
+                                  Auto-Dimming EC Mirror with HomeLink®                                    -     S      S        S
+                                                                                                                 S      S        S
+Telematics                                                                                                 SE    S      S        S
+
+Bluelink® Connected Car System                                                                             S   SEL  N Line  Limited
+
+WiFi Hotspot                                                                                               S     S      S        S
+                                                                                                                 S      S        S
+OTA Software Updates                                                                                       S     S      S        S
+                                                                                                                 S      S        S
+Lights                                                                                                     SE    -      S        S
+
+Central dome light (with delay) and auto cut-off                                                           S   SEL  N Line  Limited
+
+LED interior lights                                                                                        -     S      S        S
+                                                                                                                 -      S        S
+Cargo area light                                                                                           S
+                                                                                                                 S      S        S
+I/P switch illumination (hazard)                                                                           S
+                                                                                                                 S      S        S
+Ambient Lighting (user-selectable color; above glovebox, front door lower storage)                         -
+
+Other                                                                                                      SE
+
+Keys                              Proximity w/ Remote Start, detachable valet key & push button start (2)  S
+
+                                  Hyundai Digital Key 2 Touch (NFC)                                        -
+
+Charging Cable, Level 1           120V, 12A (12A/10A/8A selectable)                                        S
+
+(ICCB: In-Cable Control Box)
+
+Exterior Vehicle to Load (V2L) Capability                                                                  S
+SAFETY/SECURITY                 Driver (1)                                                               Subject to Change
+                                Front passenger (1)
+Restraint Systems                                                                                        ALL
+
+Airbags                                                                                                    S
+(Front - Advanced)
+                                                                                                           S
+                                Occupant Classification System (OCS)
+                                Seat weight sensor and seat track sensor                                   S
+
+                                Driver and front passenger side-impact FR (Thorax) (2)                     S
+
+                                Side air curtains (front and rear passengers) with rollover sensors (2)    S
+                                                                                                           S
+Outboard seatbelts                                 3-point                                                 S
+                                                                                                           S
+Inboard seatbelt (rear)                            3-point                                                 S
+                                                                                                           S
+Adjustable front-seat shoulder belt anchors                                                                S
+                                                                                                            -
+Front + Rear (outboard positions only) seatbelt pretensioners and load limiters                            S
+                                                                                                           S
+Front + Rear Seatbelt Reminder
+                                                                                                         ALL
+Rear LATCH Lower Anchors and Upper Tether Anchors
+                                                                                                           S
+Active Head Restraints                                                                                     S
+                                                                                                           S
+Power window lock-out button                                                                               S
+
+Rear child safety locks
+
+Active Safety
+
+Anti-lock Braking System (ABS) with 4-wheel disc brakes
+
+Electronic Stability Control (ESC) with Traction Control (TCS) and Brake Assist
+
+Vehicle Stability Management
+
+Tire Pressure Monitoring System (TPMS) with Individual Tire Indicator
+                                                                                         Subject to Change
+
+SAFETY/SECURITY (cont'd)                                                        SE  SEL  N Line  Limited
+
+Active Safety                                                                   S   S    S       S
+
+Blind-Spot Collision Avoidance Warning (BCW)                                    S   S    S       S
+Rear Cross-Traffic Collision Avoidance Assist (RCCA)
+Parking Distance Warning (PDW) ­ Forward/Side/Reverse (w/Contour Warning)       -   -    -       S
+Forward Collision-Avoidance Assist (FCA) w/ Pedestrian/Cyclist/JT/DO Detection
+Lane Keeping Assist (LKA)                                                       S   S    S       S
+Lane Following Assist (LFA)
+Intelligent Speed Limit Assist (ISLA)                                           S   S    S       S
+Highway Driving Assist I (HDA I)
+Driver Attention Warning (DAW)                                                  S   S    S       S
+High Beam Assist (HBA)
+Rear Occupant Alert (ROA) (door logic-type)                                     S   S    S       S
+Safe Exit Warning (SEW)
+                                                                                S   S    S       S
+
+                                                                                S   S    S       S
+
+                                                                                S   S    S       S
+
+                                                                                S   S    S       S
+
+                                                                                S   S    S       S
+                                                                                  Subject to Change
+
+SAFETY/SECURITY (cont'd)                                                 SE  SEL  N Line  Limited
+
+Passive Safety                                                           S   S    S       S
+
+Front crumple zone                                                       S   S    S       S
+2.5-MPH Bumpers
+Bodyside reinforcements                                                  S   S    S       S
+Electronic Shift Lock System & Ignition Key Interlock ­ Electronic type
+Anti-theft System integrated with remote keyless entry and panic alarm   S   S    S       S
+Immobilizer
+                                                                         S   S    S       S
+
+                                                                         S   S    S       S
+DIMENSIONS/WEIGHTS/CAPACITIES                          Subject to Change
+
+Exterior (inches)                                      All
+
+Wheelbase                                                104.7
+Overall Length                                 171.5 (N Line: 172.6)
+Overall Width
+Overall Height (with roof rails)                          71.9
+Tread Width, Front                                   62.0 (62.2)
+Tread Width, Rear
+Overhang, front/rear                                     62.6
+Minimum Ground Clearance                        63.0 (N Line: 62.9)
+Roof rails load capacity                33.9 / 32.9 (N Line: 34.1 / 33.9)
+
+Interior (inches)                                         5.9"
+                                                       220 lbs.
+Head Room, Front (with sunroof) / Rear
+Leg Room, Front / Rear                                 All
+Shoulder Room, Front / Rear
+Hip Room, Front / Rear                          40.0 (38.3) / 38.3
+                                                     41.7 / 36.4
+                                                     56.5 / 55.2
+                                                     54.3 / 52.4
+                                                                                                                         Subject to Change
+
+DIMENSIONS/WEIGHTS/CAPACITIES (cont'd)
+
+Weights                                           SE                                SEL                          N Line  Limited
+
+Curb Weight (lbs)                                 3,571                              3,759                         TBD     3,891
+GVWR (lbs)                                        4,652                              4,883                         TBD     4,883
+Maximum Trailer Weight (lbs)
+                                        SE (Standard Range)                                  Not Recommended     SEL / Limited (Long Range)
+SAE Volume (cubic feet)
+                                                                                                    All          129 City / 103 Hwy / 116 Combined
+Total interior volume (w/sunroof)                                                                                                     261
+Passenger interior volume (w/sunroof)                                                             124.5 (122.3)                        0
+Cargo capacity, rear seats up                                                                      99.0 (96.8)                       700
+Cargo capacity, rear seats folded down
+Front Under Hood Storage Tray                                                                          25.5                  9 (FE) / 10 (GHG)
+                                                                                                       63.7                        10 (ZEV)
+Fuel Economy / EPA /                                                                                   0.95                            72
+Performance
+                                                                                N Line (Long Range)
+MPGe (City/Highway/Combined)            131 City / 105 Hwy / 118 Combined
+                                                                           113 City / 93 Hwy / 103 Combined
+Driving Range (miles)                   200                                                    230
+
+CO2 (grams/mile)                        0                                                        TBD
+
+Annuel Fuel Cost (USD)                          700                                              0
+                                        9 (FE) / 10 (GHG)                                      800
+Fuel Economy and Greenhouse Gas
+Rating                                       10 (ZEV)                                 9 (FE) / 10 (GHG)
+
+Smog Rating                                                                                 10 (ZEV)
+                                                                                                74
+Model Index                             71
+

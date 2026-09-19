@@ -1,0 +1,145 @@
+2026 Volkswagen ID.4                                    ID.4 Pro RWD (82 kWh) ID.4 Pro S RWD (82 kWh) ID.4 Pro AWD (82 kWh) ID.4 Pro S AWD (82 kWh)
+Technical Specifications
+                                                        _                                        _                                        ASM asynchronous                         ASM asynchronous
+MOTOR                                                   PSM permanent magnet synchronous         PSM permanent magnet synchronous         PSM permanent magnet synchronous         PSM permanent magnet synchronous
+Type front                                              282                                      282                                      335                                      335
+Type rear                                               402                                      402                                      99(front) / 402(rear)                    99(front) / 402(rear)
+System Horsepower, hp (SAE)
+Torque, lb-ft                                           Lithium-ion                              Lithium-ion                              Lithium-ion                              Lithium-ion
+BATTERY & ELECTRICAL                                    82 kWh                                   82 kWh                                   82 kWh                                   82 kWh
+High Voltage Battery, Type                              77 kWh                                   77 kWh                                   77 kWh                                   77 kWh
+High Voltage Battery Capacity, Gross                    11 kW                                    11 kW                                    11 kW                                    11 kW
+High Voltage Battery Capacity, Net                      175 kW                                   175 kW                                   175 kW                                   175 kW
+AC Onboard Charger, Maximum Acceptance Rate             288                                      288                                      288                                      288
+DC Maximum Acceptance Rate                              400 V                                    400 V                                    400 V                                    400 V
+Number of cells                                         1133                                     1133                                     1133                                     1133
+Maximum Voltage
+Battery Assembly Weight (lb)                            Rear-wheel drive                         Rear-wheel drive                         All-wheel drive                          All-wheel drive
+DRIVETRAIN                                              Automatic                                Automatic
+Driven wheels                                           Rear                                     Rear                                     Automatic                                Automatic
+                                                        2.03                                     2.03
+Transmission Gear Ratios:1                              2.03                                     2.03                                     Rear         Front                       Rear         Front
+                                                        3.90                                     3.90
+STEERING                                       1st                                                                                        2.03         2.74                        2.03         2.74
+Type                                           Reverse
+Turns (lock to lock)                           Final                                                                                      2.03         2.74                        2.03         2.74
+Turning Circle (curb to curb)
+Ratio                                                                                                                                     3.90         3.78                        3.90         3.78
+INTERIOR VOLUME - SAE
+EPA Class                                               Electric rack-and-pinion                 Electric rack-and-pinion                 Electric rack-and-pinion                 Electric rack-and-pinion
+Seating Capacity                                        3.5                                      3.5                                      3.0                                      3.0
+Passenger Volume w/o glass roof (cu ft)                 31.5 ft / 9.60 m                         31.5 ft / 9.60 m                         36.4 ft / 11.1 m                         36.4 ft / 11.1 m
+Passenger Volume w/ glass roof (cu ft)                  14.4:1                                   14.4:1                                   14.9:1                                   14.9:1
+Cargo Volume (behind 2nd row) (cu ft)
+Cargo Volume (with rear seats folded) (cu ft)           Small SUV 2WD                            Small SUV 2WD                            Small SUV 4WD                            Small SUV 4WD
+
+Volume w/o glass roof (cu ft)                           5                                        5                                        5                                        5
+Volume w/ glass roof (cu ft)
+Headroom w/o glass roof (in/mm)                         99.9                                     99.9                                     99.9                                     99.9
+Headroom w/ glass roof (in/mm)
+Shoulder Room (in/mm)                                   101.2                                    101.2                                    101.2                                    101.2
+Hip Room (in/mm)
+Legroom (in/mm)                                         30.3                                     30.3                                     30.3                                     30.3
+BODY, CHASSIS AND SUSPENSION
+Type                                                    64.2                                     64.2                                     64.2                                     64.2
+Body Material
+Front Suspension                                        1st row 2nd row                          1st row 2nd row                          1st row 2nd row                          1st row 2nd row
+
+Rear Suspension                                         55.5         44.4                        55.5         44.4                        55.5         44.4                        55.5         44.4
+
+Brakes                                                  56.2         45.0                        56.2         45.0                        56.2         45.0                        56.2         45.0
+
+Anti-Lock Braking System                                40.6/1030 37.9/963                       40.6/1030 37.9/963                       40.6/1030 37.9/963                       40.6/1030 37.9/963
+Stability Control
+Parking Brake                                           41.1/1045 38.4/976                       41.1/1045 38.4/976                       41.1/1045 38.4/976                       41.1/1045 38.4/976
+Wheels/Tires
+                                                        57.5/1460 55.9/1421                      57.5/1460 55.9/1421                      57.5/1460 55.9/1421                      57.5/1460 55.9/1421
+Drag Coefficient
+                                                        54.4/1382 46.7/1185                      54.4/1382 46.7/1185                      54.4/1382 46.7/1185                      54.4/1382 46.7/1185
+
+                                                        41.1/1045 37.6/954                       41.1/1045 37.6/954                       41.1/1045 37.6/954                       41.1/1045 37.6/954
+
+                                                        Unitary Construction                     Unitary Construction                     Unitary Construction                     Unitary Construction
+
+                                                        Steel                                    Steel                                    Steel                                    Steel
+
+                                                        Strut-type with lower control arms, coil Strut-type with lower control arms, coil Strut-type with lower control arms, coil Strut-type with lower control arms, coil
+                                                        springs, telescopic dampers, anti-roll bar springs, telescopic dampers, anti-roll bar springs, telescopic dampers, anti-roll bar springs, telescopic dampers, anti-roll bar
+
+                                                        Multilink with coil springs, telescopic  Multilink with coil springs, telescopic  Multilink with coil springs, telescopic  Multilink with coil springs, telescopic
+                                                        dampers, anti-roll bar                   dampers, anti-roll bar                   dampers, anti-roll bar                   dampers, anti-roll bar
+
+                                                        14.1 x 1.2-in vented front discs and 11.0 x 14.1 x 1.2-in vented front discs and 11.0 x 14.1 x 1.2-in vented front discs and 11.0 x 14.1 x 1.2-in vented front discs and 11.0 x
+
+                                                        2.0-in rear drums                        2.0-in rear drums                        2.0-in rear drums                        2.0-in rear drums
+
+                                                        Standard, all four wheels                Standard, all four wheels                Standard, all four wheels                Standard, all four wheels
+
+                                                        Standard Electronic Stability Control (ESC) Standard Electronic Stability Control (ESC) Standard Electronic Stability Control (ESC) Standard Electronic Stability Control (ESC)
+
+                                                        Electro-mechanical                       Electro-mechanical                       Electro-mechanical                       Electro-mechanical
+
+                                                        8J x 19 aluminum-alloy wheels            8J x 20 aluminum-alloy wheels in front 8J x 20 aluminum-alloy wheels in front 8J x 20 aluminum-alloy wheels in front
+
+                                                        235/55 R19, all-season tires in front    235/50 R20, all-season tires in front    235/50 R20, all-season tires in front    235/50 R20, all-season tires in front
+
+                                                        255/50 R19, all-season tires in rear     9J x 20 aluminum-alloy wheels in rear 9J x 20 aluminum-alloy wheels in rear 9J x 20 aluminum-alloy wheels in rear
+
+                                                                                                 255/45 R20, all-season tires in rear     255/45 R20, all-season tires in rear     255/45 R20, all-season tires in rear
+
+                                                                                                                                                                                   Pro S Plus AWD:
+
+                                                                                                                                                                                   8.5J x 21 aluminum-alloy wheels in front
+
+                                                                                                                                                                                   235/45 R21, all-season tires in front
+
+                                                                                                                                                                                   9J x 21 aluminum-alloy wheels in rear
+
+                                                                                                                                                                                   255/40 R21, all-season tires in rear
+
+                                                        0.28                                     0.28                                     0.28                                     0.28
+
+# Internal
+2026 Volkswagen ID.4                            ID.4 Pro RWD (82 kWh) ID.4 Pro S RWD (82 kWh) ID.4 Pro AWD (82 kWh) ID.4 Pro S AWD (82 kWh)
+Technical Specifications
+                                                108.9/2766  108.9/2765  108.8/2763  108.8/2763
+DIMENSIONS                                      62.5/1587   62.5/1587   62.3/1583   62.3/1583
+                                                                                    62.7/1593 (Pro S Plus AWD)
+Wheelbase (in/mm)                               61.5/1561   61.7/1567   61.7/1568   61.7/1568
+Front Track (in/mm)                             180.5/4584  180.5/4584  180.5/4584  180.5/4584
+                                                72.9/1852   72.9/1852   72.9/1852   72.9/1852
+Rear Track (in/mm)                              64.6/1642   64.7/1643   65.2/1656   65.2/1656
+                                                                                    65.2/1657 (Pro S Plus AWD)
+Length (in/mm)                                  17.5        17.7        19.0        19.0
+                                                                                    18.9 (Pro S Plus AWD)
+Width w/o mirrors (in/mm)                       21.3        21.3        20.3        20.3
+                                                                                    20.4 (Pro S Plus AWD)
+Height (in/mm)                               .  16.8        16.9        18.2        18.2
+                                                6.1/156     6.2/158     6.9/176     6.9/176
+Approach Angle (degrees)                                                            6.9/175 (Pro S Plus AWD)
+
+Departure Angle (degrees)
+
+Breakover Angle (degrees)
+Ground Clearance (in/mm)
+
+WEIGHTS                                         4575/2075   4672/2119   4799/2177   4879/2213
+                                                5864/2660   5864/2660   6019/2730   6019/2730
+Curb Weight NHTSA (lb/kg)                       970/440     970/440     926/420     926/420
+GVWR (lb/kg)                                    1650/748    1650/748    1650/748    1650/748
+Payload (lb/kg)                                 2200/998    2200/998    2700/1225   2700/1225
+Towing Capacity, Unbraked (lb/kg)
+Towing Capacity, Braked (lb/kg)                 122         122         108         108
+
+CONSUMPTION                                     104         104         96          96
+
+City (MPGe)                                     113         113         102         102
+Highway (MPGe)
+Combined (MPGe)                                 30          30          33          33
+Electric Consumption, Combined (kWh/100 mi)
+Range (EPA mi)                                  291         291         263         263
+
+                                                                            Specifications, equipment, options, and prices are subject to change without notice
+
+# Internal
+

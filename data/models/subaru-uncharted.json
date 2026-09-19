@@ -1,0 +1,138 @@
+{
+  "make": "Subaru",
+  "model": "Uncharted",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 177.8,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "2027 Subaru Uncharted Specifications and Equipment, 'Overall Length'. Saved as sources/subaru-2027-uncharted-specifications.pdf.",
+    "cross_check": [
+      { "value": 177.8, "source": "https://www.caranddriver.com/subaru/uncharted/specs", "retrieved": "2026-09-19", "note": "2026 Premium FWD" }
+    ]
+  },
+  "width_in": {
+    "value": 73.6,
+    "with_mirrors": null,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width'; the sheet doesn't say whether mirrors are included. C/D lists the same figure as width without mirrors.",
+    "cross_check": [
+      { "value": 73.6, "source": "https://www.caranddriver.com/subaru/uncharted/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "label": "Sport, GT",
+    "trims": ["Sport", "GT"],
+    "not_awd": ["Premium FWD"],
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "2027 spec sheet: 'Available Symmetrical All-Wheel Drive'; output listed as Premium FWD vs Sport and GT (dual motor). Pricing release: Sport has 'dual electric motors ... paired with Subaru Symmetrical All-Wheel Drive'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "'NACS charge port on right fender'. Pricing release: 'uses a high-speed North American Charging Standard (NACS) port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://media.subaru.com/newsrelease.do?id=2466&mid=397",
+    "retrieved": "2026-09-19",
+    "note": "2027 pricing release: 'After successful debut in early 2026, 2027 Subaru Uncharted returns'; 'The 2027 Subaru Uncharted will arrive in retailers this fall.' Release date not shown on the saved page."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "Sport", "epa_vehicle": "Uncharted AWD", "drive": "AWD", "value": 287, "epa_id": 50695, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50695", "retrieved": "2026-09-19" },
+      { "applies_to": "GT", "epa_vehicle": "Uncharted 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50694, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50694", "retrieved": "2026-09-19" },
+      { "applies_to": "Premium", "epa_vehicle": "Uncharted", "drive": "FWD", "value": 308, "epa_id": 50693, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50693", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA's 2026 listings (50302, 50303) carry the same figures. Trim mapping from Subaru's spec sheet (Premium FWD 308, Sport 287, GT 273)."
+  },
+  "trims": {
+    "list": [
+      { "name": "Premium", "drive": "FWD" },
+      { "name": "Sport", "drive": "AWD" },
+      { "name": "GT", "drive": "AWD" }
+    ],
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "2027 spec sheet header 'Premium, Sport, GT'; 'Premium FWD' throughout; X-MODE 'Standard on Sport and GT'."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "All trims", "kwh": 74.7, "basis": "not stated", "source": "https://media.subaru.com/view-spec.do?bFileId=50493", "retrieved": "2026-09-19", "note": "'Lithium-ion: 104 cells, 74.7 kWh'. Subaru doesn't say usable or gross. C/D's review lists 67 kWh, labelled as C/D's own estimate; not used." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "All trims", "value": 150, "source": "https://media.subaru.com/newsrelease.do?id=2466&mid=397", "retrieved": "2026-09-19", "note": "2027 pricing release: 'DC-fast charging speeds up to 150 kW'." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      { "applies_to": "All trims", "minutes": 28, "charger_kw": null, "source": "https://media.subaru.com/view-spec.do?bFileId=50493", "retrieved": "2026-09-19", "note": "'DC fast charging: 10% to 80% charge as quickly as 28 minutes'. Charger power not stated with the time; the release credits 'battery preconditioning and up to 150 kW charging speeds'." }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "All trims", "value": "unknown", "note": "Not mentioned in the 2027 spec sheet, the 2027 pricing release or C/D pages." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 23,
+    "seats_down": 59.5,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "'EPA Cargo Volume 23.0 cu. ft. (rear seatbacks up) / 59.5 cu. ft. (rear seatbacks down)'. Text extraction staggers this table; reading confirmed by C/D.",
+    "cross_check": [
+      { "value": "23 / 59.5", "source": "https://www.caranddriver.com/subaru/uncharted/specs", "retrieved": "2026-09-19", "note": "Cargo behind second / first row" }
+    ]
+  },
+  "turning_circle_ft": {
+    "value": 36.1,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "'Turning Circle Diameter (Curb-To-Curb) 36.1 ft.'"
+  },
+  "height_in": {
+    "value": 63.8,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Height 63.8 in.' (one figure for all trims)."
+  },
+  "ground_clearance_in": {
+    "value": 8.2,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19",
+    "note": "'Min. Ground Clearance 8.2 in.'"
+  },
+  "warranty": {
+    "battery": {
+      "years": 8,
+      "miles": 100000,
+      "text": "8-year / 100,000-mile High Voltage Battery Warranty; 8-year / 100,000-mile Battery and Electric Drive Unit Limited Warranty"
+    },
+    "powertrain": {
+      "years": 5,
+      "miles": 60000,
+      "text": "5-year / 60,000-mile Powertrain Limited Warranty"
+    },
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50493",
+    "retrieved": "2026-09-19"
+  },
+  "highway_tests": [
+    { "source": "https://www.caranddriver.com/subaru/uncharted", "retrieved": "2026-09-19", "trim_tested": "GT", "result_mi": 190, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
+  ],
+  "notes": [
+    { "tag": "provenance", "text": "Battery size is Subaru's figure; Subaru doesn't say whether it is usable or gross." },
+    { "tag": "provenance", "text": "The 10-80% time is Subaru's 'as quickly as' figure with no charger power stated." }
+  ]
+}

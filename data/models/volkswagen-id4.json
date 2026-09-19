@@ -1,0 +1,153 @@
+{
+  "make": "Volkswagen",
+  "model": "ID.4",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 180.5,
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2026 ID.4 Technical Specifications, 'Length (in/mm)' 180.5/4584 for all four columns. Text extraction offsets values three rows from labels (sources/vw-2026-id4-tech-specs.txt); reading confirmed by C/D.",
+    "cross_check": [
+      { "value": 180.5, "source": "https://www.caranddriver.com/volkswagen/id4/specs", "retrieved": "2026-09-19", "note": "2026 Pro RWD" }
+    ]
+  },
+  "width_in": {
+    "value": 72.9,
+    "with_mirrors": false,
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Width w/o mirrors (in/mm)' 72.9/1852.",
+    "cross_check": [
+      { "value": 72.9, "source": "https://www.caranddriver.com/volkswagen/id4/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "label": "Pro, Pro S, Pro S Plus",
+    "trims": ["ID.4 Pro AWD", "ID.4 Pro S AWD", "ID.4 Pro S Plus AWD"],
+    "not_awd": ["ID.4 Pro RWD", "ID.4 Pro S RWD"],
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "Column headers and 'Drivetrain' rows (Rear-wheel drive / All-wheel drive). VW.com lists the same AWD trims with range figures."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": "sold",
+      "note": "'Volkswagen approved NACS DC adapter is sold separately'; 'customers must purchase a Volkswagen-approved NACS adapter'."
+    },
+    "source": "https://www.vw.com/en/models/id-4.html",
+    "retrieved": "2026-09-19",
+    "note": "VW doesn't name the port on this page; CCS1 inferred from the NACS adapter being required for Superchargers."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.vw.com/en/models/id-4.html",
+    "retrieved": "2026-09-19",
+    "note": "VW.com 'Meet the 2026 VW ID.4' with 2026 inventory search. VW media has 2026 release, tech specs and pricing documents."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "Pro AWD, Pro S AWD, Pro S Plus AWD", "epa_vehicle": "ID.4 AWD", "drive": "AWD", "value": 263, "epa_id": 49988, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49988", "retrieved": "2026-09-19" },
+      { "applies_to": "Pro RWD, Pro S RWD", "epa_vehicle": "ID.4", "drive": "RWD", "value": 291, "epa_id": 49987, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49987", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA lists a single 2026 ID.4 AWD."
+  },
+  "trims": {
+    "list": [
+      { "name": "Pro RWD", "drive": "RWD" },
+      { "name": "Pro S RWD", "drive": "RWD" },
+      { "name": "Pro AWD", "drive": "AWD" },
+      { "name": "Pro S AWD", "drive": "AWD" },
+      { "name": "Pro S Plus AWD", "drive": "AWD" }
+    ],
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2026 tech-spec columns; Pro S Plus AWD appears as a variant of the Pro S AWD column."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "All versions", "kwh": 77, "basis": "usable", "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf", "retrieved": "2026-09-19", "note": "'High Voltage Battery Capacity, Gross' 82 kWh; 'Net' 77 kWh." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "All versions", "value": 175, "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf", "retrieved": "2026-09-19", "note": "'DC Maximum Acceptance Rate' 175 kW." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      {
+        "applies_to": "All versions",
+        "minutes": 28,
+        "charger_kw": null,
+        "source": "https://www.vw.com/en/models/id-4.html",
+        "retrieved": "2026-09-19",
+        "note": "'the 2026 Volkswagen ID.4 can charge from 10% to 80% battery in approximately 28 minutes'. No charger power stated. The 2026 media kit says 'around 30 minutes' alongside the car's 175-kW rate.",
+        "cross_check": [
+          { "value": 30, "source": "https://media.vw.com/api/models/id4", "retrieved": "2026-09-19", "note": "2026 ID.4 press kit" }
+        ]
+      }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "All versions", "value": "unknown", "note": "Not mentioned in VW's 2026 tech specs, the vw.com ID.4 page or the media kit." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 30.3,
+    "seats_down": 64.2,
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Cargo Volume (behind 2nd row)' 30.3; '(with rear seats folded)' 64.2. Read from staggered columns; C/D agrees.",
+    "cross_check": [
+      { "value": "30.3 / 64.2", "source": "https://www.caranddriver.com/volkswagen/id4/specs", "retrieved": "2026-09-19", "note": "Cargo behind second / first row" }
+    ]
+  },
+  "turning_circle_ft": {
+    "value": 36.4,
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Turning Circle (curb to curb)' 36.4 ft AWD; 31.5 ft RWD."
+  },
+  "height_in": {
+    "value": 65.2,
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Height' 65.2 AWD (incl. Pro S Plus); 64.6/64.7 RWD. Read from staggered columns."
+  },
+  "ground_clearance_in": {
+    "value": 6.9,
+    "source": "https://media.vw.com/assets/applications/original/19688-2026-id4-tech-specs-final-v2.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Ground Clearance' 6.9 in AWD; 6.1/6.2 RWD."
+  },
+  "warranty": {
+    "battery": {
+      "years": 8,
+      "miles": 100000,
+      "text": "8 Years/100,000 miles High-Voltage Battery Limited Warranty"
+    },
+    "powertrain": {
+      "years": 4,
+      "miles": 50000,
+      "text": "No separate powertrain warranty named; 4 years/50,000 miles New Vehicle Limited Warranty"
+    },
+    "source": "https://www.vw.com/en/models/id-4.html",
+    "retrieved": "2026-09-19"
+  },
+  "highway_tests": [
+    { "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "trim_tested": "Pro S AWD (2024)", "result_mi": 240, "temp_f": null, "note": "C/D: 'When we last tested an ID.4 on our 75-mph highway range test in 2024, an all-wheel drive Pro S model...'. Temperature not stated." }
+  ],
+  "notes": [
+    { "tag": "provenance", "text": "VW's 10-80% time is stated without the charger power it assumes." }
+  ]
+}

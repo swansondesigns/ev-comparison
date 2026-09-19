@@ -1,0 +1,45 @@
+{
+  "make": "Rivian",
+  "model": "R2",
+  "length_in": {
+    "value": 185.9,
+    "source": "https://rivian.com/r2",
+    "retrieved": "2026-09-19",
+    "note": "Rivian FAQ: 'The bumper-to-bumper length of ... R2 is 185.9 inches'.",
+    "cross_check": [
+      { "value": 185.9, "source": "https://www.caranddriver.com/rivian/r2/specs", "retrieved": "2026-09-19", "note": "2027 Premium AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 75.0,
+    "with_mirrors": false,
+    "source": "https://www.caranddriver.com/rivian/r2/specs",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source for the mirrorless figure: C/D 'Width, without mirrors', 2027 Premium AWD. Rivian gives only 'Width (side mirrors folded): 78.1 in' and 'Width: 84.7 in' (mirrors out).",
+    "cross_check": [
+      { "value": 78.1, "source": "https://rivian.com/r2", "retrieved": "2026-09-19", "note": "Side mirrors folded" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Standard (optional Dual-motor AWD Long Range)", "Premium (Dual-motor AWD)", "Performance (Dual-motor AWD)"],
+    "not_awd": ["Standard Single-motor RWD"],
+    "source": "https://rivian.com/r2",
+    "retrieved": "2026-09-19",
+    "note": "Lineup: Standard 'Single-motor RWD' with optional 'Dual-motor AWD Long Range'; Premium and Performance 'Dual-motor AWD'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://rivian.com/r2",
+    "retrieved": "2026-09-19",
+    "note": "'Every R2 has a NACS charge port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://rivian.com/r2",
+    "retrieved": "2026-09-19",
+    "note": "R2 Performance: 'Available now'. R2 Standard: 'Coming 2027'. Model year per C/D."
+  }
+}

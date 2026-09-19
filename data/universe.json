@@ -1,0 +1,941 @@
+{
+  "generated": "2026-09-19",
+  "sources": [
+    {
+      "id": "caranddriver-compact",
+      "url": "https://www.caranddriver.com/rankings/best-suvs/electric/compact",
+      "retrieved": "2026-09-19",
+      "saved_as": "sources/cd-compact-rankings.html",
+      "count": 10
+    },
+    {
+      "id": "caranddriver-subcompact",
+      "url": "https://www.caranddriver.com/rankings/best-suvs/electric/subcompact",
+      "retrieved": "2026-09-19",
+      "saved_as": "sources/cd-subcompact-rankings.html",
+      "count": 8
+    },
+    {
+      "id": "caranddriver-luxury-compact",
+      "url": "https://www.caranddriver.com/rankings/best-suvs/electric/luxury-compact",
+      "retrieved": "2026-09-19",
+      "saved_as": "sources/cd-luxury-compact-rankings.html",
+      "count": 10,
+      "note": "Added at Checkpoint 1 to cover luxury compacts."
+    },
+    {
+      "id": "motortrend-compact",
+      "url": "https://www.motortrend.com/rankings/suvs/electric/compact",
+      "retrieved": "2026-09-19",
+      "saved_as": "sources/mt-compact-rankings.html",
+      "count": 10
+    },
+    {
+      "id": "edmunds-small",
+      "url": "https://www.edmunds.com/suv/electric/",
+      "section": "Small electric SUVs",
+      "retrieved": "2026-09-19",
+      "saved_as": "input/Best Electric SUVs of 2026 and 2027 - Expert Reviews and Rankings _ Edmunds.html",
+      "count": 15,
+      "note": "curl was blocked (HTTP 403, then an Akamai JavaScript challenge; see sources/edmunds-electric-suv.html). Page saved from a browser by Graham and parsed locally. Ranks recorded as published, not contiguous: 1, 2, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16."
+    },
+    {
+      "id": "edmunds-small-luxury",
+      "url": "https://www.edmunds.com/suv/electric/",
+      "section": "Small luxury electric SUVs",
+      "retrieved": "2026-09-19",
+      "saved_as": "input/Best Electric SUVs of 2026 and 2027 - Expert Reviews and Rankings _ Edmunds.html",
+      "count": 10,
+      "note": "curl was blocked (HTTP 403, then an Akamai JavaScript challenge; see sources/edmunds-electric-suv.html). Page saved from a browser by Graham and parsed locally."
+    },
+    {
+      "id": "handoff-hint",
+      "url": null,
+      "retrieved": null,
+      "saved_as": "ev-research-handoff.md",
+      "count": 3,
+      "note": "Added at Graham's request after Checkpoint 1. Unverified leads from the chat session; model year and US status are established in Task 2."
+    }
+  ],
+  "blocked_fetches": [
+    {
+      "id": "edmunds-electric-suv (curl)",
+      "url": "https://www.edmunds.com/suv/electric/",
+      "saved_as": "sources/edmunds-electric-suv.html",
+      "note": "HTTP 403, then an Akamai JavaScript challenge on one retry with client-hint headers. Superseded by the browser-saved copy in input/."
+    }
+  ],
+  "count": 36,
+  "models": [
+    {
+      "make": "Audi",
+      "model": "Q4 e-tron",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 7,
+          "model_year": "2026",
+          "name_as_listed": "2026 Audi Q4 e-tron",
+          "trim_rated": "Q4 55 e-tron",
+          "url": "https://www.edmunds.com/audi/q4-e-tron/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "Q6 e-tron",
+      "model_years_listed": [
+        "2025"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 10,
+          "model_year": "2025",
+          "name_as_listed": "2025 Audi Q6 e-tron",
+          "url": "https://www.caranddriver.com/audi/q6-e-tron-2025",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Audi",
+      "model": "SQ6 e-tron",
+      "model_years_listed": [
+        "2025"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 6,
+          "model_year": "2025",
+          "name_as_listed": "2025 Audi SQ6 e-tron",
+          "url": "https://www.caranddriver.com/audi/sq6-e-tron-2025",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "BMW",
+      "model": "iX3",
+      "model_years_listed": [
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 2,
+          "model_year": "2027",
+          "name_as_listed": "2027 BMW iX3",
+          "url": "https://www.caranddriver.com/bmw/ix3-2027",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Cadillac",
+      "model": "Optiq",
+      "model_years_listed": [
+        "2026",
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 4,
+          "model_year": "2026",
+          "name_as_listed": "2026 Cadillac Optiq",
+          "url": "https://www.caranddriver.com/cadillac/optiq-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 4,
+          "model_year": "2027",
+          "name_as_listed": "2027 Cadillac OPTIQ",
+          "url": "https://www.edmunds.com/cadillac/optiq/2027/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "model_years_listed": [
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 1,
+          "model_year": "2027",
+          "name_as_listed": "2027 Chevrolet Bolt EV",
+          "url": "https://www.caranddriver.com/chevrolet/bolt-2027",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "model_years_listed": [
+        "2026",
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 8,
+          "model_year": "2026",
+          "name_as_listed": "2026 Chevrolet Equinox EV",
+          "url": "https://www.caranddriver.com/chevrolet/equinox-ev-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 5,
+          "model_year": "2026",
+          "name_as_listed": "2026 Chevrolet Equinox EV",
+          "url": "https://www.motortrend.com/cars/chevrolet/equinox-ev/2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 10,
+          "model_year": "2027",
+          "name_as_listed": "2027 Chevrolet Equinox EV",
+          "trim_rated": "Equinox EV LT FWD",
+          "url": "https://www.edmunds.com/chevrolet/equinox-ev/2027/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 6,
+          "model_year": "2026",
+          "name_as_listed": "2026 Ford Mustang Mach-E",
+          "url": "https://www.caranddriver.com/ford/mustang-mach-e-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 1,
+          "model_year": "2026",
+          "name_as_listed": "2026 Ford Mustang Mach-E",
+          "url": "https://www.motortrend.com/cars/ford/mustang-mach-e/2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 5,
+          "model_year": "2026",
+          "name_as_listed": "2026 Ford Mustang Mach-E",
+          "trim_rated": "Mustang Mach-E Extended Range AWD",
+          "url": null,
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Genesis",
+      "model": "Electrified GV70",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 7,
+          "model_year": "2026",
+          "name_as_listed": "2026 Genesis Electrified GV70",
+          "url": "https://www.caranddriver.com/genesis/electrified-gv70-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 1,
+          "model_year": "2026",
+          "name_as_listed": "2026 Genesis Electrified GV70",
+          "url": "https://www.edmunds.com/genesis/electrified-gv70/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Genesis",
+      "model": "GV60",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 8,
+          "model_year": "2026",
+          "name_as_listed": "2026 Genesis GV60",
+          "url": "https://www.caranddriver.com/genesis/gv60-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 2,
+          "model_year": "2026",
+          "name_as_listed": "2026 Genesis GV60",
+          "trim_rated": "GV60 Performance",
+          "url": "https://www.edmunds.com/genesis/gv60/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "model_years_listed": [
+        "2026"
+      ],
+      "variants_folded_in": [
+        "Hyundai Ioniq 5 N"
+      ],
+      "note": "Car and Driver: \"The performance version of Hyundai's Ioniq 5 EV\" (sources/cd-hyundai-ioniq-5-n-2026.html).",
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 1,
+          "model_year": "2026",
+          "name_as_listed": "2026 Hyundai Ioniq 5",
+          "url": "https://www.caranddriver.com/hyundai/ioniq-5-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "caranddriver-compact",
+          "rank": 2,
+          "model_year": "2026",
+          "name_as_listed": "2026 Hyundai Ioniq 5 N",
+          "variant": "Hyundai Ioniq 5 N",
+          "url": "https://www.caranddriver.com/hyundai/ioniq-5-n-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 2,
+          "model_year": "2026",
+          "name_as_listed": "2026 Hyundai Ioniq 5",
+          "url": "https://www.motortrend.com/cars/hyundai/ioniq-5/2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 1,
+          "model_year": "2026",
+          "name_as_listed": "2026 Hyundai IONIQ 5",
+          "trim_rated": "IONIQ 5 Limited AWD",
+          "url": "https://www.edmunds.com/hyundai/ioniq-5/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Hyundai",
+      "model": "Kona Electric",
+      "model_years_listed": [
+        "2025"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 8,
+          "model_year": "2025",
+          "name_as_listed": "2025 Hyundai Kona Electric",
+          "url": "https://www.caranddriver.com/hyundai/kona-electric-2025",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Jeep",
+      "model": "Wagoneer S",
+      "model_years_listed": [
+        "2025"
+      ],
+      "listed_in": [
+        {
+          "source": "edmunds-small",
+          "rank": 16,
+          "model_year": "2025",
+          "name_as_listed": "2025 Jeep Wagoneer S",
+          "url": "https://www.edmunds.com/jeep/wagoneer-s/2025/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Kia",
+      "model": "EV3",
+      "model_years_listed": [],
+      "listed_in": [
+        {
+          "source": "handoff-hint",
+          "rank": null,
+          "model_year": null,
+          "name_as_listed": null,
+          "url": null,
+          "retrieved": null
+        }
+      ]
+    },
+    {
+      "make": "Kia",
+      "model": "EV6",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 4,
+          "model_year": "2026",
+          "name_as_listed": "2026 Kia EV6",
+          "url": "https://www.caranddriver.com/kia/ev6-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 3,
+          "model_year": "2026",
+          "name_as_listed": "2026 Kia EV6",
+          "url": "https://www.motortrend.com/cars/kia/ev6/2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 7,
+          "model_year": "2026",
+          "name_as_listed": "2026 Kia EV6",
+          "trim_rated": "EV6 GT-Line",
+          "url": "https://www.edmunds.com/kia/ev6/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Kia",
+      "model": "Niro EV",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 6,
+          "model_year": "2026",
+          "name_as_listed": "2026 Kia Niro EV",
+          "url": "https://www.caranddriver.com/kia/niro-ev-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 11,
+          "model_year": "2026",
+          "name_as_listed": "2026 Kia Niro EV",
+          "url": "https://www.edmunds.com/kia/niro-ev/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Lexus",
+      "model": "RZ",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 9,
+          "model_year": "2026",
+          "name_as_listed": "2026 Lexus RZ",
+          "trim_rated": "RZ 550e",
+          "url": "https://www.edmunds.com/lexus/rz/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "GLC-Class EV",
+      "model_years_listed": [
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 5,
+          "model_year": "2027",
+          "name_as_listed": "2027 Mercedes-Benz GLC-Class EV",
+          "url": "https://www.caranddriver.com/mercedes-benz/glc-class-ev-2027",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Mini",
+      "model": "Countryman Electric",
+      "model_years_listed": [
+        "2026",
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 7,
+          "model_year": "2026",
+          "name_as_listed": "2026 Mini Countryman Electric",
+          "url": "https://www.caranddriver.com/mini/countryman-electric-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 15,
+          "model_year": "2027",
+          "name_as_listed": "2027 MINI Countryman",
+          "trim_rated": "Countryman SE All4",
+          "url": null,
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Nissan",
+      "model": "Ariya",
+      "model_years_listed": [],
+      "listed_in": [
+        {
+          "source": "handoff-hint",
+          "rank": null,
+          "model_year": null,
+          "name_as_listed": null,
+          "url": null,
+          "retrieved": null
+        }
+      ]
+    },
+    {
+      "make": "Nissan",
+      "model": "Leaf",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 2,
+          "model_year": "2026",
+          "name_as_listed": "2026 Nissan Leaf",
+          "url": "https://www.caranddriver.com/nissan/leaf-2026",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Polestar",
+      "model": "3",
+      "model_years_listed": [
+        "2025"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 9,
+          "model_year": "2025",
+          "name_as_listed": "2025 Polestar Polestar 3",
+          "url": "https://www.caranddriver.com/polestar/polestar-3-2025",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 5,
+          "model_year": "2025",
+          "name_as_listed": "2025 Polestar 3",
+          "trim_rated": "3 Launch Edition",
+          "url": "https://www.edmunds.com/polestar/3/2025/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Polestar",
+      "model": "4",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 8,
+          "model_year": "2026",
+          "name_as_listed": "2026 Polestar 4",
+          "url": "https://www.edmunds.com/polestar/4/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Porsche",
+      "model": "Macan Electric",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 1,
+          "model_year": "2026",
+          "name_as_listed": "2026 Porsche Macan Electric",
+          "url": "https://www.caranddriver.com/porsche/macan-ev-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 6,
+          "model_year": "2026",
+          "name_as_listed": "2026 Porsche Macan",
+          "trim_rated": "Macan Electric",
+          "url": null,
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Rivian",
+      "model": "R2",
+      "model_years_listed": [
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 3,
+          "model_year": "2027",
+          "name_as_listed": "2027 Rivian R2",
+          "url": "https://www.caranddriver.com/rivian/r2-2027",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 2,
+          "model_year": "2027",
+          "name_as_listed": "2027 Rivian R2",
+          "trim_rated": "R2 Performance",
+          "url": "https://www.edmunds.com/rivian/r2/2027/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Subaru",
+      "model": "Solterra",
+      "model_years_listed": [
+        "2026",
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 10,
+          "model_year": "2026",
+          "name_as_listed": "2026 Subaru Solterra",
+          "url": "https://www.caranddriver.com/subaru/solterra-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 6,
+          "model_year": "2026",
+          "name_as_listed": "2026 Subaru Solterra",
+          "url": "https://www.motortrend.com/cars/subaru/solterra/2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 12,
+          "model_year": "2027",
+          "name_as_listed": "2027 Subaru Solterra",
+          "trim_rated": "Solterra XT",
+          "url": "https://www.edmunds.com/subaru/solterra/2027/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Subaru",
+      "model": "Trailseeker",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "edmunds-small",
+          "rank": 6,
+          "model_year": "2026",
+          "name_as_listed": "2026 Subaru Trailseeker",
+          "url": "https://www.edmunds.com/subaru/trailseeker/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Subaru",
+      "model": "Uncharted",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 4,
+          "model_year": "2026",
+          "name_as_listed": "2026 Subaru Uncharted",
+          "url": "https://www.caranddriver.com/subaru/uncharted-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 9,
+          "model_year": "2026",
+          "name_as_listed": "2026 Subaru Uncharted",
+          "url": "https://www.motortrend.com/cars/subaru/uncharted",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 13,
+          "model_year": "2026",
+          "name_as_listed": "2026 Subaru Uncharted",
+          "trim_rated": "Uncharted GT",
+          "url": "https://www.edmunds.com/subaru/uncharted/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Tesla",
+      "model": "Model Y",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 5,
+          "model_year": "2026",
+          "name_as_listed": "2026 Tesla Model Y",
+          "url": "https://www.caranddriver.com/tesla/model-y-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 4,
+          "model_year": "2026",
+          "name_as_listed": "2026 Tesla Model Y",
+          "url": "https://www.motortrend.com/cars/tesla/model-y",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 2,
+          "model_year": "2026",
+          "name_as_listed": "2026 Tesla Model Y",
+          "trim_rated": "Model Y Long Range",
+          "url": "https://www.edmunds.com/tesla/model-y/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Toyota",
+      "model": "bZ",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 9,
+          "model_year": "2026",
+          "name_as_listed": "2026 Toyota bZ",
+          "url": "https://www.caranddriver.com/toyota/bz-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 7,
+          "model_year": "2026",
+          "name_as_listed": "2026 Toyota bZ",
+          "url": "https://www.motortrend.com/cars/toyota/bz",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 8,
+          "model_year": "2026",
+          "name_as_listed": "2026 Toyota bZ",
+          "url": "https://www.edmunds.com/toyota/bz/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Toyota",
+      "model": "C-HR",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 5,
+          "model_year": "2026",
+          "name_as_listed": "2026 Toyota C-HR",
+          "url": "https://www.caranddriver.com/toyota/c-hr-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 8,
+          "model_year": "2026",
+          "name_as_listed": "2026 Toyota C-HR",
+          "url": "https://www.motortrend.com/cars/toyota/c-hr-electric",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 14,
+          "model_year": "2026",
+          "name_as_listed": "2026 Toyota C-HR",
+          "url": "https://www.edmunds.com/toyota/c-hr/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-compact",
+          "rank": 7,
+          "model_year": "2026",
+          "name_as_listed": "2026 Volkswagen ID.4",
+          "url": "https://www.caranddriver.com/volkswagen/id4-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "motortrend-compact",
+          "rank": 10,
+          "model_year": "2026",
+          "name_as_listed": "2026 Volkswagen ID.4",
+          "url": "https://www.motortrend.com/cars/volkswagen/id4/2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small",
+          "rank": 9,
+          "model_year": "2026",
+          "name_as_listed": "2026 Volkswagen ID.4",
+          "url": "https://www.edmunds.com/volkswagen/id4/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "EC40",
+      "model_years_listed": [],
+      "listed_in": [
+        {
+          "source": "handoff-hint",
+          "rank": null,
+          "model_year": null,
+          "name_as_listed": null,
+          "url": null,
+          "retrieved": null
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "EX30",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-subcompact",
+          "rank": 3,
+          "model_year": "2026",
+          "name_as_listed": "2026 Volvo EX30",
+          "url": "https://www.caranddriver.com/volvo/ex30-2026",
+          "retrieved": "2026-09-19"
+        },
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 10,
+          "model_year": "2026",
+          "name_as_listed": "2026 Volvo EX30",
+          "url": "https://www.edmunds.com/volvo/ex30/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "EX40",
+      "model_years_listed": [
+        "2026"
+      ],
+      "listed_in": [
+        {
+          "source": "edmunds-small-luxury",
+          "rank": 3,
+          "model_year": "2026",
+          "name_as_listed": "2026 Volvo EX40",
+          "trim_rated": "EX40 Twin Motor",
+          "url": "https://www.edmunds.com/volvo/ex40/2026/",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "make": "Volvo",
+      "model": "EX60",
+      "model_years_listed": [
+        "2027"
+      ],
+      "listed_in": [
+        {
+          "source": "caranddriver-luxury-compact",
+          "rank": 3,
+          "model_year": "2027",
+          "name_as_listed": "2027 Volvo EX60",
+          "url": "https://www.caranddriver.com/volvo/ex60-2027",
+          "retrieved": "2026-09-19"
+        }
+      ]
+    }
+  ]
+}

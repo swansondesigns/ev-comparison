@@ -1,0 +1,147 @@
+{
+  "make": "Genesis",
+  "model": "GV60",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 178.9,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2027 GV60 Features & Specifications, Exterior Dimensions, 'All Models'. Text extraction offsets values one row from labels (sources/genesis-2027-gv60-features-specs.txt); reading confirmed by C/D.",
+    "cross_check": [
+      { "value": 178.9, "source": "https://www.caranddriver.com/genesis/gv60/specs", "retrieved": "2026-09-19", "note": "2026 19\" AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 74.4,
+    "with_mirrors": null,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width', All Models; mirrors not stated. C/D lists the same figure as width without mirrors.",
+    "cross_check": [
+      { "value": 74.4, "source": "https://www.caranddriver.com/genesis/gv60/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "label": "19\" AWD, Prestige",
+    "trims": ["GV60 19\" AWD", "GV60 Prestige 20\" AWD"],
+    "not_awd": ["GV60 RWD"],
+    "source": "https://www.genesisnewsusa.com/api/press-kits/2027-gv60-overview",
+    "retrieved": "2026-09-19",
+    "note": "2027 GV60 (Carryover) change table and trim list. The Performance AWD trim moved to the separate GV60 Magma for 2027 (not in this universe)."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.genesisnewsusa.com/api/press-kits/2026-gv60",
+    "retrieved": "2026-09-19",
+    "note": "2026 GV60 press kit: 'equipped with a native North American Charging Standard (NACS) port'. 2027 is listed as a carryover. The 2027 spec sheet has a 'Charge Port' row whose value isn't in the PDF text layer."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.genesisnewsusa.com/api/models/2027-gv60",
+    "retrieved": "2026-09-19",
+    "note": "2027 GV60 model page published Jul 30, 2026 with 2027 trim pricing. 2026 GV60 page published Feb 6, 2026. No explicit on-sale date found; treated as on sale (continuing model, 2026 ranked by C/D and Edmunds)."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "19\" AWD", "epa_vehicle": "GV60 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 282, "epa_id": 50636, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50636", "retrieved": "2026-09-19" },
+      { "applies_to": "Prestige AWD", "epa_vehicle": "GV60 AWD Prestige (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 267, "epa_id": 50635, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50635", "retrieved": "2026-09-19" },
+      { "applies_to": "RWD", "epa_vehicle": "GV60 RWD", "drive": "RWD", "value": 306, "epa_id": 50638, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50638", "retrieved": "2026-09-19" }
+    ],
+    "note": "Excludes the 2027 GV60 Magma (EPA 50637, 222 mi), which is a separate model outside this universe (see awd.note)."
+  },
+  "trims": {
+    "list": [
+      { "name": "RWD", "drive": "RWD" },
+      { "name": "19\" AWD", "drive": "AWD" },
+      { "name": "Prestige AWD", "drive": "AWD" }
+    ],
+    "source": "https://www.genesisnewsusa.com/api/press-kits/2027-gv60-overview",
+    "retrieved": "2026-09-19",
+    "note": "2027 GV60 trim changes: 'RWD, 19\" AWD, Prestige AWD, Magma*'. The Magma is a separate model outside this universe."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "All trims", "kwh": 84, "basis": "not stated", "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf", "retrieved": "2026-09-19", "note": "'Battery System Capacity ... All Trims ... 84.0 kWh'." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "GV60 Performance (tested by C/D)", "value": 350, "secondary": true, "source": "https://www.caranddriver.com/genesis/gv60", "retrieved": "2026-09-19", "note": "C/D test sheet 'Peak Charge Rate, AC/DC: 10.9/350 kW' for a GV60 Performance. 350 kW matches Genesis's charger-class wording ('Ultra-Fast Charger (up to 800V / 350 kW)'), so it may describe charger compatibility rather than the car's own peak. Genesis publishes no vehicle peak rate in the fetched sources." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      {
+        "applies_to": "All trims",
+        "minutes": 18,
+        "charger_kw": 250,
+        "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+        "retrieved": "2026-09-19",
+        "note": "'Rapid Charging: >250kW (800V) (from 10% 80% charge) 18 minutes'. charger_kw is the stated floor (>250 kW). 2026 press kit: 'approximately 18 minutes using a 350 kW DC fast charger'.",
+        "cross_check": [
+          { "value": 18, "source": "https://www.genesisnewsusa.com/api/press-kits/2026-gv60", "retrieved": "2026-09-19", "note": "350 kW charger" }
+        ]
+      },
+      { "applies_to": "All trims", "minutes": 73, "charger_kw": 50, "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf", "retrieved": "2026-09-19", "note": "'Rapid Charging: 50kW (from 10% 80% charge)' 73 minutes." }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "All trims", "value": "unknown", "note": "Not listed in Genesis's 2027 features and specifications or the 2026/2027 press kits." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 24,
+    "seats_down": 54.7,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Cargo Volume (Behind 2nd Row) - SAE' 24; '(Behind 1st Row)' 54.7; frunk 0.71. Read from staggered columns (labels and values offset by one row)."
+  },
+  "turning_circle_ft": {
+    "value": 39.2,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Turning Diameter (curb to curb, ft.)' 39.2 (All Models)."
+  },
+  "height_in": {
+    "value": 62.4,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Height' 62.4 (All Models), read from staggered columns; C/D agrees.",
+    "cross_check": [
+      { "value": 62.4, "source": "https://www.caranddriver.com/genesis/gv60/specs", "retrieved": "2026-09-19", "note": "Height (inches)" }
+    ]
+  },
+  "ground_clearance_in": {
+    "value": null,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6705-2027-gv60-features-and-specs.pdf",
+    "retrieved": "2026-09-19",
+    "note": "Not given in the 2027 features and specifications; C/D lists NA."
+  },
+  "warranty": {
+    "battery": {
+      "years": 10,
+      "miles": 100000,
+      "text": "Genesis EV Battery Warranty: 10 years or 100,000 miles on high-voltage batteries and EV-specific propulsion and power control components"
+    },
+    "powertrain": {
+      "years": 10,
+      "miles": 100000,
+      "text": "Genesis Powertrain Warranty: 10 years or 100,000 miles for original owners"
+    },
+    "source": "https://www.genesis.com/us/en/ownership/warranty",
+    "retrieved": "2026-09-19"
+  },
+  "highway_tests": [],
+  "notes": [
+    { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet and may be the charger class, not the car's own peak." },
+    { "tag": "provenance", "text": "No Car and Driver highway range test found on its GV60 page." }
+  ]
+}

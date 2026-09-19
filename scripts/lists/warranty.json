@@ -1,0 +1,11 @@
+[
+ { "url": "https://www.hyundaiusa.com/us/en/assurance/america-best-warranty", "slug": "hyundai-us-warranty" },
+ { "url": "https://www.genesis.com/us/en/ownership/warranty", "slug": "genesis-us-warranty" },
+ { "url": "https://www.kia.com/us/en/warranty", "slug": "kia-us-warranty" },
+ { "url": "https://www.volvocars.com/us/support/topic/blt6057fe59cdd6d845/", "slug": "volvo-us-hv-battery-warranty" },
+ { "url": "https://www.volvocars.com/images/cs/v3/assets/bltccbab8edae0354cd/blt79f8a67d798c8d78/68befcffe94f786661a1f43a/MY2026_WTY572.06.25_Fully_Elec_Wty_Manual_Rev2_WEB_06-18-25.pdf?branch=prod_alias", "slug": "volvo-my2026-fully-electric-warranty", "ext": "pdf" },
+ { "url": "https://www.miniusa.com/content/dam/mini/PDF/warranties/2027_Model_Warranty_Book.pdf", "slug": "mini-2027-warranty-book", "ext": "pdf" },
+ { "url": "https://www.miniusa.com/content/dam/mini/PDF/warranties/2026_Model_Warranty_Book.pdf", "slug": "mini-2026-warranty-book", "ext": "pdf" },
+ { "url": "https://www.miniusa.com/content/dam/mini/PDF/warranties/2025_Model_Warranty_Book.pdf", "slug": "mini-2025-warranty-book", "ext": "pdf" },
+ { "url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/shared/2025/2025-nissan-warranty-booklet.pdf", "slug": "nissan-2025-warranty-booklet", "ext": "pdf" }
+]

@@ -1,0 +1,45 @@
+{
+  "make": "Lexus",
+  "model": "RZ",
+  "length_in": {
+    "value": 189.17,
+    "source": "https://lexus-cms-media.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/Final_2026_RZ_Specifications_091125Update.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2026 RZ Specifications, all grades. Saved as sources/lexus-2026-rz-specifications.pdf.",
+    "cross_check": [
+      { "value": 189.2, "source": "https://www.caranddriver.com/lexus/rz/specs", "retrieved": "2026-09-19", "note": "2026 RZ 350e FWD" }
+    ]
+  },
+  "width_in": {
+    "value": 74.61,
+    "with_mirrors": null,
+    "source": "https://lexus-cms-media.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/Final_2026_RZ_Specifications_091125Update.pdf",
+    "retrieved": "2026-09-19",
+    "note": "Listed as 'Overall Width'; the sheet doesn't say whether mirrors are included. C/D lists the same figure as width without mirrors.",
+    "cross_check": [
+      { "value": 74.6, "source": "https://www.caranddriver.com/lexus/rz/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["RZ 450e (AWD): Standard, Premium, Luxury", "RZ 550e F SPORT (AWD)"],
+    "not_awd": ["RZ 350e (FWD): Standard, Premium"],
+    "source": "https://lexus-cms-media.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/Final_2026_RZ_Specifications_091125Update.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Available Grades by Powertrain', page 3."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://lexus-cms-media.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/Final_2026_RZ_Specifications_091125Update.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Connector Type: North American Charging System (NACS) (SAE J3400)'. 'NACS charging port with CCS1 and J1772 adapters' standard on all grades."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": "2025-11-03",
+    "source": "https://pressroom.lexus.com/vehicle/2026-lexus-rz/",
+    "retrieved": "2026-09-19",
+    "note": "Press release '2026 Lexus RZ Goes on Sale with Upgraded Convenience Features, Expanded Charging Network Options for All Lexus BEV Owners', November 03, 2025. C/D already lists 2027 RZ submodels."
+  }
+}

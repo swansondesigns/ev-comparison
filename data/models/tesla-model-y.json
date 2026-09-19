@@ -1,0 +1,39 @@
+{
+  "make": "Tesla",
+  "model": "Model Y",
+  "length_in": {
+    "value": 188.6,
+    "source": "https://www.caranddriver.com/tesla/model-y/specs",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D 2026 Long Range Launch Series AWD. tesla.com returned HTTP 403 to curl."
+  },
+  "width_in": {
+    "value": null,
+    "with_mirrors": null,
+    "source": "https://www.caranddriver.com/tesla/model-y/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D lists 83.8 in as 'Width, without mirrors', which is implausibly wide for a mirrorless figure and likely includes mirrors; not used. No Tesla figure fetched (tesla.com 403)."
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Model Y AWD", "Model Y Premium AWD", "Model Y Performance AWD"],
+    "not_awd": ["Model Y RWD", "Model Y Premium RWD"],
+    "source": "https://www.caranddriver.com/tesla/model-y/specs",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D 2026 trim list. C/D review: 'Drivetrain: All-Wheel Drive, Rear-Wheel Drive'."
+  },
+  "charge_port": {
+    "value": null,
+    "source": "https://www.tesla.com/modely",
+    "retrieved": "2026-09-19",
+    "note": "Not fetched: tesla.com returned HTTP 403. C/D's review doesn't name the port."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.caranddriver.com/tesla/model-y",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D '2026 Tesla Model Y Review, Pricing, and Specs', ranked #5 in Best Electric Compact SUVs; also ranked by MotorTrend and Edmunds. C/D also lists a 2027 Model Y and a 2027 Model Y L submodel."
+  }
+}

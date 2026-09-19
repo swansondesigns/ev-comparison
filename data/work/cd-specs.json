@@ -1,0 +1,1015 @@
+[
+  {
+    "model": "Audi Q4 e-tron",
+    "source": "https://www.caranddriver.com/audi/q4-e-tron/specs",
+    "saved_as": "sources/cd-specs-audi-q4-e-tron.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "audi_q4-e-tron_audi-q4-e-tron_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+    ],
+    "latest_year_submodels": [
+      "audi_q4-e-tron_audi-q4-e-tron_2027 (Audi Q4 e-tron)",
+      "audi_q4-e-tron_audi-q4-e-trong-sportback_2027 (Audi Q4 e-tron Sportback)"
+    ],
+    "style_shown": "Premium Plus 55 quattro",
+    "length_in": 180.7,
+    "width_no_mirrors_in": 73.4,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Q4 e-tron Premium Plus 55 quattro",
+      "Q4 e-tron Premium 55 quattro",
+      "Q4 e-tron Premium 45 RWD",
+      "Q4 e-tron Premium Plus 45 RWD"
+    ]
+  },
+  {
+    "model": "Audi Q6 e-tron",
+    "source": "https://www.caranddriver.com/audi/q6-e-tron/specs",
+    "saved_as": "sources/cd-specs-audi-q6-e-tron.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2025,
+    "specs_submodel": "audi_q6-e-tron_audi-q6-e-tron_2025",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025
+    ],
+    "latest_year_submodels": [
+      "audi_q6-e-tron_audi-q6-e-tron_2027 (Audi Q6 e-tron)",
+      "audi_q6-e-tron_audi-q6-e-tron-sportback_2027 (Audi Q6 e-tron Sportback)"
+    ],
+    "style_shown": "Premium RWD",
+    "length_in": 187.8,
+    "width_no_mirrors_in": 76.3,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "Q6 e-tron Premium RWD",
+      "Q6 e-tron Premium Plus RWD",
+      "Q6 e-tron Prestige RWD",
+      "Q6 e-tron Premium quattro",
+      "Q6 e-tron Premium Plus quattro",
+      "Q6 e-tron Prestige quattro"
+    ]
+  },
+  {
+    "model": "Audi SQ6 e-tron",
+    "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs",
+    "saved_as": "sources/cd-specs-audi-sq6-e-tron.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2025,
+    "specs_submodel": "audi_sq6-e-tron_audi-sq6-e-tron_2025",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025
+    ],
+    "latest_year_submodels": [
+      "audi_sq6-e-tron_audi-sq6-e-tron_2027 (Audi SQ6 e-tron)",
+      "audi_sq6-e-tron_audi-sq6-e-tron-sportback_2027 (Audi SQ6 e-tron Sportback)"
+    ],
+    "style_shown": "Premium quattro",
+    "length_in": 187.9,
+    "width_no_mirrors_in": 77.4,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "SQ6 e-tron Premium quattro",
+      "SQ6 e-tron Premium Plus quattro",
+      "SQ6 e-tron Prestige quattro"
+    ]
+  },
+  {
+    "model": "BMW iX3",
+    "source": "https://www.caranddriver.com/bmw/ix3/specs",
+    "saved_as": "sources/cd-specs-bmw-ix3.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2027,
+    "specs_submodel": "bmw_ix3_bmw-ix3_2027",
+    "years_on_cd": [
+      2027,
+      2026
+    ],
+    "latest_year_submodels": [
+      "bmw_ix3_bmw-ix3_2027 (BMW iX3)"
+    ],
+    "style_shown": "50 xDrive Sports Activity Vehicle",
+    "length_in": 188.3,
+    "width_no_mirrors_in": 74.6,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "iX3 50 xDrive Sports Activity Vehicle"
+    ]
+  },
+  {
+    "model": "Cadillac Optiq",
+    "source": "https://www.caranddriver.com/cadillac/optiq/specs",
+    "saved_as": "sources/cd-specs-cadillac-optiq.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "cadillac_optiq_cadillac-optiq_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025
+    ],
+    "latest_year_submodels": [
+      "cadillac_optiq_cadillac-optiq_2027 (Cadillac Optiq)",
+      "cadillac_optiq_cadillac-optiq-v_2027 (Cadillac Optiq-V)"
+    ],
+    "style_shown": "Luxury 4dr w/1SC",
+    "length_in": 189.8,
+    "width_no_mirrors_in": 75.3,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "OPTIQ 4dr Luxury",
+      "OPTIQ 4dr Premium Luxury",
+      "OPTIQ 4dr Sport",
+      "OPTIQ 4dr Premium Sport"
+    ]
+  },
+  {
+    "model": "Chevrolet Bolt EV",
+    "source": "https://www.caranddriver.com/chevrolet/bolt/specs",
+    "saved_as": "sources/cd-specs-chevrolet-bolt.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2023,
+    "specs_submodel": "chevrolet_bolt-ev_chevrolet-bolt-ev_2023",
+    "years_on_cd": [
+      2027,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017
+    ],
+    "latest_year_submodels": [
+      "chevrolet_bolt-ev_chevrolet-bolt-ev_2027 (Chevrolet Bolt EV)"
+    ],
+    "style_shown": "1LT 5dr Wgn",
+    "length_in": 163.2,
+    "width_no_mirrors_in": 69.5,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "Bolt EV 5dr Wgn 1LT",
+      "Bolt EV 5dr Wgn 2LT"
+    ]
+  },
+  {
+    "model": "Chevrolet Equinox EV",
+    "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs",
+    "saved_as": "sources/cd-specs-chevrolet-equinox-ev.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "chevrolet_equinox-ev_chevrolet-equinox-ev_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024
+    ],
+    "latest_year_submodels": [
+      "chevrolet_equinox-ev_chevrolet-equinox-ev_2027 (Chevrolet Equinox EV)"
+    ],
+    "style_shown": "LT1 w/PCY 4dr",
+    "length_in": 190.55,
+    "width_no_mirrors_in": 76.94,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "Equinox EV 4dr LT1 w/PCY",
+      "Equinox EV 4dr LT2 w/PDE",
+      "Equinox EV 4dr RS"
+    ]
+  },
+  {
+    "model": "Ford Mustang Mach-E",
+    "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs",
+    "saved_as": "sources/cd-specs-ford-mustang-mach-e.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "ford_mach-e_ford-mustang-mach-e_2026",
+    "years_on_cd": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+    ],
+    "latest_year_submodels": [
+      "ford_mach-e_ford-mustang-mach-e_2026 (Ford Mustang Mach-E)"
+    ],
+    "style_shown": "Select RWD",
+    "length_in": 185.6,
+    "width_no_mirrors_in": 74.1,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "Mustang Mach-E Select RWD",
+      "Mustang Mach-E Premium RWD",
+      "Mustang Mach-E Select AWD",
+      "Mustang Mach-E Premium AWD",
+      "Mustang Mach-E GT AWD"
+    ]
+  },
+  {
+    "model": "Genesis Electrified GV70",
+    "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs",
+    "saved_as": "sources/cd-specs-genesis-electrified-gv70.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "genesis_electrified-gv70_genesis-electrified-gv70_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latest_year_submodels": [
+      "genesis_electrified-gv70_genesis-electrified-gv70_2027 (Genesis Electrified GV70)"
+    ],
+    "style_shown": "19\" AWD",
+    "length_in": 185.6,
+    "width_no_mirrors_in": 75.2,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Electrified GV70 19\" AWD",
+      "Electrified GV70 Advanced 20\" AWD",
+      "Electrified GV70 Prestige 20\" AWD"
+    ]
+  },
+  {
+    "model": "Genesis GV60",
+    "source": "https://www.caranddriver.com/genesis/gv60/specs",
+    "saved_as": "sources/cd-specs-genesis-gv60.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "genesis_gv60_genesis-gv60_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latest_year_submodels": [
+      "genesis_gv60_genesis-gv60_2027 (Genesis GV60)",
+      "genesis_gv60_genesis-gv60-magma_2027 (Genesis GV60 Magma)"
+    ],
+    "style_shown": "19\" AWD",
+    "length_in": 178.9,
+    "width_no_mirrors_in": 74.4,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "GV60 19\" AWD",
+      "GV60 Advanced 20\" AWD",
+      "GV60 Performance AWD",
+      "GV60 RWD"
+    ]
+  },
+  {
+    "model": "Hyundai Ioniq 5",
+    "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs",
+    "saved_as": "sources/cd-specs-hyundai-ioniq-5.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "hyundai_ioniq-5_hyundai-ioniq-5_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "latest_year_submodels": [
+      "hyundai_ioniq-5_hyundai-ioniq-5_2027 (Hyundai Ioniq 5)"
+    ],
+    "style_shown": "SE Standard Range RWD",
+    "length_in": 183.3,
+    "width_no_mirrors_in": 74.4,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "IONIQ 5 SE Standard Range RWD",
+      "IONIQ 5 SE RWD",
+      "IONIQ 5 SEL RWD",
+      "IONIQ 5 Limited RWD",
+      "IONIQ 5 SE AWD",
+      "IONIQ 5 SEL AWD",
+      "IONIQ 5 XRT AWD",
+      "IONIQ 5 Limited AWD",
+      "IONIQ 5 XRT AWD w/Tow Hitch"
+    ]
+  },
+  {
+    "model": "Hyundai Kona Electric",
+    "source": "https://www.caranddriver.com/hyundai/kona-electric/specs",
+    "saved_as": "sources/cd-specs-hyundai-kona-electric.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2025,
+    "specs_submodel": "hyundai_kona-electric_hyundai-kona-electric_2025",
+    "years_on_cd": [
+      2027,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019
+    ],
+    "latest_year_submodels": [
+      "hyundai_kona-electric_hyundai-kona-electric_2027 (Hyundai Kona Electric)"
+    ],
+    "style_shown": "SE FWD",
+    "length_in": 171.5,
+    "width_no_mirrors_in": 71.9,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "Kona Electric SE FWD",
+      "Kona Electric SEL FWD",
+      "Kona Electric Limited FWD",
+      "Kona Electric N Line FWD"
+    ]
+  },
+  {
+    "model": "Jeep Wagoneer S",
+    "source": "https://www.caranddriver.com/jeep/wagoneer-s/specs",
+    "saved_as": "sources/cd-specs-jeep-wagoneer-s.html",
+    "retrieved": "2026-09-19",
+    "http": "404"
+  },
+  {
+    "model": "Kia EV3",
+    "source": "https://www.caranddriver.com/kia/ev3/specs",
+    "saved_as": "sources/cd-specs-kia-ev3.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2027,
+    "specs_submodel": "kia_ev3_kia-ev3_2027",
+    "years_on_cd": [
+      2027,
+      2026
+    ],
+    "latest_year_submodels": [
+      "kia_ev3_kia-ev3_2027 (Kia EV3)"
+    ],
+    "style_shown": "Light FWD",
+    "length_in": 169.3,
+    "width_no_mirrors_in": 72.8,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "EV3 Light FWD",
+      "EV3 Wind FWD",
+      "EV3 Land FWD",
+      "EV3 Wind AWD",
+      "EV3 Land AWD",
+      "EV3 GT-Line AWD",
+      "EV3 GT AWD"
+    ]
+  },
+  {
+    "model": "Kia EV6",
+    "source": "https://www.caranddriver.com/kia/ev6/specs",
+    "saved_as": "sources/cd-specs-kia-ev6.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "kia_kia-ev6_kia-ev6_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "latest_year_submodels": [
+      "kia_kia-ev6_kia-ev6_2027 (Kia EV6)"
+    ],
+    "style_shown": "Light RWD",
+    "length_in": 184.8,
+    "width_no_mirrors_in": 74,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "EV6 Light RWD",
+      "EV6 Light Long Range RWD",
+      "EV6 Wind RWD",
+      "EV6 GT-Line RWD",
+      "EV6 Light Long Range AWD",
+      "EV6 Wind AWD",
+      "EV6 GT-Line AWD"
+    ]
+  },
+  {
+    "model": "Kia Niro EV",
+    "source": "https://www.caranddriver.com/kia/niro-ev/specs",
+    "saved_as": "sources/cd-specs-kia-niro-ev.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "kia_niro-ev_kia-niro-ev_2026",
+    "years_on_cd": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019
+    ],
+    "latest_year_submodels": [
+      "kia_niro-ev_kia-niro-ev_2026 (Kia Niro EV)"
+    ],
+    "style_shown": "Wind FWD",
+    "length_in": 174,
+    "width_no_mirrors_in": 71.9,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "Niro EV Wind",
+      "Niro EV Wave"
+    ]
+  },
+  {
+    "model": "Lexus RZ",
+    "source": "https://www.caranddriver.com/lexus/rz/specs",
+    "saved_as": "sources/cd-specs-lexus-rz.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "lexus_rz_lexus-rz350e_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latest_year_submodels": [
+      "lexus_rz_lexus-rz350e_2027 (Lexus RZ350e)",
+      "lexus_rz_lexus-rz450e_2027 (Lexus RZ450e)",
+      "lexus_rz_lexus-rz550e_2027 (Lexus RZ550e)"
+    ],
+    "style_shown": "RZ 350e FWD",
+    "length_in": 189.2,
+    "width_no_mirrors_in": 74.6,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "RZ 350e FWD",
+      "RZ 350e Premium FWD"
+    ]
+  },
+  {
+    "model": "Mercedes-Benz GLC-Class EV",
+    "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev/specs",
+    "saved_as": "sources/cd-specs-mercedes-benz-glc-class-ev.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2027,
+    "specs_submodel": "mercedes-benz_glc-class-ev_mercedes-benz-glc400_2027",
+    "years_on_cd": [
+      2027,
+      2026
+    ],
+    "latest_year_submodels": [
+      "mercedes-benz_glc-class-ev_mercedes-benz-glc-class-ev_2027 (Mercedes-Benz GLC300+)",
+      "mercedes-benz_glc-class-ev_mercedes-benz-glc400_2027 (Mercedes-Benz GLC400)"
+    ],
+    "style_shown": "GLC 400 Electric 4MATIC SUV",
+    "length_in": 190.8,
+    "width_no_mirrors_in": 75.3,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "GLC 400 Electric GLC 400 Electric 4MATIC SUV"
+    ]
+  },
+  {
+    "model": "Mini Countryman Electric",
+    "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
+    "saved_as": "sources/cd-specs-mini-countryman-electric.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "mini_cooper-countryman-electric_mini-countryman-electric_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025
+    ],
+    "latest_year_submodels": [
+      "mini_cooper-countryman-electric_mini-countryman-electric_2027 (Mini Countryman Electric)"
+    ],
+    "style_shown": "SE ALL4",
+    "length_in": 174.5,
+    "width_no_mirrors_in": 72.6,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Countryman SE ALL4"
+    ]
+  },
+  {
+    "model": "Nissan Ariya",
+    "source": "https://www.caranddriver.com/nissan/ariya/specs",
+    "saved_as": "sources/cd-specs-nissan-ariya.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2025,
+    "specs_submodel": "nissan_ariya_nissan-ariya_2025",
+    "years_on_cd": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "latest_year_submodels": [
+      "nissan_ariya_nissan-ariya_2025 ( Nissan Ariya)"
+    ],
+    "style_shown": "ENGAGE FWD",
+    "length_in": 182.9,
+    "width_no_mirrors_in": 74.8,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "ARIYA ENGAGE FWD",
+      "ARIYA EVOLVE+ FWD",
+      "ARIYA ENGAGE e-4ORCE AWD",
+      "ARIYA ENGAGE+ e-4ORCE AWD",
+      "ARIYA EVOLVE+ e-4ORCE AWD",
+      "ARIYA PLATINUM+ e-4ORCE AWD",
+      "ARIYA PLATINUM+ e-4ORCE AWD w/20\" Wheels"
+    ]
+  },
+  {
+    "model": "Nissan Leaf",
+    "source": "https://www.caranddriver.com/nissan/leaf/specs",
+    "saved_as": "sources/cd-specs-nissan-leaf.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "nissan_leaf_nissan-leaf_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018,
+      2017,
+      2016,
+      2015,
+      2014,
+      2013,
+      2012,
+      2011
+    ],
+    "latest_year_submodels": [
+      "nissan_leaf_nissan-leaf_2027 (Nissan Leaf)"
+    ],
+    "style_shown": "S FWD",
+    "length_in": 173.4,
+    "width_no_mirrors_in": 71.3,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "LEAF S FWD *Ltd Avail*",
+      "LEAF SV+ FWD",
+      "LEAF S+ FWD",
+      "LEAF PLATINUM+ FWD"
+    ]
+  },
+  {
+    "model": "Polestar 3",
+    "source": "https://www.caranddriver.com/polestar/polestar-3/specs",
+    "saved_as": "sources/cd-specs-polestar-polestar-3.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2025,
+    "specs_submodel": "polestar_polestar-3_polestar-3_2025",
+    "years_on_cd": [
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latest_year_submodels": [
+      "polestar_polestar-3_polestar-3_2026 (Polestar 3)"
+    ],
+    "style_shown": "Long Range Dual Motor",
+    "length_in": 192.9,
+    "width_no_mirrors_in": 77.4,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "3 Long Range Dual Motor",
+      "3 Long Range Dual Motor Plus",
+      "3 Long Range Dual Motor Performance",
+      "3 Long Range Dual Motor Performance Plus",
+      "3 Long Range Dual Motor Launch Edition",
+      "3 Long Range Dual Motor Performance Launch Edition",
+      "3 Long Range Single Motor Pilot"
+    ]
+  },
+  {
+    "model": "Polestar 4",
+    "source": "https://www.caranddriver.com/polestar/polestar-4/specs",
+    "saved_as": "sources/cd-specs-polestar-polestar-4.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "polestar_polestar-4_polestar-4_2026",
+    "years_on_cd": [
+      2026,
+      2025
+    ],
+    "latest_year_submodels": [
+      "polestar_polestar-4_polestar-4_2026 (Polestar 4)"
+    ],
+    "style_shown": "Long Range Dual Motor",
+    "length_in": 190.5,
+    "width_no_mirrors_in": 81.4,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "4 Long Range Dual Motor",
+      "4 Long Range Single Motor",
+      "4 Long Range Dual Motor Plus",
+      "4 Long Range Single Motor Plus"
+    ]
+  },
+  {
+    "model": "Porsche Macan Electric",
+    "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
+    "saved_as": "sources/cd-specs-porsche-macan-ev.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "porsche_macan-ev_porsche-macan-ev_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024
+    ],
+    "latest_year_submodels": [
+      "porsche_macan-ev_porsche-macan-electric_2027 (Porsche Macan Electric)"
+    ],
+    "style_shown": "Electric 4 AWD",
+    "length_in": 188.3,
+    "width_no_mirrors_in": 76.3,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Macan Electric 4 AWD",
+      "Macan Electric 4S AWD",
+      "Macan Electric Turbo AWD",
+      "Macan Electric RWD",
+      "Macan Electric GTS AWD"
+    ]
+  },
+  {
+    "model": "Rivian R2",
+    "source": "https://www.caranddriver.com/rivian/r2/specs",
+    "saved_as": "sources/cd-specs-rivian-r2.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2027,
+    "specs_submodel": "rivian_r2s_rivian-r2_2027",
+    "years_on_cd": [
+      2028,
+      2027,
+      2026
+    ],
+    "latest_year_submodels": [
+      "rivian_r2s_rivian-r2_2028 (Rivian R2)"
+    ],
+    "style_shown": "Premium AWD",
+    "length_in": 185.9,
+    "width_no_mirrors_in": 75,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "R2 Premium AWD",
+      "R2 Performance AWD w/Launch Pkg"
+    ]
+  },
+  {
+    "model": "Subaru Solterra",
+    "source": "https://www.caranddriver.com/subaru/solterra/specs",
+    "saved_as": "sources/cd-specs-subaru-solterra.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "subaru_solterra_subaru-solterra_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023
+    ],
+    "latest_year_submodels": [
+      "subaru_solterra_subaru-solterra_2027 (Subaru Solterra)"
+    ],
+    "style_shown": "Premium AWD",
+    "length_in": 184.6,
+    "width_no_mirrors_in": 73.2,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Solterra Premium AWD",
+      "Solterra Limited AWD",
+      "Solterra Touring XT AWD",
+      "Solterra Touring XT AWD w/Leather",
+      "Solterra Limited XT AWD"
+    ]
+  },
+  {
+    "model": "Subaru Trailseeker",
+    "source": "https://www.caranddriver.com/subaru/trailseeker/specs",
+    "saved_as": "sources/cd-specs-subaru-trailseeker.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "subaru_trailseeker_subaru-trailseeker_2026",
+    "years_on_cd": [
+      2027,
+      2026
+    ],
+    "latest_year_submodels": [
+      "subaru_trailseeker_subaru-trailseeker_2027 (Subaru Trailseeker)"
+    ],
+    "style_shown": "Premium AWD",
+    "length_in": 190.8,
+    "width_no_mirrors_in": 73.2,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Trailseeker Premium AWD",
+      "Trailseeker Limited AWD",
+      "Trailseeker Touring AWD",
+      "Trailseeker Touring AWD w/Leather"
+    ]
+  },
+  {
+    "model": "Subaru Uncharted",
+    "source": "https://www.caranddriver.com/subaru/uncharted/specs",
+    "saved_as": "sources/cd-specs-subaru-uncharted.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "subaru_uncharted_subaru-uncharted_2026",
+    "years_on_cd": [
+      2027,
+      2026
+    ],
+    "latest_year_submodels": [
+      "subaru_uncharted_subaru-uncharted_2027 (Subaru Uncharted)"
+    ],
+    "style_shown": "Premium FWD",
+    "length_in": 177.8,
+    "width_no_mirrors_in": 73.6,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "Uncharted Premium FWD",
+      "Uncharted Sport AWD",
+      "Uncharted GT AWD"
+    ]
+  },
+  {
+    "model": "Tesla Model Y",
+    "source": "https://www.caranddriver.com/tesla/model-y/specs",
+    "saved_as": "sources/cd-specs-tesla-model-y.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "tesla_model-y_tesla-model-y_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021,
+      2020
+    ],
+    "latest_year_submodels": [
+      "tesla_model-y_tesla-model-y_2027 (Tesla Model Y)",
+      "tesla_model-y_tesla-model-y-l_2027 (Tesla Model Y L)"
+    ],
+    "style_shown": "Long Range Launch Series AWD",
+    "length_in": 188.6,
+    "width_no_mirrors_in": 83.8,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "Model Y Long Range Launch Series AWD *Ltd Avail*",
+      "Model Y Premium AWD",
+      "Model Y Premium RWD",
+      "Model Y RWD",
+      "Model Y Performance AWD",
+      "Model Y AWD"
+    ]
+  },
+  {
+    "model": "Toyota bZ",
+    "source": "https://www.caranddriver.com/toyota/bz/specs",
+    "saved_as": "sources/cd-specs-toyota-bz.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "toyota_bz_toyota-bz_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "latest_year_submodels": [
+      "toyota_bz_toyota-bz_2027 (Toyota bZ)"
+    ],
+    "style_shown": "XLE Plus FWD (Natl)",
+    "length_in": 184.6,
+    "width_no_mirrors_in": 73.2,
+    "drivetrain_shown": "Front Wheel Drive",
+    "trims": [
+      "bZ XLE Plus FWD (Natl)",
+      "bZ Limited FWD (Natl)",
+      "bZ XLE AWD (Natl)",
+      "bZ Limited AWD (Natl)",
+      "bZ XLE FWD (Natl)"
+    ]
+  },
+  {
+    "model": "Toyota C-HR",
+    "source": "https://www.caranddriver.com/toyota/c-hr/specs",
+    "saved_as": "sources/cd-specs-toyota-c-hr.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "toyota_c-hr_toyota-c-hr+_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2022,
+      2021,
+      2020,
+      2019,
+      2018
+    ],
+    "latest_year_submodels": [
+      "toyota_c-hr_toyota-c-hr+_2027 (Toyota C-HR)"
+    ],
+    "style_shown": "SE AWD (Natl)",
+    "length_in": 177.9,
+    "width_no_mirrors_in": 73.6,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "C-HR SE AWD (Natl)",
+      "C-HR XSE AWD (Natl)"
+    ]
+  },
+  {
+    "model": "Volkswagen ID.4",
+    "source": "https://www.caranddriver.com/volkswagen/id4/specs",
+    "saved_as": "sources/cd-specs-volkswagen-id4.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "volkswagen_i.d.-crozz_volkswagen-id.4_2026",
+    "years_on_cd": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+    ],
+    "latest_year_submodels": [
+      "volkswagen_i.d.-crozz_volkswagen-id.4_2026 (Volkswagen ID.4)"
+    ],
+    "style_shown": "Pro RWD",
+    "length_in": 180.5,
+    "width_no_mirrors_in": 72.9,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "ID.4 Pro RWD",
+      "ID.4 Pro AWD",
+      "ID.4 Pro S RWD",
+      "ID.4 Pro S AWD",
+      "ID.4 Pro S Plus AWD"
+    ]
+  },
+  {
+    "model": "Volvo EC40",
+    "source": "https://www.caranddriver.com/volvo/ec40/specs",
+    "saved_as": "sources/cd-specs-volvo-ec40.html",
+    "retrieved": "2026-09-19",
+    "http": "404"
+  },
+  {
+    "model": "Volvo EX30",
+    "source": "https://www.caranddriver.com/volvo/ex30/specs",
+    "saved_as": "sources/cd-specs-volvo-ex30.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2026,
+    "specs_submodel": "volvo_ex30_volvo-ex30_2026",
+    "years_on_cd": [
+      2027,
+      2026,
+      2025
+    ],
+    "latest_year_submodels": [
+      "volvo_ex30_volvo-ex30_2027 (Volvo EX30)"
+    ],
+    "style_shown": "Plus Twin Motor AWD",
+    "length_in": 166.7,
+    "width_no_mirrors_in": 72.4,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "EX30 Twin Motor AWD Plus",
+      "EX30 Twin Motor AWD Ultra",
+      "EX30 Single Motor Extended Range RWD Core",
+      "EX30 Single Motor RWD Plus",
+      "EX30 Single Motor Extended Range RWD Ultra",
+      "EX30 Twin Motor AWD Cross Country Ultra"
+    ]
+  },
+  {
+    "model": "Volvo EX40",
+    "source": "https://www.caranddriver.com/volvo/ex40/specs",
+    "saved_as": "sources/cd-specs-volvo-ex40.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2025,
+    "specs_submodel": "volvo_volvo-xc40-recharge_volvo-ex40_2025",
+    "years_on_cd": [
+      2026,
+      2025,
+      2024,
+      2023,
+      2022,
+      2021
+    ],
+    "latest_year_submodels": [
+      "volvo_volvo-xc40-recharge_volvo-ex40_2026 (Volvo EX40)"
+    ],
+    "style_shown": "Core Twin Motor AWD",
+    "length_in": 174.8,
+    "width_no_mirrors_in": 75.2,
+    "drivetrain_shown": "All Wheel Drive",
+    "trims": [
+      "EX40 Twin Motor AWD Core",
+      "EX40 Twin Motor AWD Plus",
+      "EX40 Twin Motor AWD Ultra",
+      "EX40 Single Motor Extended Range RWD Core",
+      "EX40 Single Motor Extended Range RWD Plus",
+      "EX40 Single Motor Extended Range RWD Ultra"
+    ]
+  },
+  {
+    "model": "Volvo EX60",
+    "source": "https://www.caranddriver.com/volvo/ex60/specs",
+    "saved_as": "sources/cd-specs-volvo-ex60.html",
+    "retrieved": "2026-09-19",
+    "http": "200",
+    "specs_year": 2027,
+    "specs_submodel": "volvo_ex60_volvo-ex60_2027",
+    "years_on_cd": [
+      2028,
+      2027
+    ],
+    "latest_year_submodels": [
+      "volvo_ex60_volvo-ex60_2028 (Volvo EX60)"
+    ],
+    "style_shown": "Plus Single Motor RWD",
+    "length_in": 189.1,
+    "width_no_mirrors_in": 78.5,
+    "drivetrain_shown": "Rear Wheel Drive",
+    "trims": [
+      "EX60 Single Motor RWD Plus",
+      "EX60 Single Motor RWD Ultra",
+      "EX60 Twin Motor AWD Plus",
+      "EX60 Twin Motor AWD Ultra"
+    ]
+  }
+]

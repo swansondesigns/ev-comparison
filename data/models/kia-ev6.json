@@ -1,0 +1,45 @@
+{
+  "make": "Kia",
+  "model": "EV6",
+  "length_in": {
+    "value": 184.8,
+    "source": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
+    "retrieved": "2026-09-19",
+    "note": "2026 EV6 Specifications, all trims (Light, Light Long Range, Wind, GT-Line).",
+    "cross_check": [
+      { "value": 184.8, "source": "https://www.caranddriver.com/kia/ev6/specs", "retrieved": "2026-09-19", "note": "2026 Light RWD" }
+    ]
+  },
+  "width_in": {
+    "value": 74.0,
+    "with_mirrors": null,
+    "source": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
+    "retrieved": "2026-09-19",
+    "note": "'Width (in.)': 74.0 in (Light, Light Long Range, Wind); 74.4 in (GT-Line). Mirrors not stated.",
+    "cross_check": [
+      { "value": 74.0, "source": "https://www.caranddriver.com/kia/ev6/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Light Long Range (AWD optional)", "Wind (AWD optional)", "GT-Line (AWD optional)"],
+    "not_awd": ["Light (RWD only)"],
+    "source": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
+    "retrieved": "2026-09-19",
+    "note": "'Drive type' row: Light 'RWD'; others 'RWD / AWD (OPT)'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.kiamedia.com/us/en/models/ev6/2025",
+    "retrieved": "2026-09-19",
+    "note": "2025 EV6 overview: 'the charge port (excluding EV6 GT models) has been relocated to the left rear fender and is compatible with the North American Charging Standard'. 2026 overview (May 4, 2026): 2026 is 'carried over from last year', adds 'DC fast-charger adapter (ZEV states only)'; GT is not in the 2026 trim list. The 2026 pages don't name the port themselves."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.kiamedia.com/us/en/models/ev6/2026",
+    "retrieved": "2026-09-19",
+    "note": "2026 EV6 pricing release, May 4, 2026; built in West Point, Georgia. C/D already lists a 2027 EV6 entry; Kia's newsroom doesn't yet."
+  }
+}

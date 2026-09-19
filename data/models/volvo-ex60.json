@@ -1,0 +1,46 @@
+{
+  "make": "Volvo",
+  "model": "EX60",
+  "length_in": {
+    "value": 189.1,
+    "source": "https://www.volvocars.com/us/cars/ex60-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Volvo Car USA EX60 specifications, 'Vehicle length'. Volvo calls it a 'midsize' SUV.",
+    "cross_check": [
+      { "value": 189.1, "source": "https://www.caranddriver.com/volvo/ex60/specs", "retrieved": "2026-09-19", "note": "2027 Plus Single Motor RWD" }
+    ]
+  },
+  "width_in": {
+    "value": 78.5,
+    "with_mirrors": false,
+    "source": "https://www.volvocars.com/us/cars/ex60-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Width: 78.5 in'; 'Width (mirrors incl): 81.4 in'.",
+    "cross_check": [
+      { "value": 78.5, "source": "https://www.caranddriver.com/volvo/ex60/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["P10 AWD", "P12 AWD"],
+    "not_awd": ["P6 (RWD)"],
+    "source": "https://www.volvocars.com/us/cars/ex60-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Driveline': P6 'RWD'; P10 AWD 'AWD'. Overview: 'The P12 AWD and P10 AWD powertrains ... distribute torque between front and rear motors'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.volvocars.com/us/cars/ex60-electric/",
+    "retrieved": "2026-09-19",
+    "note": "'A NACS charging port is built in.'"
+  },
+  "us_status": {
+    "value": "announced",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "on_sale_by": "2026-12-21",
+    "source": "https://www.volvocars.com/us/cars/ex60-electric/",
+    "retrieved": "2026-09-19",
+    "note": "P10 AWD: 'Customer deliveries expected to start in Fall 2026'; P6 and P12 AWD: 'expected to start in 2027'. on_sale_by is the end of fall 2026, not a Volvo date. US MSRPs published."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "make": "Porsche",
+  "model": "Macan Electric",
+  "length_in": {
+    "value": 188.3,
+    "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D 2026 Macan Electric 4 AWD. Porsche USA's Macan Electric pages have no dimensions in text. C/D also lists a 2027 submodel (not fetched)."
+  },
+  "width_in": {
+    "value": 76.3,
+    "with_mirrors": false,
+    "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 'Width, without mirrors', 2026 Macan Electric 4."
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Macan 4 Electric and three other AWD variants"],
+    "not_awd": ["Macan Electric (RWD)"],
+    "source": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+    "retrieved": "2026-09-19",
+    "note": "Porsche USA lists 5 model variants for 2027: one 'Rear-wheel-drive', four 'All-wheel-drive'. C/D 2026 trims: 4, 4S, Turbo, GTS (AWD) and base RWD."
+  },
+  "charge_port": {
+    "value": null,
+    "source": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+    "retrieved": "2026-09-19",
+    "note": "Porsche USA's Macan Electric page doesn't name the connector; 'CCS fast charging station' appears only in a charge-time test footnote."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+    "retrieved": "2026-09-19",
+    "note": "Porsche USA lists 2027 variants with prices, 'Build Your Porsche' and 'New and Used Inventory' links."
+  }
+}

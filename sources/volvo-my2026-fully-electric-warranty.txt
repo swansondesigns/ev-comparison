@@ -1,0 +1,1048 @@
+                       Model Year 2026 U.S.A./Canada
+
+                   Fully Electric Models
+Warranty and Maintenance Records Information
+QUALITY ­ SAFETY ­ DURABILITY ­ VALUE
+
+The Volvo organization welcomes you to the Volvo family and thanks you   We wish you many years of safe and pleasurable driving in your new
+for purchasing your new Volvo.                                           Volvo.
+
+From Design, Engineering, and Manufacturing to support activities in     All information and specifications contained in this manual are based
+Parts, Service, and Sales, high standards have been set to help ensure   on the latest product information available at the time of publication.
+your satisfaction and pride as an owner of a Volvo.                      Volvo reserves the right to make model changes at any time, or to
+                                                                         change specifications or designs without notice and without incurring
+The warranties described in this booklet assure you that we stand        obligation. Your authorized Volvo retailer should be contacted with any
+behind our products and services. To help protect your investment,       questions you may have.
+please pay close attention to the section describing owner's
+responsibilities for proper service and maintenance.                     © Volvo Car Corporation
+
+Your Owner's Manual fully explains the functions, operation and comfort
+features of your Volvo. It should be reviewed by you and others who may
+have occasion to drive your Volvo.
+   TABLE OF CONTENTS
+
+   SERVICE AND MAINTENANCE                 WARRANTY
+
+   Customer Support and Assistance     4 Volvo's 2026 New Vehicle                 18
+
+   Mediation/Arbitration Program       5 Warranties
+
+   (for Canada only)                       Things You Should Know About           19
+
+   2026 Service and Maintenance        5 Your Volvo Warranties
+
+   Requirements                            Volvo's 2026 New Vehicle Limited       20
+
+   Maintenance Service Operations      7 Warranty­U.S./New Vehicle
+                                              Warranty­Canada
+
+   Maintenance/Service records         9   Limitations and Disclaimers            23
+
+   Brake Fluid Changes                 13  California Warranty Statement          24
+
+   Overseas Operations/Global Special  14  2026 Propulsion-Related Parts List     25
+
+   Sales
+
+                                           2026 Model Year "High-Priced"
+
+                                           Propulsion- Related Parts              26
+
+                                           Genuine Volvo Replacement Parts        30
+
+                                           and Accessories, Limited Warranty­
+
+                                           U.S./Warranty­Canada
+
+                                           Volvo's Corrosion Protection, Limited  31
+
+                                           Warranty­U.S./Warranty­Canada
+
+                                           Seat Belts and Supplemental            33
+
+                                           Restraint Systems, Limited
+
+                                           Warranty U.S./Warranty­Canada
+
+                                           Seat Belts: "Something We Believe In"  33
+
+2
+SERVICE AND MAINTENANCE
+   SERVICE AND MAINTENANCE
+
+   Customer Support and Assistance                        3. If the concern has still not been addressed        In the U.S. and Canada contact:
+                                                               to your satisfaction, please contact Volvo's     Volvo Car USA LLC
+   Your satisfaction with Volvo products and services is       Customer Care Center. You may contact us         Customer Care Center
+   of prime importance. Volvo takes pride in producing         via phone, mail or e-mail. The Customer Care     1800 Volvo Place
+   a quality vehicle, and our efforts are supported by a       Center will need the following information from  Mahwah, NJ 07430
+   strong retailer network.                                    you:                                             1-(800) 458-1552
+                                                                                                                US: https://volvo.custhelp.com/app/homeV3
+   Should you have any questions concerning service       · Your name, address, and daytime telephone           CA: https://www.volvocars.com/en-ca/support/
+   or your Volvo's performance, your retailer will be          number                                           FR-CA: https://www.volvocars.com/fr-ca/support/
+   happy to answer them for you.
+                                                          · Vehicle Identification Number (found on your
+   General Information                                         Vehicle Registration Card, Vehicle Certificate
+   We suggest you keep records of all your                     of Ownership, and located on the upper left
+   interactions with the retailer referencing                  corner of the dashboard)
+   maintenance and repair to your vehicle:
+                                                          · Date of purchase and current mileage
+   · Dates of conversations and with whom
+                                                          · Retailer's name (Selling and/or Servicing Retail
+   · Invoices                                                  Facility)
+
+   · Maintenance Records                                  · Description of the problem
+
+   · Repair Orders                                               NOTE
+
+   If, however, a situation arises that you believe has    In the U.S. ­
+   not been addressed to your satisfaction, we ask
+   that you take the following steps:                      In certain states, the consumer may be
+                                                           required to provide written notice of an alleged
+   1. Discuss the matter with the appropriate              nonconformity to Volvo. In certain states,
+        department manager at the retail facility          Volvo may be required to notify the consumer
+        (Service Manager, Parts Manager, etc.). Explain    if the consumer is required to first resort to an
+        exactly what caused the problem and ask what       informal dispute procedure.
+        action will be taken. If the matter remains
+        unresolved after a reasonable length of time,
+        then
+
+   2. Discuss the matter with the General Manager,
+        explaining what occurred in Step #1.
+
+4
+                                                                                                           SERVICE AND MAINTENANCE
+
+Mediation/Arbitration Program (for                     2026 Service and Maintenance                        The Text Window in the instrument panel will
+Canada only)                                           Requirements                                        display a message when vehicle maintenance is
+                                                                                                           required.
+If you feel that the efforts by Volvo and the          Customer Preparation Service
+retailer to resolve a factory-related vehicle service  Your Volvo has received a comprehensive             1st display when maintenance interval is near:
+concern have been unsatisfactory, Volvo Car            Customer Preparation Service. Your retail facility  "Book time for maintenance"
+Canada Limited participates in an impartial third-     has performed a Pre-Delivery which includes
+party mediation/arbitration program administered       a complete inspection and servicing of your         2nd display when maintenance is required:
+by the Canadian Motor Vehicle Arbitration Plan         vehicle. The Pre-Delivery (PDS) is a key part of a  "Time for maintenance"
+(CAMVAP).                                              comprehensive maintenance schedule developed
+                                                       by Volvo for your vehicle.                          3rd display when maintenance is overdue:
+The CAMVAP program is a straightforward                                                                    "Maintenance overdue"
+alternative to resolve a disagreement when all         Cabin Air Filter All Models
+other efforts to produce a settlement have failed.     · Replacement every 20,000 miles/32,000             The MINIMUM SCHEDULED MAINTENANCE,
+This procedure is without cost to you and is                                                               for which you are responsible, begins at 20,000
+designed to eliminate the need for lengthy and              kilometers                                     miles/32,000 kilometers or every 24 months,
+expensive legal proceedings.                                                                               whichever comes first.
+                                                       · Replace at least once a year or more often in
+In the CAMVAP program, impartial third-                     heavy traffic and dirty/dusty areas.           Volvo recommends that you bring your vehicle
+party arbitrators conduct hearings at mutually                                                             in for service at least once every 24 months
+convenient times and places in an informal             Maintenance Scheduling                              regardless of mileage. For service intervals beyond
+environment. These impartial arbitrators review        Maintenance intervals have usually been             140,000 miles/224,000 kilometers, consult your
+the positions of the parties, make decisions and,      determined by accumulated mileage. As               authorized Volvo retailer.
+where appropriate, render awards to resolve            driving conditions and operational demands
+disputes. CAMVAP decisions are fast, fair and          differ, these factors have a major influence on     A maintenance Service Operations Chart details
+final as the arbitrator's award is binding on both     routine maintenance. For these reasons Volvo        these service requirements. See the article
+you and Volvo Car Canada Limited. The CAMVAP           recommends that your maintenance schedule           "Maintenance Service Operations" in this booklet.
+services are available in all Canadian territories     services be based on a combination of time and
+and provinces. For more information, without           mileage.                                            Service Support
+charge or obligation, call your CAMVAP provincial                                                          Discuss your vehicle's special servicing needs
+administrator directly at 1-800-207-0685, or visit                                                         with your Volvo Retail Facility's Service Staff. They
+their website at www.camvap.ca.                                                                            can tailor a maintenance program based on your
+                                                                                                           requirements. Your Volvo Retailer has access to
+                                                                                                           the latest up-to-date technical information, special
+                                                                                                           tools, and advanced training for their technicians.
+
+                                                                                                                                                                  5
+   SERVICE AND MAINTENANCE
+
+   This support is an important advantage to you,     Servicing                                                 WARNING
+   the Volvo owner, as systems become more            Items you should check at regular maintenance
+   sophisticated and intricate.                       intervals and periodically when recharging:         California Proposition 65
+
+   Servicing your Volvo should be done at your        · Washer fluid                                      Operating, servicing and maintaining a
+   convenience. Therefore, plan to make your          · Tire inflation pressure                           passenger vehicle can expose you to chemicals
+   appointments ahead of time so that your retailer   · Brake system fluid levels                         including engine exhaust, carbon monoxide,
+   can schedule the right personnel and equipment to  · Exterior lights (headlights, turn-signals, etc.)  phthalates, and lead, which are known to
+   be available for the work your Volvo requires.                                                         the State of California to cause cancer and
+                                                                                                          birth defects or other reproductive harm. To
+   Should you have any questions concerning service,                                                      minimize exposure, avoid breathing exhaust, do
+   parts, or warranty coverage, your Volvo retailer                                                       not idle the engine except as necessary, service
+   will be happy to answer them for you. Should                                                           your vehicle in a well ventilated area and wear
+   you require additional information, they can                                                           gloves or wash your hands frequently when
+   further assist you by contacting Volvo's Regional                                                      servicing your vehicle. For more information
+   personnel for clarification.                                                                           go to www.P65Warnings.ca.gov/passenger-
+                                                                                                          vehicle.
+   Remember ­ you should always exercise your
+   right to:
+
+   · Receive an estimate of costs before any repair
+        work is performed;
+
+   · Receive prior notification of any additional
+        repairs;
+
+   · Receive a copy of the repair order, including
+        those for warranty repairs;
+
+   · Review repairs completed under warranty.
+
+6
+                                                                                                           SERVICE AND MAINTENANCE
+
+Maintenance Service Operations
+
+Service operation                                                                                 Schedule of services
+miles x 1000                                                                                       20 40 60 80 100 120 140
+km x 1000                                                                                          32 64 96 128 160 192 224
+General
+Coolant - check and adjust the antifreeze rating/anti-corrosion agent                             X  X  X  X  X  X  X
+Fluid levels - check and adjust the brake fluid, coolant, washer fluid
+Service Reminder Indicator (SRI), reset                                                           X  X  X  X  X  X  X
+Driveshaft and Differential
+CV Joint Bellows, check                                                                           X  X  X  X  X  X  X
+Electric Rear Axle Drive oil, replaceA
+Electric Front Axle Drive oil, replaceA                                                           X  X  X  X  X  X  X
+Controls and Lighting
+Check all wiper blades and washers for headlights and windshields for function and signs of wear     X
+Horn, check function
+Body                                                                                                 X
+Cabin air filter, replaceB
+Clean inside of windshield in front of camera (vehicles with camera for collision warning)        X  X  X  X  X  X  X
+Seatbelts
+Seatbelts, check function                                                                         X  X  X  X  X  X  X
+Brake System
+Brake pads, discs, hoses and lines, check                                                         X  X  X  X  X  X  X
+
+                                                                                                  X
+
+                                                                                                  X  X  X  X  X  X  X
+
+                                                                                                  X  X  X  X  X  X  X
+
+                                                                                                                                    7
+   SERVICE AND MAINTENANCE                                                                                Schedule of services
+                                                                                                           20 40 60 80 100 120 140
+    Service operation                                                                                      32 64 96 128 160 192 224
+    miles x 1000
+    km x 1000                                                                                             X  X  X  X  X  X  X
+    Wheels and Tires
+    Wheels and tires, check wear and condition and tread depth                                            X  X  X  X  X  X  X
+    Wheels and tires, check and adjust air pressure
+    Tire inflator kitC                                                                                    X  X  X  X  X  X  X
+    Tire pressure monitor system, reset/calibrate
+
+   A. Only applies to EX30.
+   B. Recommended to replace at least once a year or more often in heavy traffic or dirty/dusty area.
+   C. Check expiration date label every four years for replacement date on vehicles with this equipment.
+
+8
+                                                                                                        SERVICE AND MAINTENANCE
+
+Maintenance/Service Records                          Volvo Genuine Parts are available at authorized    Maintenance Service No. 1
+                                                     Volvo retailers located throughout North America.
+The following pages contain the service interval     Experienced and knowledgeable people will help     Carried out
+records section.                                     you be certain that your Volvo remains a Volvo.    miles/km
+                                                                                                        Date
+A Word About Your Service Records                                                                       Mileage
+After each service is performed, your authorized
+Volvo retailer will validate the appropriate record                                                      Retailer Authorized Signature
+section by entering the date serviced, mileage,
+representative signature, and the retailer stamp.                                                                        SIGNATURE
+
+       NOTE                                                                                              Retailer Stamp
+
+ It is your responsibility, and extremely                                                                                    STAMP
+ important for you to retain documentation of
+ all service or warranty repairs to your Volvo
+ (including work performed by you as well as by
+ non-authorized repair facility), in the event that
+ questions regarding warranty coverage arise.
+
+Volvo Genuine Parts... Keep Your Volvo a
+Volvo
+Regardless of where you service your Volvo, make
+sure Volvo Genuine Parts are used to assure the
+safety and high quality of your vehicle.
+
+From replacement lamps, complete assemblies
+to useful accessories, all Volvo Genuine Parts
+are rigorously tested to ensure the reliability and
+durability you have come to expect from Volvo
+products.
+
+You won't have to worry about compromising the
+special safety features originally built into your
+Volvo when you insist on using only Volvo Genuine
+Parts for all service, maintenance, and repairs
+performed on your vehicle.
+
+                                                                                                                                        9
+    SERVICE AND MAINTENANCE           Maintenance Service No. 3       Maintenance Service No. 4
+
+    Maintenance Service No. 2         Carried out                     Carried out
+                                      miles/km                        miles/km
+     Carried out                      Date                            Date
+     miles/km                         Mileage                         Mileage
+     Date
+     Mileage                           Retailer Authorized Signature   Retailer Authorized Signature
+
+       Retailer Authorized Signature                   SIGNATURE                       SIGNATURE
+
+                      SIGNATURE        Retailer Stamp                  Retailer Stamp
+
+       Retailer Stamp                                      STAMP                           STAMP
+
+                          STAMP
+
+10
+Maintenance Service No. 5       Maintenance Service No. 6                              SERVICE AND MAINTENANCE
+
+Carried out                     Carried out                     Maintenance Service No. 7
+miles/km                        miles/km
+Date                            Date                            Carried out
+Mileage                         Mileage                         miles/km
+                                                                Date
+ Retailer Authorized Signature   Retailer Authorized Signature  Mileage
+
+                 SIGNATURE                       SIGNATURE       Retailer Authorized Signature
+
+ Retailer Stamp                  Retailer Stamp                                  SIGNATURE
+
+                     STAMP                           STAMP       Retailer Stamp
+
+                                                                                     STAMP
+
+                                                                                                                11
+    SERVICE AND MAINTENANCE         Maintenance Service No. 9       Maintenance Service No. 10
+
+    Maintenance Service No. 8       Carried out                     Carried out
+                                    miles/km                        miles/km
+    Carried out                     Date                            Date
+    miles/km                        Mileage                         Mileage
+    Date
+    Mileage                          Retailer Authorized Signature   Retailer Authorized Signature
+
+     Retailer Authorized Signature                   SIGNATURE                       SIGNATURE
+
+                     SIGNATURE       Retailer Stamp                  Retailer Stamp
+
+     Retailer Stamp                                      STAMP                           STAMP
+
+                         STAMP
+
+12
+Brake Fluid Changes                             Interval #1                                          SERVICE AND MAINTENANCE
+
+The following pages contain brake fluid change  Carried out                   Interval #2
+interval records.                               Date
+                                                Odometer reading              Carried out
+                                                                              Date
+                                                 Service Manager's Signature  Odometer reading
+
+                                                SIGNATURE                      Service Manager's Signature
+
+                                                                                               SIGNATURE
+
+                                                Retailer Stamp                Retailer Stamp
+
+                                                                    STAMP                         STAMP
+
+                                                                                                                              13
+    SERVICE AND MAINTENANCE        Interval #4                   Overseas Operations/Global Special
+                                                                 Sales
+    Interval #3                    Carried out
+                                   Date                          General information
+    Carried out                    Odometer reading              The warranties provided in this booklet are for
+    Date                                                         2026 Volvo passenger vehicles built to U.S.
+    Odometer reading                Service Manager's Signature  or Canadian specifications sold by Volvo Car
+                                                                 USA LLC or Volvo Car Canada Limited and
+      Service Manager's Signature                   SIGNATURE    normally operated and registered in any of the
+                                                                 50 states of the U.S., the District of Columbia,
+                      SIGNATURE     Retailer Stamp               any territories or commonwealths of the United
+                                                                 States, or any territories or provinces of Canada.
+      Retailer Stamp                                    STAMP    Volvo Car Corporation is responsible for meeting
+                                                                 the warranty obligations set forth in the 2026
+                         STAMP                                   Warranty and Maintenance Records Information
+                                                                 Manual.
+
+                                                                 Travel Outside of the U.S. and Canada
+                                                                 Should warranty repairs be required while you
+                                                                 are temporarily abroad, bring your Volvo to any
+                                                                 authorized Volvo retailer for repairs. These repairs
+                                                                 will be covered under the Volvo Car USA LLC
+                                                                 New Vehicle Limited Warranty or the Volvo Car
+                                                                 Canada Limited New Vehicle Warranty.
+
+14
+Registration Outside of the U.S. or                      Tourist and Diplomat Sales                        SERVICE AND MAINTENANCE
+Canada                                                   U.S. and Canadian specification vehicles sold by                                                        15
+Your vehicle has been developed and designed to          Volvo OSD or GSS for ultimate use in the U.S. or
+meet all laws, regulations and conditions in the         Canada and operating abroad are covered by the
+50 states of the U.S., the District of Columbia          Volvo Car USA LLC New Vehicle Limited Warranty
+and their territories or provinces of Canada. If the     or the Volvo Car Canada Limited New Vehicle
+vehicle is later imported to another country, Volvo      Warranty.
+Cars is not responsible for making any adjustments
+and accepts no responsibility or liability in the event
+the following circumstances arise:
+
+1. The imported vehicle does not meet
+     the national laws, conditions or specific
+     requirements of the country in which the
+     vehicle has been imported into, including any
+     consequential penalties imposed as a result of
+     such non-compliance by any governmental or
+     regulatory authority;
+
+2. The imported vehicle suffers a breakdown or
+     mechanical failure as a result of local market
+     laws, regulation or conditions (e.g., range,
+     temperature) for which the imported vehicle
+     has not been conditioned or manufactured to
+     meet.
+
+      NOTE
+
+Not all cars can be modified to meet national
+laws and market conditions outside the market
+the vehicle was originally intended for. Please
+contact your authorized Volvo retailer for
+assistance.
+    NOTES
+
+16
+WARRANTY
+    WARRANTY
+
+    Volvo's 2026 New Vehicle
+    Warranties
+
+    Fully Electric Models
+
+    New Vehicle Limited Warranty (U.S.)                            4 years/50,000 miles/80,000 kilometers
+       New Vehicle Warranty (Canada)                      4 years/50,000 miles/80,000 kilometers, Full Coverage
+             Battery Warranty (12V)A
+
+                           High Voltage Battery & System  8 years 100,000 miles/160,000 kilometers
+
+                              Adjustments                 1 year/12,000 miles/20,000 kilometers
+
+                           Seat Belts and S.R.S.B         5 years/unlimited mileage/kilometers
+
+                           Corrosion Protection           12 years/unlimited mileage/kilometers
+
+    Volvo Assistance Warranty Coverage, U.S./Canada       4 years unlimited mileage (refer to the separate booklet in the Owner's Wallet)
+
+                           Volvo Roadside Assistance      Complimentary towing provided for all out-of-warranty vehicles to an
+                                                              authorized Volvo retailer, within a 25-mile/ 50-kilometer radius
+
+    A Remote Keyless Entry batteries are not covered under warranty.
+    B In the U.S., some states have mandated alternate warranty coverage for seat belts only. Contact your Volvo retailer for details of local requirements.
+
+18
+                                                                                                               WARRANTY
+
+Things You Should Know About Your                    To obtain repairs under warranty, contact an              Owner's Responsibilities:
+Volvo Warranties                                     authorized Volvo retailer and explain the condition.
+                                                     We recommend your selling retail facility as they are     Maintenance/Servicing
+Where Volvo Warranties Apply                         most familiar with your car, its service history, and     You are responsible for the following maintenance
+The Warranties described in this booklet apply to    your driving habits. Have the maintenance records         requirements:
+new 2026 model year Volvo passenger vehicles.        section of this booklet and service records available.
+The vehicle must have been originally sold by Volvo                                                            · The operation, maintenance, and care of
+Car USA LLC,1 or Volvo Car Canada Limited1 and       Diagnosis and evaluation of the symptoms and                   your Volvo according to the instructions and
+registered and operated in any of the 50 states of   conditions will be made by any authorized Volvo                requirements listed in your Owner's Manual
+the U.S., the District of Columbia, any territories  retailer.                                                      and Warranty and Maintenance Records
+or commonwealths of the United States, or any                                                                       Information booklet.
+territories or provinces of Canada. Any remaining    Only repairs/diagnosis deemed by the retailer to
+portion of the warranties is fully transferable to   be covered under warranty will be made within a           · The parts/systems which require seasonal
+subsequent owners free-of-charge.                    reasonable period of time during normal business               servicing or replacement at recommended
+                                                     hours. Parts will be repaired or replaced by an                maintenance intervals, such as (but not
+Previously Owned Volvos                              authorized Volvo retailer only, using genuine                  limited to) air conditioning recharge, cleaning,
+If you have purchased a previously owned Volvo       Volvo new or remanufactured parts or software,                 polishing, lubricants, and replacement of
+and the New Vehicle Warranty has not expired,        at Volvo's discretion. These are the recommended               consumable and wear items.
+you are entitled to the remaining portion of that    parts for your Volvo. They meet the same design
+warranty. Please refer to the sections "Volvo        and quality standards as those components                 · The cost of parts and/or labor for required
+Ownership Change Request (U.S. ONLY)" or             originally installed in your vehicle. All parts replaced       maintenance services including (without
+"Volvo Owner Information Update Request              will become the property of Volvo for technical                limitation) items listed for your model's initial
+(Canada only)" in this booklet for information       material analysis or other usage.                              service and subsequent maintenance service
+on how to provide the changed ownership                                                                             intervals.
+information.                                         Repairs required because of damage, misuse,
+                                                     abuse, collision, normal wear and tear, incomplete        · Keeping a copy of all repair orders and
+Warranty Repairs                                     or improper maintenance are not covered by                     receipts as well as a record of all maintenance
+Warranty repairs which are required as a result      the warranties. Also, specific items noted within              services performed. Records of these services
+of defects in material or workmanship, and are       each section of the warranties under "What Is                  will be required for substantiation of proper
+brought to the attention of an authorized Volvo      Not Warranted" are excluded and will not be                    maintenance.
+retailer by an owner, will be performed by an        considered.
+authorized Volvo retailer only at no charge during
+the warranty period.
+
+1 Volvo Car USA LLC, Volvo Car Canada Limited are sometimes referred to in this booklet as "Volvo." All such references to "Volvo" are intended to refer to Volvo Car Corporation, Volvo Car USA LLC, and/or Volvo Car
+   Canada Limited.
+
+                                                                                                                                                                                                                                                         19
+    WARRANTY
+
+    When You Take Delivery                                Volvo's 2026 New Vehicle Limited                     Unless otherwise dictated by state law, vehicles
+    Defect or damage to paint, sheet metal,               Warranty­U.S./New Vehicle                            placed into Retailer Demonstrator Service will
+    upholstery, or other appearance items that may        Warranty­Canada                                      receive the remainder of the New Vehicle Limited
+    occur prior to delivery usually are corrected during                                                       Warranty (U.S.), New Vehicle Warranty (Canada)
+    the inspection process at the assembly plant and      What Is Warranted                                    period when retailed.
+    the retailer facility. In the event you find any of   Volvo warrants that repairs required to Volvo
+    these concerns when you receive your vehicle,         passenger vehicles due to defects in material or     Certain components are covered by specific
+    notify your retailer without delay.                   workmanship and occurring under normal use will      warranties, such as the High Voltage Battery
+                                                          be made at no charge for parts and/or labor during   System Warranty.
+    Production Changes                                    the warranty period. Those parts and services not
+    Volvo reserves the right to make changes in or        covered are detailed in this section and should be   Genuine Volvo Accessories
+    additions to passenger cars manufactured and/         carefully reviewed.                                  If a Volvo-approved accessory is purchased and
+    or sold by Volvo at any time without incurring any                                                         installed by a Volvo retailer as part of your new
+    obligation to make the same or similar changes to     Limitations                                          vehicle purchase, the warranty period is four
+    passenger cars previously manufactured or sold        No implied warranty of merchantability or            (4) years or 50,000 miles/80,000 kilometers,
+    by Volvo.                                             fitness for a particular purpose shall apply         whichever occurs first. The warranty period will
+                                                          except during the applicable periods of this         start and run concurrently with the New Vehicle
+    Maintenance & Servicing                               warranty.                                            Limited Warranty. If a Volvo-approved accessory is
+    It is recommended that you use your authorized                                                             installed by a Volvo retailer after your new vehicle
+    Volvo retailer for maintaining and servicing your     This warranty gives you specific legal rights, and   purchase, it will be warranted for the balance
+    vehicle. Your Volvo retailer employs factory trained  you may also have other rights which vary from       of your New Vehicle Limited Warranty period,
+    technicians and is focused on offering you the        state to state or province to province. Some         or for a period of two (2) years from the date
+    best overall experience with your new Volvo           states/provinces do not allow limitations on         of installation, whichever is longer. Accessories
+    product. Additionally your authorized Volvo retailer  how long an implied warranty lasts, so the           purchased but not installed by a Volvo retailer
+    is prepared to make sure that any revisions or        above limitations may not apply to you.              will be covered for a period of two (2) years from
+    upgrades, as required by Volvo, will be performed                                                          the date the part was originally purchased. Some
+    on your vehicle. (This excludes upgrades of a         For a complete description, refer to the article     genuine Volvo parts/accessories are covered by
+    cosmetic nature which are made to the car over        "Limitations and Disclaimers" in this booklet.       their own specific limited warranty for a different
+    time. See also "Production Changes.")                                                                      period. For those parts/accessories, the applicable
+                                                          The Warranty Period--Four (4) years/                 warranty is supplied at the time of purchase,
+                                                          50,000 Miles/80,000 Km                               including a list of conditions and limitations.
+                                                          The warranty period for repairs is four (4) years
+                                                          or 50,000 miles/80,000 kilometers, whichever
+                                                          occurs first.
+
+                                                          Unless otherwise dictated by state law, the
+                                                          warranty starts on the date the vehicle is sold/
+                                                          delivered to the first retail purchaser or put into
+                                                          service, whichever occurs first.
+
+20
+                                                                                                             WARRANTY
+
+Customer Assistance                                     Adjustments Coverage                                 What Is Not Warranted
+Should you have questions regarding the                 Adjustments which are refinements to the original
+warranties or repairs, please review the article        factory fittings and alignments, and which are       Tires
+"Customer Support and Assistance" in this booklet       required as part of the break-in period, will be     · Tires fitted to the vehicle as original
+for owner information and instructions.                 made during the Adjustments Coverage Period.
+                                                        Exceptions are items covered under normal                 equipment are warranted separately by the
+Non-commercial vehicles are covered by Volvo            maintenance services, including Pre-Delivery or           tire manufacturer. Therefore, any adjustments
+Assistance, a roadside assistance program               items excluded in the New Vehicle section. The            must be handled through their authorized
+which provides coverage for some specific items         duration of the adjustment coverage is twelve             service outlet.
+not covered by the warranties (e.g., towing).           (12) months or 12,000 miles/20,000 kilometers,
+A separate booklet describing this program is           whichever occurs first.                              · The applicable tire warranty booklet is in the
+supplied in your Owner's Wallet.                                                                                  Owner's Wallet.
+                                                        The term "Adjustments" as used in this warranty
+Wear and Tear Items                                     refers to minor repairs not usually associated with  Routine Maintenance and Services
+As part of your vehicle's normal service and            the replacement of parts or normal maintenance       · Repairs which are required because of a lack
+maintenance requirements, certain parts may need        service items. Parts which are covered for
+to be replaced due to wear and tear. Since these        replacement because of wear during the                    of maintenance, or improper maintenance.
+parts are consumed at varying rates, replacement        Adjustments Period only are: brake pads, brake            Correct maintenance procedures are
+is based on the operation and condition of your         rotors and shock absorbers. These items may also          referenced in your Owner's Manual or
+vehicle and on fixed schedules under normal             be covered under the Basic Warranty Period, or            the Warranty and Maintenance Records
+operation and use of your vehicle. These items          the Limited Warranty Brake Pad Wear Policy, if            Information booklet.
+include, but may not be limited to, the following       manufacturing defects cause the failure. Examples
+list: filters, fuses, belts, brake pads, brake rotors,  of labor-only repairs which are covered during the   · Scheduled or unscheduled maintenance
+wiper blades, shock absorbers, floor mats,              Adjustments Period are wheel balancing, window            services.
+upholstery/rugs, etc.                                   regulator adjustment and hood adjustment.
+
+Replacement of these items are the owner's
+responsibility, with the exception of those items
+covered during the Adjustments Coverage Period
+(see the following section), under the terms of the
+New Vehicle Limited Warranty Brake Pad Wear
+Policy, or where specific manufacturing defects
+may be demonstrated.
+
+                                                                                                                                                                 21
+    WARRANTY
+
+    Damage/Deterioration/Corrosion                       · Environmental damage to the vehicle's surface             NOTE
+    · Vehicles severely damaged and/or declared to            which is beyond Volvo's control, such as
+                                                              airborne fall-out (including chemicals, tree     Parts replaced free of charge under the terms
+         be a total loss by an insurer.                       sap, etc.) or other atmospheric conditions,      of the New Vehicle Limited Warranty (U.S.),
+                                                              hailstones, road hazards, stone chips or other   New Vehicle Warranty (Canada) are not subject
+    · Vehicles substantially reassembled or repaired          acts of nature. Exterior painted surfaces are    to the warranty coverage of the Genuine Volvo
+         from parts obtained from another vehicle             covered by the Corrosion Protection Limited      Replacement Parts and Accessories Limited
+         previously in operation.                             Warranty. See the article "Volvo's Corrosion     Warranty. Those parts will be warranted for
+                                                              Protection, Limited Warranty­U.S./Warranty­      90 days or the remainder of the New Vehicle
+    · The use of fluids which do not meet the Volvo-          Canada" in this booklet.                         Limited Warranty (U.S.), New Vehicle Warranty
+         approved standards as set forth in the Owner's                                                        (Canada), whichever is greater.
+         Manual or Volvo Service Literature.             · Damage to the interior (soft trim, upholstery,
+                                                              and seating areas) resulting from normal wear   Batteries
+    · Failures resulting from misuse, abuse,                  and tear, misuse, abuse, or negligence.
+         negligence, overloading, modifications                                                               12 Volt
+         (including the electronic management            Glass                                                Under the New Vehicle Limited Warranty, the
+         system(s), accidents or racing.                 Glass breakage, unless it occurs because of          original equipment 12 volt batteries installed in
+                                                         defects in material or workmanship.                  your 2026 Volvo are covered against defects
+    · Defects or failures resulting from the use of                                                           in parts and labor for four (4) years or 50,000
+         new parts not sold or approved by Volvo,        Odometer Tampering                                   miles/80,000 kilometers, whichever occurs first.
+         or used parts, or the resultant damage to       Repairs on vehicles for which the true odometer
+         associated parts or systems.                    mileage cannot be readily determined.
+
+    · Defects or failures resulting from incorrect       Inconvenience/Incidental Charges
+         diagnosis by an independent repair shop.        The loss of vehicle use, loss of time, telephone
+                                                         calls, towing, lodging, car rental, food, and other
+    · Failures resulting from continued operation        incidental and consequential damages.
+         of the vehicle after a warning light, gauge
+         reading, or other indication advises of a
+         mechanical or operational problem (e.g., dash
+         instrumentation indicates a system fault).
+
+22
+                                                                                                            WARRANTY
+
+High Voltage Battery System                            Limitations and Disclaimers                                NOTE
+The coverage under this warranty is for eight (8)
+years or 100,000 miles /160,000 kilometers,            ALL OF THE WARRANTIES (LIMITED,                      This warranty gives you specific legal rights,
+whichever occurs first, from the vehicle's original    U.S. ONLY) IN THIS BOOKLET ARE                       and you may also have other rights which vary
+in-service date. The following items are covered:      SUBJECT TO THE FOLLOWING                             from state to state, province to province. Some
+                                                       LIMITATIONS AND DISCLAIMERS:                         states/provinces do not allow limitations on
+· High Voltage Battery Module                          Volvo's written warranty is exclusive and in lieu    how long an implied warranty lasts, so the
+                                                       of all other warranties, whether oral or written,    above limitations may not apply to you. Some
+· Electric Front Axle Drive (EFAD)                     expressed or implied.                                states/provinces do not allow the exclusion
+                                                                                                            or limitation of incidental or consequential
+· Electric Rear Axle Drive (ERAD)                      No implied warranty of merchantability or            damages, so the above limitations or
+                                                       fitness for a particular purpose shall apply         exclusions may not apply to you.
+       NOTE                                            except during the applicable periods of this
+                                                       limited warranty, U.S.; warranty, Canada.
+ Batteries are subject to natural wear-out due to
+ aging and usage. If the battery State of Health       Volvo does not authorize any individual or
+ is lower than 70% of original status (according       corporation to create for it any obligation,
+ to specification) at 8 years or 100,000 miles/        liability or other warranty in connection with this
+ 160,000 kilometers, whichever occurs first,           vehicle.
+ the battery will be replaced free of charge. In
+ some cases a battery module or the complete           Volvo shall not be liable for incidental, special,
+ battery will be replaced by a reconditioned unit.     consequential, or other similar damages arising
+ In that case the reconditioned unit will have the     out of any breach of this written warranty.
+ same or better State of Health as before the
+ problem occurred.                                     Volvo shall not be liable for any damages caused
+                                                       by delay in delivery or furnishing of any products
+State of Health                                        and/or services.
+For EX40 and EC40 vehicles2 that do not have
+the State of Health feature in the vehicle center      Volvo's liability, if any, for product(s) furnished
+display, you can request a "Battery State of Health    under this warranty shall in no event exceed the
+Certificate" free of charge, by bringing your vehicle  cost of correcting defects in the product(s) as
+to an authorized Volvo retailer.                       herein provided and upon the expiration of this
+                                                       warranty, any such liability shall terminate.
+
+2 For all other vehicles, refer to your Owner's Manual for instructions on how to display the High Voltage Battery State of Health.
+                                                                                                                                                                                                                                                        23
+    California Warranty Statement                          - For 8 years or 100,000 miles (whichever first         If you have any questions regarding your warranty
+                                                              occurs): If any high voltage battery is defective,   rights and responsibilities, you should contact
+    Your Warranty Rights and Obligations                      the part will be repaired or replaced by Volvo       Volvo Car LLC, Customer Care Center at:
+    The California Air Resources Board is pleased to          Car USA LLC. This is your high voltage battery       1-800-458-1552
+    explain the zero-emission vehicle warranty on your        warranty.                                            https://volvo.custhelp.com/app/homeV3
+    2026 vehicle. In California, new zero-emission
+    vehicles must be designed and built in accordance      Owner's Warranty Responsibilities:                      or the California Air Resources Board at:
+    with State regulations.                                - As the vehicle owner, you are responsible for         4001 Iowa Avenue
+                                                                                                                   Riverside, CA 92507
+    Volvo Car USA LLC must provide warranty                   the performance of the required maintenance
+    coverage for the propulsion-related parts on your         listed in your owner's manual. Volvo Car USA
+    vehicle, including the high voltage battery, for the      LLC recommends that you retain all receipts
+    periods of time listed below, provided the failure        covering maintenance on your vehicle, but Volvo
+    was not caused by abuse, neglect or improper              Car USA LLC cannot deny warranty coverage
+    maintenance of your vehicle.                              solely for the lack of receipts or for your failure
+                                                              to ensure the performance of all scheduled
+    Your propulsion-related parts may include parts           maintenance.
+    such as the electric drive motor, inverter, high
+    voltage battery, onboard charger, and associated       - You are responsible for presenting your vehicle
+    electronic control units, wiring, and sensors.            to a Volvo Car USA LLC authorized warranty
+    Where a condition covered by the warranty exists,         facility as soon as a problem exists. The
+    Volvo Car USA LLC will repair your vehicle at no          warranty facility should complete the necessary
+    cost to you, including diagnosis, parts, and labor.       repairs in a reasonable amount of time, which is
+                                                              usually no longer than 30 days.
+    Manufacturer's Warranty Coverage:
+    - For 3 years or 50,000 miles (whichever first         - As the vehicle owner, you should also be aware
+                                                              that Volvo Car USA LLC may deny you warranty
+       occurs): If any propulsion-related part on your        coverage if your vehicle or a part has failed due
+       vehicle is defective, the part will be repaired or     to abuse, neglect, improper maintenance, or
+       replaced by Volvo Car USA LLC. This is your            unapproved modifications.
+       short-term defects warranty.
+
+    - For 7 years or 70,000 miles (whichever first
+       occurs): If any propulsion-related part listed
+       in this warranty booklet specifically noted
+       with coverage for 7 years or 70,000 miles is
+       defective, the part will be repaired or replaced
+       by Volvo Car USA LLC. This is your long-term
+       defects warranty.
+
+24
+2026 Propulsion-Related Parts List               · Vehicle Computational Unit (VCU1)
+                                                 · Water Condenser Bypass Valve
+The following are the items covered by the       · Wheel Speed Sensors
+Propulsion-Related warranty for three (3) years
+or 50,000 miles, whichever occurs first. Volvo    Miscellaneous items used in above systems
+has continued coverage on these items under the   Hoses, clamps, fittings, tubing, sealing
+new car warranty for (4) years or 50,000 miles,   gaskets, fuses and wiring harnesses used
+whichever occurs first.                           with the components listed above.
+
+For "High-Priced" Propulsion-Related Parts,
+which are covered for seven (7) years or 70,000
+miles (whichever occurs first), please refer to
+pages 26-29 for details.
+
+· Accelerator Pedal Position Sensor
+· Ambient Temperature Sensor
+· Battery Coolant Pump
+· Chiller Outlet, Pressure & Temperature Sensor
+· Climate Coolant Valve
+· Compartment Coolant Pump
+· Compressor Inlet/Outlet Pressure &
+
+     Temperature Sensor
+· Coolant Temperature Sensor in Climate Circuit
+
+     before & after CCVM
+· Coolant Temperature Sensor in Electric Drive
+
+     Circuit and after Radiator
+· Electric Drive Coolant Pump
+· Electric Drive Valve
+· EVI Actuator
+· Radiator Bypass Valve
+· Steering Wheel Angle Sensor
+
+                                                                                             25
+2026 Model Year "High-Priced"                    The components listed in the chart below apply           NOTE
+Propulsion-Related Parts                         to Fully Electric Models and are covered by the
+                                                 Long-Term Defect and Performance Warranty for      Components listed as covered by the Long-
+Fully Electric Models only                       seven (7) years or 70,000 miles, whichever occurs  Term Defect and Performance Warranty for
+For vehicles originally sold and registered in   first.                                             seven (7) years or 70,000 miles, whichever
+California, Colorado, Delaware, Maryland,                                                           occurs first, have been determined by the
+Massachusetts, New Jersey, New Mexico, New                                                          California Air Resource Board to be qualified as
+York, Oregon, Rhode Island, Vermont, Washington                                                     high-priced components. California determines
+and Washington, D.C.                                                                                parts, price and labor costs each year.
+                                                                                                    Therefore, parts covered under the terms of the
+                                                                                                    Long-Term Defect and Performance Warranty
+                                                                                                    are subject to change from year to year.
+
+      C40 and EX40 Models                                                                              ENGINE VIN CODE NUMBER
+
+        Brake Control Module                                                                        ER/EY  EH
+        Chiller Electrical Expansion Valve
+        CV1 WCOND Check Valve                                                                       X      X
+        Engine Control Module (ECM)
+        Electric AC Compressor                                                                      X      X
+        Electrical Expansion Valve OHX
+        Electric Vehicle Inlet (EVI)                                                                X      X
+        Fan Control Module
+        Front Electric Drive Axle *                                                                 X      X
+        Front Evaporator Shut-off Valve
+        High Voltage Battery (Assembly) *                                                           X      X
+        High Low Voltage Conversion Module
+        High Voltage Coolant Heater                                                                 X      X
+        Inverter High Voltage Front Axle
+                                                                                                    X      X
+26
+                                                                                                    X      X
+
+                                                                                                    X
+
+                                                                                                    X      X
+
+                                                                                                    X      X
+
+                                                                                                           X
+
+                                                                                                    X      X
+
+                                                                                                    X
+C40 and EX40 Models                                                                                        ENGINE VIN CODE NUMBER
+
+ Inverter High Voltage Rear Axle                                                                        ER/EY  EH
+ On Board Charger
+ Rear Electric Drive Axle *                                                                             X      X
+ SOV1 WCOND Shut-off Valve (Water Condenser)
+ SOV2 WCOND Bypass Shut-off Valve (Water Condenser)                                                     X      X
+ SOV3 OXH Outside Heat Exchanger Shut-off Valve (to Compressor)
+ SOV5 Evaporator Shut-off Valve                                                                         X      X
+ SRS Unit
+ Battery Energy Control Module Hardware **                                                              X      X
+ Cell Voltage and Temperature Nodes **
+ Current Measurement Sensor **                                                                          X      X
+ High Voltage Battery Modules **
+ Main Contactors **                                                                                     X      X
+ DC Charging Contactors **
+ Magnetic Fuse **                                                                                       X      X
+ Battery Coolant Temp Sensor (Inlet and Outlet) **
+ Battery Disconnect Unit **                                                                             X      X
+ HV Fuse (HLCM) **
+                                                                                                        X      X
+* Covered 8 years or 100,000 miles/160,000 kilometers.
+** Covered 8 years or 100,000 miles/160,000 kilometers, included with High Voltage Battery (assembly).  X      X
+
+ Miscellaneous items used in above systems                                                              X      X
+ Hoses, clamps, fittings, tubing, sealing
+ gaskets, fuses and wiring harnesses used                                                               X      X
+ with the components listed above.
+                                                                                                        X      X
+
+                                                                                                        X      X
+
+                                                                                                        X      X
+
+                                                                                                        X      X
+
+                                                                                                        X      X
+
+                                                                                                               X
+
+                                                                                                                                   27
+      EX30 Models                                                      ENGINE VIN CODE NUMBER
+
+        A/C Accumulator                                             EK  EL
+        A/C Hose to Compressor (Inlet Only)
+        A/C Hose to Compressor (Outlet with Solenoid Valve Only)    X   X
+        A/C Hose to Condenser (Inlet and Outlet)
+        A/C Hose to Evaporator (Inlet and Outlet) Including Sensor  X
+        Battery Coolant Pump
+        Battery Coolant Temp Sensor (Inlet and Outlet)              X   X
+        Brake Control Module
+        Climate SOV1 and SOV3 Solenoid Valve                        X   X
+        Combined Battery Charger OBC and DCDC
+        Condenser Expansion Valve                                   X   X
+        Electric AC Compressor
+        Electric Drive Coolant Pump                                 X   X
+        Electric Vehicle Communication and Control Module
+        Electric Vehicle Inlet (EVI)                                X   X
+        Evaporator Expansion Valve
+        Fan Control Module                                          X   X
+        Front Electric Drive Axle *
+        Heat Exchanger                                              X   X
+        High Voltage Battery (Assembly) *
+        High Voltage Coolant Heater                                 X   X
+        Rear Electric Drive Axle *
+        SRS Unit                                                    X   X
+
+28                                                                  X   X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X   X
+
+                                                                    X   X
+EX30 Models                                                                                                ENGINE VIN CODE NUMBER
+
+ Vehicle Computational Unit                                                                             EK  EL
+ Battery Disconnect Unit **
+ Battery Energy Control Module Hardware **                                                              X   X
+ Cell Voltage and Temperature Nodes **
+ High Voltage Battery Modules **                                                                        X   X
+ Magnetic Fuse **
+ Pyro Fuse **                                                                                           X   X
+
+* Covered 8 years or 100,000 miles/160,000 kilometers.                                                  X   X
+** Covered 8 years or 100,000 miles/160,000 kilometers, included with High Voltage Battery (assembly).
+                                                                                                        X   X
+
+                                                                                                        X   X
+
+                                                                                                        X   X
+
+                                                                                                                                   29
+    WARRANTY
+
+    Genuine Volvo Replacement Parts and                     Limitations                                         Warranty Period
+    Accessories, Limited Warranty­ U.S./                    No implied warranty of merchantability or
+    Warranty­Canada                                         fitness for a particular purpose shall apply        Genuine Volvo Accessories
+                                                            except during the applicable periods of this        If a Volvo-approved accessory is purchased and
+    What Is Warranted                                       warranty.                                           installed by a Volvo retailer as part of your new
+    Volvo warrants to the retail purchaser of each new                                                          vehicle purchase, the warranty period is four
+    genuine Volvo replacement part and accessory,           This warranty gives you specific legal rights, and  (4) years or 50,000 miles/80,000 kilometers,
+    that such part or accessory will be free from           you may also have other rights which vary from      whichever occurs first. The warranty period will
+    defects in material or workmanship.                     state to state, province to province. Some states/  start and run concurrently with the New Vehicle
+                                                            provinces do not allow limitations on how           Limited Warranty. If a Volvo-approved accessory is
+    During the applicable warranty period, any such         long an implied warranty lasts, so the above        installed by a Volvo retailer after your new vehicle
+    defective part or accessory will be exchanged or        limitations may not apply to you.                   purchase, it will be warranted for the balance
+    repaired at Volvo's discretion without charge, but                                                          of your New Vehicle Limited Warranty period,
+    only by an authorized Volvo retailer.                   For a complete description, refer to the article    or for a period of two (2) years from the date
+                                                            "Limitations and Disclaimers" in this booklet.      of installation, whichever is longer. Accessories
+    If, and only if, such part or accessory was originally                                                      purchased but not installed by a Volvo retailer will
+    installed by an authorized Volvo retailer, the labor                                                        be covered for a period of two (2) years from the
+    for removal and replacement will also be covered                                                            date the accessory was originally purchased. Some
+    by this warranty.                                                                                           genuine Volvo parts/accessories are covered by
+                                                                                                                their own specific limited warranty for a different
+           NOTE                                                                                                 period. For those parts/accessories, the applicable
+                                                                                                                warranty is supplied at the time of purchase,
+     Parts replaced free of charge under the terms                                                              including a list of conditions and limitations.
+     of another Volvo warranty are not subject to
+     the warranty coverage of the Genuine Volvo
+     Replacement Parts and Accessories Limited
+     Warranty (U.S.), Genuine Volvo Replacement
+     Parts and Accessories Warranty (Canada).
+     Those parts will be warranted for 90 days
+     or the remainder of the original warranty,
+     whichever is greater.
+
+30
+                                                                                                         WARRANTY
+
+What Is Not Warranted                                Volvo's Corrosion Protection, Limited               For a complete description, refer to the article
+· Labor for removal and replacement of a             Warranty­U.S./Warranty­Canada                       "Limitations and Disclaimers" in this booklet.
+
+     defective part or accessory sold, BUT NOT       What Is Warranted                                   Warranty Period
+     INSTALLED, by an authorized Volvo retailer.     Volvo warrants that your 2026 model year            The warranty period is for a total of twelve (12)
+     In such cases, the defective part/component     Volvo's original painted body sheet metal panels    years. There is no mileage/kilometer limitation.
+     or accessory will be exchanged, repaired, or    will remain free from the following conditions
+     replaced at the discretion of Volvo.            which result from defects in design, material or    The warranty begins with the date the vehicle is
+                                                     workmanship under normal use and operating          sold/delivered to the first retail purchaser or put
+· Parts or accessories not sold, supplied, or        conditions (except for those items listed under     into service, whichever occurs first.
+     approved by Volvo.                              "What Is Not Warranted"):
+                                                                                                         Warranty Repairs
+· Failures resulting from improper installation of   1. Defects to the exterior painted sheet metal      Under the terms of this warranty, only an
+     parts or accessories, a lack of maintenance or       surfaces for a period of one (1) year.3        authorized Volvo retail facility will repair or replace,
+     improper maintenance.                                                                               at Volvo's discretion, the affected body sheet
+                                                     2. Perforation of the body sheet metal panels for   metal panels free of charge. Repairs will be made
+· Damage because of normal wear and tear.                 a period of twelve (12) years.                 within a reasonable period of time, during normal
+                                                                                                         business hours.
+· The loss of vehicle use, loss of time,             Limitations
+     inconvenience, or other incidental charges      No implied warranty of merchantability or           Corrosion Protection Warranty
+     such as telephone calls, towing, lodging, car   fitness for a particular purpose shall apply        Should any part of the bodywork of the vehicle
+     rental, or food, and/or other consequential     except during the applicable periods of this        be perforated by rust corrosion, the panel(s)
+     damages, except where required by law.          warranty.                                           affectedly the perforation will be repaired or
+                                                                                                         replaced by any Volvo dealer or workshop
+· Failure resulting from misuse, abuse,              This warranty gives you specific legal rights, and  authorized by Volvo, completely free of charge,
+     negligence, overloading, modifications,         you may also have other rights which vary from      regardless of any change in vehicle ownership.
+     accidents or racing.                            state to state or province to province. Some        The term "perforation" means hole that penetrates
+                                                     states/provinces do not allow limitations on        the bodywork caused by corrosion from the inside
+Purchaser's Obligations                              how long an implied warranty lasts, so the          or underside as a result of faulty manufacture or
+When requesting warranty repairs on replacement      above limitations may not apply to you.             materials.
+parts or accessories, the purchaser must present
+evidence of purchase (sales ticket or repair order
+showing payment to any authorized Volvo retailer
+in the United States or Canada) during normal
+business hours.
+
+3 Volvo does not recommend the use of aftermarket long-life or durable paint protection coatings, some of which may claim to prevent pitting, fading, oxidation, etc. These coatings have not been tested by Volvo for
+   compatibility with your vehicle's clear coat. Some of them may cause the clear coat to soften, crack, or cloud. Damage caused by application of aftermarket paint protection coatings will not be covered under your
+   vehicle's paint warranty. Use only paint protection products approved by Volvo. Consult your Volvo retailer for additional information.
+
+                                                                                                                                                                                                                                                        31
+    WARRANTY
+
+    What Is Not Warranted                                Owner's Obligations                                  If an accident should occur, you must ensure
+    · Driveline, steering, braking or suspension         Failure to make corrections of accident damage,      that the following conditions are met in order to
+                                                         acts of nature, or to maintain the vehicle           maintain coverage under the Corrosion Protection
+         components, bumpers, wheels, wheel covers,      properly, including washing and polishing as         Warranty:
+         and mirrors.                                    described in the Owner's Manual, voids this
+                                                         warranty.                                            · repairs are performed to Volvo standards,
+    · Damage to the body caused by accident,
+         misuse, abuse, negligence, alteration, fire or  It is your responsibility to retain all maintenance  · your Volvo retailer will identify the location of a
+         battery acid.                                   and repair documentation. To avoid potential              Volvo Certified Body and Paint Service Center,
+                                                         deterioration, your retailer must be notified as
+    · Damage resulting from stone-chipping,              soon as possible of any problems with the painted    · only genuine Volvo new replacement parts are
+         mechanical damage, scratches, dents,            surfaces.                                                 installed,
+         industrial fall-out, environmental damage
+         (including, but not limited to, chemicals,             NOTE                                          · undercoating and/or rust proofing is reapplied
+         tree sap, other atmospheric conditions, etc.)                                                             wherever necessary. (See your Volvo retailer
+         hailstones, road hazards, or other acts of       This warranty can be provided because                    for details on Volvo-approved rust prevention
+         nature, and unrepaired accident damage.          in manufacturing the vehicle, Volvo used                 materials.)
+                                                          processes and materials which are designed to
+    · Improper or substandard repair work.                help resist corrosion.
+
+    · Defects or failures resulting from the use of      The application of additional rust proofing
+         new parts not sold or approved by Volvo,        products at the time of new car purchase is not
+         or used parts, or the resultant damage to       recommended by Volvo. If non-Volvo products
+         associated parts or systems.                    were chemically incompatible with the Volvo
+                                                         factory-applied protection, they could cause
+    · Normal aging of paint because of use,              problems which would result in voiding this
+         exposure and climate, including oxidation,      warranty.
+         fading, etc.
+
+    · Damage caused by the application of
+         aftermarket paint protection coatings.
+
+    · Damage created as a result of improper
+         retreatment of components following repair.
+
+32
+                                                                                                            WARRANTY
+
+Seat Belts and Supplemental                         The Warranty Period                                     Seat Belts: "Something We Believe In"
+Restraint Systems, Limited Warranty­                The warranty period is five (5) years and has no
+U.S./Warranty­Canada                                mileage/kilometer limitation.4 It begins with the       Seat belts are an integral part of the safety system
+                                                    date the vehicle is sold/delivered to the first retail  engineered into each Volvo.
+What Is Warranted                                   purchaser or put into service, whichever occurs
+                                                    first.                                                  Despite our strongest recommendations, and
+Volvo warrants that repairs required due to                                                                 your best intentions, not wearing a seat belt is like
+defects in the material or workmanship to the       What Is Not Warranted                                   believing "it'll never happen to me!"
+seat belt system and Supplemental Restraint         · Seat belt system and Supplemental
+System (SRS) installed in your 2026 model year                                                              Volvo urges you and all adult occupants of your
+vehicle will be performed free-of-charge during          Restraint System components which show             car to properly wear seat belts in all seating
+the warranty period (except for those items listed       evidence of damage because of abuse,               positions, and ensure that children are properly
+under "What Is Not Warranted").                          misuse, negligence, tampering, or improper         restrained in the rear seats only, using an infant
+                                                         installation.                                      car seat or booster seat determined by age,
+Limitations                                                                                                 weight and height.
+No implied warranty of merchantability or           · Replacement of seat belt system or
+fitness for a particular purpose shall apply             Supplemental Restraint System components           Fact: In every state/province, some type of child
+except during the applicable periods of this             after a vehicle has been involved in a collision.  restraint law has been passed. Additionally, most
+warranty.                                                                                                   states/provinces have already made it mandatory
+This warranty gives you specific legal rights, and  · The loss of vehicle use, loss of time,                for occupants of a car to use seat belts.
+you may also have other rights which vary from           inconvenience or other incidental charges,
+state to state, province to province. Some states/       such as telephone calls, towing, lodging,          So, urging you to "buckle up" is not just our
+provinces do not allow limitations on how                car rental, or food, or other consequential        recommendation ­ it's the law! The few seconds
+long an implied warranty lasts, so the above             damages except where required by law.              it takes to buckle up may one day allow you to say,
+limitations may not apply to you.                                                                           "It's a good thing I was wearing my seat belt."
+For a complete description, refer to the article    · Repairs required as part of normal
+"Limitations and Disclaimers" in this booklet.           maintenance.                                       Instructions for proper seat belt usage can be
+                                                                                                            found in your Owner's Manual.
+                                                    · Replacement of components in accordance
+                                                         with the maintenance schedule.
+
+4 In the U.S., some states have mandated alternate warranty coverage for seat belts only. Contact your Volvo retailer for details of local requirements.
+                                                                                                                                                                                                                                                       33
+       WARRANTY
+
+     Volvo Ownership Change Request ­
+     U.S. ONLY
+
+      Just a click away
+      Visit https://www.volvocars.com/us/form/
+      register-your-volvo to register as a Volvo
+      owner. You will have immediate access to useful
+      resources and also receive product infomation and
+      special offers in the future. It's a simple way to
+      stay informed and get even more out of your Volvo
+      experience.
+      If you don't have access to the internet, contact
+      Volvo Customer Care at 1-800-458-1552. Please
+      be prepared to provide your 17-digit Volvo VIN
+      (vehicle identification number). Your VIN is located
+      on the dashboard or can be found on the vehicle
+      registration card. Ownership changes cannot be
+      processed without this information.
+
+34
+MAINTENANCE RECORDS                    Instructions to Retailer: Type all information  Part Number                                             Vehicle Identification Number
+This booklet should always be kept in
+your vehicle along with all receipts                                                                  ACCESSORY IDENTIFICATION
+and the customer copy of repair
+orders covering all services and                                                                    Accessories Installed At Time Of Delivery
+repairs performed on your vehicle.
+These service records may be
+required as reference for future
+warranty work.
+
+                                                                                       Description
+
+                                                                                                                                               Delivery/Retail Date
+WTY572.06.25 (English - USA & Canada), MY26, Copyright © 2025 Volvo Car USA LLC
+

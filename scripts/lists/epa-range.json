@@ -1,0 +1,115 @@
+{
+  "audi-q4-e-tron": {
+    "model_year": "2026",
+    "ids": [
+      { "id": 50182, "applies_to": "Q4 55 e-tron quattro" },
+      { "id": 50183, "applies_to": "Q4 Sportback 55 e-tron quattro" },
+      { "id": 49612, "applies_to": "Q4 45 e-tron" }
+    ],
+    "note": "Both body styles (Q4 and Q4 Sportback 55 e-tron quattro) are rated 251 mi."
+  },
+  "genesis-gv60": {
+    "model_year": "2027",
+    "ids": [
+      { "id": 50636, "applies_to": "19\" AWD" },
+      { "id": 50635, "applies_to": "Prestige AWD" },
+      { "id": 50638, "applies_to": "RWD" }
+    ],
+    "note": "Excludes the 2027 GV60 Magma (EPA 50637, 222 mi), which is a separate model outside this universe (see awd.note)."
+  },
+  "hyundai-ioniq-5": {
+    "model_year": "2027",
+    "ids": [
+      { "id": 50642, "applies_to": "SE AWD, SEL AWD" },
+      { "id": 50643, "applies_to": "Limited AWD" },
+      { "id": 50644, "applies_to": "XRT AWD" },
+      { "id": 50645, "applies_to": "SE RWD, SEL RWD, Limited RWD" },
+      { "id": 50646, "applies_to": "SE RWD Standard Range" }
+    ],
+    "note": "EPA lists no 2027 Ioniq 5 N, so the folded-in N has no range here. Trim mapping from Hyundai's spec sheet ('SE/SEL: 290 miles', 'Limited: 269', 'XRT: 259')."
+  },
+  "kia-ev3": {
+    "model_year": "2027",
+    "ids": [
+      { "id": 50648, "applies_to": "Wind (AWD), Land (AWD), GT-Line" },
+      { "id": 50650, "applies_to": "GT" },
+      { "id": 50649, "applies_to": "Wind (FWD), Land (FWD)" },
+      { "id": 50651, "applies_to": "Light" }
+    ],
+    "note": "Trim mapping from Kia's spec table ('All Electric Range': Light 221, Wind/Land FWD 321, every AWD trim 280)."
+  },
+  "mini-countryman-electric": {
+    "model_year": "2027",
+    "ids": [
+      { "id": 50374, "applies_to": "SE ALL4 with 18-in. wheels" },
+      { "id": 50664, "applies_to": "SE ALL4 with 19-in. wheels" }
+    ]
+  },
+  "nissan-ariya": {
+    "model_year": "2025",
+    "ids": [
+      { "id": 48718, "applies_to": "ENGAGE e-4ORCE" },
+      { "id": 48719, "applies_to": "ENGAGE+ e-4ORCE, EVOLVE+ e-4ORCE" },
+      { "id": 48722, "applies_to": "PLATINUM+ e-4ORCE (19-in. wheels)" },
+      { "id": 48723, "applies_to": "PLATINUM+ e-4ORCE (20-in. wheels)" },
+      { "id": 48720, "applies_to": "EVOLVE+ FWD" },
+      { "id": 48721, "applies_to": "ENGAGE FWD" }
+    ],
+    "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 Ariya AWD versions (ids 50224, 50225, 50228: 205, 272 and 267 mi). Trim mapping from EPA's labels and the 2025 brochure."
+  },
+  "subaru-uncharted": {
+    "model_year": "2027",
+    "ids": [
+      { "id": 50695, "applies_to": "Sport" },
+      { "id": 50694, "applies_to": "GT" },
+      { "id": 50693, "applies_to": "Premium" }
+    ],
+    "note": "EPA's 2026 listings (50302, 50303) carry the same figures. Trim mapping from Subaru's spec sheet (Premium FWD 308, Sport 287, GT 273)."
+  },
+  "toyota-c-hr": {
+    "model_year": "2027",
+    "maker_estimate": {
+      "source": "https://www.toyota.com/c-hr/",
+      "slug": "toyota-c-hr",
+      "entries": [
+        { "trim": "SE", "value": 287, "note": "'an EPA-estimated 287-mile range rating for SE'" },
+        { "trim": "XSE", "value": 273, "note": "'an EPA-estimated 273-mile range rating for XSE'; XSE has 20-in. wheels" }
+      ]
+    },
+    "cross_check_ids": [50307, 50308],
+    "note": "EPA has no 2027 C-HR yet (2027 Toyota model menu checked 2026-09-19, sources/fe-menu-model-2027-toyota.xml). Toyota's stated 2027 figures match EPA's 2026 C-HR AWD 18inch and 20inch listings."
+  },
+  "volkswagen-id4": {
+    "model_year": "2026",
+    "ids": [
+      { "id": 49988, "applies_to": "Pro AWD, Pro S AWD, Pro S Plus AWD" },
+      { "id": 49987, "applies_to": "Pro RWD, Pro S RWD" }
+    ],
+    "note": "EPA lists a single 2026 ID.4 AWD."
+  },
+  "volvo-ec40": {
+    "model_year": "2026",
+    "ids": [
+      { "id": 49750, "applies_to": "Twin Motor AWD" },
+      { "id": 49748, "applies_to": "Single Motor RWD" }
+    ],
+    "note": "EPA 2026 EC40 Twin. The EC40's dimensions and trim list come from C/D's 2024 C40 Recharge, so the years don't match."
+  },
+  "volvo-ex30": {
+    "model_year": "2026",
+    "ids": [
+      { "id": 49992, "applies_to": "Twin Motor Performance" },
+      { "id": 49990, "applies_to": "Cross Country (18-in. wheels)" },
+      { "id": 49991, "applies_to": "Cross Country (19-in. wheels)" },
+      { "id": 49989, "applies_to": "Single Motor Extended Range" }
+    ],
+    "note": "As listed by EPA, the Cross Country on 18-inch wheels rates lower than on 19-inch (203 vs 227 mi)."
+  },
+  "volvo-ex40": {
+    "model_year": "2026",
+    "ids": [
+      { "id": 49749, "applies_to": "Twin Motor" },
+      { "id": 49747, "applies_to": "Single Motor Extended Range" }
+    ]
+  }
+}

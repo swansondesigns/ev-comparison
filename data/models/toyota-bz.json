@@ -1,0 +1,46 @@
+{
+  "make": "Toyota",
+  "model": "bZ",
+  "reference": true,
+  "length_in": {
+    "value": 184.6,
+    "source": "https://www.toyota.com/bz/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "toyota.com '2027 Toyota bZ Specifications', 'Overall length: 184.6', identical across all five grades in the page's embedded spec data. This is the size ceiling.",
+    "cross_check": [
+      { "value": 184.6, "source": "https://www.caranddriver.com/toyota/bz/specs", "retrieved": "2026-09-19", "note": "2026 XLE Plus FWD" }
+    ]
+  },
+  "width_in": {
+    "value": 73.2,
+    "with_mirrors": null,
+    "source": "https://www.toyota.com/bz/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "'Overall width: 73.2', all grades; mirrors not stated. C/D lists the same figure as width without mirrors, and its twin the Subaru Solterra lists 73.2 in.",
+    "cross_check": [
+      { "value": 73.2, "source": "https://www.caranddriver.com/toyota/bz/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["XLE AWD", "Limited AWD"],
+    "not_awd": ["XLE FWD", "XLE FWD Plus", "Limited FWD"],
+    "source": "https://www.toyota.com/bz/",
+    "retrieved": "2026-09-19",
+    "note": "toyota.com: 'bZ's available AWD capability'; 'a 288-mile EPA-estimated range rating on XLE AWD'. Limited AWD from C/D's 2026 trim list."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.toyota.com/bz/",
+    "retrieved": "2026-09-19",
+    "note": "'NACS Charging Port: bZ is equipped with a North American Charging System (NACS) charging port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.toyota.com/bz/",
+    "retrieved": "2026-09-19",
+    "note": "toyota.com '2027 Toyota bZ' with starting MSRP; the page also links the 2026 bZ. pressroom.toyota.com returned a Cloudflare challenge (HTTP 403)."
+  }
+}

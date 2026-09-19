@@ -1,0 +1,144 @@
+{
+  "make": "Volvo",
+  "model": "EX40",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 174.8,
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Volvo Car USA EX40 specifications, 'Vehicle length'. Overview page is titled 2026 Volvo EX40.",
+    "cross_check": [
+      { "value": 174.8, "source": "https://www.caranddriver.com/volvo/ex40/specs", "retrieved": "2026-09-19", "note": "2025 Core Twin Motor AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 75.2,
+    "with_mirrors": false,
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Width: 75.2 in'; 'Width (mirrors incl): 80.1 in'.",
+    "cross_check": [
+      { "value": 75.2, "source": "https://www.caranddriver.com/volvo/ex40/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "label": "Twin Motor",
+    "trims": ["Twin Motor"],
+    "not_awd": ["Single Motor Extended Range"],
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Driveline': Single Motor Extended Range 'RWD'; Twin Motor 'AWD'."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": "included",
+      "model_years": ["2025"],
+      "note": "'Adapters will be included as standard equipment with MY2025 EX90, EX40 and EC40.' The page doesn't say whether this continues for MY2026."
+    },
+    "source": "https://www.volvocars.com/us/l/north-american-charging-standard/",
+    "retrieved": "2026-09-19",
+    "note": "Volvo's NACS page lists EX40 among models that reach Superchargers via the 'NACS Fast Charging Adapter', which implies a CCS1 port. EX40 overview: 'Volvo Car electric vehicles now support the North American Charging Standard'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/",
+    "retrieved": "2026-09-19",
+    "note": "Volvo Car USA overview: '2026 / Model Year', MSRPs, inventory links. Volvo's US media home also links a 2027 EX40 page (not fetched; media model pages returned 503)."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "Twin Motor", "epa_vehicle": "EX40 Twin", "drive": "AWD", "value": 260, "epa_id": 49749, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49749", "retrieved": "2026-09-19" },
+      { "applies_to": "Single Motor Extended Range", "epa_vehicle": "EX40", "drive": "RWD", "value": 296, "epa_id": 49747, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49747", "retrieved": "2026-09-19" }
+    ]
+  },
+  "trims": {
+    "list": [
+      { "name": "Single Motor Extended Range", "drive": "RWD" },
+      { "name": "Twin Motor", "drive": "AWD" }
+    ],
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Driveline by powertrain."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "All versions", "kwh": 82, "basis": "gross", "inferred": true, "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/", "retrieved": "2026-09-19", "note": "'Battery capacity' 82.0 kWh; data key 'batteryNominalEnergy', read as gross." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "Twin Motor (tested by C/D)", "value": 205, "secondary": true, "source": "https://www.caranddriver.com/volvo/ex40", "retrieved": "2026-09-19", "note": "C/D test sheet 'Peak DC Fast-Charge Rate: 205 kW' for a car with a 79.0-kWh pack, so an earlier model year than the 82.0-kWh 2026. Volvo's pages give only the 200 kW charger used for its 10-80% time." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      { "applies_to": "All versions", "minutes": 28, "charger_kw": 200, "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/", "retrieved": "2026-09-19", "note": "'Charge time (10-80%) (as fast as)' 28.0 min for both drivelines. Overview page: 'typical time to charge from 10 to 80 percent at a 200kW DC fast charging station'." }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "All versions", "value": "unknown", "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/", "retrieved": "2026-09-19", "note": "Feature list includes 'Heat pump'; availability by version isn't in the saved page." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 18.9,
+    "seats_down": 57.5,
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Volvo's '(max)' figures: second row up 18.9, rows folded 57.5. Also listed: 14.5 second row up, 34.1 first row up; frunk 0.7.",
+    "discrepancy": "C/D lists 16 cu ft behind the second row (57.5 behind the first).",
+    "cross_check": [
+      { "value": "16 / 57.5", "source": "https://www.caranddriver.com/volvo/ex40/specs", "retrieved": "2026-09-19", "note": "Cargo behind second / first row" }
+    ]
+  },
+  "turning_circle_ft": {
+    "value": 37.4,
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Turning circle' 37.4 ft; C/D agrees."
+  },
+  "height_in": {
+    "value": 65,
+    "source": "https://www.volvocars.com/us/cars/ex40-electric/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Height' 65.0 in. C/D lists 65.2."
+  },
+  "ground_clearance_in": {
+    "value": 6.9,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/volvo/ex40/specs",
+    "retrieved": "2026-09-19",
+    "note": "Not given on Volvo's page; C/D 'Minimum Ground Clearance'."
+  },
+  "warranty": {
+    "battery": {
+      "years": 8,
+      "miles": 100000,
+      "text": "High Voltage Battery & System: 8 years 100,000 miles"
+    },
+    "powertrain": {
+      "years": 4,
+      "miles": 50000,
+      "text": "No separate powertrain warranty listed for fully electric models; New Vehicle Limited Warranty (U.S.) 4 years/50,000 miles"
+    },
+    "source": "https://www.volvocars.com/images/cs/v3/assets/bltccbab8edae0354cd/blt79f8a67d798c8d78/68befcffe94f786661a1f43a/MY2026_WTY572.06.25_Fully_Elec_Wty_Manual_Rev2_WEB_06-18-25.pdf?branch=prod_alias",
+    "retrieved": "2026-09-19",
+    "note": "Volvo's MY2026 Fully Electric Models warranty manual, which covers EX30, EX40 and EC40."
+  },
+  "highway_tests": [
+    { "source": "https://www.caranddriver.com/volvo/ex40", "retrieved": "2026-09-19", "trim_tested": "Single Motor (RWD)", "result_mi": 190, "temp_f": null, "note": "C/D 75-mph highway range test of the single-motor model, which lacks AWD. No AWD result found." }
+  ],
+  "notes": [
+    { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test of an earlier model year." },
+    { "tag": "reader", "text": "Car and Driver's highway range test was of the rear-drive version, not the AWD one she'd want." }
+  ]
+}

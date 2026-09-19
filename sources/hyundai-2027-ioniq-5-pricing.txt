@@ -1,0 +1,201 @@
+                                                                                                                                                               27MY IONIQ 5
+
+                                                                                                                                             Effective: August 3, 2026 (2027A)
+
+  Model Code          Model                          Engine                                   Transmission                 Drivetrain                                                                    MSRP
+
+  I50ARZHZW5AZ        IONIQ 5 SE RWD Standard Range  125 kW (168 hp) Electric Motor           Single-speed Reduction Gear  Rear-Wheel Drive                                                             $35,250
+  I51ARZHZW5AZ        IONIQ 5 SE RWD                 168 kW (225 hp) Electric Motor           Single-speed Reduction Gear  Rear-Wheel Drive                                                             $37,750
+  I54ARZHZW5AZ        IONIQ 5 SEL RWD                168 kW (225 hp) Electric Motor           Single-speed Reduction Gear  Rear-Wheel Drive                                                             $40,200
+  I56ARZHZW5AZ        IONIQ 5 Limited RWD            168 kW (225 hp) Electric Motor           Single-speed Reduction Gear  Rear-Wheel Drive                                                             $45,225
+  I51AAYCZW5AZ        IONIQ 5 SE AWD                 74 kW + 165 kW (320 hp) Electric Motors  Single-speed Reduction Gear  All-Wheel Drive                                                              $41,250
+  I54AAYCZW5AZ        IONIQ 5 SEL AWD                74 kW + 165 kW (320 hp) Electric Motors  Single-speed Reduction Gear  All-Wheel Drive                                                              $43,700
+  I55AAYCZW5AZ        IONIQ 5 XRT AWD                74 kW + 165 kW (320 hp) Electric Motors  Single-speed Reduction Gear  All-Wheel Drive                                                              $46,525
+  I5CAAYCZW5AZ        IONIQ 5 XRT AWD w/ Tow Hitch   74 kW + 165 kW (320 hp) Electric Motors  Single-speed Reduction Gear  All-Wheel Drive                                                              $46,975
+  I56AAYCZW5AZ        IONIQ 5 Limited AWD            74 kW + 165 kW (320 hp) Electric Motors  Single-speed Reduction Gear  All-Wheel Drive                                                              $49,125
+
+Package Level Detail
+
+IONIQ 5 SE RWD Standard Range (I50ARZHZW5AZ)                                                  Auto Flush Door Handles & Hidden Charge Port Door
+                                                                                              LED Taillights & Rear spoiler w/ LED CHMSL; Rear windshield wiper and washer
+Electric powertrain ­ 168 hp (125 kW output rear-mounted motor); rear-wheel drive             Drive Modes : Eco -> Normal -> Sport -> Snow
+63.0 kWh battery                                                                              12.3-inch Digital Instrument Cluster w/ EV Technology Display
+Ultra-Fast charging system (up to 800V/350 kW)                                                Dual Automatic Temperature Control with Driver Only mode
+Battery Heating System                                                                        Power windows with driver's auto-down/up
+Battery preconditioning function (EV setting in head unit)                                    Power door locks
+4-wheel disc brakes                                                                           LED interior overhead lighting
+Independent MacPherson strut FR suspension; Multi-link RR suspension                          Illuminated vanity mirrors & sunvisor extensions
+Motor driven power steering, rack mounted (R-MDPS)                                            H-Tex® wrapped tilt-and-telescopic steering wheel w/ audio, cruise & phone controls
+Column mounted Shift-by-Wire (SBW) gear selector                                              Cloth seats (Stain-resistant)
+Electronic Parking Brake w/ Automatic Vehicle Hold                                            Heated front seats (with physical button operation) w/ thin seat design
+Regenerative braking control paddles                                                          8-way power driver's seat & 6-way manual passenger seat
+8 airbags - driver/passenger, side (x2), curtain (x2), and rear side (x2)                     Center console with storage compartment and armrest
+Regenerative Braking System w/ Anti-lock Braking System & Brake Assist                        Front driver & passenger seat seatback pockets, FR & RR door pocket storage compartments
+Forward Collision-Avoidance Assist w/ Car/Pedestrian/Cyclist & Junction Turning Detection     Rear-seat center armrest w/ cupholders
+Blind-Spot Collision Warning (BCW) / Safe Exit Assist                                         60/40 Split Fold-Down Manual Sliding 2nd Row Bench Seat with Reclining Seatback
+Lane Keeping Assist & Lane Following Assist                                                   Front under hood storage tray
+Forward Attention Warning (In-Cabin Camera/Driver Monitoring System)                          Cargo hooks and cargo-area light
+Steering wheel haptic feedback (for LKA and BCA), hands-on detection                          Highway Driving Assist 1 (HDA 1) and Smart Cruise Control with Stop & Go 2
+Driver Attention Warning,                                                                     Navigation-based Smart Cruise Control with Curve Control
+Power child door locks and Rear Occupant Alert (door logic-type)                              Remote Keyless Entry System w/ Alarm & Immobilizer; Proximity Key w/ Push Button Start
+Seatbelt reminder (all seating positions)                                                     Dual Voltage ICCB charging cable
+Seatbelt pretensioners and load limiters (front and rear outboard)                            NACS --> CCS Adapter
+Vehicle Stability Management w/ ESC and TCS                                                   12.3-inch ccNC Navigation with 6-speaker audio system including AM/FM/HD Radio®/SiriusXM®
+Hillstart Assist Control                                                                      Over-the-Air (OTA) Controller ECU and Map/Multimedia software update capability
+Rearview camera                                                                               Wireless Android AutoTM & Apple CarPlay® integration
+Rear Cross-Traffic Collision-Avoidance Assist                                                 Bluelink+ Connected Car System with Remote Charge Access; Vehicle Wi-Fi Hotspot
+Parking Distance Warning ­ Reverse/Forward                                                    Bluetooth® w/ Phonebook Transfer; Hyundai Pay
+Tire Pressure Monitoring System (TPMS) w/ Individual Tire Pressure Indicators                 Dynamic Voice Recognition
+Tire Mobility Kit (TMK)                                                                       1 front USB-C data/charging port and 2 front USB-C charging ports, 2 rear USB-C charging ports
+MFR LED headlights w/ auto-on/off and High Beam Assist                                        1 x 12V power outlet in front and 1 x 12V power outlet in cargo area
+LED Daytime Running Lights (DRLs)
+Aero wiper blades & shark fin roof antenna, active grille shutters                            Digital Mobility Features available on all 26MY IONIQ 5 trims and 26MY IONIQ 5 N:
+19-inch alloy wheels                                                                            Hyundai Pay | Alexa (available via future OTA update) | Google Place API | Chat GPT | Wi-Fi+ Streaming
+Dual heated side mirrors w/ LED turn signal indicators
+Acoustic Laminated Solar Front Glass and Rear Privacy Glass
+
+                                                                                                                                                                                                        1 of 4
+                                                                                                                                                                                      27MY IONIQ 5
+
+                                                                                                                                                                    Effective: August 3, 2026 (2027A)
+
+IONIQ 5 SE RWD (I51ARZHZW5AZ)                                                                             84.0 kWh battery
+In addition to or in place of SE RWD Standard Range equipment:
+                                                                                                          Power Front Seats
+Electric powertrain ­ 225 hp (168 kW output rear-mounted motor)                                           Power windows with front auto-down/up
+                                                                                                          Rear air conditioning vents
+IONIQ 5 SEL RWD (I54ARZHZW5AZ)                                                                            Hands-free power liftgate w/ auto-open
+In addition to or in place of SE RWD equipment:                                                           Highway Driving Assist 2
+                                                                                                          Roof side rails
+Additional FCA functions - Lane Change Oncoming, Lane Change Side Detection, and Evasive Steering Assist
+Blind-Spot Collision-Avoidance Assist                                                                     Soft touch door trim
+Acoustic laminated rear side window glass                                                                 Steering wheel airbag cover lighting
+Auto-dimming inside rearview mirror                                                                       Ventilated front seats
+Wireless phone charger                                                                                    Driver seat with "Relaxation" function
+H-Tex®-trimmed seating surfaces                                                                           Digial Rearview Mirror w/ HomeLink®
+                                                                                                          Rear Door Sunshades
+IONIQ 5 Limited RWD (I56ARZHZW5AZ)                                                                        Premium door sill plates
+In addition to or in place of SEL RWD equipment:                                                          Sliding center console
+                                                                                                          Rear side windows auto-down/up;
+Blind-Spot View Monitor                                                                                   2nd row adjustable head restraints
+Surround View Monitor                                                                                     Vehicle-to-Load (V2L) two-way on-board charger (2nd row)
+Parking Distance Warning - Side                                                                           Remote Smart Parking Assist 2
+Parking Collision-Avoidance Assist ­ Reverse/Forward/Side                                                 Heated steering wheel
+Advanced Rear Occupant Alert (radar-type)                                                                 Heated rear seats
+Premium front LED Accent Lighting - "V" lights bars                                                       Bose® premium audio system (8-speaker)
+Premium gloss black exterior touches                                                                      Hyundai Digital Key 2 Premium
+"Vision Roof" Panoramic Fixed Glass Sunroof
+Gloss Black DLO Molding
+Black high-gloss mirror accents
+Power folding side mirrors
+Full projector-type LED headlights
+Differentiated H-Tex®-trimmed seating surfaces
+Rain-sensing front windshield wipers
+Head-up Display
+Integrated Memory System for driver seat
+Ambient interior lighting
+
+                                                                                                                                                                    2 of 4
+                                                                                                                                           27MY IONIQ 5
+
+                                                                                                                         Effective: August 3, 2026 (2027A)
+
+IONIQ 5 SE AWD (I51AAYCZW5AZ)                                  Heat pump (heater)
+In addition to or in place of SE RWD equipment:
+                                                               Heat pump (heater)
+AWD Dual Motor (74 kW + 165 kW) Electric Powertrain ­ 320 hp
+HTRAC liftgate badge                                           Power folding Side Mirrors
+                                                               Black high-gloss mirrors
+IONIQ 5 SEL AWD (I54AAYCZW5AZ)                                 Liftgate "IONIQ 5" letters in black relief
+In addition to or in place of SEL RWD equipment:               HTRAC liftgate badge
+                                                               Full projector-type LED headlights
+AWD Dual Motor (74 kW + 165 kW) Electric Powertrain ­ 320 hp   H-Tex® seating surfaces with XRT-unique patterning
+HTRAC liftgate badge                                           XRT-specific differentiation similar to N Line
+                                                               XRT badging and logos in select places
+IONIQ 5 XRT AWD (I55AAYCZW5AZ)                                 Unique XRT-specific color accents and treatment
+In addition to or in place of SEL AWD equipment:               2nd row adjustable head restraints
+                                                               Vehicle-to-Load (V2L) two-way on-board charger (2nd row)
++23mm suspension lift with unique tuning                       Remote Smart Parking Assist 2
+18" XRT-exclusive wheel design with all-terrain tires          Bose® premium audio system (8-speaker)
+Terrain Mode Select (Mud, Snow, Sand)                          Hyundai Digital Key 2 Premium
+Blind-Spot View Monitor
+Surround View Monitor                                          20-inch alloy wheels
+Parking Distance Warning ­ Side                                Heat pump (heater)
+Parking Collision-Avoidance Assist ­ Reverse/Forward/Side
+Advanced Rear Occupant Alert (radar-type)
+XRT-exclusive unique front and rear fascias
+Gloss Black DLO Molding
+XRT-exclusive Black "V" accent trim on front and rear fascias
+XRT-exclusive Black Side Sills
+Black "H" logo badges on hood & liftgate (e.g., OS PE N)
+XRT logo debossed into rear bumper (right side)
+
+IONIQ 5 XRT AWD w/ Tow Hitch (I5CAAYCZW5AZ)
+In addition to or in place of XRT AWD equipment:
+
+Tow Hitch | Tow Rating 2,700 lbs.
+
+IONIQ 5 Limited AWD (I56AAYCZW5AZ)
+In addition to or in place of SEL RWD equipment:
+
+AWD Dual Motor (74 kW + 165 kW) Electric Powertrain ­ 320 hp
+HTRAC liftgate badge
+
+                                                                                                                         3 of 4
+Accessories                                   Accessory Code                          MSRP         Chargeable Colors                                Color Name            Code                           27MY IONIQ 5
+                                                                                                   Premium Exterior Colors
+Cargo Blocks                                           CB                              $30         Matte Exterior Colors                             Cyber Gray           C5G          Effective: August 3, 2026 (2027A)
+First Aid Kit                                          FK                              $45                                                          Ultimate Red           R2P                              MSRP
+Cargo Net                                              CN                              $60
+Charging Port Applique                                 CP                              $65                                                            Atlas White Matte   WAM                                $500
+Wheel Locks                                           WL                               $75                                                          Ecotronic Gray Matte  NET
+Road Side Assistance Kit                               EK                              $75                                                                                                                  $1,000
+Severe Weather Kit                                    SW                               $80
+Cargo Organizer                                        CO                              $130
+Mudguards                                             MG                               $145
+Cargo Mat, Up Seatback                                CM                               $165
+Alloy Door Scuff Plates                                ID                              $195
+Cargo Cover                                            CV                             $205
+Vehicle to Load Adapter (NACS)                         LA                             $235
+Carpeted Floor Mats                                    CF                             $240
+All Season Fitted Liners                               FL                             $250
+Cross Rails                                            TR                             $425
+Tow Hitch                                              TT                             $480
+
+Cargo Package (CM,CB)                         C1                                      $195
+
+Seating Surface Material & Color Combinations
+
+                                        Seating Surface Material               SE                                    SEL                     XRT                          Limited
+                                                                                                                   H-TexTM                 H-TexTM                        H-TexTM
+                                                                               Cloth                   NNB
+                                                                                                       Black                                 NNB                               YGN
+                                        Color Combinations          NNB               YGN          A2B - NNB                     YGN         Black      NNB               Gray 2-Tone           VKE
+                                                                                                   C5G - NNB                Gray 2-Tone  A2B - NNB      Black              A2B - YGN   Dark Green 2-Tone
+                                                                    Black             Gray 2-Tone  SAW - NNB                 A2B - YGN   C5G - NNB  A2B - NNB              C5G - YGN
+                                                                                                   M9U - NNB                 C5G - YGN   SAW - NNB  C5G - NNB             SAW - YGN         A2B - VKE
+                                        A2B   Abyss Black           A2B - NNB         A2B - YGN    U3P - NNB                SAW - YGN    M9U - NNB  SAW - NNB                               C5G - VKE
+                                        C5G   Cyber Gray                                           WAM - NNB                M9U - YGN               M9U - NNB                    -          SAW - VKE
+                                        SAW   Atlas White           C5G - NNB         C5G - YGN    NET - NNB                 U3P - YGN          -   U3P - NNB              U3P - YGN        M9U - VKE
+                                        M9U   Digital Teal                                         R2P - NNB                WAM - YGN           -   WAM - NNB             WAM - YGN
+                                        U3P   Lucid Blue            SAW - NNB         SAW - YGN           -                  NET - YGN          -   NET - NNB              NET - YGN               -
+                                        WAM   Atlas White Matte                                                              R2P - YGN   R2P - NNB   R2P - NNB             R2P - YGN              -
+                                        NET   Ecotronic Gray Matte  M9U - NNB         M9U - YGN                                          MC5 - NNB                        MC5 - YGN               -
+                                         R2P  Ultimate Red                                                                         -                       -                                      -
+                       Exterior Colors  MC5   Cosmic Blue Pearl     U3P - NNB         U3P - YGN                                                                                                   -
+
+                                                                    -                 -
+
+                                                                    -                 -
+
+                                                                    -                 -
+
+                                                                    -                 -
+
+Disclaimer & Freight Charge
+
+Prices, equipment and specifications subject to change without notice. All prices are F.O.B. Port of Entry. Freight, state and local taxes, advertising and promotional fees, if any, are additional. Freight charges of $1,650 will be added to the
+dealer invoice and Monroney label on all models. Suggested retail prices include pre-delivery services.
+
+                                                                                                                                                                                                          4 of 4
+

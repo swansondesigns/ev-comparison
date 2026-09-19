@@ -1,0 +1,166 @@
+{
+  "make": "Hyundai",
+  "model": "Ioniq 5",
+  "variants_folded_in": ["Ioniq 5 N"],
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 183.3,
+    "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2027 IONIQ 5 Features and Specifications, Exterior (inches), 'All' column; no XRT exception is given for length. Text extraction offsets values one row from labels (sources/hyundai-2027-ioniq-5-specs-features.txt); the reading is confirmed by C/D's figures. Ioniq 5 N (folded in) is longer: C/D's 2025 Ioniq 5 N test lists 185.6 in (sources/cd-hyundai-ioniq-5-n-2026.html); no Hyundai figure fetched for the N.",
+    "cross_check": [
+      { "value": 183.3, "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs", "retrieved": "2026-09-19", "note": "2026 SE Standard Range RWD" }
+    ]
+  },
+  "width_in": {
+    "value": 74.4,
+    "with_mirrors": null,
+    "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width'; the sheet doesn't say whether mirrors are included. C/D lists the same figure as width without mirrors. Ioniq 5 N: 76.4 in per C/D's 2025 test.",
+    "cross_check": [
+      { "value": 74.4, "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "label": "SE, SEL, XRT, Limited",
+    "trims": ["SE AWD", "SEL AWD", "XRT AWD", "XRT AWD w/ Tow Hitch", "Limited AWD"],
+    "not_awd": ["SE RWD Standard Range", "SE RWD", "SEL RWD", "Limited RWD"],
+    "source": "https://www.hyundainews.com/assets/applications/original/72889-27my-ioniq-5-pricing-3-aug-2026-1.pdf",
+    "retrieved": "2026-09-19",
+    "note": "27MY IONIQ 5 model list, Drivetrain column (prices not recorded). Ioniq 5 N is AWD per C/D."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.hyundainews.com/api/press-kits/2027-ioniq-5-overview",
+    "retrieved": "2026-09-19",
+    "note": "2027 press kit: 'standard North American Charging Standard (NACS) port'; 'Native NACS charging port'. Pricing sheet lists 'NACS --> CCS Adapter' in the base package. Ioniq 5 N (folded in): Hyundai's Dec. 23, 2024 adapter release lists the '2025 IONIQ 5 N' among CCS-port models (sources/hyundai-api-2025-kona-electric-releases.json); no N port source for 2026 or later."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": "2026-08-03",
+    "source": "https://www.hyundainews.com/assets/applications/original/72889-27my-ioniq-5-pricing-3-aug-2026-1.pdf",
+    "retrieved": "2026-09-19",
+    "note": "27MY pricing 'Effective: August 3, 2026'. The press kit doesn't give an on-sale date; the effective pricing date is used as the nearest sourced indicator. 2026 model is the year ranked by C/D, MotorTrend and Edmunds."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "SE AWD, SEL AWD", "epa_vehicle": "Ioniq 5 AWD (19inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 290, "epa_id": 50642, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50642", "retrieved": "2026-09-19" },
+      { "applies_to": "Limited AWD", "epa_vehicle": "Ioniq 5 AWD (20inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 269, "epa_id": 50643, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50643", "retrieved": "2026-09-19" },
+      { "applies_to": "XRT AWD", "epa_vehicle": "Ioniq 5 AWD XRT", "drive": "AWD", "value": 259, "epa_id": 50644, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50644", "retrieved": "2026-09-19" },
+      { "applies_to": "SE RWD, SEL RWD, Limited RWD", "epa_vehicle": "Ioniq 5 RWD", "drive": "RWD", "value": 318, "epa_id": 50645, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50645", "retrieved": "2026-09-19" },
+      { "applies_to": "SE RWD Standard Range", "epa_vehicle": "Ioniq 5 Standard range", "drive": "RWD", "value": 245, "epa_id": 50646, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50646", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA lists no 2027 Ioniq 5 N, so the folded-in N has no range here. Trim mapping from Hyundai's spec sheet ('SE/SEL: 290 miles', 'Limited: 269', 'XRT: 259')."
+  },
+  "trims": {
+    "list": [
+      { "name": "SE RWD Standard Range", "drive": "RWD" },
+      { "name": "SE RWD", "drive": "RWD" },
+      { "name": "SEL RWD", "drive": "RWD" },
+      { "name": "Limited RWD", "drive": "RWD" },
+      { "name": "SE AWD", "drive": "AWD" },
+      { "name": "SEL AWD", "drive": "AWD" },
+      { "name": "XRT AWD", "drive": "AWD" },
+      { "name": "Limited AWD", "drive": "AWD" }
+    ],
+    "source": "https://www.hyundainews.com/assets/applications/original/72889-27my-ioniq-5-pricing-3-aug-2026-1.pdf",
+    "retrieved": "2026-09-19",
+    "note": "27MY pricing model list; XRT AWD also comes 'w/ Tow Hitch'. Ioniq 5 N (folded in) has no 2027 listing."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "SE RWD Standard Range", "kwh": 63, "basis": "not stated", "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19", "note": "'Battery System Capacity' 63.0 kWh." },
+      { "applies_to": "All other versions", "kwh": 84, "basis": "not stated", "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19", "note": "'Battery System Capacity' 84.0 kWh ('RWD and AWD')." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "AWD (tested by C/D)", "value": 250, "secondary": true, "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "note": "C/D test sheet 'Peak DC Fast-Charge Rate: 250 kW' (84.0-kWh dual-motor car). Hyundai's own sheet gives charger ratings only: 'kW rates listed are max rates for chargers - not actual vehicle charging rates'." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      {
+        "applies_to": "84.0 kWh versions",
+        "minutes": 20,
+        "charger_kw": 250,
+        "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf",
+        "retrieved": "2026-09-19",
+        "note": "'DC Fast Charging: >250kW (800V) (from 10% 80% charge)' 20 min, listed under 'w/CCS Adapter'. charger_kw is the stated floor. The press kit also says 'approximately 24 minutes' via CCS adapter on a 350-kW charger.",
+        "cross_check": [
+          { "value": 24, "source": "https://www.hyundainews.com/api/press-kits/2027-ioniq-5-overview", "retrieved": "2026-09-19", "note": "350-kW charger via CCS adapter" }
+        ]
+      },
+      { "applies_to": "84.0 kWh versions", "minutes": 30, "charger_kw": 150, "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19", "note": "'DC Fast Charging: 150kW (400V)' 30 min, listed under 'Charge Time: NACS'." },
+      { "applies_to": "SE RWD Standard Range", "minutes": 20, "charger_kw": 250, "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19", "note": "'>250kW (800V)' 20 min." },
+      { "applies_to": "SE RWD Standard Range", "minutes": 24, "charger_kw": 150, "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19", "note": "'150kW (400V)' 24 min." }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "SE AWD, SEL AWD, XRT AWD, Limited AWD", "value": "standard", "source": "https://www.hyundainews.com/assets/applications/original/72889-27my-ioniq-5-pricing-3-aug-2026-1.pdf", "retrieved": "2026-09-19", "note": "27MY pricing lists 'Heat pump (heater)' in the AWD versions' equipment; the specs sheet's Heat Pump row reads 'AWD-only' for SE, SEL, XRT and Limited (the row is offset by one line in the text layer)." },
+      { "applies_to": "RWD versions", "value": "not offered", "inferred": true, "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19", "note": "Inferred from 'AWD-only'; the RWD equipment lists don't include it." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 26.3,
+    "seats_down": 58.5,
+    "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Cargo capacity, rear seats up' 26.3 (SAE); 'rear seats folded down' 58.5 (SAE); frunk 0.85. Read from staggered columns."
+  },
+  "turning_circle_ft": {
+    "value": 39.4,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs",
+    "retrieved": "2026-09-19",
+    "note": "Hyundai's sheet has a 'Turning Diameter (curb to curb, ft)' row but its value isn't in the PDF text layer; C/D figure used."
+  },
+  "height_in": {
+    "value": 63,
+    "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Height' 63.0 (64.0 XRT), read from staggered columns."
+  },
+  "ground_clearance_in": {
+    "value": 6.1,
+    "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Minimum Ground Clearance' 6.1 (7.0 XRT), read from staggered columns.",
+    "cross_check": [
+      { "value": 6.1, "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs", "retrieved": "2026-09-19", "note": "Minimum Ground Clearance" }
+    ]
+  },
+  "warranty": {
+    "battery": {
+      "years": 10,
+      "miles": 100000,
+      "text": "10-Year / 100,000-Mile Hybrid/EV Battery Warranty"
+    },
+    "powertrain": {
+      "years": 10,
+      "miles": 100000,
+      "text": "10-Year / 100,000-Mile Powertrain Limited Warranty"
+    },
+    "source": "https://www.hyundaiusa.com/us/en/assurance/america-best-warranty",
+    "retrieved": "2026-09-19"
+  },
+  "highway_tests": [
+    { "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "trim_tested": "Dual Motor AWD", "result_mi": 210, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." },
+    { "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "trim_tested": "XRT AWD", "result_mi": 200, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
+  ],
+  "supercharger_reports": [
+    { "claim": "Hyundai's 2027 spec sheet lists 10-80% in 30 min on a 150 kW (400V) charger under 'Charge Time: NACS', against 20 min on a >250 kW (800V) charger via CCS adapter.", "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19" }
+  ],
+  "notes": [
+    { "tag": "reader", "text": "Hyundai's own figures: 10-80% takes about 30 minutes on a 400-volt charger such as a Tesla Supercharger, against about 20 on the fastest 800-volt chargers." },
+    { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet; Hyundai publishes charger ratings, not the car's peak." }
+  ]
+}

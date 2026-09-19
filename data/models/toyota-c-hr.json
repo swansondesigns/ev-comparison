@@ -1,0 +1,153 @@
+{
+  "make": "Toyota",
+  "model": "C-HR",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 177.9,
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "toyota.com '2027 Toyota C-HR Specifications', 'Overall length: 177.9', both grades in the page's embedded spec data. This is the battery-electric C-HR (Toyota's US C-HR is EV-only for 2026-27).",
+    "cross_check": [
+      { "value": 177.9, "source": "https://www.caranddriver.com/toyota/c-hr/specs", "retrieved": "2026-09-19", "note": "2026 SE AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 73.6,
+    "with_mirrors": null,
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "'Overall width: 73.6'; mirrors not stated. C/D lists the same figure as width without mirrors.",
+    "cross_check": [
+      { "value": 73.6, "source": "https://www.caranddriver.com/toyota/c-hr/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["SE", "XSE"],
+    "source": "https://www.toyota.com/c-hr/",
+    "retrieved": "2026-09-19",
+    "note": "'DRIVETRAIN: Standard All-Wheel Drive (AWD)'. C/D 2026 trims: SE AWD, XSE AWD."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.toyota.com/c-hr/",
+    "retrieved": "2026-09-19",
+    "note": "'C-HR's North American Charging Standard (NACS) port gives you access to ... the Tesla Supercharger Network'; 'separate adapters for CCS and J1772 chargers'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.toyota.com/c-hr/",
+    "retrieved": "2026-09-19",
+    "note": "toyota.com '2027 Toyota C-HR' with starting MSRP; the page also links the 2026 C-HR."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      {
+        "applies_to": "SE",
+        "drive": "AWD",
+        "value": 287,
+        "estimate": true,
+        "source": "https://www.toyota.com/c-hr/",
+        "retrieved": "2026-09-19",
+        "note": "'an EPA-estimated 287-mile range rating for SE'",
+        "cross_check": [
+          { "value": 287, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50307", "retrieved": "2026-09-19", "note": "EPA 2026 C-HR AWD 18inch" }
+        ]
+      },
+      {
+        "applies_to": "XSE",
+        "drive": "AWD",
+        "value": 273,
+        "estimate": true,
+        "source": "https://www.toyota.com/c-hr/",
+        "retrieved": "2026-09-19",
+        "note": "'an EPA-estimated 273-mile range rating for XSE'; XSE has 20-in. wheels",
+        "cross_check": [
+          { "value": 273, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50308", "retrieved": "2026-09-19", "note": "EPA 2026 C-HR AWD 20inch" }
+        ]
+      }
+    ],
+    "note": "EPA has no 2027 C-HR yet (2027 Toyota model menu checked 2026-09-19, sources/fe-menu-model-2027-toyota.xml). Toyota's stated 2027 figures match EPA's 2026 C-HR AWD 18inch and 20inch listings."
+  },
+  "trims": {
+    "list": [
+      { "name": "SE", "drive": "AWD" },
+      { "name": "XSE", "drive": "AWD" }
+    ],
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "toyota.com 2027 C-HR spec table grades 'SE' and 'XSE'; 'Standard All-Wheel Drive (AWD)'. SE has 18-in. wheels, XSE 20-in."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "All trims", "kwh": 74.7, "basis": "gross", "inferred": true, "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/", "retrieved": "2026-09-19", "note": "Toyota's label is 'Total battery capacity (kWh)', read as gross. C/D's test sheet lists 67 kWh as its own estimate; not used." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "All trims", "value": 150, "secondary": true, "source": "https://www.caranddriver.com/toyota/c-hr", "retrieved": "2026-09-19", "note": "C/D test sheet 'Peak Charge Rate, AC/DC: 11.0/150 kW'. No Toyota peak figure on the saved toyota.com pages; pressroom.toyota.com is blocked (Cloudflare)." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      { "applies_to": "All trims", "minutes": 30, "charger_kw": 150, "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/", "retrieved": "2026-09-19", "note": "'DC Fast Charging time (from 10% to 80%, in ideal conditions): ~30 MIN (WITH 150 KW OR ABOVE DCFC)'." }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "All trims", "value": "unknown", "note": "Not listed in toyota.com's 2027 C-HR spec table or on the C-HR overview page." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 25.3,
+    "seats_down": 59.5,
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "'Cargo volume behind rear seat (cu. ft.) (with JBL speakers)' 25.3; 'behind front seat' 59.5. Toyota labels both trims' figures 'with JBL speakers'."
+  },
+  "turning_circle_ft": {
+    "value": 36,
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "'Turning circle diameter, curb-to-curb (ft.)' 36 (whole feet)."
+  },
+  "height_in": {
+    "value": 63.8,
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "'Overall height' 63.8, both grades."
+  },
+  "ground_clearance_in": {
+    "value": 8,
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19",
+    "note": "'Ground clearance (in.)' 8 (whole inches)."
+  },
+  "warranty": {
+    "battery": {
+      "years": 8,
+      "miles": 100000,
+      "text": "Electric Vehicle Drive Components Warranty (Transaxle, Traction Battery, Inverter with Converter): 96 months/100,000 miles"
+    },
+    "powertrain": {
+      "years": 5,
+      "miles": 60000,
+      "text": "Powertrain Warranty: 60 months/60,000 miles"
+    },
+    "source": "https://www.toyota.com/c-hr/2027/features/weights_capacities/",
+    "retrieved": "2026-09-19"
+  },
+  "highway_tests": [
+    { "source": "https://www.caranddriver.com/toyota/c-hr", "retrieved": "2026-09-19", "trim_tested": "XSE", "result_mi": 230, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
+  ],
+  "notes": [
+    { "tag": "reader", "text": "EPA hasn't listed the 2027 C-HR yet. The range shown is Toyota's EPA estimate, which matches EPA's 2026 listing." },
+    { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet; Toyota's pages give only the charger power assumed for the 10-80% time." }
+  ]
+}

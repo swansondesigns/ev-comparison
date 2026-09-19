@@ -1,0 +1,46 @@
+{
+  "make": "Kia",
+  "model": "Niro EV",
+  "length_in": {
+    "value": 174.0,
+    "source": "https://www.kiamedia.com/us/en/models/niro-ev/2026/specifications",
+    "retrieved": "2026-09-19",
+    "note": "2026 Niro EV Specifications, Wind and Wave.",
+    "cross_check": [
+      { "value": 174.0, "source": "https://www.caranddriver.com/kia/niro-ev/specs", "retrieved": "2026-09-19", "note": "2026 Wind FWD" }
+    ]
+  },
+  "width_in": {
+    "value": 71.8,
+    "with_mirrors": null,
+    "source": "https://www.kiamedia.com/us/en/models/niro-ev/2026/specifications",
+    "retrieved": "2026-09-19",
+    "note": "'Width (in.)'; mirrors not stated.",
+    "discrepancy": "C/D lists 71.9 in (0.1 in more). Not gate-relevant.",
+    "cross_check": [
+      { "value": 71.9, "source": "https://www.caranddriver.com/kia/niro-ev/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "none",
+    "trims": [],
+    "not_awd": ["Wind", "Wave"],
+    "source": "https://www.kiamedia.com/us/en/models/niro-ev/2026/specifications",
+    "retrieved": "2026-09-19",
+    "note": "Kia's spec table lists a single motor for both trims and no AWD option. C/D's 2026 spec page lists drivetrain 'Front Wheel Drive'."
+  },
+  "charge_port": {
+    "value": null,
+    "source": "https://www.kiamedia.com/us/en/models/niro-ev/2026",
+    "retrieved": "2026-09-19",
+    "note": "Connector type not stated on Kia's 2026 Niro EV overview or spec pages, or the 2025 overview. Not gate-relevant (no AWD)."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.kiamedia.com/us/en/models/niro-ev/2026",
+    "retrieved": "2026-09-19",
+    "note": "2026 Niro EV pricing release, January 26, 2026."
+  }
+}

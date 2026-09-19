@@ -1,0 +1,39 @@
+{
+  "make": "Chevrolet",
+  "model": "Equinox EV",
+  "length_in": {
+    "value": 190.55,
+    "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2027/chevrolet_equinox-ev_chevrolet-equinox-ev_2027",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D 2027 Equinox EV RS. Chevrolet's 2027 Equinox EV page has no dimensions in text; the Chevrolet newsroom is client-rendered. Same figure on C/D's 2026 page."
+  },
+  "width_in": {
+    "value": 76.94,
+    "with_mirrors": false,
+    "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2027/chevrolet_equinox-ev_chevrolet-equinox-ev_2027",
+    "retrieved": "2026-09-19",
+    "note": "C/D 'Width, without mirrors', 2027."
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["LT1 AWD", "RS AWD"],
+    "not_awd": ["LT1 FWD", "RS FWD"],
+    "source": "https://www.chevrolet.com/electric/equinox-ev",
+    "retrieved": "2026-09-19",
+    "note": "Chevrolet 2027 page: '307 miles of range on available AWD models'. Trim list is from the page's savings calculator, which lists 2026 models (RS AWD, LT1 AWD, RS FWD, LT1 FWD); 2027 AWD trims not itemized."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.chevrolet.com/electric/equinox-ev",
+    "retrieved": "2026-09-19",
+    "note": "2027 page: 'the new standard NACS charging port expands access to more charging stations'. 'New' implies earlier model years had a different port; applies to 2027."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.chevrolet.com/electric/equinox-ev",
+    "retrieved": "2026-09-19",
+    "note": "Chevrolet page titled '2027 Equinox EV' with starting price; Chevrolet's EV hub links 2026 Equinox EV configurator and inventory."
+  }
+}

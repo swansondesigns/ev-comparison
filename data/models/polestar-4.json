@@ -1,0 +1,50 @@
+{
+  "make": "Polestar",
+  "model": "4",
+  "length_in": {
+    "value": 190.5,
+    "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar US tech specs, '(C) Car length'.",
+    "cross_check": [
+      { "value": 190.5, "source": "https://www.caranddriver.com/polestar/polestar-4/specs", "retrieved": "2026-09-19", "note": "2026 Long Range Dual Motor" }
+    ]
+  },
+  "width_in": {
+    "value": 81.4,
+    "with_mirrors": "folded",
+    "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar gives only '(I) Car width, mirrors folded: 81.4 in' and '(J) Car width, mirrors extended: 84.2 in'; no body width without mirrors. Not comparable with other models' mirrorless widths. C/D's 'without mirrors' figure (81.4) matches the mirrors-folded number.",
+    "cross_check": [
+      { "value": 81.4, "source": "https://www.caranddriver.com/polestar/polestar-4/specs", "retrieved": "2026-09-19", "note": "Labelled 'Width, without mirrors'" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Dual motor", "Dual motor with Performance pack"],
+    "not_awd": ["Rear motor"],
+    "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Drivetrain': Rear motor 'Rear-wheel drive'; Dual motor 'All-wheel drive'."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": "sold",
+      "note": "'NACS adapters are available for purchase from a Polestar Service Point.'"
+    },
+    "source": "https://www.polestar.com/us/polestar-4/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar doesn't name the port; CCS1 inferred from NACS adapters being sold for Supercharger access."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.polestar.com/us/polestar-4/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar US page offers leases on a 'new 2026 Polestar 4 Dual motor' and links stock cars."
+  }
+}

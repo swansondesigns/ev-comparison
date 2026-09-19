@@ -1,0 +1,44 @@
+{
+  "make": "Genesis",
+  "model": "Electrified GV70",
+  "length_in": {
+    "value": 185.6,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6671-2027-electrified-gv70-features-and-specs-1.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2027 Electrified GV70 Features & Specifications. Text extraction offsets values three rows from labels (sources/genesis-2027-electrified-gv70-features-specs.txt); reading confirmed by C/D.",
+    "cross_check": [
+      { "value": 185.6, "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs", "retrieved": "2026-09-19", "note": "2026 19\" AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 75.2,
+    "with_mirrors": false,
+    "source": "https://www.genesisnewsusa.com/assets/applications/original/6671-2027-electrified-gv70-features-and-specs-1.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width (excludes mirrors)'.",
+    "cross_check": [
+      { "value": 75.2, "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["Electrified GV70 19\" AWD", "Electrified GV70 Advanced 20\" AWD", "Electrified GV70 Prestige 20\" AWD"],
+    "source": "https://www.genesisnewsusa.com/api/press-kits/2027-electrified-gv70-overview",
+    "retrieved": "2026-09-19",
+    "note": "2027 trim list, all AWD. Spec sheet 'Drive System: AWD'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
+    "retrieved": "2026-09-19",
+    "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.genesisnewsusa.com/api/models/2027-electrified-gv70",
+    "retrieved": "2026-09-19",
+    "note": "2027 model page published Jul 28, 2026 with trim pricing; 2026 page published Feb 19, 2026. No explicit on-sale date found; treated as on sale (continuing model)."
+  }
+}

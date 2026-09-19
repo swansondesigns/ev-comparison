@@ -1,0 +1,164 @@
+ 2027 Audi Q6 e-tron and SQ6 e-tron     Q6 e-tron quattro®                                                         SQ6 e-tron
+
+Technical Specifications                Two electric motors:                                                       Two electric motors:
+                                        Front - Asynchronous (ASM) / Rear - Permanently-Excited Synchronous (PSM)  Front - Asynchronous (ASM) / Rear - Permanently-Excited Synchronous (PSM)
+Motor/Electrics1                        422                                                                        483
+                                        456                                                                        509
+Electric Motor Type
+Nominal Horsepower (hp)                                                                                            800V Lithium Ion
+Peak Power w/ Launch Control (hp)                                                                                  180 Prismatic Cells, 12 Modules
+                                                                                                                   Aluminum Battery Case Reinforced with Extruded Aluminum Cross-Sections
+Battery & Charging2                     800V Lithium Ion                                                           100 kWh
+                                        180 Prismatic Cells, 12 Modules                                            94.4 kWh
+Battery Type                            Aluminum Battery Case Reinforced with Extruded Aluminum Cross-Sections     AC/DC Combo Port
+Battery Pack Construction               100 kWh                                                                    J1772 / CCS
+Battery Size (Gross)                    94.4 kWh                                                                   AC Port
+Battery Size (Net)                      AC/DC Combo Port                                                           J1772
+Charge Port (Driver side)               J1772 / CCS                                                                up to 9.6 kW / 270 kW
+                                                                                                                   12 hours
+Charge Port (Passenger side)            AC Port                                                                    21 minutes (10% - 80% charge)
+Max Charging Capacity AC / DC           J1772
+Level 2 Charging (9.6 kW - 240V @ 40A)  up to 9.6 kW / 270 kW                                                      Single Front / Single Rear Motor
+DC Fast Charging (270 kW)               12 hours                                                                   All-Wheel Drive
+                                        21 minutes (10% - 80% charge)                                              Single-Speed
+
+Drivetrain                                           Single Front / Single Rear Motor                              9.191 (front) / 9.242 (rear)
+                                                     All-Wheel Drive
+Configuration                                        Single-Speed
+Driven Wheels
+Transmission                            Final 9.191 (front) / 9.242 (rear)
+Gear Ratios :1
+
+UPDATED 8/3/26 Specifications, equipment, options, and prices are subject to change without notice.                                                                                           1 of 4
+
+Public
+
+#
+ 2027 Audi Q6 e-tron and SQ6 e-tron
+
+Technical Specifications
+
+Performance3
+
+Top Track Speed (mph)2               130                                                                                   143
+                                                                                                                           230
+Top Track Speed (kph)2               210                                                                                   4.1
+                                                                                                                           4.3
+0-60 mph (secs.) Est.                4.9
+                                                                                                                           Mixed steel/aluminum construction
+0-100 kph (secs.) Est.               5.1                                                                                   5-link design front suspension // 5-link design rear suspension
+                                                                                                                           Front: Fixed caliper / Rear: Floating caliper with integrated electric parking brake
+Body / Chassis / Suspension          Mixed steel/aluminum construction                                                     Six-piston caliper
+                                     5-link design front suspension // 5-link design rear suspension                       14.8" (375mm) ventilated steel discs
+Body Construction                    Front: Fixed caliper / Rear: Floating caliper with integrated electric parking brake  Single-piston caliper
+Suspension (standard)                Four-piston caliper                                                                   13.8" (350mm) ventilated steel discs
+Brake Construction                   13.8" (350mm) ventilated steel discs                                                  Standard, all four wheels, with Electronic Brakeforce Distribution (EBD)
+                                                                                                                           Standard Electronic Stability Control (ESC)
+Front Brakes                         Single-piston caliper                                                                 Electro-mechanical
+                                     13.8" (350mm) ventilated steel discs                                                  0.32
+Rear Brakes                          Standard, all four wheels, with Electronic Brakeforce Distribution (EBD)
+                                     Standard Electronic Stability Control (ESC)                                           20" 10-spoke-trapezoid design, bi-color
+Anti-Lock Braking System             Electro-mechanical                                                                    21" 5-Y-spoke-dynamic design, bi-color
+Stability Control                    0.33
+Parking Brake                                                                                                              255/50 R20 109H XL front / 285/45 R20 112H XL rear all-season run flat
+Drag Coefficient (Cd.)                                                                                                     255/45 R21 106W XL front / 285/40 R21 109W XL rear summer
+
+Wheels / Tires                       19" 5-double-spoke-dynamic design, bi-color
+                                     20" 5-double-spoke offset design, bi-color
+Wheels (Standard)                    20" 5-arm-structure design, bi-color
+Wheels (Optional)                    235/60 R19 107H XL front / 255/55 R19 111H XL rear all-season
+Wheels (Optional)                    255/50 R20 109H XL front / 285/45 R20 112H XL rear all-season run flat
+Tires (Standard)
+Tires (Optional)4
+
+UPDATED 8/3/26 Specifications, equipment, options, and prices are subject to change without notice.                                                                                                              2 of 4
+
+Public
+
+#
+ 2027 Audi Q6 e-tron and SQ6 e-tron          Q6 e-tron quattro®                                                        SQ6 e-tron
+
+Technical Specifications                     Electromechanical progressive steering with speed-sensitive power assist  Electromechanical progressive steering with speed-sensitive power assist
+                                             39.7                                                                      39.7
+Steering                                     16.3                                                                      16.3
+
+Type                                                                                                                   113.8
+Turning Circle (ft. Curb-to-Curb)                                                                                      187.9
+Ratio :1                                                                                                               66.8
+                                                                                                                       86.3
+Exterior Dimensions                          113.7                                                                     76.3
+                                             187.8                                                                     5,390
+Wheelbase (in.)                              66.6                                                                      4,400
+Length (in.)                                 86.3
+Height (in.)                                 76.3                                                                      SUV
+Overall Width with Mirrors (in.)             5,236                                                                     5
+Overall Width without Mirrors (in.)          4,400                                                                     38.5
+Curb Weight (lbs.)                                                                                                     38.4
+Towing Capacity (lbs.)                                                                                                 39.4
+                                                                                                                       37.4
+Interior Dimensions                          SUV                                                                       58.7
+                                             5                                                                         56.8
+EPA Class                                    38.5                                                                      30.2 / 60.4
+Seating                                      38.4
+Headroom, Front (in.)                        39.8
+Headroom, Rear (in.)                         37.4
+Legroom, Front (in.)                         58.7
+Legroom, Rear (in.)                          56.8
+Shoulder Room, Front (in.)                   30.2 / 60.2
+Shoulder Room, Rear (in.)
+Cargo Volume Behind Row 1 / Row 2 (cu. ft.)
+
+UPDATED 8/3/26 Specifications, equipment, options, and prices are subject to change without notice.                                                                                              3 of 4
+
+Public
+
+#
+ 2027 Audi Q6 e-tron and SQ6 e-tron    325 (w/19" wheel)                                                                    285 (w/20" wheel)
+                                       110 (w/19" wheel)                                                                    97 (w/20" wheel)
+Technical Specifications               97 (w/19" wheel)                                                                     87 (w/20" wheel)
+                                       104 (w/19" wheel)                                                                    92 (w/20" wheel)
+Efficiency5                            ZEV                                                                                  ZEV
+
+EPA Estimated Range (Mi.)                                                                                                   First 3 years / 30,000 mi. of ownership, whichever occurs first
+MPG/MPGe (City)                                                                                                             4 year / Unlimited mileage
+MPG/MPGe (Highway)                                                                                                          4 year / 50,000 mi., whichever occurs first
+MPG/MPGe (Combined)                                                                                                         8 Years / 100,000 Miles (whichever occurs first), 70% retention of battery capacity
+EPA Rating
+
+New Owner Benefits6                    First 3 years / 30,000 mi. of ownership, whichever occurs first
+                                       4 year / Unlimited mileage
+Scheduled Maintenance                  4 year / 50,000 mi., whichever occurs first
+Roadside Assistance                    8 Years / 100,000 Miles (whichever occurs first), 70% retention of battery capacity
+New Vehicle Limited Warranty
+High Voltage Battery Limited Warranty
+
+Pricing7                               $64,500                                                                              $73,200
+                                       $1,395                                                                               $1,395
+Starting MSRP (USD)                    $65,895                                                                              $74,595
+Destination and Delivery (USD)
+Total Starting MSRP (USD)
+
+Additional notes
+
+1 Maximum HP calculated via peak performance of the electric motor(s) at peak battery power, and is only available under certain limited conditions, including, but not limited to, battery temperature and state of charge. Your results will vary. See Owner's Manual for further details and limitations.
+2 Charging times will vary and depend on a variety of factors, including ambient temperature, charger type, battery condition and initial state of charge, vehicle condition and others. Frequent and consecutive fast charging can permanently decrease battery capacity.
+3 Always obey all local speed and traffic laws. Top track speed electronically limited in U.S.
+
+4 Summer performance tires may ride less comfortably, make more noise, and wear more quickly than other choices. To avoid tire, rim, or vehicle damage, it is important that inflation pressure is regularly checked and maintained at optimum levels. High-performance tires are designed for optimum performance and
+handling in warm climates and are not suitable for cold, snowy, or icy weather conditions. When driving during cold, snowy, or icy weather conditions, ensure that your vehicle is equipped with appropriate all-season or winter weather tires. Tires are supplied and warranted by their manufacturer.
+
+5 2027 Audi Q6 e-tron EPA estimated range is 325 miles (w/19" wheel). 2027 Audi SQ6 e-tron EPA estimated range is 285 miles (w/20" wheel). Actual range and mileage will vary and depend on several factors including driving and charging habits, accessory use, temperature and topography, battery age, load, and
+vehicle condition. Battery capacity decreases with time and use. See owner's manual for details.
+
+6 Additional details and coverage information for Audi Signature Care scheduled maintenance are provided within the 2027 Warranty and Maintenance booklet. Audi Signature Care honored at all authorized U.S. Audi dealerships. Actual scheduled maintenance services vary based on vehicle model, model year, and
+mileage. See vehicle Owner's Manual for details. Replacement parts and labor may cost additional. Roadside Assistance provided by an authorized third party. May require additional payment for services rendered. Visit https://www.audiusa.com/en/support/help/roadside-assistance/ for covered services, limitations
+and additional details. 4 years/50,000 miles (whichever occurs first) New Vehicle Limited Warranty on all new MY27 Q6/SQ6 e-tron vehicles. See owner's literature or dealer for warranty exclusions and limitations.
+
+7 Starting MSRP pricing excludes destination, taxes, title, other options and dealer charges. Dealer sets actual price.
+
+UPDATED 8/3/26 Specifications, equipment, options, and prices are subject to change without notice.                                                                                                                                                                                                                      4 of 4
+
+Public
+
+#
+

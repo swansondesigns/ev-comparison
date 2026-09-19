@@ -1,0 +1,39 @@
+{
+  "make": "Cadillac",
+  "model": "Optiq",
+  "length_in": {
+    "value": 189.8,
+    "source": "https://www.caranddriver.com/cadillac/optiq/specs/2027/cadillac_optiq_cadillac-optiq_2027",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D 2027 Optiq Premium Luxury. Cadillac's 2027 Optiq page has no dimensions in text. Same figure on C/D's 2026 page."
+  },
+  "width_in": {
+    "value": 75.3,
+    "with_mirrors": false,
+    "source": "https://www.caranddriver.com/cadillac/optiq/specs/2027/cadillac_optiq_cadillac-optiq_2027",
+    "retrieved": "2026-09-19",
+    "note": "C/D 'Width, without mirrors', 2027."
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Dual motor AWD (available feature on Luxury and Sport trims)"],
+    "not_awd": ["Base RWD"],
+    "source": "https://www.cadillac.com/electric/optiq",
+    "retrieved": "2026-09-19",
+    "note": "Cadillac 2027 page: 'AVAILABLE DUAL MOTOR AWD'; 'Dual motor AWD with EPA-estimated 303 miles of range' listed under available features; range headline marked 'EPA estimated (RWD)'. The Optiq-V (separate C/D submodel) is not covered here."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.cadillac.com/electric/optiq",
+    "retrieved": "2026-09-19",
+    "note": "Key standard features: 'North American Charging System (NACS) onboard charge port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.cadillac.com/electric/optiq",
+    "retrieved": "2026-09-19",
+    "note": "Cadillac page titled '2027 OPTIQ | Small Electric SUV' with pricing, dealer and trade-in links."
+  }
+}

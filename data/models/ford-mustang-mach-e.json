@@ -1,0 +1,45 @@
+{
+  "make": "Ford",
+  "model": "Mustang Mach-E",
+  "length_in": {
+    "value": 185.6,
+    "source": "https://www.ford.com/suvs/mach-e/",
+    "retrieved": "2026-09-19",
+    "note": "Ford.com 2026 specs table 'Length (in.)': Select 185.6, Premium 185.6, GT 187, Rally 187. (The page's FAQ answer lists 'Length: 117.5\"', which is the wheelbase; not used.)",
+    "cross_check": [
+      { "value": 185.6, "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs", "retrieved": "2026-09-19", "note": "2026 Select RWD" }
+    ]
+  },
+  "width_in": {
+    "value": 74.1,
+    "with_mirrors": false,
+    "source": "https://www.ford.com/suvs/mach-e/",
+    "retrieved": "2026-09-19",
+    "note": "FAQ, 2026 Premium: 'Overall width without mirrors: 74.1\"'; with mirrors 82.6\".",
+    "cross_check": [
+      { "value": 74.1, "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Select eAWD", "Premium eAWD", "GT (enhanced eAWD)"],
+    "not_awd": ["Select RWD", "Premium RWD"],
+    "source": "https://www.ford.com/suvs/mach-e/",
+    "retrieved": "2026-09-19",
+    "note": "'The Mustang Mach-E offers three drivetrain options: RWD, eAWD, and the GT enhanced eAWD.' eAWD available on Select and Premium; GT enhanced eAWD. C/D 2026 trims: Select RWD/AWD, Premium RWD/AWD, GT AWD. Rally appears in Ford's spec table; its drivetrain wasn't confirmed."
+  },
+  "charge_port": {
+    "value": null,
+    "source": "https://www.ford.com/suvs/mach-e/",
+    "retrieved": "2026-09-19",
+    "note": "Ford.com's 2026 Mach-E page doesn't name the connector. Ford's media site URL tried (media.ford.com) returned a generic page."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://www.ford.com/suvs/mach-e/",
+    "retrieved": "2026-09-19",
+    "note": "Ford.com page titled '2026 Ford Mustang Mach-E SUV | Pricing, Photos, Specs' with trim selector and purchase offers."
+  }
+}

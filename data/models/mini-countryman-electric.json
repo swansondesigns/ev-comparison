@@ -1,0 +1,139 @@
+{
+  "make": "Mini",
+  "model": "Countryman Electric",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
+  "length_in": {
+    "value": 175,
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "MINI USA 2027 Countryman SE ALL4 technical specs, 'A: Overall Length: 175 in' (whole inches).",
+    "discrepancy": "C/D lists 174.5 in (2026 SE ALL4). MINI's figure appears rounded to the inch.",
+    "cross_check": [
+      { "value": 174.5, "source": "https://www.caranddriver.com/mini/countryman-electric/specs", "retrieved": "2026-09-19", "note": "2026 SE ALL4" }
+    ]
+  },
+  "width_in": {
+    "value": 72.6,
+    "with_mirrors": false,
+    "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source for the mirrorless figure: C/D 'Width, without mirrors', 2026 SE ALL4. MINI USA gives only 'C: Overall Width including mirrors: 81.5 in'.",
+    "cross_check": [
+      { "value": 81.5, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "Including mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["Countryman SE ALL4"],
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "Only US electric version is the SE ALL4: 'ALL4: Intelligent All-Wheel Drive'. C/D's only trim is 'Countryman SE ALL4'."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": null,
+      "note": "'With a compatible adapter, MINI EV drivers can now charge at Tesla Supercharger stations'. Whether it's included or sold isn't stated on this page."
+    },
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "MINI doesn't name the port; CCS1 inferred from the adapter requirement for Superchargers."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "'The 2027 MINI Countryman SE ALL4 ... starts at $45,200.'"
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "SE ALL4 with 18-in. wheels", "epa_vehicle": "Countryman SE ALL4 (18 inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 216, "epa_id": 50374, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50374", "retrieved": "2026-09-19" },
+      { "applies_to": "SE ALL4 with 19-in. wheels", "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 214, "epa_id": 50664, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50664", "retrieved": "2026-09-19" }
+    ]
+  },
+  "trims": {
+    "list": [
+      { "name": "Countryman SE ALL4", "drive": "AWD" }
+    ],
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "Only US electric version."
+  },
+  "battery": {
+    "entries": [
+      { "applies_to": "SE ALL4", "kwh": 64.7, "basis": "not stated", "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'64.7 kWh Battery Capacity'. MINI's specs FAQ says the same. C/D's review says 64.6." }
+    ]
+  },
+  "dc_peak_kw": {
+    "entries": [
+      { "applies_to": "SE ALL4", "value": 130, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'130 kW DC Fast Charging'." }
+    ]
+  },
+  "dc_10_80": {
+    "entries": [
+      { "applies_to": "SE ALL4", "minutes": 29, "charger_kw": null, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'29 min 10-80% battery state of charge with DC Fast Charging'. FAQ on the same page: 'as little as 30 minutes'. Charger power not stated." }
+    ]
+  },
+  "heat_pump": {
+    "entries": [
+      { "applies_to": "SE ALL4", "value": "unknown", "note": "Not in the text of MINI's Countryman pages (the full spec table renders client-side)." }
+    ]
+  },
+  "cargo_cu_ft": {
+    "seats_up": 24.8,
+    "seats_down": 56.2,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
+    "retrieved": "2026-09-19",
+    "note": "MINI's spec table renders client-side (sources/mini-us-countryman-specs.html has no figures); C/D behind second / first row used."
+  },
+  "turning_circle_ft": {
+    "value": 38.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D; no MINI figure in saved text."
+  },
+  "height_in": {
+    "value": 64.6,
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "'D: Overall Height 64.6 in'; C/D agrees."
+  },
+  "ground_clearance_in": {
+    "value": 7.4,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/mini/countryman-electric/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D; no MINI figure in saved text."
+  },
+  "warranty": {
+    "battery": {
+      "years": 8,
+      "miles": 100000,
+      "text": "'an 8-year/100,000-mile battery warranty'"
+    },
+    "powertrain": {
+      "years": 4,
+      "miles": 50000,
+      "text": "No separate powertrain warranty; New Vehicle Warranty 4 years/50,000 miles (MY2025 warranty book)"
+    },
+    "source": "https://www.miniusa.com/model/electric/countryman.html",
+    "retrieved": "2026-09-19",
+    "note": "Battery from the 2027 Countryman page FAQ; new-vehicle term from https://www.miniusa.com/content/dam/mini/PDF/warranties/2025_Model_Warranty_Book.pdf (the 2026 and 2027 books returned 404)."
+  },
+  "highway_tests": [
+    { "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "trim_tested": "Countryman SE ALL4", "result_mi": 180, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
+  ],
+  "notes": [
+    { "tag": "provenance", "text": "Cargo, turning circle and ground clearance are Car and Driver's figures; MINI's spec table didn't load as text." },
+    { "tag": "provenance", "text": "Port type is inferred; MINI says an adapter is needed for Superchargers but not whether one is included." }
+  ]
+}

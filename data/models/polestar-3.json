@@ -1,0 +1,50 @@
+{
+  "make": "Polestar",
+  "model": "3",
+  "length_in": {
+    "value": 192.9,
+    "source": "https://www.polestar.com/us/polestar-3/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar US specifications, '(C) Car length'.",
+    "cross_check": [
+      { "value": 192.9, "source": "https://www.caranddriver.com/polestar/polestar-3/specs", "retrieved": "2026-09-19", "note": "2025 Long Range Dual Motor" }
+    ]
+  },
+  "width_in": {
+    "value": 77.4,
+    "with_mirrors": false,
+    "source": "https://www.polestar.com/us/polestar-3/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'(K) Car width: 77.4 in', listed separately from '(L) Car width, mirrors extended'.",
+    "cross_check": [
+      { "value": 77.4, "source": "https://www.caranddriver.com/polestar/polestar-3/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Long range Dual motor", "Long range Dual motor with Performance pack"],
+    "not_awd": ["Long range Single motor"],
+    "source": "https://www.polestar.com/us/polestar-3/specifications/",
+    "retrieved": "2026-09-19",
+    "note": "'Drivetrain': Single motor 'Rear-wheel drive'; both Dual motor versions 'All-wheel drive'."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": "sold",
+      "note": "'NACS adapters are available for purchase from a Polestar Service Point.'"
+    },
+    "source": "https://www.polestar.com/us/polestar-3/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar doesn't name the port; CCS1 inferred from NACS adapters being sold for Supercharger access."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": null,
+    "on_sale_date": null,
+    "source": "https://www.polestar.com/us/polestar-3/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar US lists prices and stock; maintenance terms reference 'new 2025 Polestar 3 vehicles'. C/D lists 2026 as its latest year. Current model year not stated by Polestar."
+  }
+}

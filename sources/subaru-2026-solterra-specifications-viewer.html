@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Subaru Media - 2026_Subaru_Solterra_Specs_-_FINAL.pdf</title>
+
+    <!-- Mobile friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        #pdf-container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Optional fallback link (hidden on desktop) */
+        .mobile-fallback {
+            display: none;
+            padding: 1rem;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        @media (max-width: 1024px) {
+            .mobile-fallback {
+                display: block;
+            }
+        }
+    </style>
+
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+</head>
+
+<body>
+
+<!-- spec-doc-view.jsp -->
+
+<div id="pdf-container"></div>
+
+<div class="mobile-fallback">
+    <a href="https://s3.amazonaws.com/subarumedia.iconicweb.com/mediasite/attachments/2026_Subaru_Solterra_Specs_-_FINAL.pdf?response-content-disposition=inline%3B%20filename%3D2026_Subaru_Solterra_Specs_-_FINAL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260919T151623Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Credential=AKIA3ZQJHXTB2537CC5C%2F20260919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=763be2baff3728d618af314ad20cd7989bf9f731cb70b05ba41979b910009ca3" target="_blank" rel="noopener">
+        Open PDF
+    </a>
+</div>
+
+<script src="/js/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function () {
+
+    const pdfUrl = "https://s3.amazonaws.com/subarumedia.iconicweb.com/mediasite/attachments/2026_Subaru_Solterra_Specs_-_FINAL.pdf?response-content-disposition=inline%3B%20filename%3D2026_Subaru_Solterra_Specs_-_FINAL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260919T151623Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Credential=AKIA3ZQJHXTB2537CC5C%2F20260919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=763be2baff3728d618af314ad20cd7989bf9f731cb70b05ba41979b910009ca3";
+    const pdfContainer = document.getElementById("pdf-container");
+
+    // Mobile detection (Android + iOS)
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        /*
+         * Mobile browsers do NOT reliably support PDFs in iframes.
+         * Redirecting the top-level page allows the native PDF viewer
+         * or "Open / Download" chooser to appear.
+         */
+        window.location.replace(pdfUrl);
+        return;
+    }
+
+    // Desktop behavior: iframe embed
+    pdfContainer.innerHTML =
+        `<iframe 
+            src="https://s3.amazonaws.com/subarumedia.iconicweb.com/mediasite/attachments/2026_Subaru_Solterra_Specs_-_FINAL.pdf?response-content-disposition=inline%3B%20filename%3D2026_Subaru_Solterra_Specs_-_FINAL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260919T151623Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Credential=AKIA3ZQJHXTB2537CC5C%2F20260919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=763be2baff3728d618af314ad20cd7989bf9f731cb70b05ba41979b910009ca3"
+            style="height:100%;width:100%;border:0;"
+            title="PDF document">
+        </iframe>`;
+});
+
+// Optional: explicit download helper
+function downloadPDF(url, filename) {
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename || "";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+</script>
+
+</body>
+</html>

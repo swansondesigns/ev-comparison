@@ -1,0 +1,182 @@
+[
+ {
+  "model": "Audi Q4 e-tron",
+  "url": "https://www.caranddriver.com/audi/q4-e-tron/specs",
+  "slug": "cd-specs-audi-q4-e-tron"
+ },
+ {
+  "model": "Audi Q6 e-tron",
+  "url": "https://www.caranddriver.com/audi/q6-e-tron/specs",
+  "slug": "cd-specs-audi-q6-e-tron"
+ },
+ {
+  "model": "Audi SQ6 e-tron",
+  "url": "https://www.caranddriver.com/audi/sq6-e-tron/specs",
+  "slug": "cd-specs-audi-sq6-e-tron"
+ },
+ {
+  "model": "BMW iX3",
+  "url": "https://www.caranddriver.com/bmw/ix3/specs",
+  "slug": "cd-specs-bmw-ix3"
+ },
+ {
+  "model": "Cadillac Optiq",
+  "url": "https://www.caranddriver.com/cadillac/optiq/specs",
+  "slug": "cd-specs-cadillac-optiq"
+ },
+ {
+  "model": "Chevrolet Bolt EV",
+  "url": "https://www.caranddriver.com/chevrolet/bolt/specs",
+  "slug": "cd-specs-chevrolet-bolt"
+ },
+ {
+  "model": "Chevrolet Equinox EV",
+  "url": "https://www.caranddriver.com/chevrolet/equinox-ev/specs",
+  "slug": "cd-specs-chevrolet-equinox-ev"
+ },
+ {
+  "model": "Ford Mustang Mach-E",
+  "url": "https://www.caranddriver.com/ford/mustang-mach-e/specs",
+  "slug": "cd-specs-ford-mustang-mach-e"
+ },
+ {
+  "model": "Genesis Electrified GV70",
+  "url": "https://www.caranddriver.com/genesis/electrified-gv70/specs",
+  "slug": "cd-specs-genesis-electrified-gv70"
+ },
+ {
+  "model": "Genesis GV60",
+  "url": "https://www.caranddriver.com/genesis/gv60/specs",
+  "slug": "cd-specs-genesis-gv60"
+ },
+ {
+  "model": "Hyundai Ioniq 5",
+  "url": "https://www.caranddriver.com/hyundai/ioniq-5/specs",
+  "slug": "cd-specs-hyundai-ioniq-5"
+ },
+ {
+  "model": "Hyundai Kona Electric",
+  "url": "https://www.caranddriver.com/hyundai/kona-electric/specs",
+  "slug": "cd-specs-hyundai-kona-electric"
+ },
+ {
+  "model": "Jeep Wagoneer S",
+  "url": "https://www.caranddriver.com/jeep/wagoneer-s/specs",
+  "slug": "cd-specs-jeep-wagoneer-s"
+ },
+ {
+  "model": "Kia EV3",
+  "url": "https://www.caranddriver.com/kia/ev3/specs",
+  "slug": "cd-specs-kia-ev3"
+ },
+ {
+  "model": "Kia EV6",
+  "url": "https://www.caranddriver.com/kia/ev6/specs",
+  "slug": "cd-specs-kia-ev6"
+ },
+ {
+  "model": "Kia Niro EV",
+  "url": "https://www.caranddriver.com/kia/niro-ev/specs",
+  "slug": "cd-specs-kia-niro-ev"
+ },
+ {
+  "model": "Lexus RZ",
+  "url": "https://www.caranddriver.com/lexus/rz/specs",
+  "slug": "cd-specs-lexus-rz"
+ },
+ {
+  "model": "Mercedes-Benz GLC-Class EV",
+  "url": "https://www.caranddriver.com/mercedes-benz/glc-class-ev/specs",
+  "slug": "cd-specs-mercedes-benz-glc-class-ev"
+ },
+ {
+  "model": "Mini Countryman Electric",
+  "url": "https://www.caranddriver.com/mini/countryman-electric/specs",
+  "slug": "cd-specs-mini-countryman-electric"
+ },
+ {
+  "model": "Nissan Ariya",
+  "url": "https://www.caranddriver.com/nissan/ariya/specs",
+  "slug": "cd-specs-nissan-ariya"
+ },
+ {
+  "model": "Nissan Leaf",
+  "url": "https://www.caranddriver.com/nissan/leaf/specs",
+  "slug": "cd-specs-nissan-leaf"
+ },
+ {
+  "model": "Polestar 3",
+  "url": "https://www.caranddriver.com/polestar/polestar-3/specs",
+  "slug": "cd-specs-polestar-polestar-3"
+ },
+ {
+  "model": "Polestar 4",
+  "url": "https://www.caranddriver.com/polestar/polestar-4/specs",
+  "slug": "cd-specs-polestar-polestar-4"
+ },
+ {
+  "model": "Porsche Macan Electric",
+  "url": "https://www.caranddriver.com/porsche/macan-ev/specs",
+  "slug": "cd-specs-porsche-macan-ev"
+ },
+ {
+  "model": "Rivian R2",
+  "url": "https://www.caranddriver.com/rivian/r2/specs",
+  "slug": "cd-specs-rivian-r2"
+ },
+ {
+  "model": "Subaru Solterra",
+  "url": "https://www.caranddriver.com/subaru/solterra/specs",
+  "slug": "cd-specs-subaru-solterra"
+ },
+ {
+  "model": "Subaru Trailseeker",
+  "url": "https://www.caranddriver.com/subaru/trailseeker/specs",
+  "slug": "cd-specs-subaru-trailseeker"
+ },
+ {
+  "model": "Subaru Uncharted",
+  "url": "https://www.caranddriver.com/subaru/uncharted/specs",
+  "slug": "cd-specs-subaru-uncharted"
+ },
+ {
+  "model": "Tesla Model Y",
+  "url": "https://www.caranddriver.com/tesla/model-y/specs",
+  "slug": "cd-specs-tesla-model-y"
+ },
+ {
+  "model": "Toyota bZ",
+  "url": "https://www.caranddriver.com/toyota/bz/specs",
+  "slug": "cd-specs-toyota-bz"
+ },
+ {
+  "model": "Toyota C-HR",
+  "url": "https://www.caranddriver.com/toyota/c-hr/specs",
+  "slug": "cd-specs-toyota-c-hr"
+ },
+ {
+  "model": "Volkswagen ID.4",
+  "url": "https://www.caranddriver.com/volkswagen/id4/specs",
+  "slug": "cd-specs-volkswagen-id4"
+ },
+ {
+  "model": "Volvo EC40",
+  "url": "https://www.caranddriver.com/volvo/ec40/specs",
+  "slug": "cd-specs-volvo-ec40"
+ },
+ {
+  "model": "Volvo EX30",
+  "url": "https://www.caranddriver.com/volvo/ex30/specs",
+  "slug": "cd-specs-volvo-ex30"
+ },
+ {
+  "model": "Volvo EX40",
+  "url": "https://www.caranddriver.com/volvo/ex40/specs",
+  "slug": "cd-specs-volvo-ex40"
+ },
+ {
+  "model": "Volvo EX60",
+  "url": "https://www.caranddriver.com/volvo/ex60/specs",
+  "slug": "cd-specs-volvo-ex60"
+ }
+]

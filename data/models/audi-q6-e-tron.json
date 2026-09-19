@@ -1,0 +1,44 @@
+{
+  "make": "Audi",
+  "model": "Q6 e-tron",
+  "length_in": {
+    "value": 187.8,
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2027 Audi Q6 e-tron / SQ6 e-tron Technical Specifications, Q6 e-tron quattro column. Rows offset in text extraction (sources/audi-2027-q6-sq6-e-tron-tech-specs.txt); column read in row order.",
+    "cross_check": [
+      { "value": 187.8, "source": "https://www.caranddriver.com/audi/q6-e-tron/specs", "retrieved": "2026-09-19", "note": "2025 Premium RWD" }
+    ]
+  },
+  "width_in": {
+    "value": 76.3,
+    "with_mirrors": false,
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width without Mirrors' 76.3 in; with mirrors 86.3 in.",
+    "cross_check": [
+      { "value": 76.3, "source": "https://www.caranddriver.com/audi/q6-e-tron/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "available",
+    "trims": ["Q6 e-tron quattro"],
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2027 sheet covers only 'Q6 e-tron quattro' (Drivetrain: All-Wheel Drive). C/D lists RWD Q6 trims for 2025; whether an RWD Q6 exists for 2027 wasn't checked."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Charge Port (Driver side): J1772 / CCS'; passenger side 'AC Port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://media.audiusa.com/api/models/q6-e-tron",
+    "retrieved": "2026-09-19",
+    "note": "Audi USA media has 2027 Q6 press kit and 2027MY technical specs (rev. Aug 3, 2026); model in market since 2025. No explicit on-sale date for 2027."
+  }
+}

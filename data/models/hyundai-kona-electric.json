@@ -1,0 +1,49 @@
+{
+  "make": "Hyundai",
+  "model": "Kona Electric",
+  "length_in": {
+    "value": 171.5,
+    "source": "https://www.hyundainews.com/assets/documents/original/62614-2025KonaElectricSpecsFeatures071924.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2025 Kona Electric Specifications & Features, 'Overall Length 171.5 (N Line: 172.6)'. Latest Kona Electric spec sheet Hyundai publishes.",
+    "cross_check": [
+      { "value": 171.5, "source": "https://www.caranddriver.com/hyundai/kona-electric/specs", "retrieved": "2026-09-19", "note": "2025 SE FWD" }
+    ]
+  },
+  "width_in": {
+    "value": 71.9,
+    "with_mirrors": null,
+    "source": "https://www.hyundainews.com/assets/documents/original/62614-2025KonaElectricSpecsFeatures071924.pdf",
+    "retrieved": "2026-09-19",
+    "note": "'Overall Width'. Text extraction offsets values one row from labels (sources/hyundai-2025-kona-electric-specs-features.txt); reading confirmed by C/D. Mirrors not stated.",
+    "cross_check": [
+      { "value": 71.9, "source": "https://www.caranddriver.com/hyundai/kona-electric/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "none",
+    "trims": [],
+    "not_awd": ["Kona Electric SE", "Kona Electric SEL", "Kona Electric Limited"],
+    "source": "https://www.hyundainews.com/assets/documents/original/66864-2025MYKonaEVPriceSheet12Jun2025.pdf",
+    "retrieved": "2026-09-19",
+    "note": "2025MY price sheet: every model 'Front-Wheel Drive'. C/D's 2025 trims are all FWD, including N Line."
+  },
+  "charge_port": {
+    "value": "CCS1",
+    "adapter": {
+      "value": "sold (free for early buyers)",
+      "note": "Free NACS adapter for 2025 KONA Electric owners who purchased or leased on or before January 31, 2025; 'Adapters will also be available for purchase through Hyundai authorized dealers'. Not included with the car."
+    },
+    "source": "https://www.hyundainews.com/api/models/hyundai-kona-2025-kona_electric/releases",
+    "retrieved": "2026-09-19",
+    "note": "Release 'Hyundai to Offer Free NACS DC EV Adapters...', Dec. 23, 2024: adapter gives 'CCS-port-equipped Hyundai EV drivers' Supercharger access; eligible models include '2025 KONA Electric'. The 2025 spec sheet gives port location (front grille) but not type."
+  },
+  "us_status": {
+    "value": null,
+    "model_year": "2025",
+    "on_sale_date": null,
+    "source": "https://www.hyundainews.com/api/models",
+    "retrieved": "2026-09-19",
+    "note": "Unclear. Hyundai's newsroom model tree has Kona Electric entries through 2025 only; 2026 and 2027 Kona list only 'KONA'. 27MY Kona pricing (effective July 29, 2026) lists gasoline models only. But the 2027 Kona press kit says Kona has 'available gasoline and electric powertrains' and 'Kona Electric is the battery-electric version of Kona and is part of Hyundai's EV lineup'. C/D has a 2027 Kona Electric entry with no trims."
+  }
+}

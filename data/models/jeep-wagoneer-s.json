@@ -1,0 +1,38 @@
+{
+  "make": "Jeep",
+  "model": "Wagoneer S",
+  "length_in": {
+    "value": 192.4,
+    "source": "https://media.stellantisnorthamerica.com/view-spec.do?id=26579",
+    "retrieved": "2026-09-19",
+    "note": "2025 Jeep Wagoneer S Specifications (sources/stellantis-2025-wagoneer-s-specifications.pdf). Text extraction offsets values from labels; read in row order (wheelbase 113.0, tracks 64.4/64.5, overall length 192.4, width at mirrors 83.6, body width 74.8)."
+  },
+  "width_in": {
+    "value": 74.8,
+    "with_mirrors": false,
+    "source": "https://media.stellantisnorthamerica.com/view-spec.do?id=26579",
+    "retrieved": "2026-09-19",
+    "note": "'Body width' 74.8 in; 'Overall width (width at mirrors)' 83.6 in."
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["Launch Edition", "Limited"],
+    "source": "https://media.stellantisnorthamerica.com/view-spec.do?id=26579",
+    "retrieved": "2026-09-19",
+    "note": "'Four-wheel drive' listed under body and chassis; spec sheet covers Launch Edition and Limited."
+  },
+  "charge_port": {
+    "value": null,
+    "source": "https://media.stellantisnorthamerica.com/view-spec.do?id=26579",
+    "retrieved": "2026-09-19",
+    "note": "Connector type not named on the 2025 spec sheet or jeep.com's Wagoneer S overview."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2025",
+    "on_sale_date": null,
+    "source": "https://www.jeep.com/wagoneer-s.html",
+    "retrieved": "2026-09-19",
+    "note": "jeep.com still presents the '2025 Wagoneer S' with 'Limited quantities available'. Stellantis media has press kits and specs for 2024 and 2025 only; no 2026 or 2027 model found. May be winding down."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "make": "Chevrolet",
+  "model": "Bolt",
+  "length_in": {
+    "value": 169.58,
+    "source": "https://www.caranddriver.com/chevrolet/bolt/specs/2027/chevrolet_bolt-ev_chevrolet-bolt-ev_2027",
+    "retrieved": "2026-09-19",
+    "note": "Secondary source: C/D 2027 Bolt RS FWD. Chevrolet's 2027 Bolt page shows dimensions only as images; the Chevrolet newsroom is client-rendered. (C/D's default Bolt spec page shows the older 2023 Bolt EV at 163.2 in; not used.)"
+  },
+  "width_in": {
+    "value": 69.7,
+    "with_mirrors": false,
+    "source": "https://www.caranddriver.com/chevrolet/bolt/specs/2027/chevrolet_bolt-ev_chevrolet-bolt-ev_2027",
+    "retrieved": "2026-09-19",
+    "note": "C/D 'Width, without mirrors', 2027 Bolt."
+  },
+  "awd": {
+    "value": "none",
+    "trims": [],
+    "not_awd": ["LT (FWD)", "RS (FWD)"],
+    "source": "https://www.caranddriver.com/chevrolet/bolt/specs/2027/chevrolet_bolt-ev_chevrolet-bolt-ev_2027",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2027 trims: 'Bolt FWD 4dr LT', 'Bolt FWD 4dr RS'. Chevrolet's own savings calculator (on https://www.chevrolet.com/electric/equinox-ev, saved as sources/chevy-equinox-ev.html) lists '2027 Bolt RS FWD' and '2027 Bolt LT FWD' only."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://www.chevrolet.com/electric/bolt-ev",
+    "retrieved": "2026-09-19",
+    "note": "'NACS: Standard charge port'; 'Chevy Bolt can be charged through its standard NACS charge port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2027",
+    "on_sale_date": null,
+    "source": "https://www.chevrolet.com/electric/bolt-ev",
+    "retrieved": "2026-09-19",
+    "note": "'The New 2027 Bolt', starting price, current financing offer and 2027 configurator link."
+  }
+}

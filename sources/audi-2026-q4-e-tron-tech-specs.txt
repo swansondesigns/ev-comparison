@@ -1,0 +1,171 @@
+2026 Audi Q4 e-tron
+
+Technical Specifications
+
+MOTOR/ELECTRICS                                     Q4 45 e-tron (RWD)                                          Q4 55 e-tron quattro                        Q4 Sportback 55 e-tron quattro
+
+Electric Motor Type (Front/Rear)                                PSM - Rear                                                      PSM/ASM                                            PSM/ASM
+Peak Horsepower1                                                    282                                                             335                                                 335
+
+BATTERY & CHARGING2                                                  352V Lithium Ion                                      352V Lithium Ion                                   352V Lithium Ion
+                                                           288 Prismatic Cells, 12 Modules                      288 Prismatic Cells, 12 Modules                    288 Prismatic Cells, 12 Modules
+Battery Type                                         Aluminum Battery Case Reinforced with                 Aluminum Battery Case Reinforced with              Aluminum Battery Case Reinforced with
+                                                         Extruded Aluminum Cross-Sections                     Extruded Aluminum Cross-Sections                   Extruded Aluminum Cross-Sections
+Battery Pack Construction
+                                                                            82 kWh                                                82 kWh                                             82 kWh
+Battery Size (Gross)                                                        77 kWh                                                77 kWh                                             77 kWh
+Battery Size (Net)                                         AC/DC Combo Port J1772 / CCS                          AC/DC Combo Port J1772 / CCS                       AC/DC Combo Port J1772 / CCS
+Charge Port (Driver side)                                       up to 11.5 kW / 175 kW                                up to 11.5 kW / 175 kW                             up to 11.5 kW / 175 kW
+Max Charging Capacity AC / DC
+Max Charging Capacity AC / DC (Optional)                                        NA                                                   NA                                                 NA
+Level 2 Charging (9.6 kW - 240V @ 40A)                                      9 hours                                               9 hours                                            9 hours
+Level 2 Charging (11.5 kW - 240V @ 80A) (Optional)                         7.5 hours                                            7.5 hours                                           7.5 hours
+DC Fast Charging                                    28 minutes (10% - 80% charge @ 175kW)                28 minutes (10% - 80% charge @ 175 kW)             28 minutes (10% - 80% charge @ 175 kW)
+
+PERFORMANCE3                                         99 mph                                               99 mph                                             99 mph
+                                                    159 km/h                                             159 km/h                                           159 km/h
+Top Track Speed (mph)
+Top Speed (km/h)                                      6.3 sec                                              5.0 sec                                            5.0 sec
+0-60 mph (sec.) Est.                                  6.6 sec                                              5.3 sec                                            5.3 sec
+0-100 km/h (sec.) Est.
+
+BODY, CHASSIS & SUSPENSION                                     Mixed steel/aluminum construction                    Mixed steel/aluminum construction                  Mixed steel/aluminum construction
+                                                                            McPherson struts                                     McPherson struts                                   McPherson struts
+Body Construction                                                                4-link axle                                          4-link axle                                        4-link axle
+Front Suspension
+Rear Suspension                                            Diagonal Dual-Circuit Brake System with              Diagonal Dual-Circuit Brake System with            Diagonal Dual-Circuit Brake System with
+                                                    ESC/ABS/EBV Brake Booster, Hydraulic Brake Assist    ESC/ABS/EBV Brake Booster, Hydraulic Brake Assist  ESC/ABS/EBV Brake Booster, Hydraulic Brake Assist
+Brake Construction
+                                                                         2 Piston Calipers with                               2 Piston Calipers with                             2 Piston Calipers with
+Front Brakes                                                   380 mm (14.96") ventilated rotors                    380 mm (14.96") ventilated rotors                  380 mm (14.96") ventilated rotors
+Rear Brakes
+Anti-Lock Braking System                                               352 mm (13.85") drums                                352 mm (13.85") drums                              352 mm (13.85") drums
+Stability Control
+Parking Brake                                                            All Four Wheels with                                 All Four Wheels with                               All Four Wheels with
+Drag Coefficient (Cd)                                          Electronic Brake Force Distribution                  Electronic Brake Force Distribution                Electronic Brake Force Distribution
+                                                                 Electronic Stability Control (ESC)                   Electronic Stability Control (ESC)                 Electronic Stability Control (ESC)
+
+                                                                           Electromechanical                                    Electromechanical                                  Electromechanical
+                                                                                   0.30 Cd                                              0.31 Cd                                            0.30 Cd
+
+UPDATED 8/3/2026 This information and any vehicle specifications are preliminary and subject to change.                                                                                              1 of 3
+
+# Public
+2026 Audi Q4 e-tron
+
+Technical Specifications
+
+WHEELS & TIRES4                                                    Q4 45 e-tron (RWD)                       Q4 55 e-tron quattro            Q4 Sportback 55 e-tron quattro
+
+Wheels (Standard)                                           19" 5-W-spoke-aero design, graphite gray                 19" 5-arm design                     20" 5-V-spoke design,
+Wheels (Optional)                                                                    finish                20" 5-V-spoke polygon design,                    graphite gray finish
+Wheels (Optional)
+                                                                         20" 10-spoke-star-aero                        titanium finish                21" 5-arm-rotor-evo design,
+                                                                           design, bicolor finish            21" 5-arm-rotor-evo design,                   titanium matte finish
+
+Wheels (Optional)                                           F: 235/55 R19 105T XL All-Season                       titanium matte finish          21" Audi Sport 5-W-spoke design,
+Tires (Standard)                                            R: 255/50 R19107T XL All-Season                    21" Audi Sport 5-W-spoke                     platinum gray finish
+Tires (Optional)                                                                                             design, platinum gray finish
+Tires (Optional)                                            F: 235/50 R20 104T XL All-Season             F: 235/55 R19 105T XL All-Season         F: 235/40 R20 104T XL All-Season
+                                                            R: 255/45 R20 104T XL All-Season             R: 255/50 R19107T XL All-Season          R: 255/45 R20 105T XL All-Season
+                                                                                                         F: 235/40 R20 104T XL All-Season         F: 235/45 R21 101T XL All-Season
+DRIVETRAIN                                                                   Rear Motor                  R: 255/45 R20 105T XL All-Season         R: 255/40 R21 102T XL All-Season
+                                                                        Rear-Wheel Drive                 F: 235/45 R21 101T XL All-Season
+Configuration                                                                                            R: 255/40 R21 102T XL All-Season                   Front / Rear Motors
+Driven Wheels                                                              Single-speed                                                                        All-Wheel Drive
+Transmission                                                                                                        Front / Rear Motors                          Single-speed
+Final Drive Ratio                                                                 NA                                  All-Wheel Drive
+                                                                                 7.9:1                                  Single-speed                                  11.3:1
+                                     Front                                                                                                                             7.9:1
+                                      Rear                    Electromechanical steering with                                11.3:1
+                                                            speed-dependent power assistance                                  7.9:1                Electromechanical steering with
+STEERING                                                                                                                                         speed-dependent power assistance
+                                                                               33.5 ft.                    Electromechanical steering with
+Type                                                                            15.6:1                   speed-dependent power assistance                            37.7 ft.
+Turning Circle (ft. Curb-to-Curb)                                                                                                                                     15.6:1
+Ratio                                                                           108.7                                       37.7 ft.
+                                                                                180.7                                        15.6:1                                   108.7
+EXTERIOR DIMENSIONS                                                              64.7                                                                                 180.6
+                                                                                 83.0                                        108.7                                     63.5
+Wheelbase (in.)                                                                  73.4                                        180.6                                     83.0
+Length (in.)                                                                62.3 / 61.5                                       64.2                                     73.4
+Height (in.)                                                                                                                  83.0                                62.3 / 61.5
+Overall Width with Mirrors (in.)                                                  5.8                                         73.4
+Overall Width without Mirrors (in.)                                             4,674                                    62.3 / 61.5                                    5.8
+Track, Front/Rear (in.)                                                                                                                                               4,850
+Ground Clearance (in.)                                                          2,200                                          5.8
+Curb Weight (lb.)                                                                 220                                        4,850                                    2,650
+                                                                                                                                                                        265
+TOWING CAPACITY5                                                           Compact SUV                                       2,650
+                                                                            5-Passenger                                        265                               Compact SUV
+Maximum Braked Trailer Mass (lb.)                                                                                                                                 5-Passenger
+Maximum Tongue Weight (lb.)                                                      38.5                                   Compact SUV
+                                                                                 38.3                                    5-Passenger                                   38.5
+INTERIOR DIMENSIONS                                                              41.2                                                                                  37.0
+                                                                                 37.2                                         38.5                                     41.2
+EPA Class                                                                        56.7                                         38.3                                     37.2
+Seating                                                                          55.1                                         41.2                                     56.7
+Headroom, Front (in.)                                                       24.8 / 53.1                                       37.2                                     55.1
+Headroom, Rear (in.)                                                                                                          56.7                                26.1 / 54.4
+Legroom, Front (in.)                                                                                                          55.1
+Legroom, Rear (in.)                                                                                                      24.8 / 53.1
+Shoulder Room, Front (in.)
+Shoulder Room, Rear (in.)
+Cargo Volume Trunk (cu. ft.) / With Seats Folded (cu. ft.)
+
+UPDATED 8/3/2026 This information and any vehicle specifications are preliminary and subject to change.                                                                             2 of 3
+
+# Public
+2026 Audi Q4 e-tron
+
+Technical Specifications
+
+EFFICIENCY6                       Q4 45 e-tron (RWD)                                                               Q4 55 e-tron quattro                      Q4 Sportback 55 e-tron quattro
+
+EPA Estimated Range (mi.)                         288                                                                                   258                                               258
+EPA Estimated MPG/MPGe (City)                     125                                                                                   107                                               107
+EPA Estimated MPG/MPGe (Highway)                  104                                                                                    92                                                92
+EPA Estimated MPG/MPGe (Combined                  115                                                                                   100                                               100
+EPA Rating                                         ZEV                                                                                  ZEV                                               ZEV
+
+LIMITED WARRANTY7                  4 years / 50,000 Miles (whichever occurs first)                        4 years / 50,000 Miles (whichever occurs first)   4 years / 50,000 Miles (whichever occurs first)
+                                   4 years / 50,000 Miles (whichever occurs first)                        4 years / 50,000 Miles (whichever occurs first)   4 years / 50,000 Miles (whichever occurs first)
+New Vehicle                                                                                              8 Years / 100,000 Miles (whichever occurs first)  8 Years / 100,000 Miles (whichever occurs first)
+Powertrain                        8 Years / 100,000 Miles (whichever occurs first)
+                                            70% retention of battery capacity                                      70% retention of battery capacity                 70% retention of battery capacity
+Hybrid / Drive Battery
+                                                                                                                                    $56,000                                           $59,000
+PRICING8                          $50,600                                                                                            $1,395                                            $1,395
+                                  $1,395                                                                                            $57,395                                           $60,395
+Starting MSRP (USD)               $51,995
+Destination (USD)
+Total Starting MSRP (USD)
+
+ADDITIONAL NOTES:
+
+Specifications, equipment, options, and prices are subject to change without notice.
+
+1Maximum HP calculated via peak performance of the electric motor(s) at peak battery power, and is only available under certain limited conditions, including, but not limited to, battery temperature and state of charge. Your results will vary. See Owner's Manual for further details and limitations.
+
+2Q4 e-tron equipped with fast charging capability maximum rate of 175 kW. Based on charging at a 175 kW or higher charger. Charging times will vary and depend on a variety of factors, including ambient temperature, charger type, battery condition and initial state of charge, vehicle condition and
+others. Frequent and consecutive fast charging can permanently decrease battery capacity.
+
+3Always obey local speed and traffic laws.
+
+4Low-profile tires may ride less comfortably, make more noise, and wear more quickly than other choices. To avoid tire, rim, or vehicle damage, it is important that inflation pressure is regularly checked and maintained at optimum levels. Tires are supplied and warranted by their manufacturer.
+
+5Maximum tow rating when properly equipped with towing accessories. Vehicle load, other accessories and options may reduce maximum towing capacity. Towing reduces fuel efficiency and range. See vehicle Owner's Manual for details.
+
+62026 Audi Q4 45 e-tron EPA Estimate Range is 288 Miles. 2026 Audi Q4 55 e-tron quattro® EPA estimated range is 258 miles. 2026 Audi Q4 55 Sportback e-tron quattro® EPA estimated range is 258 miles. Actual range will vary and depend on several factors including driving and charging habits,
+accessory use, temperature and topography, battery age, load, and vehicle condition. Battery capacity decreases with time and use. See owner's manual for details.
+
+74 years/50,000 miles (whichever occurs first) New Vehicle Limited Warranty on all new MY26 e-tron GT vehicles. See owner's literature or dealer for warranty exclusions and limitations. The high-voltage battery is warranted for 8 years or 100,000 miles, whichever occurs first, for defects in
+material and workmanship and for a capacity of at least 70%. The battery net capacity coverage includes any repairs needed to return battery net capacity to a level of 70%. Coverage may not return the high-voltage battery to an "as new" condition with 100% net capacity. See owner's literature or
+dealer for warranty exclusions and limitations.
+
+8Starting MSRP pricing excludes destination, taxes, title, other options and dealer charges. Dealer sets actual price.
+
+UPDATED 8/3/2026 This information and any vehicle specifications are preliminary and subject to change.                                                                                                      3 of 3
+
+# Public
+

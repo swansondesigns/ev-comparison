@@ -1,0 +1,44 @@
+{
+  "make": "Subaru",
+  "model": "Solterra",
+  "length_in": {
+    "value": 184.6,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=47029",
+    "retrieved": "2026-09-19",
+    "note": "2026 Subaru Solterra Specifications. Saved as sources/subaru-2026-solterra-specifications.pdf. The 2027 press kit has no spec sheet and says it 'continues with the same lineup as the 2026 model'.",
+    "cross_check": [
+      { "value": 184.6, "source": "https://www.caranddriver.com/subaru/solterra/specs", "retrieved": "2026-09-19", "note": "2026 Premium AWD" }
+    ]
+  },
+  "width_in": {
+    "value": 73.2,
+    "with_mirrors": null,
+    "source": "https://media.subaru.com/view-spec.do?bFileId=47029",
+    "retrieved": "2026-09-19",
+    "note": "'Width'; the sheet doesn't say whether mirrors are included. C/D lists the same figure as width without mirrors.",
+    "cross_check": [
+      { "value": 73.2, "source": "https://www.caranddriver.com/subaru/solterra/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+    ]
+  },
+  "awd": {
+    "value": "standard",
+    "trims": ["Premium", "Limited", "Limited XT", "Touring XT"],
+    "source": "https://media.subaru.com/newsrelease.do?id=2376&mid=333",
+    "retrieved": "2026-09-19",
+    "note": "2026 press kit: 'Every 2026 Solterra is equipped with standard Symmetrical All-Wheel Drive'. 2027 press kit: 'Standard Symmetrical All-Wheel Drive'."
+  },
+  "charge_port": {
+    "value": "NACS",
+    "source": "https://media.subaru.com/newsrelease.do?id=2376&mid=333",
+    "retrieved": "2026-09-19",
+    "note": "2026 press kit: 'All 2026 Solterra models feature a North American Charging Standard charging port'. 2026 spec sheet: 'NACS charge inlet on right fender'. 2027 press kit: 'All 2027 Solterra models feature a North American Charging Standard (NACS) charging port'."
+  },
+  "us_status": {
+    "value": "on sale",
+    "model_year": "2026",
+    "on_sale_date": null,
+    "source": "https://media.subaru.com/newsrelease.do?id=2460&mid=333",
+    "retrieved": "2026-09-19",
+    "note": "2027 press kit: 'The 2027 Subaru Solterra EV arrives at retailers nationwide this fall.' 2026 press kit said the 2026 would be 'Available at retailers nationwide later this fall' (2025)."
+  }
+}
