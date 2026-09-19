@@ -1,0 +1,30 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const here = Astro.url.pathname.replace(/\/?$/, '/');
+const links = [
+  { href: base, label: 'All cars' },
+  { href: `${base}compare/`, label: 'Side by side' },
+];
+---
+<nav aria-label="Pages">
+  {links.map((l) => (
+    <a href={l.href} aria-current={here === l.href ? 'page' : undefined}>{l.label}</a>
+  ))}
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.25rem var(--gutter) 0;
+    font-size: 0.875rem;
+  }
+  a { color: var(--muted); text-decoration: none; }
+  a:hover { color: var(--ink); }
+  a[aria-current='page'] {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    text-decoration-thickness: 2px;
+  }
+</style>

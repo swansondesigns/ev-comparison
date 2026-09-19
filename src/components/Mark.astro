@@ -1,0 +1,25 @@
+---
+// A gate result: green check, red X, or grey dash for no data. The text label is for screen readers,
+// so the meaning never rests on color or shape alone.
+interface Props { state: 'pass' | 'fail' | '?' }
+const { state } = Astro.props;
+const kind = { pass: 'pass', fail: 'fail', '?': 'none' }[state];
+const label = { pass: 'Pass', fail: 'Fail', none: 'No data' }[kind];
+---
+<span class={`mark mark-${kind}`}>
+  <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false">
+    {kind === 'pass' && <path d="M2.5 8.5l3.5 3.5 7.5-8" />}
+    {kind === 'fail' && <path d="M3.5 3.5l9 9M12.5 3.5l-9 9" />}
+    {kind === 'none' && <path d="M4 8h8" />}
+  </svg>
+  <span class="sr-only">{label}</span>
+</span>
+
+<style>
+  .mark { display: inline-flex; vertical-align: middle; }
+  svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .mark-pass { color: var(--pass); }
+  .mark-fail { color: var(--fail); }
+  .mark-none { color: var(--muted); }
+  .mark-none svg { stroke-width: 1.5; }
+</style>

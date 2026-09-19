@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+
+# Session notes (local only)
+.dev/
+
+# Manual browser captures; parsed results go to sources/ or data/
+input/
