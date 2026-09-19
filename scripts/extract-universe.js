@@ -125,7 +125,8 @@ const models = new Map();
 const sourceMeta = [];
 
 for (const s of sources) {
-  const items = s.parse(fs.readFileSync(path.join(root, s.file), 'utf8'));
+  // A source with no URL (the handoff hints) has no saved page; its file is only a provenance label.
+  const items = s.parse(s.url ? fs.readFileSync(path.join(root, s.file), 'utf8') : '');
   const ranks = items.map((it) => it.rank);
   const contiguous = ranks.every((r, i) => r === null || r === i + 1);
   sourceMeta.push({
