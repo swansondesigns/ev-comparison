@@ -5,6 +5,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "deploy": "astro build && netlify deploy --prod --dir=dist",
     "gates": "node scripts/build-gates.js"
   },
   "dependencies": {

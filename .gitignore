@@ -7,3 +7,6 @@ dist/
 
 # Manual browser captures; parsed results go to sources/ or data/
 input/
+
+# Netlify CLI's link to the site (site id), written by `netlify sites:create` / `netlify link`
+.netlify/
