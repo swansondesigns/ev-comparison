@@ -1,0 +1,35 @@
+---
+// Sources, collapsed by default: every URL behind the sheet, what it backs and when it was retrieved.
+const { sources = [] } = Astro.props;
+const host = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; } };
+---
+<details class="sources">
+  <summary>Sources ({sources.length})</summary>
+  <ul>
+    {sources.map((s) => (
+      <li>
+        <a href={s.url} rel="noreferrer">{host(s.url)}</a>
+        <span class="what">{s.fields.join(', ')}</span>
+        {s.retrieved && <span class="when">retrieved {s.retrieved}</span>}
+      </li>
+    ))}
+  </ul>
+</details>
+
+<style>
+  .sources { font-size: 0.875rem; }
+  summary {
+    cursor: pointer;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--ink);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  ul { list-style: none; margin: 0.75rem 0 0; padding: 0; display: grid; gap: 0.35rem; }
+  li { display: flex; flex-wrap: wrap; gap: 0.15rem 0.75rem; align-items: baseline; }
+  .what { color: var(--muted); }
+  .when { font-family: var(--font-data); font-size: 0.75rem; color: var(--muted); }
+</style>

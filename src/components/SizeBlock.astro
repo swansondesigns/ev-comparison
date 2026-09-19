@@ -1,0 +1,47 @@
+---
+// Size on a one-sheet: the length on the shared track, then length and width in words against her
+// Corolla and the Mach-E.
+import SizeTrack from './SizeTrack.astro';
+
+const { size, isRef = false } = Astro.props;
+---
+<div class="size-track"><SizeTrack length={size.length} labels /></div>
+<dl class="facts">
+  <div>
+    <dt>Length</dt>
+    <dd>{size.length != null ? `${size.length} in` : '—'}</dd>
+  </div>
+  <div>
+    <dt>Width</dt>
+    <dd>{size.width != null ? `${size.width} in${size.mirrors ? `, ${size.mirrors}` : ''}` : '—'}</dd>
+  </div>
+  {size.vsCorolla.length > 0 && (
+    <div>
+      <dt>Next to your Corolla</dt>
+      <dd>{size.vsCorolla.join(', ')}</dd>
+    </div>
+  )}
+  {isRef
+    ? <div><dt>Next to the Mach-E</dt><dd>this is the one you said feels right</dd></div>
+    : size.vsFeelsRight.length > 0 && (
+      <div>
+        <dt>Next to the Mach-E</dt>
+        <dd>{size.vsFeelsRight.join(', ')}</dd>
+      </div>
+    )}
+</dl>
+
+<style>
+  .size-track {
+    --track-w: min(100%, 24rem);
+    position: relative;
+    height: 3.25rem;
+    margin: 0 0 1rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .facts { margin: 0; display: grid; gap: 0.35rem; }
+  .facts div { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; }
+  @media (max-width: 32rem) { .facts div { grid-template-columns: 1fr; gap: 0; } }
+</style>

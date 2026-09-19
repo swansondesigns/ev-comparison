@@ -1,0 +1,96 @@
+---
+// One-sheets: one page per model that passes both gates, generated from data/models/*.json. A thin
+// page: it arranges the same components as pages one and two. Reader notes addressed to a section
+// (notes[].section) render under that section; data/models/<slug>.md, if present, renders at the bottom.
+import Base from '../../layouts/Base.astro';
+import Section from '../../components/Section.astro';
+import SizeBlock from '../../components/SizeBlock.astro';
+import RangeBars from '../../components/RangeBars.astro';
+import ExtrasList from '../../components/ExtrasList.astro';
+import NotesList from '../../components/NotesList.astro';
+import SourcesList from '../../components/SourcesList.astro';
+import { bodyFor } from '../../lib/data.js';
+import { passers } from '../../lib/compare.js';
+import { sheet } from '../../lib/sheet.js';
+
+export function getStaticPaths() {
+  return passers.map((m) => ({ params: { slug: m.slug }, props: { m } }));
+}
+
+const s = sheet(Astro.props.m);
+const Body = bodyFor(s.slug);
+const anyEstimate = s.ranges.some((r) => r.estimate);
+---
+<Base title={`${s.make} ${s.model}`}>
+  <header class="head">
+    <p class="make">{s.make}</p>
+    <h1>{s.model}</h1>
+    {s.year && <p class="year">{s.year} model year</p>}
+  </header>
+
+  <p class="lede">What you asked for</p>
+
+  <Section heading="Size" id="size">
+    <SizeBlock size={s.size} isRef={s.isRef} />
+    <NotesList notes={s.notesFor('size')} slot="note" />
+  </Section>
+
+  <Section heading="All-wheel drive" id="awd">
+    <p class="fact">{s.awd.standard ? 'Every trim has it.' : <>On these trims: {s.awd.text}.</>}</p>
+    <NotesList notes={s.notesFor('awd')} slot="note" />
+  </Section>
+
+  <Section heading="Tesla charging" id="tesla">
+    {s.tesla && (
+      <p class="fact">
+        {s.tesla.text === 'Built in' ? 'Built-in Tesla-style port. No adapter needed.' : <>Charges at Tesla Superchargers with an adapter{s.tesla.detail ? `, ${s.tesla.detail}` : ''}.</>}
+      </p>
+    )}
+    <NotesList notes={s.notesFor('tesla')} slot="note" />
+  </Section>
+
+  <Section heading="Range" id="range">
+    <p class="cap">EPA range, AWD versions{s.rangeYear && ` (EPA's ${s.rangeYear} listing)`}</p>
+    <RangeBars ranges={s.ranges} />
+    <Fragment slot="note">
+      {anyEstimate && <p><span aria-hidden="true">*</span> Hollow bar: the maker's EPA estimate. EPA hasn't listed this model yet.</p>}
+      <NotesList notes={s.notesFor('range')} />
+    </Fragment>
+  </Section>
+
+  {s.extras.length > 0 && (
+    <Section heading="Also worth knowing" id="extras">
+      <ExtrasList extras={s.extras} />
+      <NotesList notes={s.notesFor('extras')} slot="note" />
+    </Section>
+  )}
+
+  {s.notes.length > 0 && (
+    <Section heading="Notes" id="notes">
+      <div class="notes"><NotesList notes={s.notes} /></div>
+    </Section>
+  )}
+
+  {Body && (
+    <Section id="more">
+      <div class="body"><Body /></div>
+    </Section>
+  )}
+
+  <SourcesList sources={s.sources} />
+</Base>
+
+<style>
+  .head { margin: 2.5rem 0 2rem; }
+  .make { margin: 0; font-size: 0.875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  h1 { margin: 0.1rem 0 0.25rem; }
+  .year { margin: 0; font-family: var(--font-data); font-size: 0.875rem; color: var(--muted); }
+
+  .lede { margin: 0 0 1.25rem; font-family: var(--font-display); font-size: 1.5rem; line-height: 1.2; }
+
+  .fact { margin: 0; max-width: 44rem; }
+  .cap { margin: 0 0 0.5rem; font-size: 0.875rem; color: var(--muted); }
+
+  .notes, .body { max-width: 44rem; }
+  .notes :global(p) { margin: 0 0 0.6rem; }
+</style>

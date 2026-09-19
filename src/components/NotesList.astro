@@ -1,0 +1,6 @@
+---
+// Reader notes, one paragraph each. Renders nothing when there are none, so it can sit in a
+// Section's note slot unconditionally.
+const { notes = [] } = Astro.props;
+---
+{notes.map((n) => <p>{n.text}</p>)}

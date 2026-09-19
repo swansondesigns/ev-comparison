@@ -1,0 +1,29 @@
+---
+// "Also worth knowing": a plain list of whatever extras the model file has. No headline treatment,
+// and nothing for an extra that's missing.
+const { extras = [] } = Astro.props;
+---
+<dl class="extras">
+  {extras.map((x) => (
+    <div>
+      <dt>{x.label}</dt>
+      <dd>
+        {x.lines.map((l) => (
+          <span class="line">
+            {l.text}{l.scope && <span class="scope"> · {l.scope}</span>}{l.via && <span class="scope"> ({l.via})</span>}
+          </span>
+        ))}
+      </dd>
+    </div>
+  ))}
+</dl>
+
+<style>
+  .extras { margin: 0; display: grid; gap: 0.5rem; max-width: 52rem; }
+  .extras div { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  .line { display: block; }
+  .scope { color: var(--muted); font-size: 0.875rem; }
+  @media (max-width: 32rem) { .extras div { grid-template-columns: 1fr; gap: 0; } }
+</style>

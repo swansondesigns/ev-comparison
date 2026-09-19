@@ -1,0 +1,40 @@
+---
+// EPA range per AWD version on a one-sheet: one bar per version, on page two's scale and with its
+// treatment (hollow for a maker's estimate), plus the numbers.
+import RangeTrack from './RangeTrack.astro';
+
+const { ranges = [] } = Astro.props;
+---
+<div class="bars">
+  <div class="bar bar-head" aria-hidden="true">
+    <span class="host"><RangeTrack head /></span>
+  </div>
+  {ranges.map((r) => (
+    <div class="bar">
+      <span class="label">{r.label}</span>
+      <span class="host"><RangeTrack range={{ min: r.value, max: r.value, estimate: r.estimate }} /></span>
+      <span class="num">{r.value} mi{r.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
+    </div>
+  ))}
+</div>
+
+<style>
+  .bars { --track-w: 10rem; display: grid; max-width: 44rem; }
+  .bar {
+    display: grid;
+    grid-template-columns: minmax(8rem, 1fr) var(--track-w) 4.5rem;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid var(--rule);
+  }
+  .bar-head { grid-template-columns: minmax(8rem, 1fr) var(--track-w) 4.5rem; border-bottom-color: var(--ink); height: 1.5rem; }
+  .bar-head .host { grid-column: 2; }
+  .host { position: relative; align-self: stretch; min-height: 2.4rem; }
+  .bar-head .host { min-height: 0; }
+  .label { padding: 0.5rem 0; }
+  .num { font-family: var(--font-data); font-size: 0.875rem; white-space: nowrap; }
+  @media (max-width: 36rem) {
+    .bars { --track-w: 7rem; }
+    .bar, .bar-head { grid-template-columns: minmax(6rem, 1fr) var(--track-w) 4rem; gap: 0.6rem; }
+  }
+</style>
