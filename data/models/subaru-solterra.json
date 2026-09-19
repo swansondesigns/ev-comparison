@@ -1,6 +1,10 @@
 {
   "make": "Subaru",
   "model": "Solterra",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 184.6,
     "source": "https://media.subaru.com/view-spec.do?bFileId=47029",
@@ -33,6 +37,16 @@
     "retrieved": "2026-09-19",
     "note": "2026 press kit: 'All 2026 Solterra models feature a North American Charging Standard charging port'. 2026 spec sheet: 'NACS charge inlet on right fender'. 2027 press kit: 'All 2027 Solterra models feature a North American Charging Standard (NACS) charging port'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
+    "retrieved": "2026-09-19",
+    "note": "Subaru release, Oct. 22, 2025: 'The 2026 Subaru Solterra EV is equipped with the North American Charging Standard (NACS) port, which is compatible with applicable Tesla Superchargers'; 'all owners of Subaru Solterra models now have easier access to more than 25,000 Tesla Superchargers'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Subaru among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
@@ -40,5 +54,35 @@
     "source": "https://media.subaru.com/newsrelease.do?id=2460&mid=333",
     "retrieved": "2026-09-19",
     "note": "2027 press kit: 'The 2027 Subaru Solterra EV arrives at retailers nationwide this fall.' 2026 press kit said the 2026 would be 'Available at retailers nationwide later this fall' (2025)."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "18-in. wheels", "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 288, "epa_id": 49982, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49982", "retrieved": "2026-09-19" },
+      { "applies_to": "20-in. wheels", "epa_vehicle": "Solterra 20 AWD", "drive": "AWD", "value": 278, "epa_id": 49981, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49981", "retrieved": "2026-09-19" }
+    ],
+    "note": "2026 matches the year of the spec sheet quoted. EPA's 2027 listings (50690, 50689) carry the same figures. EPA's labels name the wheel size, not Subaru's trims."
+  },
+  "height_in": {
+    "value": 65,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/subaru/solterra/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Premium AWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 23.8,
+    "seats_down": 63.5,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/subaru/solterra/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Premium AWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 36.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/subaru/solterra/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

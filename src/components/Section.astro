@@ -1,0 +1,29 @@
+---
+// Section shell: an optional heading, the content, and an optional note beneath. Tables, the range
+// bars and the size track go inside one, so a note under any of them is a slot on the page, not a
+// template change: <p slot="note">…</p>. A note slot that renders nothing leaves no trace.
+interface Props { heading?: string; id?: string }
+const { heading, id } = Astro.props;
+const note = Astro.slots.has('note') ? (await Astro.slots.render('note')).trim() : '';
+---
+<section class="section" id={id}>
+  {heading && <h2>{heading}</h2>}
+  <slot />
+  {note && <div class="section-note" set:html={note} />}
+</section>
+
+<style>
+  .section { margin: 0 0 2.5rem; }
+  h2 {
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--ink);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .section-note { margin-top: 0.75rem; font-size: 0.875rem; color: var(--muted); max-width: 44rem; }
+  .section-note :global(p) { margin: 0 0 0.4rem; }
+</style>

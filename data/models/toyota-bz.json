@@ -1,12 +1,15 @@
 {
   "make": "Toyota",
   "model": "bZ",
-  "reference": true,
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 184.6,
     "source": "https://www.toyota.com/bz/2027/features/weights_capacities/",
     "retrieved": "2026-09-19",
-    "note": "toyota.com '2027 Toyota bZ Specifications', 'Overall length: 184.6', identical across all five grades in the page's embedded spec data. This is the size ceiling.",
+    "note": "toyota.com '2027 Toyota bZ Specifications', 'Overall length: 184.6', identical across all five grades in the page's embedded spec data.",
     "cross_check": [
       { "value": 184.6, "source": "https://www.caranddriver.com/toyota/bz/specs", "retrieved": "2026-09-19", "note": "2026 XLE Plus FWD" }
     ]
@@ -23,6 +26,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "XLE, Limited",
     "trims": ["XLE AWD", "Limited AWD"],
     "not_awd": ["XLE FWD", "XLE FWD Plus", "Limited FWD"],
     "source": "https://www.toyota.com/bz/",
@@ -35,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "'NACS Charging Port: bZ is equipped with a North American Charging System (NACS) charging port'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.toyota.com/bz/",
+    "retrieved": "2026-09-19",
+    "note": "'bZ is equipped with a North American Charging System (NACS) charging port and includes separate CCS1 and J1772 adapters ... With access to a growing network of public chargers, including the Tesla Supercharger Network'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Toyota among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -42,5 +56,40 @@
     "source": "https://www.toyota.com/bz/",
     "retrieved": "2026-09-19",
     "note": "toyota.com '2027 Toyota bZ' with starting MSRP; the page also links the 2026 bZ. pressroom.toyota.com returned a Cloudflare challenge (HTTP 403)."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "listing_year": "2026",
+    "entries": [
+      { "applies_to": "XLE AWD", "epa_vehicle": "bZ AWD", "drive": "AWD", "value": 288, "epa_id": 49985, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49985", "retrieved": "2026-09-19" },
+      { "applies_to": "Limited AWD", "epa_vehicle": "bZ AWD LIMITED", "drive": "AWD", "value": 278, "epa_id": 49986, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49986", "retrieved": "2026-09-19" },
+      { "applies_to": "FWD (191 Ah battery)", "epa_vehicle": "bZ (energy capacity 191 Ah)", "drive": "FWD", "value": 314, "epa_id": 50042, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50042", "retrieved": "2026-09-19" },
+      { "applies_to": "FWD (200 Ah battery)", "epa_vehicle": "bZ (energy capacity 200 Ah)", "drive": "FWD", "value": 236, "epa_id": 49983, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49983", "retrieved": "2026-09-19" },
+      { "applies_to": "Limited FWD (191 Ah battery)", "epa_vehicle": "bZ LIMITED (energy capacity 191 Ah)", "drive": "FWD", "value": 299, "epa_id": 50043, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50043", "retrieved": "2026-09-19" },
+      { "applies_to": "Limited FWD (200 Ah battery)", "epa_vehicle": "bZ LIMITED (energy capacity 200 Ah)", "drive": "FWD", "value": 296, "epa_id": 49984, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49984", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA has no 2027 bZ yet (sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 listings. toyota.com's 2027 page states the same AWD figure: 'a 288-mile EPA-estimated range rating on XLE AWD'. FWD entries carry EPA's own labels; they weren't mapped to Toyota's trims. Excludes the bZ Woodland (50305, 50306), a separate model outside this universe."
+  },
+  "height_in": {
+    "value": 65,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/toyota/bz/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 XLE Plus FWD (Natl), 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 27.7,
+    "seats_down": 56.9,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/toyota/bz/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 XLE Plus FWD (Natl), cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 40,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/toyota/bz/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 XLE Plus FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

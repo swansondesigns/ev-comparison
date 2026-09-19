@@ -1,6 +1,10 @@
 {
   "make": "Porsche",
   "model": "Macan Electric",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability. Dimensions are C/D 2026; Porsche USA already lists 2027 variants."
+  },
   "length_in": {
     "value": 188.3,
     "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
@@ -16,6 +20,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "Macan 4, 4S, GTS, Turbo",
     "trims": ["Macan 4 Electric and three other AWD variants"],
     "not_awd": ["Macan Electric (RWD)"],
     "source": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
@@ -23,10 +28,26 @@
     "note": "Porsche USA lists 5 model variants for 2027: one 'Rear-wheel-drive', four 'All-wheel-drive'. C/D 2026 trims: 4, 4S, Turbo, GTS (AWD) and base RWD."
   },
   "charge_port": {
-    "value": null,
+    "value": "CCS1",
+    "adapter": {
+      "value": "included",
+      "source": "https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html",
+      "retrieved": "2026-09-19",
+      "note": "Porsche Cars North America: 'all new model year 2026 Porsche Taycan and Macan Electric models will include Porsche NACS DC adapter at no additional fee'; the adapter lets owners 'charge their CCS-equipped Taycan and Macan Electric models at ... select Tesla Superchargers'."
+    },
     "source": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
     "retrieved": "2026-09-19",
-    "note": "Porsche USA's Macan Electric page doesn't name the connector; 'CCS fast charging station' appears only in a charge-time test footnote."
+    "note": "Porsche's newsroom calls the Macan Electric 'CCS-equipped' (https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html); the model page doesn't name the connector."
+  },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html",
+    "retrieved": "2026-09-19",
+    "note": "Porsche Cars North America: 'all new model year 2026 Porsche Taycan and Macan Electric models will include Porsche NACS DC adapter at no additional fee'; the adapter lets owners 'charge their CCS-equipped Taycan and Macan Electric models at ... select Tesla Superchargers'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Porsche among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
   },
   "us_status": {
     "value": "on sale",
@@ -35,5 +56,40 @@
     "source": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
     "retrieved": "2026-09-19",
     "note": "Porsche USA lists 2027 variants with prices, 'Build Your Porsche' and 'New and Used Inventory' links."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "Macan 4 Electric", "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 304, "epa_id": 50294, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50294", "retrieved": "2026-09-19" },
+      { "applies_to": "Macan 4 Electric (20-in. wheels)", "epa_vehicle": "Macan 4 Electric 20in Wheels", "drive": "AWD", "value": 324, "epa_id": 50459, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50459", "retrieved": "2026-09-19" },
+      { "applies_to": "Macan 4S Electric", "epa_vehicle": "Macan 4S Electric", "drive": "AWD", "value": 290, "epa_id": 50295, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50295", "retrieved": "2026-09-19" },
+      { "applies_to": "Macan GTS Electric", "epa_vehicle": "Macan GTS Electric", "drive": "AWD", "value": 294, "epa_id": 50297, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50297", "retrieved": "2026-09-19" },
+      { "applies_to": "Macan Turbo Electric", "epa_vehicle": "Macan Turbo Electric", "drive": "AWD", "value": 293, "epa_id": 50298, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50298", "retrieved": "2026-09-19" },
+      { "applies_to": "Macan Electric (RWD)", "epa_vehicle": "Macan Electric", "drive": "RWD", "value": 309, "epa_id": 50296, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50296", "retrieved": "2026-09-19" },
+      { "applies_to": "Macan Electric (RWD, 20-in. wheels)", "epa_vehicle": "Macan Electric 20in Wheels", "drive": "RWD", "value": 332, "epa_id": 50458, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50458", "retrieved": "2026-09-19" }
+    ],
+    "note": "2026 matches the year of the dimensions quoted (C/D). Porsche USA already lists 2027 variants."
+  },
+  "height_in": {
+    "value": 63.9,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Electric 4 AWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 19.1,
+    "seats_down": 47.6,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Electric 4 AWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 39.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/porsche/macan-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Electric 4 AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

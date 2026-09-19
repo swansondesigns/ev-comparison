@@ -1,6 +1,10 @@
 {
   "make": "Audi",
   "model": "SQ6 e-tron",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 187.9,
     "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
@@ -30,9 +34,25 @@
   },
   "charge_port": {
     "value": "CCS1",
+    "adapter": {
+      "value": "included",
+      "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
+      "retrieved": "2026-09-19",
+      "note": "Audi NACS FAQ: 'new buyers of Audi Q6 e-tron / A6 Sportback e-tron / e-tron GT model families will receive the Audi NACS DC charging adapter'. The SQ6 e-tron is part of the Q6 e-tron family (Audi's 2027 spec sheet covers both); the FAQ doesn't name it separately."
+    },
     "source": "https://media.audiusa.com/assets/applications/original/17281-2027my-audi-q6-sq6-e-tron-technical-specs-rev-260803.pdf",
     "retrieved": "2026-09-19",
     "note": "'Charge Port (Driver side): J1772 / CCS'."
+  },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
+    "retrieved": "2026-09-19",
+    "note": "Audi NACS FAQ: 'new buyers of Audi Q6 e-tron / A6 Sportback e-tron / e-tron GT model families will receive the Audi NACS DC charging adapter'. The SQ6 e-tron is part of the Q6 e-tron family (Audi's 2027 spec sheet covers both); the FAQ doesn't name it separately.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Audi among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
   },
   "us_status": {
     "value": "on sale",
@@ -41,5 +61,36 @@
     "source": "https://media.audiusa.com/api/models/sq6-e-tron",
     "retrieved": "2026-09-19",
     "note": "Audi USA media has 2027 SQ6 press kit and 2027MY technical specs; model in market since 2025."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "SQ6 e-tron (20-in. tires)", "epa_vehicle": "SQ6 e-tron (20 inch Tires)", "drive": "AWD", "wheels_in": 20, "value": 285, "epa_id": 50380, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50380", "retrieved": "2026-09-19" },
+      { "applies_to": "SQ6 e-tron (21-in. tires)", "epa_vehicle": "SQ6 e-tron (21 inch Tires)", "drive": "AWD", "wheels_in": 21, "value": 264, "epa_id": 50381, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50381", "retrieved": "2026-09-19" },
+      { "applies_to": "SQ6 Sportback e-tron (20-in. tires)", "epa_vehicle": "SQ6 Sportback e-tron (20 inch Tires)", "drive": "AWD", "wheels_in": 20, "value": 285, "epa_id": 50382, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50382", "retrieved": "2026-09-19" },
+      { "applies_to": "SQ6 Sportback e-tron (21-in. tires)", "epa_vehicle": "SQ6 Sportback e-tron (21 inch Tires)", "drive": "AWD", "wheels_in": 21, "value": 264, "epa_id": 50383, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50383", "retrieved": "2026-09-19" }
+    ]
+  },
+  "height_in": {
+    "value": 66.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2025 Premium quattro, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 30.2,
+    "seats_down": 60.4,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2025 Premium quattro, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 39.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2025 Premium quattro, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

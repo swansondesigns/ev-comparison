@@ -1,6 +1,10 @@
 {
   "make": "Cadillac",
   "model": "Optiq",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 189.8,
     "source": "https://www.caranddriver.com/cadillac/optiq/specs/2027/cadillac_optiq_cadillac-optiq_2027",
@@ -16,6 +20,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "Dual motor, on Luxury and Sport",
     "trims": ["Dual motor AWD (available feature on Luxury and Sport trims)"],
     "not_awd": ["Base RWD"],
     "source": "https://www.cadillac.com/electric/optiq",
@@ -28,6 +33,16 @@
     "retrieved": "2026-09-19",
     "note": "Key standard features: 'North American Charging System (NACS) onboard charge port'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.cadillac.com/electric/optiq",
+    "retrieved": "2026-09-19",
+    "note": "Key standard features: 'North American Charging System (NACS) onboard charge port'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists General Motors (GM) among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -35,5 +50,37 @@
     "source": "https://www.cadillac.com/electric/optiq",
     "retrieved": "2026-09-19",
     "note": "Cadillac page titled '2027 OPTIQ | Small Electric SUV' with pricing, dealer and trade-in links."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "Dual-motor AWD (11 kW onboard charger)", "epa_vehicle": "OPTIQ AWD 11kW Charger", "drive": "AWD", "value": 303, "epa_id": 50618, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50618", "retrieved": "2026-09-19" },
+      { "applies_to": "Dual-motor AWD (19 kW onboard charger)", "epa_vehicle": "OPTIQ AWD 19kW Charger", "drive": "AWD", "value": 303, "epa_id": 50619, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50619", "retrieved": "2026-09-19" },
+      { "applies_to": "Single-motor RWD (11 kW onboard charger)", "epa_vehicle": "OPTIQ RWD 11kW Charger", "drive": "RWD", "value": 317, "epa_id": 50622, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50622", "retrieved": "2026-09-19" },
+      { "applies_to": "Single-motor RWD (19 kW onboard charger)", "epa_vehicle": "OPTIQ RWD 19kW Charger", "drive": "RWD", "value": 317, "epa_id": 50623, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50623", "retrieved": "2026-09-19" }
+    ],
+    "note": "Excludes the Optiq-V (EPA 50620 and 50621, 278 and 250 mi), a performance variant left out like the Ioniq 5 N and GV60 Magma."
+  },
+  "height_in": {
+    "value": 64.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/cadillac/optiq/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Luxury 4dr w/1SC, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 26,
+    "seats_down": 57,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/cadillac/optiq/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Luxury 4dr w/1SC, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 39.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/cadillac/optiq/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Luxury 4dr w/1SC, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

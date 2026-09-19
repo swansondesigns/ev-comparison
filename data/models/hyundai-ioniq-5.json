@@ -40,6 +40,16 @@
     "retrieved": "2026-09-19",
     "note": "2027 press kit: 'standard North American Charging Standard (NACS) port'; 'Native NACS charging port'. Pricing sheet lists 'NACS --> CCS Adapter' in the base package. Ioniq 5 N (folded in): Hyundai's Dec. 23, 2024 adapter release lists the '2025 IONIQ 5 N' among CCS-port models (sources/hyundai-api-2025-kona-electric-releases.json); no N port source for 2026 or later."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.hyundainews.com/api/press-kits/2027-ioniq-5-overview",
+    "retrieved": "2026-09-19",
+    "note": "2027 press kit: 'standard North American Charging Standard (NACS) port'; 'Native NACS charging port'. Pricing sheet lists 'NACS --> CCS Adapter' in the base package. Ioniq 5 N (folded in): Hyundai's Dec. 23, 2024 adapter release lists the '2025 IONIQ 5 N' among CCS-port models (sources/hyundai-api-2025-kona-electric-releases.json); no N port source for 2026 or later.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Hyundai among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -160,7 +170,7 @@
     { "claim": "Hyundai's 2027 spec sheet lists 10-80% in 30 min on a 150 kW (400V) charger under 'Charge Time: NACS', against 20 min on a >250 kW (800V) charger via CCS adapter.", "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19" }
   ],
   "notes": [
-    { "tag": "reader", "text": "Hyundai's own figures: 10-80% takes about 30 minutes on a 400-volt charger such as a Tesla Supercharger, against about 20 on the fastest 800-volt chargers." },
+    { "tag": "reader", "section": "tesla", "text": "Hyundai's own figures: 10-80% takes about 30 minutes on a 400-volt charger such as a Tesla Supercharger, against about 20 on the fastest 800-volt chargers." },
     { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet; Hyundai publishes charger ratings, not the car's peak." }
   ]
 }

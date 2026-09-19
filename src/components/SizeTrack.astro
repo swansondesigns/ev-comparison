@@ -1,0 +1,20 @@
+---
+// Length on a shared track, with her two reference lines. `head` renders the labelled header strip;
+// `labels` names the lines on a track that also carries a dot (the one-sheets).
+import '../styles/tracks.css';
+import { refs, sizeScale, pct } from '../lib/compare.js';
+
+interface Props { length?: number | null; head?: boolean; labels?: boolean }
+const { length = null, head = false, labels = head } = Astro.props;
+---
+<div class:list={['track', { 'track-head': head }]} aria-hidden="true">
+  <span class="track-ref track-ref-corolla" style={`--x: ${pct(refs.corolla, sizeScale)}`}>
+    {labels && <span class="track-lbl">your car</span>}
+  </span>
+  {refs.feelsRight != null && (
+    <span class="track-ref track-ref-feels-right" style={`--x: ${pct(refs.feelsRight, sizeScale)}`}>
+      {labels && <span class="track-lbl">Mach-E</span>}
+    </span>
+  )}
+  {length != null && <span class="track-dot" style={`--x: ${pct(length, sizeScale)}`}></span>}
+</div>

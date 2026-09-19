@@ -37,6 +37,16 @@
     "retrieved": "2026-09-19",
     "note": "'C-HR's North American Charging Standard (NACS) port gives you access to ... the Tesla Supercharger Network'; 'separate adapters for CCS and J1772 chargers'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.toyota.com/c-hr/",
+    "retrieved": "2026-09-19",
+    "note": "'C-HR's North American Charging Standard (NACS) port gives you access to thousands of charging stations nationwide—including the Tesla Supercharger Network.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Toyota among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -47,33 +57,12 @@
   },
   "epa_range": {
     "model_year": "2027",
+    "listing_year": "2026",
     "entries": [
-      {
-        "applies_to": "SE",
-        "drive": "AWD",
-        "value": 287,
-        "estimate": true,
-        "source": "https://www.toyota.com/c-hr/",
-        "retrieved": "2026-09-19",
-        "note": "'an EPA-estimated 287-mile range rating for SE'",
-        "cross_check": [
-          { "value": 287, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50307", "retrieved": "2026-09-19", "note": "EPA 2026 C-HR AWD 18inch" }
-        ]
-      },
-      {
-        "applies_to": "XSE",
-        "drive": "AWD",
-        "value": 273,
-        "estimate": true,
-        "source": "https://www.toyota.com/c-hr/",
-        "retrieved": "2026-09-19",
-        "note": "'an EPA-estimated 273-mile range rating for XSE'; XSE has 20-in. wheels",
-        "cross_check": [
-          { "value": 273, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50308", "retrieved": "2026-09-19", "note": "EPA 2026 C-HR AWD 20inch" }
-        ]
-      }
+      { "applies_to": "SE", "epa_vehicle": "C-HR AWD 18inch", "drive": "AWD", "wheels_in": 18, "value": 287, "epa_id": 50307, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50307", "retrieved": "2026-09-19" },
+      { "applies_to": "XSE", "epa_vehicle": "C-HR AWD 20inch", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50308, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50308", "retrieved": "2026-09-19" }
     ],
-    "note": "EPA has no 2027 C-HR yet (2027 Toyota model menu checked 2026-09-19, sources/fe-menu-model-2027-toyota.xml). Toyota's stated 2027 figures match EPA's 2026 C-HR AWD 18inch and 20inch listings."
+    "note": "EPA has no 2027 C-HR yet (2027 Toyota model menu checked 2026-09-19, sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 C-HR listings. Toyota's stated 2027 figures are the same: 'an EPA-estimated 287-mile range rating for SE', '273-mile range rating for XSE' (https://www.toyota.com/c-hr/). XSE has 20-in. wheels."
   },
   "trims": {
     "list": [
@@ -147,7 +136,7 @@
     { "source": "https://www.caranddriver.com/toyota/c-hr", "retrieved": "2026-09-19", "trim_tested": "XSE", "result_mi": 230, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
   ],
   "notes": [
-    { "tag": "reader", "text": "EPA hasn't listed the 2027 C-HR yet. The range shown is Toyota's EPA estimate, which matches EPA's 2026 listing." },
+    { "tag": "provenance", "text": "Range is EPA's 2026 C-HR listing. EPA hasn't listed the 2027 yet; Toyota's stated 2027 figures are the same." },
     { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet; Toyota's pages give only the charger power assumed for the 10-80% time." }
   ]
 }

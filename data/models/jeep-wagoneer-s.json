@@ -1,6 +1,10 @@
 {
   "make": "Jeep",
   "model": "Wagoneer S",
+  "model_year": {
+    "value": "2025",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 192.4,
     "source": "https://media.stellantisnorthamerica.com/view-spec.do?id=26579",
@@ -22,10 +26,25 @@
     "note": "'Four-wheel drive' listed under body and chassis; spec sheet covers Launch Edition and Limited."
   },
   "charge_port": {
-    "value": null,
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": "sold",
+      "note": "Jeep's Wagoneer S technology page: 'Starting early 2026, the Jeep Wagoneer S is adopting the North American Charging System, adding more than 27,500 Tesla Supercharger stalls to our expansive network', beside an 'Integrated Charging Adapter' with a shop link, 'Tesla Supercharging Compatible'. Stellantis release (https://media.stellantisnorthamerica.com/newsrelease.do?id=27259&mid=): 'Tesla Supercharger network availability will start in 2026 with existing North American BEVs, such as Jeep Wagoneer S'."
+    },
     "source": "https://media.stellantisnorthamerica.com/view-spec.do?id=26579",
     "retrieved": "2026-09-19",
-    "note": "Connector type not named on the 2025 spec sheet or jeep.com's Wagoneer S overview."
+    "note": "Connector type not named on the 2025 spec sheet; CCS1 inferred from Jeep selling a charging adapter for Supercharger access."
+  },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.jeep.com/wagoneer/wagoneer-s/technology.html",
+    "retrieved": "2026-09-19",
+    "note": "Jeep's Wagoneer S technology page: 'Starting early 2026, the Jeep Wagoneer S is adopting the North American Charging System, adding more than 27,500 Tesla Supercharger stalls to our expansive network', beside an 'Integrated Charging Adapter' with a shop link, 'Tesla Supercharging Compatible'. Stellantis release (https://media.stellantisnorthamerica.com/newsrelease.do?id=27259&mid=): 'Tesla Supercharger network availability will start in 2026 with existing North American BEVs, such as Jeep Wagoneer S'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Stellantis among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
   },
   "us_status": {
     "value": "on sale",
@@ -34,5 +53,13 @@
     "source": "https://www.jeep.com/wagoneer-s.html",
     "retrieved": "2026-09-19",
     "note": "jeep.com still presents the '2025 Wagoneer S' with 'Limited quantities available'. Stellantis media has press kits and specs for 2024 and 2025 only; no 2026 or 2027 model found. May be winding down."
+  },
+  "epa_range": {
+    "model_year": "2025",
+    "entries": [
+      { "applies_to": "Falken tires", "epa_vehicle": "Wagoneer S AWD (Falken tire)", "drive": "AWD", "value": 294, "epa_id": 49093, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49093", "retrieved": "2026-09-19" },
+      { "applies_to": "Pirelli tires", "epa_vehicle": "Wagoneer S AWD (Pirelli tire)", "drive": "AWD", "value": 262, "epa_id": 49151, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49151", "retrieved": "2026-09-19" }
+    ],
+    "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 (50209, 50210: 294 and 268 mi). EPA's labels name the tire, not Jeep's trims."
   }
 }

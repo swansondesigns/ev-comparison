@@ -46,6 +46,12 @@
     "retrieved": "2026-09-19",
     "note": "'AC/DC Combo Port J1772 / CCS', 'Charge Port (Driver side)'."
   },
+  "supercharger_access": {
+    "value": "no",
+    "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
+    "retrieved": "2026-09-19",
+    "note": "Audi NACS FAQ: 'The Q4 e-tron is subject to a future announcement. The Q4 e-tron is not currently able to utilize the Audi NACS DC adapter or any other NACS adapter.'"
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
@@ -144,8 +150,8 @@
     { "source": "https://www.caranddriver.com/audi/q4-e-tron", "retrieved": "2026-09-19", "trim_tested": "Sportback 55 e-tron quattro", "result_mi": 220, "temp_f": null, "note": "C/D 75-mph highway range test. Model year of the test car not stated on the page." }
   ],
   "notes": [
-    { "tag": "reader", "text": "Audi says the Q4 e-tron can't currently use any NACS adapter, so it has no Tesla Supercharger access for now." },
-    { "tag": "reader", "text": "Audi's 2026 sheet calls the 55 quattro's range 'EPA estimated' at 258 miles; EPA's own 2026 listing says 251. The pages use EPA's figure." },
+    { "tag": "reader", "section": "tesla", "text": "Audi says the Q4 e-tron can't currently use any NACS adapter, so it has no Tesla Supercharger access for now." },
+    { "tag": "reader", "section": "range", "text": "Audi's 2026 sheet calls the 55 quattro's range 'EPA estimated' at 258 miles; EPA's own 2026 listing says 251. The pages use EPA's figure." },
     { "tag": "provenance", "text": "The heat pump statement is from the 2025 model year." }
   ]
 }

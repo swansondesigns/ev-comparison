@@ -198,5 +198,365 @@
   "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49747",
   "slug": "fe-vehicle-49747",
   "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50376",
+  "slug": "fe-vehicle-50376",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50377",
+  "slug": "fe-vehicle-50377",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50379",
+  "slug": "fe-vehicle-50379",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50378",
+  "slug": "fe-vehicle-50378",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50380",
+  "slug": "fe-vehicle-50380",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50381",
+  "slug": "fe-vehicle-50381",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50382",
+  "slug": "fe-vehicle-50382",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50383",
+  "slug": "fe-vehicle-50383",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50385",
+  "slug": "fe-vehicle-50385",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50384",
+  "slug": "fe-vehicle-50384",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50386",
+  "slug": "fe-vehicle-50386",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50611",
+  "slug": "fe-vehicle-50611",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50387",
+  "slug": "fe-vehicle-50387",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50618",
+  "slug": "fe-vehicle-50618",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50619",
+  "slug": "fe-vehicle-50619",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50622",
+  "slug": "fe-vehicle-50622",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50623",
+  "slug": "fe-vehicle-50623",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50630",
+  "slug": "fe-vehicle-50630",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50200",
+  "slug": "fe-vehicle-50200",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50201",
+  "slug": "fe-vehicle-50201",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50202",
+  "slug": "fe-vehicle-50202",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50203",
+  "slug": "fe-vehicle-50203",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50204",
+  "slug": "fe-vehicle-50204",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50205",
+  "slug": "fe-vehicle-50205",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50634",
+  "slug": "fe-vehicle-50634",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49093",
+  "slug": "fe-vehicle-49093",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49151",
+  "slug": "fe-vehicle-49151",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50212",
+  "slug": "fe-vehicle-50212",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50213",
+  "slug": "fe-vehicle-50213",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50214",
+  "slug": "fe-vehicle-50214",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50215",
+  "slug": "fe-vehicle-50215",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50217",
+  "slug": "fe-vehicle-50217",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50218",
+  "slug": "fe-vehicle-50218",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50219",
+  "slug": "fe-vehicle-50219",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50220",
+  "slug": "fe-vehicle-50220",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50291",
+  "slug": "fe-vehicle-50291",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50216",
+  "slug": "fe-vehicle-50216",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50229",
+  "slug": "fe-vehicle-50229",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50230",
+  "slug": "fe-vehicle-50230",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50231",
+  "slug": "fe-vehicle-50231",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50232",
+  "slug": "fe-vehicle-50232",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50233",
+  "slug": "fe-vehicle-50233",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50034",
+  "slug": "fe-vehicle-50034",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50035",
+  "slug": "fe-vehicle-50035",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50033",
+  "slug": "fe-vehicle-50033",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50294",
+  "slug": "fe-vehicle-50294",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50459",
+  "slug": "fe-vehicle-50459",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50295",
+  "slug": "fe-vehicle-50295",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50297",
+  "slug": "fe-vehicle-50297",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50298",
+  "slug": "fe-vehicle-50298",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50296",
+  "slug": "fe-vehicle-50296",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50458",
+  "slug": "fe-vehicle-50458",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50391",
+  "slug": "fe-vehicle-50391",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50390",
+  "slug": "fe-vehicle-50390",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49982",
+  "slug": "fe-vehicle-49982",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49981",
+  "slug": "fe-vehicle-49981",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50692",
+  "slug": "fe-vehicle-50692",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50691",
+  "slug": "fe-vehicle-50691",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50304",
+  "slug": "fe-vehicle-50304",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49744",
+  "slug": "fe-vehicle-49744",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50253",
+  "slug": "fe-vehicle-50253",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49743",
+  "slug": "fe-vehicle-49743",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50040",
+  "slug": "fe-vehicle-50040",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50041",
+  "slug": "fe-vehicle-50041",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49985",
+  "slug": "fe-vehicle-49985",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49986",
+  "slug": "fe-vehicle-49986",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50042",
+  "slug": "fe-vehicle-50042",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49983",
+  "slug": "fe-vehicle-49983",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50043",
+  "slug": "fe-vehicle-50043",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/49984",
+  "slug": "fe-vehicle-49984",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50696",
+  "slug": "fe-vehicle-50696",
+  "ext": "xml"
+ },
+ {
+  "url": "https://www.fueleconomy.gov/ws/rest/vehicle/50697",
+  "slug": "fe-vehicle-50697",
+  "ext": "xml"
  }
 ]

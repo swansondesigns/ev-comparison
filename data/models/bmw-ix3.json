@@ -1,6 +1,10 @@
 {
   "make": "BMW",
   "model": "iX3",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 188.3,
     "source": "https://www.caranddriver.com/bmw/ix3/specs",
@@ -27,6 +31,16 @@
     "retrieved": "2026-09-19",
     "note": "'The iX3's NACS charge port allows for seamless access to Tesla Superchargers'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.bmwusa.com/vehicles/x-series/ix3/bmw-ix3.html",
+    "retrieved": "2026-09-19",
+    "note": "'The iX3's NACS charge port allows for seamless access to Tesla Superchargers'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists BMW among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -34,5 +48,23 @@
     "source": "https://www.bmwusa.com/vehicles/x-series/ix3/bmw-ix3.html",
     "retrieved": "2026-09-19",
     "note": "'The 2027 BMW iX3'; starting MSRP given; 'Build yours', 'Shop inventory', 'Test drive' links."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "iX3 50 xDrive, 20-in. summer tires", "epa_vehicle": "iX3 50 xDrive (20 inch Summer Tires)", "drive": "AWD", "wheels_in": 20, "value": 434, "epa_id": 50385, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50385", "retrieved": "2026-09-19" },
+      { "applies_to": "iX3 50 xDrive, 20-in. all-season tires", "epa_vehicle": "iX3 50 xDrive (20 inch All-Season Tires)", "drive": "AWD", "wheels_in": 20, "value": 383, "epa_id": 50384, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50384", "retrieved": "2026-09-19" },
+      { "applies_to": "iX3 50 xDrive, 21-in. all-season tires", "epa_vehicle": "iX3 50 xDrive (21 inch All-Season Tires)", "drive": "AWD", "wheels_in": 21, "value": 399, "epa_id": 50386, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50386", "retrieved": "2026-09-19" },
+      { "applies_to": "iX3 50 xDrive, 21-in. summer tires", "epa_vehicle": "iX3 50 xDrive (21 inch Summer Tires)", "drive": "AWD", "wheels_in": 21, "value": 398, "epa_id": 50611, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50611", "retrieved": "2026-09-19" },
+      { "applies_to": "iX3 50 xDrive, 22-in. summer tires", "epa_vehicle": "iX3 50 xDrive (22 inch Summer Tires)", "drive": "AWD", "wheels_in": 22, "value": 392, "epa_id": 50387, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50387", "retrieved": "2026-09-19" }
+    ],
+    "note": "One version, five EPA listings by wheel and tire."
+  },
+  "height_in": {
+    "value": 64.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/bmw/ix3/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2027 50 xDrive Sports Activity Vehicle, 'Height (inches)'."
   }
 }

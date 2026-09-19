@@ -1,7 +1,8 @@
 // Write epa_range into data/models/<slug>.json from saved fueleconomy.gov vehicle records.
 // Usage: node scripts/epa-range.js
-// Reads scripts/lists/epa-range.json ({ slug: { model_year, ids[], maker_estimate?, cross_check_ids?, note? } }).
+// Reads scripts/lists/epa-range.json ({ slug: { model_year, listing_year?, ids[], maker_estimate?, cross_check_ids?, note? } }).
 // Each id is a number or { id, applies_to } naming the maker's trims that EPA listing covers.
+// listing_year: the EPA model year the ids belong to, where EPA hasn't listed the year the specs are quoted for.
 // and sources/fe-vehicle-<id>.xml (fetched with scripts/lists/fe-vehicles.json).
 // Replaces any existing epa_range; other fields are untouched.
 const fs = require('fs');
@@ -43,10 +44,11 @@ for (const [slug, p] of Object.entries(plan)) {
   const file = path.join(root, 'data', 'models', `${slug}.json`);
   const m = JSON.parse(fs.readFileSync(file, 'utf8'));
 
+  const listingYear = p.listing_year || p.model_year;
   const entries = (p.ids || []).map((item) => {
     const { id, applies_to } = typeof item === 'number' ? { id: item } : item;
     const r = epaRecord(id);
-    if (r.year !== p.model_year) throw new Error(`${slug}: EPA ${id} is ${r.year}, expected ${p.model_year}`);
+    if (r.year !== listingYear) throw new Error(`${slug}: EPA ${id} is ${r.year}, expected ${listingYear}`);
     delete r.year;
     return applies_to ? { applies_to, ...r } : r;
   });
@@ -69,7 +71,12 @@ for (const [slug, p] of Object.entries(plan)) {
     }));
   }
 
-  m.epa_range = { model_year: p.model_year, entries, ...(p.note ? { note: p.note } : {}) };
+  m.epa_range = {
+    model_year: p.model_year,
+    ...(p.listing_year ? { listing_year: p.listing_year } : {}),
+    entries,
+    ...(p.note ? { note: p.note } : {}),
+  };
   writeJson(file, m);
   const awd = entries.filter((e) => e.drive === 'AWD').map((e) => e.value);
   console.log(`${slug}: ${entries.length} entries, AWD ${Math.min(...awd)}-${Math.max(...awd)} mi${p.maker_estimate ? ' (maker estimate)' : ''}`);

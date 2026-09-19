@@ -1,243 +1,44 @@
 ---
-// Page two: side by side for the models that pass both gates. One row per model.
+// Page two: side by side for the models that pass both gates. A thin page: it arranges components
+// and holds the copy.
 import Base from '../layouts/Base.astro';
-import { rows, refs, sizeScale, rangeScale, pct } from '../lib/compare.js';
+import Section from '../components/Section.astro';
+import CompareTable from '../components/CompareTable.astro';
+import { rows } from '../lib/compare.js';
 
-const ticks = [];
-for (let v = rangeScale.lo; v <= rangeScale.hi; v += rangeScale.tick) ticks.push(v);
 const anyEstimate = rows.some((r) => r.range?.estimate);
-const rangeText = (r) => (r.min === r.max ? `${r.min} mi` : `${r.min}–${r.max} mi`);
 ---
 <Base title="Side by side">
   <h1>Side by side</h1>
 
-  <fieldset class="sort">
-    <legend>Sort by</legend>
-    <label><input type="radio" name="sort" value="length" data-dir="ascending" checked /> Length</label>
-    <label><input type="radio" name="sort" value="range" data-dir="descending" /> Range</label>
-    <label><input type="radio" name="sort" value="alpha" data-dir="ascending" /> A–Z</label>
-  </fieldset>
+  <dl class="key">
+    <div><dt><span class="line line-corolla" aria-hidden="true"></span>Dashed line</dt><dd>your car, the Corolla</dd></div>
+    <div><dt><span class="line line-feels-right" aria-hidden="true"></span>Solid line</dt><dd>the Mach-E, the one you said feels right</dd></div>
+  </dl>
 
-  <div class="scroll">
-    <table class="compare">
-      <thead>
-        <tr>
-          <th scope="col" class="model">Model</th>
-          <th scope="col" class="size">
-            Size <span class="cap">width vs. Corolla</span>
-            <div class="track" aria-hidden="true">
-              <span class="ref ref-corolla" style={`--x: ${pct(refs.corolla, sizeScale)}`}><span class="lbl">Corolla</span></span>
-              <span class="ref ref-bz" style={`--x: ${pct(refs.bz, sizeScale)}`}><span class="lbl">bZ</span></span>
-            </div>
-          </th>
-          <th scope="col" class="awd">AWD</th>
-          <th scope="col" class="plug">Tesla plug</th>
-          <th scope="col" class="range">
-            Range <span class="cap">EPA, AWD versions</span>
-            <div class="track" aria-hidden="true">
-              {ticks.map((v) => (
-                <span class="tick" style={`--x: ${pct(v, rangeScale)}`}>
-                  {(v - rangeScale.lo) % rangeScale.labelEvery === 0 && <span class="lbl">{v}</span>}
-                </span>
-              ))}
-            </div>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((r) => (
-          <tr data-alpha={r.alpha} data-length={r.length ?? 1e9} data-range={r.range ? r.range.max : -1}>
-            <th scope="row" class="model">
-              <span class="name">{r.name}</span>
-              {r.year && <span class="year">{r.year}</span>}
-            </th>
-
-            <td class="size">
-              <div class="track" aria-hidden="true">
-                <span class="ref ref-corolla" style={`--x: ${pct(refs.corolla, sizeScale)}`}></span>
-                <span class="ref ref-bz" style={`--x: ${pct(refs.bz, sizeScale)}`}></span>
-                {r.length != null && <span class="dot" style={`--x: ${pct(r.length, sizeScale)}`}></span>}
-              </div>
-              {r.length != null
-                ? <span class="num">{r.length} in</span>
-                : <span class="none">—<span class="sr-only">No data</span></span>}
-              {r.width && <span class="sub">{r.width}</span>}
-            </td>
-
-            <td class="awd">{r.awd}</td>
-
-            <td class="plug">
-              {r.plug
-                ? <><span class:list={{ warn: r.plug.warn }}>{r.plug.text}</span>{r.plug.note && <span class="sub">{r.plug.note}</span>}</>
-                : <span class="none">—<span class="sr-only">No data</span></span>}
-            </td>
-
-            <td class="range">
-              <div class="track" aria-hidden="true">
-                {ticks.map((v) => <span class="tick" style={`--x: ${pct(v, rangeScale)}`}></span>)}
-                {r.range && (
-                  <span
-                    class:list={['seg', { est: r.range.estimate }]}
-                    style={`--x: ${pct(r.range.min, rangeScale)}; --x2: ${pct(r.range.max, rangeScale)}`}
-                  ></span>
-                )}
-              </div>
-              {r.range
-                ? <span class="num">{rangeText(r.range)}{r.range.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
-                : <span class="none">—<span class="sr-only">No data</span></span>}
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-
-  {anyEstimate && (
-    <p class="foot"><span aria-hidden="true">*</span> Hollow bar: the maker's EPA estimate. EPA hasn't listed that model year yet.</p>
-  )}
+  <Section>
+    <CompareTable />
+    {anyEstimate && (
+      <p slot="note"><span aria-hidden="true">*</span> Hollow bar: the maker's EPA estimate. EPA hasn't listed that model yet.</p>
+    )}
+  </Section>
 </Base>
-
-<script>
-  import { sortRows } from '../scripts/sort-table.js';
-  const body = document.querySelector('table.compare tbody');
-  document.querySelectorAll<HTMLInputElement>('.sort input').forEach((input) => {
-    input.addEventListener('change', () => sortRows(body, input.value, input.dataset.dir));
-  });
-</script>
 
 <style>
   h1 { margin-top: 2.5rem; }
 
-  /* Sort control: a row of plain text options, the active one underlined. */
-  .sort {
+  .key {
     display: flex;
-    align-items: baseline;
-    gap: 1.25rem;
-    border: 0;
-    margin: 0 0 1.5rem;
-    padding: 0;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5rem;
+    margin: 0 0 1.25rem;
     font-size: 0.875rem;
-  }
-  .sort legend { float: left; margin-right: 0.25rem; padding: 0; color: var(--muted); }
-  .sort label { cursor: pointer; color: var(--muted); }
-  .sort input { position: absolute; opacity: 0; pointer-events: none; }
-  .sort label:has(input:checked) {
-    color: var(--ink);
-    text-decoration: underline;
-    text-decoration-color: var(--pass);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.3em;
-  }
-  .sort label:has(input:focus-visible) { outline: 2px solid var(--ink); outline-offset: 3px; }
-
-  .scroll { overflow-x: auto; }
-
-  .compare {
-    --size-w: 11rem;
-    --range-w: 10rem;
-    --track-gap: 1rem;
-    border-collapse: collapse;
-    min-width: 62rem;
-    width: 100%;
-  }
-  .compare th, .compare td {
-    padding: 0.85rem 1rem;
-    border-bottom: 1px solid var(--rule);
-    text-align: left;
-    vertical-align: middle;
-  }
-  .compare th:first-child { padding-left: 0; }
-
-  .compare thead th {
-    vertical-align: top;
-    border-bottom-color: var(--ink);
-    padding-bottom: 1.75rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
     color: var(--muted);
   }
-  .cap {
-    display: block;
-    margin-top: 0.15rem;
-    font-weight: 400;
-    letter-spacing: 0;
-    text-transform: none;
-  }
-
-  /* Model */
-  .model .name { display: block; font-weight: 700; }
-  .model .year { font-family: var(--font-data); font-size: 0.8125rem; color: var(--muted); }
-  tbody th.model { font-weight: 400; min-width: 11rem; }
-
-  .num { display: block; font-family: var(--font-data); font-size: 0.875rem; white-space: nowrap; }
-  .sub { display: block; font-size: 0.8125rem; color: var(--muted); }
-  .none { color: var(--muted); }
-  .warn { color: var(--fail); font-weight: 600; }
-
-  .compare td.awd { min-width: 11rem; max-width: 15rem; }
-  td.awd, td.plug { font-size: 0.9375rem; }
-
-  /* Tracks: absolutely placed inside the cell and full cell height, so the reference lines and
-     ticks run unbroken from row to row. The printed values sit to the right. */
-  .size, .range { position: relative; }
-  .compare td.size { padding-left: calc(var(--size-w) + var(--track-gap) * 2); }
-  .compare td.range { padding-left: calc(var(--range-w) + var(--track-gap) * 2); }
-
-  .track { position: absolute; top: 0; bottom: 0; left: var(--track-gap); }
-  .size .track { width: var(--size-w); }
-  .range .track { width: var(--range-w); }
-  thead .track { top: auto; height: 1.4rem; bottom: -1px; }
-
-  .ref, .tick { position: absolute; top: 0; bottom: 0; left: var(--x); width: 0; }
-  .ref-corolla { border-left: 1.5px dashed var(--muted); }
-  .ref-bz { border-left: 1.5px solid var(--fail); }
-  .tick { border-left: 1px solid color-mix(in srgb, var(--rule) 60%, transparent); }
-
-  .lbl {
-    position: absolute;
-    top: 0;
-    transform: translateX(-50%);
-    font-family: var(--font-data);
-    font-size: 0.6875rem;
-    font-weight: 400;
-    letter-spacing: 0;
-    text-transform: none;
-    white-space: nowrap;
-    background: var(--paper);
-    padding: 0 0.2rem;
-  }
-  .ref-corolla .lbl { color: var(--muted); }
-  .ref-bz .lbl { color: var(--fail); }
-  .tick .lbl { color: var(--muted); }
-
-  .dot {
-    position: absolute;
-    top: 50%;
-    left: var(--x);
-    width: 0.75rem;
-    height: 0.75rem;
-    border-radius: 50%;
-    background: var(--ink);
-    transform: translate(-50%, -50%);
-  }
-
-  /* Floating segment: position encodes the numbers. Centred on its midpoint so a single value (or a
-     very short span) still shows as a visible stub in the right place. */
-  .seg {
-    position: absolute;
-    top: 50%;
-    left: calc((var(--x) + var(--x2)) / 2);
-    width: max(calc(var(--x2) - var(--x)), 0.5rem);
-    height: 0.5rem;
-    border-radius: 0.25rem;
-    background: var(--pass);
-    transform: translate(-50%, -50%);
-  }
-  .seg.est { background: transparent; border: 1.5px solid var(--pass); }
-
-  tbody tr:hover { background: color-mix(in srgb, var(--rule) 22%, transparent); }
-
-  .foot { margin: 1rem 0 0; font-size: 0.8125rem; color: var(--muted); }
+  .key div { display: flex; gap: 0.4em; align-items: baseline; }
+  .key dt { font-weight: 700; color: var(--ink); }
+  .key dd { margin: 0; }
+  .line { display: inline-block; height: 0.9em; margin-right: 0.45em; vertical-align: -0.1em; }
+  .line-corolla { border-left: 1.5px dashed var(--muted); }
+  .line-feels-right { border-left: 1.5px solid var(--pass); }
 </style>

@@ -1,6 +1,10 @@
 {
   "make": "Ford",
   "model": "Mustang Mach-E",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 185.6,
     "source": "https://www.ford.com/suvs/mach-e/",
@@ -22,17 +26,33 @@
   },
   "awd": {
     "value": "available",
-    "trims": ["Select eAWD", "Premium eAWD", "GT (enhanced eAWD)"],
+    "label": "Select, Premium, GT, Rally",
+    "trims": ["Select eAWD", "Premium eAWD", "GT (enhanced eAWD)", "Rally"],
     "not_awd": ["Select RWD", "Premium RWD"],
     "source": "https://www.ford.com/suvs/mach-e/",
     "retrieved": "2026-09-19",
-    "note": "'The Mustang Mach-E offers three drivetrain options: RWD, eAWD, and the GT enhanced eAWD.' eAWD available on Select and Premium; GT enhanced eAWD. C/D 2026 trims: Select RWD/AWD, Premium RWD/AWD, GT AWD. Rally appears in Ford's spec table; its drivetrain wasn't confirmed."
+    "note": "'The Mustang Mach-E offers three drivetrain options: RWD, eAWD, and the GT enhanced eAWD.' eAWD available on Select and Premium; GT enhanced eAWD. C/D 2026 trims: Select RWD/AWD, Premium RWD/AWD, GT AWD. Rally appears in Ford's spec table; EPA lists the 2026 Mustang Mach-E Rally as All-Wheel Drive (https://www.fueleconomy.gov/ws/rest/vehicle/50203)."
   },
   "charge_port": {
-    "value": null,
+    "value": "CCS1",
+    "inferred": true,
+    "adapter": {
+      "value": "sold",
+      "note": "Ford, Feb. 29, 2024: 'Ford F-150 Lightning and Mustang Mach-E retail customers are the first of any non-Tesla automaker to gain access to Tesla Superchargers across the U.S. and Canada.' Ford support (https://www.ford.com/support/how-tos/electric-vehicles/public-charging/how-do-i-get-a-fast-charging-adapter-nacs/): the Fast Charging Adapter is 'available on the Ford Accessories website' and 'unlocks charging at ... thousands of Tesla Superchargers'."
+    },
     "source": "https://www.ford.com/suvs/mach-e/",
     "retrieved": "2026-09-19",
-    "note": "Ford.com's 2026 Mach-E page doesn't name the connector. Ford's media site URL tried (media.ford.com) returned a generic page."
+    "note": "Ford.com's 2026 Mach-E page doesn't name the connector; CCS1 inferred from Ford's support page: 'Due to the difference between the NACS plug design and the charge port on your electric vehicle, adapters are required to use NACS chargers'."
+  },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.fromtheroad.ford.com/us/en/articles/2024/ford-customers-can-now-charge-on-tesla-superchargers-in-u-s---ca",
+    "retrieved": "2026-09-19",
+    "note": "Ford, Feb. 29, 2024: 'Ford F-150 Lightning and Mustang Mach-E retail customers are the first of any non-Tesla automaker to gain access to Tesla Superchargers across the U.S. and Canada.' Ford support (https://www.ford.com/support/how-tos/electric-vehicles/public-charging/how-do-i-get-a-fast-charging-adapter-nacs/): the Fast Charging Adapter is 'available on the Ford Accessories website' and 'unlocks charging at ... thousands of Tesla Superchargers'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Ford among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
   },
   "us_status": {
     "value": "on sale",
@@ -41,5 +61,39 @@
     "source": "https://www.ford.com/suvs/mach-e/",
     "retrieved": "2026-09-19",
     "note": "Ford.com page titled '2026 Ford Mustang Mach-E SUV | Pricing, Photos, Specs' with trim selector and purchase offers."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "eAWD, standard-range battery", "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 240, "epa_id": 50200, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50200", "retrieved": "2026-09-19" },
+      { "applies_to": "eAWD, extended-range battery", "epa_vehicle": "Mustang Mach-E AWD Extended", "drive": "AWD", "value": 300, "epa_id": 50201, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50201", "retrieved": "2026-09-19" },
+      { "applies_to": "GT", "epa_vehicle": "Mustang Mach-E GT", "drive": "AWD", "value": 280, "epa_id": 50202, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50202", "retrieved": "2026-09-19" },
+      { "applies_to": "Rally", "epa_vehicle": "Mustang Mach-E Rally", "drive": "AWD", "value": 255, "epa_id": 50203, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50203", "retrieved": "2026-09-19" },
+      { "applies_to": "RWD, standard-range battery", "epa_vehicle": "Mustang Mach-E RWD", "drive": "RWD", "value": 260, "epa_id": 50204, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50204", "retrieved": "2026-09-19" },
+      { "applies_to": "RWD, extended-range battery", "epa_vehicle": "Mustang Mach-E RWD Extended", "drive": "RWD", "value": 320, "epa_id": 50205, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50205", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA's labels name the battery, not Ford's trims; Select and Premium both come with eAWD."
+  },
+  "height_in": {
+    "value": 64,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Select RWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 29.7,
+    "seats_down": 59.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Select RWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 38.1,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Select RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

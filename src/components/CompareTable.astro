@@ -1,0 +1,158 @@
+---
+// Page two's table: one row per model that passes both gates, on shared size and range tracks, with
+// its "Sort by" control. Model names link to their one-sheet.
+import SizeTrack from './SizeTrack.astro';
+import RangeTrack from './RangeTrack.astro';
+import { rows, rangeText } from '../lib/compare.js';
+import { sheetHref } from '../lib/links.js';
+---
+<fieldset class="sort">
+  <legend>Sort by</legend>
+  <label><input type="radio" name="sort" value="length" data-dir="ascending" checked /> Length</label>
+  <label><input type="radio" name="sort" value="range" data-dir="descending" /> Range</label>
+  <label><input type="radio" name="sort" value="alpha" data-dir="ascending" /> A–Z</label>
+</fieldset>
+
+<div class="scroll">
+  <table class="compare">
+    <thead>
+      <tr>
+        <th scope="col" class="model">Model</th>
+        <th scope="col" class="size">
+          Size <span class="cap">width vs. your Corolla</span>
+          <SizeTrack head />
+        </th>
+        <th scope="col" class="awd">AWD</th>
+        <th scope="col" class="plug">Tesla plug</th>
+        <th scope="col" class="range">
+          Range <span class="cap">EPA, AWD versions</span>
+          <RangeTrack head />
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr data-alpha={r.alpha} data-length={r.length ?? 1e9} data-range={r.range ? r.range.max : -1}>
+          <th scope="row" class="model">
+            <a class="name" href={sheetHref(r.slug)}>{r.name}</a>
+            {r.year && <span class="year">{r.year}</span>}
+          </th>
+
+          <td class="size">
+            <SizeTrack length={r.length} />
+            {r.length != null
+              ? <span class="num">{r.length} in</span>
+              : <span class="none">—<span class="sr-only">No data</span></span>}
+            {r.width && <span class="sub">{r.width}</span>}
+          </td>
+
+          <td class="awd">{r.awd}</td>
+
+          <td class="plug">
+            {r.plug
+              ? <>{r.plug.text}{r.plug.note && <span class="sub">{r.plug.note}</span>}</>
+              : <span class="none">—<span class="sr-only">No data</span></span>}
+          </td>
+
+          <td class="range">
+            <RangeTrack range={r.range} />
+            {r.range
+              ? <span class="num">{rangeText(r.range)}{r.range.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
+              : <span class="none">—<span class="sr-only">No data</span></span>}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  import { sortRows } from '../scripts/sort-table.js';
+  const body = document.querySelector('table.compare tbody');
+  document.querySelectorAll<HTMLInputElement>('.sort input').forEach((input) => {
+    input.addEventListener('change', () => sortRows(body, input.value, input.dataset.dir));
+  });
+</script>
+
+<style>
+  /* Sort control: a row of plain text options, the active one underlined. */
+  .sort {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    border: 0;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    font-size: 0.875rem;
+  }
+  .sort legend { float: left; margin-right: 0.25rem; padding: 0; color: var(--muted); }
+  .sort label { cursor: pointer; color: var(--muted); }
+  .sort input { position: absolute; opacity: 0; pointer-events: none; }
+  .sort label:has(input:checked) {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--pass);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+  }
+  .sort label:has(input:focus-visible) { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+  .scroll { overflow-x: auto; }
+
+  .compare {
+    --size-w: 11rem;
+    --range-w: 10rem;
+    --track-gap: 1rem;
+    border-collapse: collapse;
+    min-width: 62rem;
+    width: 100%;
+  }
+  .compare th, .compare td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+    vertical-align: middle;
+  }
+  .compare th:first-child { padding-left: 0; }
+
+  .compare thead th {
+    vertical-align: top;
+    border-bottom-color: var(--ink);
+    padding-bottom: 1.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .cap {
+    display: block;
+    margin-top: 0.15rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  /* Model */
+  .model .name { display: block; font-weight: 700; text-decoration-color: var(--rule); }
+  .model .name:hover { text-decoration-color: var(--ink); }
+  .model .year { font-family: var(--font-data); font-size: 0.8125rem; color: var(--muted); }
+  tbody th.model { font-weight: 400; min-width: 11rem; }
+
+  .num { display: block; font-family: var(--font-data); font-size: 0.875rem; white-space: nowrap; }
+  .sub { display: block; font-size: 0.8125rem; color: var(--muted); }
+  .none { color: var(--muted); }
+
+  .compare td.awd { min-width: 11rem; max-width: 15rem; }
+  td.awd, td.plug { font-size: 0.9375rem; }
+
+  /* Track hosts: the tracks sit to the left inside the cell (styles/tracks.css); the printed values
+     sit to their right. */
+  .size, .range { position: relative; }
+  .size { --track-w: var(--size-w); }
+  .range { --track-w: var(--range-w); }
+  .compare td.size { padding-left: calc(var(--size-w) + var(--track-gap) * 2); }
+  .compare td.range { padding-left: calc(var(--range-w) + var(--track-gap) * 2); }
+
+  tbody tr:hover { background: color-mix(in srgb, var(--rule) 22%, transparent); }
+</style>

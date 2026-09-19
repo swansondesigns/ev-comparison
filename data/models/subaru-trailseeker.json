@@ -1,6 +1,10 @@
 {
   "make": "Subaru",
   "model": "Trailseeker",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 190.8,
     "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
@@ -33,6 +37,16 @@
     "retrieved": "2026-09-19",
     "note": "'NACS charge port on right fender'; 'standard NACS charge port'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+    "retrieved": "2026-09-19",
+    "note": "'NACS charge port on right fender'; 'standard NACS charge port'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Subaru among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
@@ -40,5 +54,35 @@
     "source": "https://media.subaru.com/newsrelease.do?id=2472&mid=396",
     "retrieved": "2026-09-19",
     "note": "2027 press kit: 'After a successful debut in early 2026'; 2027 'Available at retailers nationwide later this fall'."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "18-in. wheels", "epa_vehicle": "Trailseeker AWD", "drive": "AWD", "value": 281, "epa_id": 50692, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50692", "retrieved": "2026-09-19" },
+      { "applies_to": "20-in. wheels", "epa_vehicle": "Trailseeker 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 274, "epa_id": 50691, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50691", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA's labels name the wheel size, not Subaru's trims."
+  },
+  "height_in": {
+    "value": 65.9,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/subaru/trailseeker/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Premium AWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 31.3,
+    "seats_down": 74,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/subaru/trailseeker/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Premium AWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 36.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/subaru/trailseeker/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

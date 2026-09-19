@@ -1,6 +1,10 @@
 {
   "make": "Lexus",
   "model": "RZ",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 189.17,
     "source": "https://lexus-cms-media.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/Final_2026_RZ_Specifications_091125Update.pdf",
@@ -22,6 +26,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "RZ 450e, RZ 550e F SPORT",
     "trims": ["RZ 450e (AWD): Standard, Premium, Luxury", "RZ 550e F SPORT (AWD)"],
     "not_awd": ["RZ 350e (FWD): Standard, Premium"],
     "source": "https://lexus-cms-media.s3.us-east-2.amazonaws.com/wp-content/uploads/2025/05/Final_2026_RZ_Specifications_091125Update.pdf",
@@ -34,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "'Connector Type: North American Charging System (NACS) (SAE J3400)'. 'NACS charging port with CCS1 and J1772 adapters' standard on all grades."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://pressroom.lexus.com/2026-lexus-rz-goes-on-sale-with-upgraded-convenience-features-expanded-charging-network-options-for-all-lexus-bev-owners/",
+    "retrieved": "2026-09-19",
+    "note": "Lexus release, Nov. 3, 2025: 'More than 25,000 additional NACS charger plugs are available to 2026 RZ owners through the Tesla Supercharger Network, with 2026 RZs featuring Plug & Charge capability'. The 2026 spec sheet lists the NACS (SAE J3400) connector.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Toyota among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Lexus is not named separately; it is a Toyota brand. Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
@@ -41,5 +56,38 @@
     "source": "https://pressroom.lexus.com/vehicle/2026-lexus-rz/",
     "retrieved": "2026-09-19",
     "note": "Press release '2026 Lexus RZ Goes on Sale with Upgraded Convenience Features, Expanded Charging Network Options for All Lexus BEV Owners', November 03, 2025. C/D already lists 2027 RZ submodels."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "RZ 450e AWD (18-in. wheels)", "epa_vehicle": "RZ 450e AWD (18 inch wheels)", "drive": "AWD", "wheels_in": 18, "value": 264, "epa_id": 50217, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50217", "retrieved": "2026-09-19" },
+      { "applies_to": "RZ 450e AWD (20-in. wheels, 235/50R20)", "epa_vehicle": "RZ 450e AWD (20 inch wheels - 235/50R20)", "drive": "AWD", "wheels_in": 20, "value": 257, "epa_id": 50218, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50218", "retrieved": "2026-09-19" },
+      { "applies_to": "RZ 450e AWD (20-in. wheels, 235/50R20 front and 255/45R20 rear)", "epa_vehicle": "RZ 450e AWD (20 inch wheels - 235/50R20,255/45R20)", "drive": "AWD", "wheels_in": 20, "value": 228, "epa_id": 50219, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50219", "retrieved": "2026-09-19" },
+      { "applies_to": "RZ 550e F SPORT AWD", "epa_vehicle": "RZ 550e AWD", "drive": "AWD", "value": 229, "epa_id": 50220, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50220", "retrieved": "2026-09-19" },
+      { "applies_to": "RZ 350e FWD (18-in. wheels)", "epa_vehicle": "RZ 350e FWD (18 inch wheels)", "drive": "FWD", "wheels_in": 18, "value": 301, "epa_id": 50291, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50291", "retrieved": "2026-09-19" },
+      { "applies_to": "RZ 350e FWD (20-in. wheels)", "epa_vehicle": "RZ 350e FWD (20 inch wheels)", "drive": "FWD", "wheels_in": 20, "value": 284, "epa_id": 50216, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50216", "retrieved": "2026-09-19" }
+    ]
+  },
+  "height_in": {
+    "value": 64.4,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/lexus/rz/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 RZ 350e FWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 34.1,
+    "seats_down": null,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/lexus/rz/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 RZ 350e FWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 36.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/lexus/rz/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 RZ 350e FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

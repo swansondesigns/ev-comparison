@@ -39,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "'Built-in NACS charge port ... (no adapter required for NACS)'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.kiamedia.com/us/en/media/pressreleases/25004/kia-announces-pricing-for-2027-ev3",
+    "retrieved": "2026-09-19",
+    "note": "'Built-in NACS charge port ... (no adapter required for NACS)'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Kia among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "announced",
     "model_year": "2027",

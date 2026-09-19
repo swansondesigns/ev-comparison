@@ -39,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "2026 GV60 press kit: 'equipped with a native North American Charging Standard (NACS) port'. 2027 is listed as a carryover. The 2027 spec sheet has a 'Charge Port' row whose value isn't in the PDF text layer."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.genesisnewsusa.com/api/press-kits/2026-gv60",
+    "retrieved": "2026-09-19",
+    "note": "2026 GV60 press kit: 'equipped with a native North American Charging Standard (NACS) port'. 2027 is listed as a carryover. The 2027 spec sheet has a 'Charge Port' row whose value isn't in the PDF text layer.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Genesis among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",

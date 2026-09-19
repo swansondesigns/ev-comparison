@@ -39,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "Volvo's NACS page lists EC40 among models that reach Superchargers via the 'NACS Fast Charging Adapter', which implies a CCS1 port."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.volvocars.com/us/l/north-american-charging-standard/",
+    "retrieved": "2026-09-19",
+    "note": "Volvo's NACS page, 'Which fully electric Volvo models can access the Tesla Supercharger Network?': 'The Volvo EX90, EX30, EX40, EC40, XC40 Recharge and C40 Recharge can access the network.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Volvo among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": null,
     "model_year": null,
@@ -139,6 +149,7 @@
   ],
   "notes": [
     { "tag": "reader", "text": "Almost everything here is Car and Driver's data for the 2024 C40 Recharge, the EC40's earlier name. Volvo's own EC40 pages weren't reachable." },
-    { "tag": "provenance", "text": "EPA range is the 2026 EC40 Twin; warranty is from Volvo's MY2026 fully-electric manual, which names the EC40." }
+    { "tag": "provenance", "text": "EPA range is the 2026 EC40 Twin; warranty is from Volvo's MY2026 fully-electric manual, which names the EC40." },
+    { "tag": "provenance", "text": "Volvo's EC40 pages were retried on 2026-09-19 after chat's reply: volvocars.com/us/cars/ec40-electric/ is still a 404 (curl and headless Edge) and the US media site still returns 503. The record stays as it is." }
   ]
 }

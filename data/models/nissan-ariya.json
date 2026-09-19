@@ -38,6 +38,16 @@
     "retrieved": "2026-09-19",
     "note": "Port not named; CCS1 inferred from the NACS adapter requirement."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+    "retrieved": "2026-09-19",
+    "note": "'It was compatible with Tesla Superchargers via NACS adapter'.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Nissan among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "discontinued",
     "model_year": "2025",

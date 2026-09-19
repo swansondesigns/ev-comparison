@@ -1,6 +1,10 @@
 {
   "make": "Genesis",
   "model": "Electrified GV70",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 185.6,
     "source": "https://www.genesisnewsusa.com/assets/applications/original/6671-2027-electrified-gv70-features-and-specs-1.pdf",
@@ -33,6 +37,16 @@
     "retrieved": "2026-09-19",
     "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
+    "retrieved": "2026-09-19",
+    "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Genesis among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -40,5 +54,34 @@
     "source": "https://www.genesisnewsusa.com/api/models/2027-electrified-gv70",
     "retrieved": "2026-09-19",
     "note": "2027 model page published Jul 28, 2026 with trim pricing; 2026 page published Feb 19, 2026. No explicit on-sale date found; treated as on sale (continuing model)."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "All versions", "epa_vehicle": "Electrified GV70 AWD", "drive": "AWD", "value": 250, "epa_id": 50634, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50634", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA lists a single 2027 Electrified GV70. Its 2026 listings split by wheel: 263 mi on 19-in. (49656), 243 mi on 20-in. (49657)."
+  },
+  "height_in": {
+    "value": 64.2,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 19\" AWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 28.7,
+    "seats_down": 56.5,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 19\" AWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 37.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 19\" AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

@@ -1,0 +1,64 @@
+---
+// Page one's go/no-go table: one row per model checked, a mark per gate. Marks only; no numbers.
+// Passing names are bold and link to their one-sheet.
+import Mark from './Mark.astro';
+import { sheetHref } from '../lib/links.js';
+
+const { rows } = Astro.props;
+// Sort values for the gate columns: passes first when ascending, no-data between pass and fail.
+const rank = { pass: 0, '?': 1, fail: 2 };
+---
+<table class="gonogo">
+  <thead>
+    <tr>
+      <th scope="col" data-sort="alpha" aria-sort="ascending"><button type="button">Model</button></th>
+      <th scope="col" data-sort="awd"><button type="button">AWD</button></th>
+      <th scope="col" data-sort="tesla"><button type="button">Tesla</button></th>
+    </tr>
+  </thead>
+  <tbody>
+    {rows.map((m, i) => (
+      <tr class:list={{ pass: m.pass }} data-alpha={i} data-awd={rank[m.gates.awd]} data-tesla={rank[m.gates.tesla]}>
+        <th scope="row">{m.pass ? <a href={sheetHref(m.slug)}>{m.name}</a> : m.name}</th>
+        <td><Mark state={m.gates.awd} /></td>
+        <td><Mark state={m.gates.tesla} /></td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+<script>
+  import { sortable } from '../scripts/sort-table.js';
+  document.querySelectorAll('table.gonogo').forEach((t) => sortable(t));
+</script>
+
+<style>
+  .gonogo {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 34rem;
+  }
+  .gonogo th, .gonogo td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+  }
+  .gonogo th:first-child, .gonogo td:first-child { padding-left: 0; }
+  .gonogo thead th {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    border-bottom-color: var(--ink);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .gonogo thead th:not(:first-child), .gonogo td { width: 5.5rem; text-align: center; }
+  .gonogo tbody th { font-weight: 400; }
+  .gonogo tr.pass th { font-weight: 700; }
+  .gonogo tr.pass a { text-decoration-color: var(--rule); }
+  .gonogo tr.pass a:hover { text-decoration-color: var(--ink); }
+  .gonogo tbody tr:hover { background: color-mix(in srgb, var(--rule) 22%, transparent); }
+</style>

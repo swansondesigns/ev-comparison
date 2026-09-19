@@ -1,6 +1,10 @@
 {
   "make": "Kia",
   "model": "EV6",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 184.8,
     "source": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
@@ -11,17 +15,18 @@
     ]
   },
   "width_in": {
-    "value": 74.0,
+    "value": 74,
     "with_mirrors": null,
     "source": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
     "retrieved": "2026-09-19",
     "note": "'Width (in.)': 74.0 in (Light, Light Long Range, Wind); 74.4 in (GT-Line). Mirrors not stated.",
     "cross_check": [
-      { "value": 74.0, "source": "https://www.caranddriver.com/kia/ev6/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
+      { "value": 74, "source": "https://www.caranddriver.com/kia/ev6/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
     ]
   },
   "awd": {
     "value": "available",
+    "label": "Light Long Range, Wind, GT-Line",
     "trims": ["Light Long Range (AWD optional)", "Wind (AWD optional)", "GT-Line (AWD optional)"],
     "not_awd": ["Light (RWD only)"],
     "source": "https://www.kiamedia.com/us/en/models/ev6/2026/specifications",
@@ -34,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "2025 EV6 overview: 'the charge port (excluding EV6 GT models) has been relocated to the left rear fender and is compatible with the North American Charging Standard'. 2026 overview (May 4, 2026): 2026 is 'carried over from last year', adds 'DC fast-charger adapter (ZEV states only)'; GT is not in the 2026 trim list. The 2026 pages don't name the port themselves."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.kiamedia.com/us/en/models/ev6/2025",
+    "retrieved": "2026-09-19",
+    "note": "2025 EV6 overview: 'the charge port (excluding EV6 GT models) has been relocated to the left rear fender and is compatible with the North American Charging Standard'. 2026 overview (May 4, 2026): 2026 is 'carried over from last year', adds 'DC fast-charger adapter (ZEV states only)'; GT is not in the 2026 trim list. The 2026 pages don't name the port themselves.",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Kia among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
@@ -41,5 +56,37 @@
     "source": "https://www.kiamedia.com/us/en/models/ev6/2026",
     "retrieved": "2026-09-19",
     "note": "2026 EV6 pricing release, May 4, 2026; built in West Point, Georgia. C/D already lists a 2027 EV6 entry; Kia's newsroom doesn't yet."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "Light Long Range AWD, Wind AWD", "epa_vehicle": "EV6 Long Range AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 295, "epa_id": 50212, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50212", "retrieved": "2026-09-19" },
+      { "applies_to": "GT-Line AWD", "epa_vehicle": "EV6 Long Range AWD (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 270, "epa_id": 50213, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50213", "retrieved": "2026-09-19" },
+      { "applies_to": "Light Long Range RWD, Wind RWD, GT-Line RWD", "epa_vehicle": "EV6 Long Range RWD", "drive": "RWD", "value": 319, "epa_id": 50214, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50214", "retrieved": "2026-09-19" },
+      { "applies_to": "Light", "epa_vehicle": "EV6 Standard Range RWD", "drive": "RWD", "value": 237, "epa_id": 50215, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50215", "retrieved": "2026-09-19" }
+    ],
+    "note": "Trim mapping from Kia's 2026 spec table ('All Electric Range (miles) - AWD': 295, 295, 270). Excludes EPA's 2026 EV6 AWD GT (50211, 231 mi): the GT isn't in Kia's 2026 trim list."
+  },
+  "height_in": {
+    "value": 60.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/kia/ev6/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Light RWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 24.4,
+    "seats_down": 46.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/kia/ev6/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Light RWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 38.2,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/kia/ev6/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Light RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

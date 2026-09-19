@@ -1,6 +1,10 @@
 {
   "make": "Polestar",
   "model": "3",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability. Polestar's US page doesn't state a model year; 2026 is EPA's latest Polestar 3 listing and C/D's latest year."
+  },
   "length_in": {
     "value": 192.9,
     "source": "https://www.polestar.com/us/polestar-3/specifications/",
@@ -22,6 +26,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "Dual motor",
     "trims": ["Long range Dual motor", "Long range Dual motor with Performance pack"],
     "not_awd": ["Long range Single motor"],
     "source": "https://www.polestar.com/us/polestar-3/specifications/",
@@ -39,6 +44,16 @@
     "retrieved": "2026-09-19",
     "note": "Polestar doesn't name the port; CCS1 inferred from NACS adapters being sold for Supercharger access."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.polestar.com/us/polestar-3/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar 3 page: 'Polestar drivers have access to a growing number of public charging stations compatible with the Combined Charging System (CCS) and the North American Charging Standard (NACS). NACS adapters are available for purchase from a Polestar Service Point.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Polestar among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": null,
@@ -46,5 +61,38 @@
     "source": "https://www.polestar.com/us/polestar-3/",
     "retrieved": "2026-09-19",
     "note": "Polestar US lists prices and stock; maintenance terms reference 'new 2025 Polestar 3 vehicles'. C/D lists 2026 as its latest year. Current model year not stated by Polestar."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "Long range Dual motor (21-in. wheels)", "epa_vehicle": "3 Long Range Dual Motor (21 Inch Wheels)", "drive": "AWD", "wheels_in": 21, "value": 312, "epa_id": 50229, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50229", "retrieved": "2026-09-19" },
+      { "applies_to": "Long range Dual motor (22-in. wheels)", "epa_vehicle": "3 Long Range Dual Motor (22 Inch Wheels)", "drive": "AWD", "wheels_in": 22, "value": 281, "epa_id": 50230, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50230", "retrieved": "2026-09-19" },
+      { "applies_to": "Long range Dual motor with Performance pack", "epa_vehicle": "3 Long Range Dual Motor Performance Pack", "drive": "AWD", "value": 281, "epa_id": 50231, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50231", "retrieved": "2026-09-19" },
+      { "applies_to": "Long range Single motor (20-in. wheels)", "epa_vehicle": "3 Long Range Single Motor (20 Inch Wheels)", "drive": "RWD", "wheels_in": 20, "value": 286, "epa_id": 50232, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50232", "retrieved": "2026-09-19" },
+      { "applies_to": "Long range Single motor (21-in. wheels)", "epa_vehicle": "3 Long Range Single Motor (21 Inch Wheels)", "drive": "RWD", "wheels_in": 21, "value": 291, "epa_id": 50233, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50233", "retrieved": "2026-09-19" }
+    ],
+    "note": "Polestar's US page doesn't state a model year; 2026 is EPA's latest Polestar 3 listing."
+  },
+  "height_in": {
+    "value": 64.1,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/polestar/polestar-3/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2025 Long Range Dual Motor, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 17.1,
+    "seats_down": 17.1,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/polestar/polestar-3/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2025 Long Range Dual Motor, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 38.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/polestar/polestar-3/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2025 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

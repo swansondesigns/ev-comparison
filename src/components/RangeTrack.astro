@@ -1,0 +1,22 @@
+---
+// EPA range as a floating segment on a shared, ticked track. `head` renders the labelled header strip.
+// A segment is hollow when it rests on the maker's estimate rather than an EPA listing.
+import '../styles/tracks.css';
+import { rangeScale, rangeTicks, pct } from '../lib/compare.js';
+
+interface Props { range?: { min: number; max: number; estimate?: boolean } | null; head?: boolean }
+const { range = null, head = false } = Astro.props;
+---
+<div class:list={['track', { 'track-head': head }]} aria-hidden="true">
+  {rangeTicks.map((v) => (
+    <span class="track-tick" style={`--x: ${pct(v, rangeScale)}`}>
+      {head && (v - rangeScale.lo) % rangeScale.labelEvery === 0 && <span class="track-lbl">{v}</span>}
+    </span>
+  ))}
+  {range && (
+    <span
+      class:list={['track-seg', { 'track-seg-est': range.estimate }]}
+      style={`--x: ${pct(range.min, rangeScale)}; --x2: ${pct(range.max, rangeScale)}`}
+    ></span>
+  )}
+</div>

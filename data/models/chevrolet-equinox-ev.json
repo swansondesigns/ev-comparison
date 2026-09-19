@@ -1,6 +1,10 @@
 {
   "make": "Chevrolet",
   "model": "Equinox EV",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 190.55,
     "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2027/chevrolet_equinox-ev_chevrolet-equinox-ev_2027",
@@ -16,6 +20,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "LT, RS",
     "trims": ["LT1 AWD", "RS AWD"],
     "not_awd": ["LT1 FWD", "RS FWD"],
     "source": "https://www.chevrolet.com/electric/equinox-ev",
@@ -28,6 +33,16 @@
     "retrieved": "2026-09-19",
     "note": "2027 page: 'the new standard NACS charging port expands access to more charging stations'. 'New' implies earlier model years had a different port; applies to 2027."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://www.chevrolet.com/electric/equinox-ev",
+    "retrieved": "2026-09-19",
+    "note": "2027 Equinox EV page: 'the new standard NACS charging port expands access to more charging stations'. Chevrolet's EV hub (https://www.chevrolet.com/electric): 'more DC fast chargers — including Tesla Superchargers — that are compatible with the standard NACS charge ports.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists General Motors (GM) among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -35,5 +50,34 @@
     "source": "https://www.chevrolet.com/electric/equinox-ev",
     "retrieved": "2026-09-19",
     "note": "Chevrolet page titled '2027 Equinox EV' with starting price; Chevrolet's EV hub links 2026 Equinox EV configurator and inventory."
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "LT AWD, RS AWD", "epa_vehicle": "Equinox EV AWD", "drive": "AWD", "value": 307, "epa_id": 50630, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50630", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA lists a single 2027 Equinox EV, the AWD. The 2026 FWD listing (49953) was 319 mi."
+  },
+  "height_in": {
+    "value": 64.8,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 LT1 w/PCY 4dr, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 26.4,
+    "seats_down": 57.2,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 LT1 w/PCY 4dr, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 38.06,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 LT1 w/PCY 4dr, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

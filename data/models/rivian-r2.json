@@ -1,6 +1,10 @@
 {
   "make": "Rivian",
   "model": "R2",
+  "model_year": {
+    "value": "2027",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 185.9,
     "source": "https://rivian.com/r2",
@@ -11,7 +15,7 @@
     ]
   },
   "width_in": {
-    "value": 75.0,
+    "value": 75,
     "with_mirrors": false,
     "source": "https://www.caranddriver.com/rivian/r2/specs",
     "retrieved": "2026-09-19",
@@ -22,6 +26,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "Premium, Performance; optional on Standard",
     "trims": ["Standard (optional Dual-motor AWD Long Range)", "Premium (Dual-motor AWD)", "Performance (Dual-motor AWD)"],
     "not_awd": ["Standard Single-motor RWD"],
     "source": "https://rivian.com/r2",
@@ -34,6 +39,16 @@
     "retrieved": "2026-09-19",
     "note": "'Every R2 has a NACS charge port'."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "port",
+    "source": "https://rivian.com/r2",
+    "retrieved": "2026-09-19",
+    "note": "'Every R2 has a NACS charge port, allowing you to charge at over 21,000 Tesla Superchargers across the US and Canada.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Rivian among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2027",
@@ -41,5 +56,38 @@
     "source": "https://rivian.com/r2",
     "retrieved": "2026-09-19",
     "note": "R2 Performance: 'Available now'. R2 Standard: 'Coming 2027'. Model year per C/D."
-  }
+  },
+  "epa_range": {
+    "model_year": "2027",
+    "entries": [
+      { "applies_to": "Performance (21-in. wheels)", "epa_vehicle": "R2 Performance AWD (21in)", "drive": "AWD", "value": 330, "epa_id": 50391, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50391", "retrieved": "2026-09-19" },
+      { "applies_to": "Performance (20-in. all-terrain tires)", "epa_vehicle": "R2 Performance AWD (20in AT)", "drive": "AWD", "value": 307, "epa_id": 50390, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50390", "retrieved": "2026-09-19" }
+    ],
+    "note": "EPA lists only the R2 Performance so far; Rivian says the Standard is 'Coming 2027'."
+  },
+  "height_in": {
+    "value": 66.9,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/rivian/r2/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2027 Premium AWD, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 28.7,
+    "seats_down": null,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/rivian/r2/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2027 Premium AWD, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 39.7,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/rivian/r2/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2027 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "notes": [
+    { "tag": "reader", "section": "range", "text": "EPA has only rated the R2 Performance so far. The other dual-motor versions aren't listed yet." }
+  ]
 }

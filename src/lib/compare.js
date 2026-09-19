@@ -1,49 +1,63 @@
-// Page two's view of the models that pass both gates. Everything here is read from the data files;
-// the only arithmetic is width minus the Corolla's width and the min/max of EPA figures.
-import { val, COROLLA } from './gates.mjs';
-import { models, bz, byMakeModel } from './data.js';
+// The view of the models that pass both gates, shared by page two and the one-sheets. Everything here
+// is read from the data files; the only arithmetic is a dimension minus a reference car's and the
+// min/max of EPA figures.
+import { val, COROLLA, SIZE_REFERENCE } from './gates.mjs';
+import { models, byMakeModel } from './data.js';
 
-const awdText = (m) =>
+export const awdText = (m) =>
   m.awd.value === 'standard' ? 'All trims' : m.awd.label ?? (m.awd.trims || []).join(', ');
 
-// "Built in" for a NACS port, "Adapter" for CCS1. Adapter inclusion only where the maker says so,
-// and only for the model years it names.
-function plug(m) {
-  const cp = m.charge_port;
-  if (!cp || cp.value == null) return null;
-  if (cp.value === 'NACS') return { text: 'Built in' };
-  const a = cp.adapter || {};
-  if (a.value === 'not supported') return { text: 'Not yet', note: 'maker says no adapter works', warn: true };
-  if (a.value !== 'included') return { text: 'Adapter' };
+// "Built in" or "Adapter", from how the model reaches Superchargers. Adapter inclusion only where the
+// maker says so, and only for the model years it names. `detail` adds "sold separately" for the one-sheets.
+export function plug(m) {
+  const via = m.supercharger_access?.via;
+  if (!via) return null;
+  if (via === 'port') return { text: 'Built in', detail: 'built-in port, no adapter needed' };
+  const a = m.charge_port?.adapter || {};
+  if (a.value !== 'included') {
+    return { text: 'Adapter', detail: /^sold/.test(a.value ?? '') ? 'sold separately' : null };
+  }
   const yrs = a.model_years;
-  if (yrs && !yrs.includes(m.model_year?.value)) return { text: 'Adapter', note: `included with ${yrs.join(', ')} models` };
-  return { text: 'Adapter', note: 'included with the car' };
+  if (yrs && !yrs.includes(m.model_year?.value)) {
+    const note = `included with ${yrs.join(', ')} models`;
+    return { text: 'Adapter', note, detail: note };
+  }
+  return { text: 'Adapter', note: 'included with the car', detail: 'included with the car' };
 }
 
-function widthText(w) {
-  if (w == null) return null;
-  const d = Math.round((w - COROLLA.width_in) * 10) / 10;
-  return d === 0 ? 'same width' : `${Math.abs(d).toFixed(1)} in ${d > 0 ? 'wider' : 'narrower'}`;
+// "4.5 in wider" against a reference dimension. `same` names the dimension for the zero case.
+function deltaText(v, ref, [more, less], same) {
+  if (v == null || ref == null) return null;
+  const d = Math.round((v - ref) * 10) / 10;
+  return d === 0 ? same : `${Math.abs(d).toFixed(1)} in ${d > 0 ? more : less}`;
 }
+export const widthText = (w, ref = COROLLA.width_in) => deltaText(w, ref, ['wider', 'narrower'], 'same width');
+// A width the maker gives only with mirrors can't be set against a mirrorless one, so it is printed as is.
+const MIRRORS = { folded: 'mirrors folded', true: 'with mirrors' };
+export const mirrorsText = (m) => (m.width_in?.with_mirrors ? MIRRORS[m.width_in.with_mirrors] ?? 'with mirrors' : null);
+export const lengthText = (l, ref) => deltaText(l, ref, ['longer', 'shorter'], 'same length');
 
 // EPA range across AWD versions only; FWD and RWD versions fail her must-have.
-function range(m) {
-  const awd = (m.epa_range?.entries || []).filter((e) => e.drive === 'AWD' && e.value != null);
+export const awdRanges = (m) => (m.epa_range?.entries || []).filter((e) => e.drive === 'AWD' && e.value != null);
+export function range(m) {
+  const awd = awdRanges(m);
   if (!awd.length) return null;
   const vals = awd.map((e) => e.value);
   return { min: Math.min(...vals), max: Math.max(...vals), estimate: awd.some((e) => e.estimate) };
 }
+export const rangeText = (r) => (r.min === r.max ? `${r.min} mi` : `${r.min}–${r.max} mi`);
 
 const alpha = [...models].sort(byMakeModel).map((m) => m.slug);
 
-export const rows = models
-  .filter((m) => m.pass && !m.reference)
+export const passers = models.filter((m) => m.pass);
+
+export const rows = passers
   .map((m) => ({
     slug: m.slug,
     name: m.name,
     year: m.model_year?.value ?? null,
     length: val(m.length_in),
-    width: widthText(val(m.width_in)),
+    width: mirrorsText(m) ? `${val(m.width_in)} in wide, ${mirrorsText(m)}` : widthText(val(m.width_in)),
     awd: awdText(m),
     plug: plug(m),
     range: range(m),
@@ -51,10 +65,17 @@ export const rows = models
   }))
   .sort((a, b) => (a.length ?? 1e9) - (b.length ?? 1e9));
 
-export const refs = { corolla: COROLLA.length_in, bz: val(bz.length_in) };
+// Her two size references: the car she drives and the one she said feels right. Guidance, not cutoffs.
+const feelsRight = models.find((m) => m.slug === SIZE_REFERENCE);
+export const refs = {
+  corolla: COROLLA.length_in,
+  feelsRight: val(feelsRight?.length_in),
+  feelsRightWidth: val(feelsRight?.width_in),
+  feelsRightSlug: SIZE_REFERENCE,
+};
 
 // Round scale bounds from the data. Positions are percentages along a track.
-const lengths = [...rows.map((r) => r.length), refs.corolla, refs.bz].filter((x) => x != null);
+const lengths = [...rows.map((r) => r.length), refs.corolla, refs.feelsRight].filter((x) => x != null);
 export const sizeScale = {
   lo: Math.floor((Math.min(...lengths) - 1) / 5) * 5,
   hi: Math.ceil((Math.max(...lengths) + 1) / 5) * 5,
@@ -68,5 +89,7 @@ export const rangeScale = {
   tick: 25,
   labelEvery: RANGE_STEP,
 };
+export const rangeTicks = [];
+for (let v = rangeScale.lo; v <= rangeScale.hi; v += rangeScale.tick) rangeTicks.push(v);
 
 export const pct = (v, s) => `${(((v - s.lo) / (s.hi - s.lo)) * 100).toFixed(2)}%`;

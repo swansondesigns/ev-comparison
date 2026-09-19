@@ -1,0 +1,52 @@
+/* The size and range tracks (SizeTrack.astro, RangeTrack.astro). A track is absolutely placed inside a
+   positioned host and fills its height, so reference lines and ticks run unbroken from row to row.
+   The host sets --track-w, and --track-gap where the track is inset. */
+.track { position: absolute; top: 0; bottom: 0; left: var(--track-gap, 0); width: var(--track-w); }
+.track-head { top: auto; height: 1.4rem; bottom: -1px; }
+
+.track-ref, .track-tick { position: absolute; top: 0; bottom: 0; left: var(--x); width: 0; }
+.track-ref-corolla { border-left: 1.5px dashed var(--muted); }
+.track-ref-feels-right { border-left: 1.5px solid var(--pass); }
+.track-tick { border-left: 1px solid color-mix(in srgb, var(--rule) 60%, transparent); }
+
+.track-lbl {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  font-family: var(--font-data);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  background: var(--paper);
+  padding: 0 0.2rem;
+  color: var(--muted);
+}
+.track-ref-feels-right .track-lbl { color: var(--pass); }
+
+.track-dot {
+  position: absolute;
+  top: 50%;
+  left: var(--x);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: var(--ink);
+  transform: translate(-50%, -50%);
+}
+
+/* Floating segment: position encodes the numbers. Centred on its midpoint so a single value (or a
+   very short span) still shows as a visible stub in the right place. */
+.track-seg {
+  position: absolute;
+  top: 50%;
+  left: calc((var(--x) + var(--x2)) / 2);
+  width: max(calc(var(--x2) - var(--x)), 0.5rem);
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--pass);
+  transform: translate(-50%, -50%);
+}
+/* Hollow: the maker's estimate, not an EPA listing. */
+.track-seg-est { background: transparent; border: 1.5px solid var(--pass); }

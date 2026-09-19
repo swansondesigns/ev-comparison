@@ -1,6 +1,10 @@
 {
   "make": "Polestar",
   "model": "4",
+  "model_year": {
+    "value": "2026",
+    "note": "Label for the year whose specs are quoted. Not a statement about availability."
+  },
   "length_in": {
     "value": 190.5,
     "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
@@ -22,6 +26,7 @@
   },
   "awd": {
     "value": "available",
+    "label": "Dual motor",
     "trims": ["Dual motor", "Dual motor with Performance pack"],
     "not_awd": ["Rear motor"],
     "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
@@ -39,6 +44,16 @@
     "retrieved": "2026-09-19",
     "note": "Polestar doesn't name the port; CCS1 inferred from NACS adapters being sold for Supercharger access."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.polestar.com/us/polestar-4/",
+    "retrieved": "2026-09-19",
+    "note": "Polestar 4 page: 'Polestar drivers have access to a growing number of public charging stations compatible with the Combined Charging System (CCS) and the North American Charging Standard (NACS). NACS adapters are available for purchase from a Polestar Service Point.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Polestar among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
@@ -46,5 +61,35 @@
     "source": "https://www.polestar.com/us/polestar-4/",
     "retrieved": "2026-09-19",
     "note": "Polestar US page offers leases on a 'new 2026 Polestar 4 Dual motor' and links stock cars."
+  },
+  "epa_range": {
+    "model_year": "2026",
+    "entries": [
+      { "applies_to": "Dual motor", "epa_vehicle": "4 Long Range Dual Motor", "drive": "AWD", "value": 280, "epa_id": 50034, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50034", "retrieved": "2026-09-19" },
+      { "applies_to": "Dual motor with Performance pack", "epa_vehicle": "4 Long Range Dual Motor Performance", "drive": "AWD", "value": 255, "epa_id": 50035, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50035", "retrieved": "2026-09-19" },
+      { "applies_to": "Rear motor", "epa_vehicle": "4 Long Range Single Motor", "drive": "RWD", "value": 310, "epa_id": 50033, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50033", "retrieved": "2026-09-19" }
+    ]
+  },
+  "height_in": {
+    "value": 60.4,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/polestar/polestar-4/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Long Range Dual Motor, 'Height (inches)'."
+  },
+  "cargo_cu_ft": {
+    "seats_up": 18.6,
+    "seats_down": 54.2,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/polestar/polestar-4/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Long Range Dual Motor, cargo space behind the second row and behind the front row."
+  },
+  "turning_circle_ft": {
+    "value": 38.2,
+    "secondary": true,
+    "source": "https://www.caranddriver.com/polestar/polestar-4/specs",
+    "retrieved": "2026-09-19",
+    "note": "C/D 2026 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
   }
 }

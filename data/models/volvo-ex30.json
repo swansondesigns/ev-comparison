@@ -44,6 +44,16 @@
     "retrieved": "2026-09-19",
     "note": "Volvo doesn't name the port. CCS1 is inferred from the included NACS adapter, which a NACS-port car wouldn't need; Volvo's NACS page (https://www.volvocars.com/us/l/north-american-charging-standard/) also lists EX30 among models that use the 'NACS Fast Charging Adapter'. The EX30 page's '(CCS2)' footnote describes charge-time test conditions, not the US port."
   },
+  "supercharger_access": {
+    "value": "yes",
+    "via": "adapter",
+    "source": "https://www.volvocars.com/us/cars/ex30-electric/",
+    "retrieved": "2026-09-19",
+    "note": "'EX30 drivers can now access an additional 29,000+ DC fast chargers across North America with an included NACS Fast Charging Adapter.' Volvo's NACS page: 'The Volvo EX90, EX30, EX40, EC40, XC40 Recharge and C40 Recharge can access the network.'",
+    "cross_check": [
+      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Volvo among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+    ]
+  },
   "us_status": {
     "value": "on sale",
     "model_year": "2026",
