@@ -56,8 +56,8 @@ const rank = { pass: 0, '?': 1, fail: 2 };
     color: var(--muted);
   }
   .gonogo thead th:not(:first-child), .gonogo td { width: 5.5rem; text-align: center; }
-  .gonogo tbody th { font-weight: 400; }
-  .gonogo tr.pass th { font-weight: 700; }
+  .gonogo tbody th { font-weight: 400; color: var(--muted); }
+  .gonogo tr.pass th { font-weight: 700; color: var(--ink); }
   .gonogo tr.pass a { text-decoration-color: var(--rule); }
   .gonogo tr.pass a:hover { text-decoration-color: var(--ink); }
   .gonogo tbody tr:hover { background: color-mix(in srgb, var(--rule) 22%, transparent); }
