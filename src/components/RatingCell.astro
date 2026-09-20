@@ -1,0 +1,71 @@
+---
+// One site's rating in page two's table: the score for the model year the row quotes, out of 10. The
+// sites score each model year separately, so other years' scores sit behind an info button rather than
+// standing in for this one. `ratedAs` flags a score that belongs to something wider or older than the car.
+interface Props {
+  rating: { value: number | null; ratedAs: string | null; others: { year: string; value: number }[] };
+  site: string;
+  id: string;
+}
+const { rating: r, site, id } = Astro.props;
+---
+<span class="rate">
+  {r.value != null
+    ? <span class="num">{r.value.toFixed(1)}</span>
+    : <span class="none">—<span class="sr-only">Not rated for this model year</span></span>}
+  {r.others.length > 0 && (
+    <span class="more">
+      <button type="button" class="info" aria-describedby={id}><span aria-hidden="true">i</span><span class="sr-only">{site}, other model years</span></button>
+      <span role="tooltip" id={id} class="tip">
+        <span class="tip-head">Other years</span>
+        {r.others.map((o) => <span class="tip-row"><span>{o.year}</span><span>{o.value.toFixed(1)}</span></span>)}
+      </span>
+    </span>
+  )}
+  {r.ratedAs && <span class="sub">rates {r.ratedAs}</span>}
+</span>
+
+<style>
+  .rate { display: flex; flex-wrap: wrap; align-items: center; gap: 0 0.4rem; }
+  .num { font-family: var(--font-data); font-size: 0.875rem; font-variant-numeric: tabular-nums; }
+  .none { color: var(--muted); min-width: 1.6rem; }
+  .sub { flex-basis: 100%; font-size: 0.75rem; color: var(--muted); }
+
+  .more { position: relative; display: inline-flex; }
+  .info {
+    all: unset;
+    box-sizing: border-box;
+    width: 1.05rem;
+    height: 1.05rem;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 0.8125rem;
+    line-height: 1;
+    text-align: center;
+    color: var(--muted);
+    cursor: help;
+  }
+  .info:hover, .info:focus-visible { border-color: var(--ink); color: var(--ink); }
+  .info:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  /* Opens to the left, level with the row, so it stays inside the table's scroll box. */
+  .tip {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    right: calc(100% + 0.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.45rem 0.65rem;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--font-data);
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+  .info:hover + .tip, .info:focus + .tip { display: block; }
+  .tip-head { display: block; margin-bottom: 0.2rem; font-family: var(--font-body); font-size: 0.6875rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.7; }
+  .tip-row { display: flex; justify-content: space-between; gap: 1.25rem; }
+</style>

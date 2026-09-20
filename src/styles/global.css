@@ -30,6 +30,7 @@ main {
   padding: 0 var(--gutter) 4rem;
   max-width: 84rem;
 }
+main.wide { max-width: none; }
 
 h1 {
   font-family: var(--font-display);

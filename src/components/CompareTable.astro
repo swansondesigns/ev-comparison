@@ -1,10 +1,13 @@
 ---
 // Page two's table: one row per model that passes both gates, on shared size and range tracks, with
 // its "Sort by" control and its filters: a length trim on the size track and a Hide box per row, both
-// remembered in the browser. Model names link to their one-sheet.
+// remembered in the browser. Model names link to their one-sheet. Two columns start closed and open
+// from "Also show": Tesla plug, and On the web (the outbound buttons).
 import SizeTrack from './SizeTrack.astro';
 import LengthTrim from './LengthTrim.astro';
 import RangeTrack from './RangeTrack.astro';
+import OutLinks from './OutLinks.astro';
+import RatingCell from './RatingCell.astro';
 import { rows, rangeText } from '../lib/compare.js';
 import { sheetHref } from '../lib/links.js';
 
@@ -13,12 +16,20 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
 ---
 <div class="compare-wrap" data-filterable>
 <div class="controls">
+<div class="pickers">
 <fieldset class="sort">
   <legend>Sort by</legend>
   <label><input type="radio" name="sort" value="length" data-dir="ascending" checked /> Length</label>
   <label><input type="radio" name="sort" value="range" data-dir="descending" /> Range</label>
   <label><input type="radio" name="sort" value="alpha" data-dir="ascending" /> A–Z</label>
 </fieldset>
+
+<fieldset class="cols">
+  <legend>Also show</legend>
+  <label><input type="checkbox" data-col="plug" /> Tesla plug</label>
+  <label><input type="checkbox" data-col="web" /> On the web</label>
+</fieldset>
+</div>
 
 <p class="status" data-filter-status aria-live="polite">
   <span data-count></span>
@@ -46,12 +57,14 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
           <span class="cap cap-num">Length in inches</span>
           <span class="cap cap-sub">Inches wider than Corolla</span>
         </th>
-        <th scope="col" class="awd">AWD <span class="cap cap-sub">Available on listed models</span></th>
         <th scope="col" class="plug">Tesla plug</th>
         <th scope="col" class="range">
           Range <span class="cap">EPA, AWD versions</span>
           <RangeTrack head />
         </th>
+        <th scope="col" class="rating">Car and Driver <span class="cap">rating out of 10</span></th>
+        <th scope="col" class="rating">MotorTrend <span class="cap">out of 10, judged within its class</span></th>
+        <th scope="col" class="out-col">On the web <span class="cap">opens a new tab</span></th>
         <th scope="col" class="hide">Hide</th>
       </tr>
     </thead>
@@ -73,8 +86,6 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
             {r.widthNote && <span class="sub">{r.widthNote}</span>}
           </td>
 
-          <td class="awd">{r.awd}</td>
-
           <td class="plug">
             {r.plug
               ? <>{r.plug.text}{r.plug.note && <span class="sub">{r.plug.note}</span>}</>
@@ -87,6 +98,11 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
               ? <span class="num">{rangeText(r.range)}{r.range.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
               : <span class="none">—<span class="sr-only">No data</span></span>}
           </td>
+
+          <td class="rating"><RatingCell rating={r.cd} site="Car and Driver" id={`cd-${r.slug}`} /></td>
+          <td class="rating"><RatingCell rating={r.mt} site="MotorTrend" id={`mt-${r.slug}`} /></td>
+
+          <td class="out-col"><OutLinks links={r.out} stacked /></td>
 
           <td class="hide">
             <label><input type="checkbox" data-hide /><span class="sr-only">Hide {r.name}</span></label>
@@ -137,8 +153,10 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
   .status button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
   .status .reset { margin-left: 1rem; }
 
-  /* Sort control: a row of plain text options, the active one underlined. */
-  .sort {
+  .pickers { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 2.5rem; }
+
+  /* Sort and Also show: rows of plain text options, the active ones underlined. */
+  .sort, .cols {
     display: flex;
     align-items: baseline;
     gap: 1.25rem;
@@ -147,18 +165,21 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
     padding: 0;
     font-size: 0.875rem;
   }
-  .sort legend { float: left; margin-right: 0.25rem; padding: 0; color: var(--muted); }
-  .sort label { cursor: pointer; color: var(--muted); }
-  .sort input { position: absolute; opacity: 0; pointer-events: none; }
-  .sort label:has(input:checked) {
+  .sort legend, .cols legend { float: left; margin-right: 0.25rem; padding: 0; color: var(--muted); }
+  .sort label, .cols label { cursor: pointer; color: var(--muted); }
+  .sort input, .cols input { position: absolute; opacity: 0; pointer-events: none; }
+  .sort label:has(input:checked), .cols label:has(input:checked) {
     color: var(--ink);
     text-decoration: underline;
     text-decoration-color: var(--pass);
     text-decoration-thickness: 2px;
     text-underline-offset: 0.3em;
   }
-  .sort label:has(input:focus-visible) { outline: 2px solid var(--ink); outline-offset: 3px; }
+  .sort label:has(input:focus-visible), .cols label:has(input:focus-visible) { outline: 2px solid var(--ink); outline-offset: 3px; }
 
+  /* The table is as wide as its columns need, and the controls above end where it ends. Nothing caps
+     it (the page is `wide`); only a window narrower than the table scrolls it. */
+  .compare-wrap { width: fit-content; max-width: 100%; }
   .scroll { overflow-x: auto; }
 
   .compare {
@@ -168,7 +189,6 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
     --track-head-h: 2.25rem; /* room for the track labels above the trim handles */
     border-collapse: collapse;
     min-width: 66rem;
-    width: 100%;
   }
   .compare th, .compare td {
     padding: 0.85rem 0.75rem;
@@ -211,12 +231,11 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
   /* Size's two subheads are a legend for the two stacked values: each is set like the value it names. */
   .cap-num { font-family: var(--font-data); font-size: 0.875rem; color: var(--ink); }
   .cap-sub { font-size: 0.8125rem; color: var(--muted); }
-  /* No track strip to make room for in these two, and a subhead may need a third line. */
-  .compare thead th.size, .compare thead th.awd { padding-bottom: 0.85rem; }
+  /* No track strip to make room for here. */
+  .compare thead th.size { padding-bottom: 0.85rem; }
   .none { color: var(--muted); }
 
-  .compare td.awd { min-width: 10rem; max-width: 15rem; }
-  td.awd, td.plug { font-size: 0.9375rem; }
+  td.plug { font-size: 0.9375rem; }
 
   /* Track hosts (styles/tracks.css). The length track has a column to itself, as wide as the track;
      the range track sits to the left inside its cell, with the printed values to its right. */
@@ -225,6 +244,20 @@ const delta = (d: number) => (d < 0 ? `−${Math.abs(d).toFixed(1)}` : d.toFixed
   .range { --track-w: var(--range-w); }
   .compare th.length, .compare td.length { min-width: calc(var(--size-w) + var(--track-gap) * 2); }
   .compare td.range { padding-left: calc(var(--range-w) + var(--track-gap) * 2); }
+
+  /* Ratings: the score for the row's own model year; other years sit behind the info button. */
+  .compare th.rating { min-width: 8.5rem; }
+  .compare td.rating { overflow: visible; }
+
+  /* Optional columns stay closed until their "Also show" box is ticked (scripts/filter-table.js
+     remembers which). */
+  .compare .plug, .compare .out-col { display: none; }
+  .compare-wrap:has([data-col='plug']:checked) .compare .plug,
+  .compare-wrap:has([data-col='web']:checked) .compare .out-col { display: table-cell; }
+
+  /* On the web: three stacked buttons, the column as wide as the longest label. */
+  .compare th.out-col, .compare td.out-col { white-space: nowrap; }
+  .compare td.out-col { padding-top: 0.6rem; padding-bottom: 0.6rem; }
 
   /* Hide: a box per row. A hidden row leaves the table; "Show them" brings hidden rows back dimmed,
      boxes still ticked, so one can be unticked. */

@@ -1,6 +1,7 @@
-// Row filtering for page two: a length trim and per-row hiding, both remembered in localStorage so
-// the table comes back the way she left it. Rows are hidden with the `hidden` attribute, which leaves
-// sorting alone.
+// Row filtering for page two: a length trim and per-row hiding, plus which optional columns are open,
+// all remembered in localStorage so the table comes back the way she left it. Rows are hidden with the
+// `hidden` attribute, which leaves sorting alone. Columns open and close in CSS from their [data-col]
+// boxes; this only remembers them, and Reset leaves them alone.
 const KEY = 'ev-research:compare:v1';
 const NO_LENGTH = 1e9; // data-length of a row with no length; the trim never removes those
 
@@ -22,12 +23,14 @@ export function filterable(root) {
   const gap = Number(trim.dataset.minGap || 0);
   const status = root.querySelector('[data-filter-status]');
   const el = (name) => status.querySelector(`[data-${name}]`);
+  const colBoxes = [...root.querySelectorAll('[data-col]')];
 
   const stored = load();
   const slugs = new Set(rows.map((r) => r.dataset.slug));
   const state = {
     hidden: (stored.hidden || []).filter((s) => slugs.has(s)),
     length: Array.isArray(stored.length) ? stored.length : [min, max],
+    cols: (stored.cols || []).filter((c) => colBoxes.some((b) => b.dataset.col === c)),
   };
   let showHidden = false;
 
@@ -61,7 +64,9 @@ export function filterable(root) {
     el('toggle-hidden').setAttribute('aria-pressed', String(showHidden));
     el('reset').hidden = !trimmed && hiddenCount === 0;
 
-    save({ hidden: state.hidden, ...(trimmed ? { length: state.length } : {}) });
+    for (const box of colBoxes) box.checked = state.cols.includes(box.dataset.col);
+
+    save({ hidden: state.hidden, ...(trimmed ? { length: state.length } : {}), ...(state.cols.length ? { cols: state.cols } : {}) });
   }
 
   // Each handle stops short of the other, so they never cross or stack.
@@ -75,6 +80,11 @@ export function filterable(root) {
   });
 
   root.addEventListener('change', (e) => {
+    if (e.target.closest('[data-col]')) {
+      state.cols = colBoxes.filter((b) => b.checked).map((b) => b.dataset.col);
+      apply();
+      return;
+    }
     const box = e.target.closest('[data-hide]');
     if (!box) return;
     const slug = box.closest('tr').dataset.slug;

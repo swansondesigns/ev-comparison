@@ -3,6 +3,7 @@
 // min/max of EPA figures.
 import { val, COROLLA, SIZE_REFERENCE } from './gates.mjs';
 import { models, byMakeModel } from './data.js';
+import { outLinks } from './links.js';
 
 export const awdText = (m) =>
   m.awd.value === 'standard' ? 'All trims' : m.awd.label ?? (m.awd.trims || []).join(', ');
@@ -47,6 +48,18 @@ export function range(m) {
   const vals = awd.map((e) => e.value);
   return { min: Math.min(...vals), max: Math.max(...vals), estimate: awd.some((e) => e.estimate) };
 }
+// One site's rating for the model year the row quotes. The sites score each model year separately, so
+// another year's score never stands in for it; the others ride along for the info button.
+export function rating(m, site) {
+  const list = m.ratings?.[site] || [];
+  const own = list.find((r) => r.model_year === m.model_year?.value);
+  return {
+    value: own?.value ?? null,
+    ratedAs: (own ?? list[0])?.rated_as ?? null,
+    others: list.filter((r) => r !== own).map((r) => ({ year: r.model_year, value: r.value })),
+  };
+}
+
 export const rangeText = (r) => (r.min === r.max ? `${r.min} mi` : `${r.min}–${r.max} mi`);
 
 const alpha = [...models].sort(byMakeModel).map((m) => m.slug);
@@ -62,9 +75,11 @@ export const rows = passers
     // A width given only with mirrors can't be compared, so it gets its figure in words, not a delta.
     widthDelta: mirrorsText(m) ? null : widthDelta(val(m.width_in)),
     widthNote: mirrorsText(m) ? `${val(m.width_in)} wide, ${mirrorsText(m)}` : null,
-    awd: awdText(m),
     plug: plug(m),
     range: range(m),
+    cd: rating(m, 'caranddriver'),
+    mt: rating(m, 'motortrend'),
+    out: outLinks(m),
     alpha: alpha.indexOf(m.slug),
   }))
   .sort((a, b) => (a.length ?? 1e9) - (b.length ?? 1e9));
