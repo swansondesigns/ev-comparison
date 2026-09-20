@@ -10,7 +10,7 @@ const { extras = [] } = Astro.props;
       <dd>
         {x.lines.map((l) => (
           <span class="line">
-            {l.text}{l.scope && <span class="scope"> · {l.scope}</span>}{l.via && <span class="scope"> ({l.via})</span>}
+            {l.text}{l.scope && <span class="scope"> · {l.scope}</span>}{l.via && <> <span class="scope via">({l.via})</span></>}
           </span>
         ))}
       </dd>
@@ -25,5 +25,6 @@ const { extras = [] } = Astro.props;
   dd { margin: 0; }
   .line { display: block; }
   .scope { color: var(--muted); font-size: 0.875rem; }
+  .via { white-space: nowrap; } /* an attribution moves to the next line whole */
   @media (max-width: 32rem) { .extras div { grid-template-columns: 1fr; gap: 0; } }
 </style>

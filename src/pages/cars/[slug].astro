@@ -3,6 +3,7 @@
 // page: it arranges the same components as pages one and two. Reader notes addressed to a section
 // (notes[].section) render under that section; data/models/<slug>.md, if present, renders at the bottom.
 import Base from '../../layouts/Base.astro';
+import PageHead from '../../components/PageHead.astro';
 import Section from '../../components/Section.astro';
 import SizeBlock from '../../components/SizeBlock.astro';
 import RangeBars from '../../components/RangeBars.astro';
@@ -21,79 +22,94 @@ export function getStaticPaths() {
 const s = sheet(Astro.props.m);
 const Body = bodyFor(s.slug);
 const anyEstimate = s.ranges.some((r) => r.estimate);
+const hasAside = s.extras.length > 0 || s.notes.length > 0 || !!Body;
 ---
 <Base title={`${s.make} ${s.model}`}>
-  <header class="head">
-    <p class="make">{s.make}</p>
-    <h1>{s.model}</h1>
-    {s.year && <p class="year">{s.year} model year</p>}
-    <div class="out"><OutLinks links={s.out} /></div>
-  </header>
+  <PageHead kicker={s.make} title={s.model} sub={s.year ? `${s.year} model year` : undefined}>
+    <OutLinks links={s.out} />
+  </PageHead>
 
-  <p class="lede">What you asked for</p>
+  <div class:list={['sheet', { 'has-aside': hasAside }]}>
+    <p class="lede">What you asked for</p>
 
-  <Section heading="Size" id="size">
-    <SizeBlock size={s.size} isRef={s.isRef} />
-    <NotesList notes={s.notesFor('size')} slot="note" />
-  </Section>
+    <div class="asked">
+      <Section heading="Size" id="size">
+        <SizeBlock size={s.size} isRef={s.isRef} />
+        <NotesList notes={s.notesFor('size')} slot="note" />
+      </Section>
 
-  <Section heading="All-wheel drive" id="awd">
-    <p class="fact">{s.awd.standard ? 'Every trim has it.' : <>On these trims: {s.awd.text}.</>}</p>
-    <NotesList notes={s.notesFor('awd')} slot="note" />
-  </Section>
+      <div class="pair">
+        <Section heading="All-wheel drive" id="awd">
+          <p class="fact">{s.awd.standard ? 'Every trim has it.' : <>On these trims: {s.awd.text}.</>}</p>
+          <NotesList notes={s.notesFor('awd')} slot="note" />
+        </Section>
 
-  <Section heading="Tesla charging" id="tesla">
-    {s.tesla && (
-      <p class="fact">
-        {s.tesla.text === 'Built in' ? 'Built-in Tesla-style port. No adapter needed.' : <>Charges at Tesla Superchargers with an adapter{s.tesla.detail ? `, ${s.tesla.detail}` : ''}.</>}
-      </p>
+        <Section heading="Tesla charging" id="tesla">
+          {s.tesla && (
+            <p class="fact">
+              {s.tesla.text === 'Built in' ? 'Built-in Tesla-style port. No adapter needed.' : <>Charges at Tesla Superchargers with an adapter{s.tesla.detail ? `, ${s.tesla.detail}` : ''}.</>}
+            </p>
+          )}
+          <NotesList notes={s.notesFor('tesla')} slot="note" />
+        </Section>
+      </div>
+
+      <Section heading="Range" id="range">
+        <p class="cap">EPA range, AWD versions{s.rangeYear && ` (EPA's ${s.rangeYear} listing)`}</p>
+        <RangeBars ranges={s.ranges} />
+        <Fragment slot="note">
+          {anyEstimate && <p><span aria-hidden="true">*</span> Hollow bar: the maker's EPA estimate. EPA hasn't listed this model yet.</p>}
+          <NotesList notes={s.notesFor('range')} />
+        </Fragment>
+      </Section>
+    </div>
+
+    {hasAside && (
+      <div class="aside">
+        {s.extras.length > 0 && (
+          <Section heading="Also worth knowing" id="extras">
+            <ExtrasList extras={s.extras} />
+            <NotesList notes={s.notesFor('extras')} slot="note" />
+          </Section>
+        )}
+
+        {s.notes.length > 0 && (
+          <Section heading="Notes" id="notes">
+            <div class="notes"><NotesList notes={s.notes} /></div>
+          </Section>
+        )}
+
+        {Body && (
+          <Section id="more">
+            <div class="body"><Body /></div>
+          </Section>
+        )}
+      </div>
     )}
-    <NotesList notes={s.notesFor('tesla')} slot="note" />
-  </Section>
 
-  <Section heading="Range" id="range">
-    <p class="cap">EPA range, AWD versions{s.rangeYear && ` (EPA's ${s.rangeYear} listing)`}</p>
-    <RangeBars ranges={s.ranges} />
-    <Fragment slot="note">
-      {anyEstimate && <p><span aria-hidden="true">*</span> Hollow bar: the maker's EPA estimate. EPA hasn't listed this model yet.</p>}
-      <NotesList notes={s.notesFor('range')} />
-    </Fragment>
-  </Section>
-
-  {s.extras.length > 0 && (
-    <Section heading="Also worth knowing" id="extras">
-      <ExtrasList extras={s.extras} />
-      <NotesList notes={s.notesFor('extras')} slot="note" />
-    </Section>
-  )}
-
-  {s.notes.length > 0 && (
-    <Section heading="Notes" id="notes">
-      <div class="notes"><NotesList notes={s.notes} /></div>
-    </Section>
-  )}
-
-  {Body && (
-    <Section id="more">
-      <div class="body"><Body /></div>
-    </Section>
-  )}
-
-  <SourcesList sources={s.sources} />
+    <div class="foot"><SourcesList sources={s.sources} /></div>
+  </div>
 </Base>
 
 <style>
-  .head { margin: 2.5rem 0 2rem; }
-  .make { margin: 0; font-size: 0.875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-  h1 { margin: 0.1rem 0 0.25rem; }
-  .year { margin: 0; font-family: var(--font-data); font-size: 0.875rem; color: var(--muted); }
-  .out { margin-top: 1.25rem; }
+  /* One column of her four asks; on a wide window the extras and notes sit beside it, their first
+     rule level with Size's. Every rule ends where its column does. */
+  .sheet { display: grid; grid-template-columns: minmax(0, 42rem); column-gap: 4rem; }
+  .lede, .asked, .foot { grid-column: 1; }
+  @media (min-width: 72rem) {
+    .sheet.has-aside { grid-template-columns: minmax(0, 42rem) minmax(0, 32rem); }
+    .has-aside .aside { grid-column: 2; grid-row: 2; }
+    .has-aside .foot { grid-column: 1 / -1; }
+  }
 
   .lede { margin: 0 0 1.25rem; font-family: var(--font-display); font-size: 1.5rem; line-height: 1.2; }
 
-  .fact { margin: 0; max-width: 44rem; }
+  /* All-wheel drive and Tesla charging are a sentence each, so they share a row. */
+  .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5rem; }
+  @media (max-width: 40rem) { .pair { grid-template-columns: minmax(0, 1fr); } }
+
+  .fact { margin: 0; }
   .cap { margin: 0 0 0.5rem; font-size: 0.875rem; color: var(--muted); }
 
-  .notes, .body { max-width: 44rem; }
   .notes :global(p) { margin: 0 0 0.6rem; }
 </style>
