@@ -135,6 +135,29 @@
   "highway_tests": [
     { "source": "https://www.caranddriver.com/toyota/c-hr", "retrieved": "2026-09-19", "trim_tested": "XSE", "result_mi": 230, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 8, "source": "https://www.caranddriver.com/toyota/c-hr-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Toyota C-HR Review, Pricing, and Specs'." },
+      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/toyota/c-hr", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Toyota C-HR Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.toyota.com/c-hr/",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/toyota/c-hr-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/toyota/c-hr-electric",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Toyota C-HR Review: Expert Insights, Pricing, and Trims'."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "Range is EPA's 2026 C-HR listing. EPA hasn't listed the 2027 yet; Toyota's stated 2027 figures are the same." },
     { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet; Toyota's pages give only the charger power assumed for the 10-80% time." }

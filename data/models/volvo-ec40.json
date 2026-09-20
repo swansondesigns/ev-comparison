@@ -147,9 +147,27 @@
   "highway_tests": [
     { "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "trim_tested": "C40 Recharge (version not stated)", "result_mi": 200, "temp_f": null, "note": "C/D 75-mph highway route; the page doesn't say which version was tested." }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/volvo/ec40", "retrieved": "2026-09-19", "rated_as": "the C40 Recharge", "note": "C/D rating in the page's review data; page titled '2024 Volvo C40 Recharge Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/volvo/ec40",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/volvo/ec40",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2025 Volvo C40 Recharge Review: Expert Insights, Pricing, and Trims'."
+    }
+  },
   "notes": [
     { "tag": "reader", "text": "Almost everything here is Car and Driver's data for the 2024 C40 Recharge, the EC40's earlier name. Volvo's own EC40 pages weren't reachable." },
     { "tag": "provenance", "text": "EPA range is the 2026 EC40 Twin; warranty is from Volvo's MY2026 fully-electric manual, which names the EC40." },
-    { "tag": "provenance", "text": "Volvo's EC40 pages were retried on 2026-09-19 after chat's reply: volvocars.com/us/cars/ec40-electric/ is still a 404 (curl and headless Edge) and the US media site still returns 503. The record stays as it is." }
+    { "tag": "provenance", "text": "Volvo's EC40 pages were retried on 2026-09-19 after chat's reply: volvocars.com/us/cars/ec40-electric/ is still a 404 (curl and headless Edge) and the US media site still returns 503. The record stays as it is." },
+    { "tag": "provenance", "text": "No maker link: on 2026-09-19 volvocars.com/us/ and /us/cars/electric-cars/ link the EX30, EX40, EX60 and EX90 and no EC40. The EC40 survives there only in unused page strings that still describe it as the C40 Recharge." }
   ]
 }

@@ -66,5 +66,27 @@
     "source": "https://www.caranddriver.com/bmw/ix3/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2027 50 xDrive Sports Activity Vehicle, 'Height (inches)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 9.5, "source": "https://www.caranddriver.com/bmw/ix3", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 BMW iX3 Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.bmwusa.com/vehicles/x-series/ix3/bmw-ix3.html",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/bmw/ix3",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 BMW iX3 Review, Pricing, and Specs'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/bmw/ix3/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
   }
 }

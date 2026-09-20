@@ -91,5 +91,31 @@
     "source": "https://www.caranddriver.com/toyota/bz/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 XLE Plus FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 7.5, "source": "https://www.caranddriver.com/toyota/bz-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Toyota bZ Review, Pricing, and Specs'." },
+      { "model_year": "2026", "value": 7.5, "source": "https://www.caranddriver.com/toyota/bz", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Toyota bZ Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 7.5, "source": "https://www.caranddriver.com/toyota/bz", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Toyota bZ Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/toyota/bz", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Toyota bZ Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 7.5, "source": "https://www.caranddriver.com/toyota/bz", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Toyota bZ Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.toyota.com/bz/",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/toyota/bz-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/toyota/bz",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Toyota bZ Review: Expert Insights, Pricing, and Trims'."
+    }
   }
 }

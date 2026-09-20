@@ -141,6 +141,34 @@
   "highway_tests": [
     { "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "trim_tested": "Countryman SE ALL4", "result_mi": 180, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 8, "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 9.3, "source": "https://www.motortrend.com/cars/mini/countryman/2027", "retrieved": "2026-09-19", "rated_as": "all Countryman models", "note": "MotorTrend score in the page's review data; page titled '2027 Mini Countryman Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2026", "value": 9.3, "source": "https://www.motortrend.com/cars/mini/countryman/2026", "retrieved": "2026-09-19", "rated_as": "all Countryman models", "note": "MotorTrend score in the page's review data; page titled '2026 Mini Countryman Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 9.3, "source": "https://www.motortrend.com/cars/mini/countryman", "retrieved": "2026-09-19", "rated_as": "all Countryman models", "note": "MotorTrend score in the page's review data; page titled '2025 Mini Countryman Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.miniusa.com/model/electric/countryman.html",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/mini/countryman-electric",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/mini/countryman/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "Cargo is MINI's figure from its compare page. Turning circle and ground clearance are Car and Driver's; MINI's compare page has no rows for them." },
     { "tag": "provenance", "text": "Port type is inferred; MINI says an adapter is needed for Superchargers but not whether one is included." }

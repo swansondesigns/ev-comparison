@@ -91,5 +91,31 @@
     "source": "https://www.caranddriver.com/polestar/polestar-4/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/polestar/polestar-4", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Polestar 4 Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2026", "value": 8.8, "source": "https://www.motortrend.com/cars/polestar/4/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Polestar Polestar 4 Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 8.8, "source": "https://www.motortrend.com/cars/polestar/4", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Polestar Polestar 4 Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.polestar.com/us/polestar-4/",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/polestar/polestar-4",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Polestar 4 Review, Pricing, and Specs'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/polestar/4/2026",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
   }
 }

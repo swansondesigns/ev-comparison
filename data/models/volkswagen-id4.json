@@ -157,6 +157,35 @@
   "highway_tests": [
     { "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "trim_tested": "Pro S AWD (2024)", "result_mi": 240, "temp_f": null, "note": "C/D: 'When we last tested an ID.4 on our 75-mph highway range test in 2024, an all-wheel drive Pro S model...'. Temperature not stated." }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 8.5, "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Volkswagen ID.4 Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 8.5, "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Volkswagen ID.4 Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 8.5, "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Volkswagen ID.4 Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 8.5, "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Volkswagen ID.4 Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2026", "value": 7.5, "source": "https://www.motortrend.com/cars/volkswagen/id4/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Volkswagen ID.4 Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 7.5, "source": "https://www.motortrend.com/cars/volkswagen/id4", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Volkswagen ID.4 Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.vw.com/en/models/id-4.html",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/volkswagen/id4",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/volkswagen/id4/2026",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Volkswagen ID.4 Review: Expert Insights, Pricing, and Trims'."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "VW's 10-80% time is stated without the charger power it assumes." }
   ]

@@ -84,5 +84,32 @@
     "source": "https://www.caranddriver.com/subaru/trailseeker/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 8, "source": "https://www.caranddriver.com/subaru/trailseeker-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Subaru Trailseeker Review, Pricing, and Specs'." },
+      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/subaru/trailseeker", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Subaru Trailseeker Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/trailseeker/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Subaru Trailseeker Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2026", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/trailseeker", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Subaru Trailseeker Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.subaru.com/vehicles/trailseeker.html",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 Subaru Trailseeker | New All-Wheel Drive EV SUV'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/subaru/trailseeker-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/subaru/trailseeker/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
   }
 }

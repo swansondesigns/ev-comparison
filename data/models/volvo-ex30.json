@@ -149,6 +149,29 @@
   "highway_tests": [
     { "source": "https://www.caranddriver.com/volvo/ex30", "retrieved": "2026-09-19", "trim_tested": "Twin Motor Performance", "result_mi": 160, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 8.5, "source": "https://www.caranddriver.com/volvo/ex30", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Volvo EX30 Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 8.5, "source": "https://www.caranddriver.com/volvo/ex30", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Volvo EX30 Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.volvocars.com/us/cars/ex30-electric/",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/volvo/ex30",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/volvo/ex30/2026",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "Peak DC rate is Car and Driver's report of Volvo's figure." }
   ]

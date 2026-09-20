@@ -86,5 +86,27 @@
     "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2027 GLC 400 Electric 4MATIC SUV, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 9, "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/mercedes-benz/glc-class-ev",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/mercedes-benz/glc-class-electric",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 Mercedes-Benz GLC-Class EV Review: Expert Insights, Pricing, and Trims'."
+    }
   }
 }

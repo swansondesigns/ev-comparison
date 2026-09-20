@@ -150,6 +150,37 @@
     "retrieved": "2026-09-19"
   },
   "highway_tests": [],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 8.5, "source": "https://www.caranddriver.com/genesis/gv60-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Genesis GV60 /GV60 Magma Review, Pricing, and Specs'." },
+      { "model_year": "2026", "value": 8.5, "source": "https://www.caranddriver.com/genesis/gv60", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Genesis GV60 Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 9, "source": "https://www.caranddriver.com/genesis/gv60", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Genesis GV60 Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 9, "source": "https://www.caranddriver.com/genesis/gv60", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Genesis GV60 Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 9, "source": "https://www.caranddriver.com/genesis/gv60", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Genesis GV60 Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 9.5, "source": "https://www.motortrend.com/cars/genesis/gv60/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Genesis GV60 Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2026", "value": 9.5, "source": "https://www.motortrend.com/cars/genesis/gv60/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Genesis GV60 Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 9.5, "source": "https://www.motortrend.com/cars/genesis/gv60", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Genesis GV60 Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.genesis.com/us/en/gv60",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 Genesis GV60 | Luxury All-Electric SUV | Genesis USA'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/genesis/gv60-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/genesis/gv60/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet and may be the charger class, not the car's own peak." },
     { "tag": "provenance", "text": "No Car and Driver highway range test found on its GV60 page." }

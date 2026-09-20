@@ -89,5 +89,30 @@
     "source": "https://www.caranddriver.com/lexus/rz/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 RZ 350e FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 7.5, "source": "https://www.caranddriver.com/lexus/rz", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Lexus RZ Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 7, "source": "https://www.caranddriver.com/lexus/rz", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Lexus RZ Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 7, "source": "https://www.caranddriver.com/lexus/rz", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Lexus RZ Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 7, "source": "https://www.caranddriver.com/lexus/rz", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Lexus RZ Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.lexus.com/models/RZ",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Lexus RZ — Luxury Electric SUV | Lexus.com'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/lexus/rz",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Lexus RZ Review, Pricing, and Specs'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/lexus/rz/2026",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
   }
 }

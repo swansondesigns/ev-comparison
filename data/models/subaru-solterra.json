@@ -84,5 +84,35 @@
     "source": "https://www.caranddriver.com/subaru/solterra/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Subaru Solterra Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/solterra/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Subaru Solterra Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2026", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/solterra/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Subaru Solterra Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/solterra", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Subaru Solterra Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.subaru.com/vehicles/solterra.html",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra | All-Wheel Drive Electric SUV | Learn More'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/subaru/solterra",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/subaru/solterra/2026",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra Review: Expert Insights, Pricing, and Trims'."
+    }
   }
 }

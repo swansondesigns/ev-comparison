@@ -150,6 +150,33 @@
     { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "e-4ORCE Platinum+", "result_mi": 210, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." },
     { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "Empower+ (FWD)", "result_mi": 240, "temp_f": null, "note": "Front-drive version, not AWD." }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2025", "value": 8, "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2025 Nissan Ariya Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 8, "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2025 Nissan Ariya Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 8, "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2025 Nissan Ariya Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2025", "value": 7.8, "source": "https://www.motortrend.com/cars/nissan/ariya", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/nissan/ariya",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/nissan/ariya",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "Specs quoted are for the 2025 model year." },
     { "tag": "provenance", "text": "Turning circle and height are Car and Driver's figures." }

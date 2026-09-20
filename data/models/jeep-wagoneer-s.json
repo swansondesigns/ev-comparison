@@ -61,5 +61,28 @@
       { "applies_to": "Pirelli tires", "epa_vehicle": "Wagoneer S AWD (Pirelli tire)", "drive": "AWD", "value": 262, "epa_id": 49151, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49151", "retrieved": "2026-09-19" }
     ],
     "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 (50209, 50210: 294 and 268 mi). EPA's labels name the tire, not Jeep's trims."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2025", "value": 7.5, "source": "https://www.caranddriver.com/jeep/wagoneer-s", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2025 Jeep Wagoneer S Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/jeep/wagoneer-s", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2025 Jeep Wagoneer S Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.jeep.com/wagoneer-s.html",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/jeep/wagoneer-s",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2025 Jeep Wagoneer S Review, Pricing, and Specs'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/jeep/wagoneer-s",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2025 Jeep Wagoneer S Review: Expert Insights, Pricing, and Trims'."
+    }
   }
 }

@@ -88,5 +88,30 @@
     "source": "https://www.caranddriver.com/kia/ev6/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Light RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2026", "value": 9, "source": "https://www.caranddriver.com/kia/ev6", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Kia EV6 Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 9.5, "source": "https://www.caranddriver.com/kia/ev6", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Kia EV6 Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 9.5, "source": "https://www.caranddriver.com/kia/ev6", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Kia EV6 Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 10, "source": "https://www.caranddriver.com/kia/ev6", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Kia EV6 Review, Pricing, and Specs'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.kia.com/us/en/ev6",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Kia EV6: All-Electric SUV with Fast Charging & Advanced Safety Features | MSRP & Cargo Space | Kia'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/kia/ev6",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Kia EV6 Review, Pricing, and Specs'."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/kia/ev6/2026",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2026 Kia EV6 Review: Expert Insights, Pricing, and Trims'."
+    }
   }
 }

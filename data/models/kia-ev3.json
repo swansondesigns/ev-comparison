@@ -148,6 +148,23 @@
     "retrieved": "2026-09-19"
   },
   "highway_tests": [],
+  "links": {
+    "maker": {
+      "url": "https://www.kia.com/us/en/ev3",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 Kia EV3 Compact Electric SUV: Available e-AWD, Fast Charging, and 321-mile Driving Range (EPA-est.) | MSRP & Features | Kia'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/kia/ev3",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/kia/ev3/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
+  },
   "notes": [
     { "tag": "provenance", "text": "Kia doesn't publish the EV3's peak DC charging rate in the sources fetched, and Car and Driver hasn't tested one." },
     { "tag": "provenance", "text": "Turning circle is given by Kia as a radius only." }

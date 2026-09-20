@@ -92,5 +92,32 @@
     "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2025 Premium quattro, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 8.5, "source": "https://www.caranddriver.com/audi/sq6-e-tron-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Audi SQ6 e-tron Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 8.5, "source": "https://www.caranddriver.com/audi/sq6-e-tron", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2025 Audi SQ6 e-tron Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 8.9, "source": "https://www.motortrend.com/cars/audi/q6-e-tron/2027", "retrieved": "2026-09-19", "rated_as": "the Q6 e-tron line", "note": "MotorTrend score in the page's review data; page titled '2027 Audi Q6 e-tron Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 8.9, "source": "https://www.motortrend.com/cars/audi/q6-e-tron", "retrieved": "2026-09-19", "rated_as": "the Q6 e-tron line", "note": "MotorTrend score in the page's review data; page titled '2025 Audi Q6 e-tron Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.audiusa.com/en/models/q6-e-tron/sq6-e-tron/",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 Audi SQ6 e-tron | All-electric SUV | Audi USA'. Redirects to https://www.audiusa.com/en/models/q6-e-tron/sq6-e-tron/2027/overview/."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/audi/sq6-e-tron-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/audi/q6-e-tron/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
   }
 }

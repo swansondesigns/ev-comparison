@@ -82,5 +82,34 @@
     "source": "https://www.caranddriver.com/cadillac/optiq/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Luxury 4dr w/1SC, 'Turning Diameter / Radius, curb to curb (feet)'."
+  },
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 9, "source": "https://www.caranddriver.com/cadillac/optiq-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Cadillac Optiq Review, Pricing, and Specs'." },
+      { "model_year": "2026", "value": 9, "source": "https://www.caranddriver.com/cadillac/optiq", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Cadillac Optiq Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 8.5, "source": "https://www.caranddriver.com/cadillac/optiq", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Cadillac Optiq Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 9.3, "source": "https://www.motortrend.com/cars/cadillac/optiq/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Cadillac Optiq Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2026", "value": 9.3, "source": "https://www.motortrend.com/cars/cadillac/optiq/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Cadillac Optiq Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 9.3, "source": "https://www.motortrend.com/cars/cadillac/optiq", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Cadillac Optiq Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.cadillac.com/electric/optiq",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/cadillac/optiq-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/cadillac/optiq/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
   }
 }

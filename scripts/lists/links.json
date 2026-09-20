@@ -1,0 +1,157 @@
+{
+  "audi-q6-e-tron": {
+    "maker": "https://www.audiusa.com/en/models/q6-e-tron/q6-e-tron/",
+    "caranddriver": "https://www.caranddriver.com/audi/q6-e-tron-2027",
+    "motortrend": "https://www.motortrend.com/cars/audi/q6-e-tron/2027"
+  },
+  "audi-sq6-e-tron": {
+    "maker": "https://www.audiusa.com/en/models/q6-e-tron/sq6-e-tron/",
+    "caranddriver": "https://www.caranddriver.com/audi/sq6-e-tron-2027",
+    "motortrend": "https://www.motortrend.com/cars/audi/q6-e-tron/2027"
+  },
+  "bmw-ix3": {
+    "maker": "https://www.bmwusa.com/vehicles/x-series/ix3/bmw-ix3.html",
+    "caranddriver": "https://www.caranddriver.com/bmw/ix3",
+    "motortrend": "https://www.motortrend.com/cars/bmw/ix3/2027"
+  },
+  "cadillac-optiq": {
+    "maker": "https://www.cadillac.com/electric/optiq",
+    "caranddriver": "https://www.caranddriver.com/cadillac/optiq-2027",
+    "motortrend": "https://www.motortrend.com/cars/cadillac/optiq/2027"
+  },
+  "chevrolet-equinox-ev": {
+    "maker": "https://www.chevrolet.com/electric/equinox-ev",
+    "caranddriver": "https://www.caranddriver.com/chevrolet/equinox-ev-2027",
+    "motortrend": "https://www.motortrend.com/cars/chevrolet/equinox-ev/2027"
+  },
+  "ford-mustang-mach-e": {
+    "maker": "https://www.ford.com/suvs/mach-e/",
+    "caranddriver": "https://www.caranddriver.com/ford/mustang-mach-e",
+    "motortrend": "https://www.motortrend.com/cars/ford/mustang-mach-e/2026"
+  },
+  "genesis-electrified-gv70": {
+    "maker": "https://www.genesis.com/us/en/electrified-gv70",
+    "caranddriver": "https://www.caranddriver.com/genesis/electrified-gv70-2027",
+    "motortrend": "https://www.motortrend.com/cars/genesis/electrified-gv70/2027"
+  },
+  "genesis-gv60": {
+    "maker": "https://www.genesis.com/us/en/gv60",
+    "caranddriver": "https://www.caranddriver.com/genesis/gv60-2027",
+    "motortrend": "https://www.motortrend.com/cars/genesis/gv60/2027"
+  },
+  "hyundai-ioniq-5": {
+    "maker": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5",
+    "caranddriver": "https://www.caranddriver.com/hyundai/ioniq-5-2027",
+    "motortrend": "https://www.motortrend.com/cars/hyundai/ioniq-5/2027"
+  },
+  "jeep-wagoneer-s": {
+    "maker": "https://www.jeep.com/wagoneer-s.html",
+    "caranddriver": "https://www.caranddriver.com/jeep/wagoneer-s",
+    "motortrend": "https://www.motortrend.com/cars/jeep/wagoneer-s"
+  },
+  "kia-ev3": {
+    "maker": "https://www.kia.com/us/en/ev3",
+    "caranddriver": "https://www.caranddriver.com/kia/ev3",
+    "motortrend": "https://www.motortrend.com/cars/kia/ev3/2027"
+  },
+  "kia-ev6": {
+    "maker": "https://www.kia.com/us/en/ev6",
+    "caranddriver": "https://www.caranddriver.com/kia/ev6",
+    "motortrend": "https://www.motortrend.com/cars/kia/ev6/2026"
+  },
+  "lexus-rz": {
+    "maker": "https://www.lexus.com/models/RZ",
+    "caranddriver": "https://www.caranddriver.com/lexus/rz",
+    "motortrend": "https://www.motortrend.com/cars/lexus/rz/2026"
+  },
+  "mercedes-benz-glc-class-ev": {
+    "maker": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+    "caranddriver": "https://www.caranddriver.com/mercedes-benz/glc-class-ev",
+    "motortrend": "https://www.motortrend.com/cars/mercedes-benz/glc-class-electric"
+  },
+  "mini-countryman-electric": {
+    "maker": "https://www.miniusa.com/model/electric/countryman.html",
+    "caranddriver": "https://www.caranddriver.com/mini/countryman-electric",
+    "motortrend": "https://www.motortrend.com/cars/mini/countryman/2027"
+  },
+  "nissan-ariya": {
+    "maker": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+    "caranddriver": "https://www.caranddriver.com/nissan/ariya",
+    "motortrend": "https://www.motortrend.com/cars/nissan/ariya"
+  },
+  "polestar-3": {
+    "maker": "https://www.polestar.com/us/polestar-3/",
+    "caranddriver": "https://www.caranddriver.com/polestar/polestar-3",
+    "motortrend": "https://www.motortrend.com/cars/polestar/3/2026"
+  },
+  "polestar-4": {
+    "maker": "https://www.polestar.com/us/polestar-4/",
+    "caranddriver": "https://www.caranddriver.com/polestar/polestar-4",
+    "motortrend": "https://www.motortrend.com/cars/polestar/4/2026"
+  },
+  "porsche-macan-electric": {
+    "maker": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+    "caranddriver": "https://www.caranddriver.com/porsche/macan-ev",
+    "motortrend": "https://www.motortrend.com/cars/porsche/macan-ev/2026"
+  },
+  "rivian-r2": {
+    "maker": "https://rivian.com/r2",
+    "caranddriver": "https://www.caranddriver.com/rivian/r2",
+    "motortrend": "https://www.motortrend.com/cars/rivian/r2"
+  },
+  "subaru-solterra": {
+    "maker": "https://www.subaru.com/vehicles/solterra.html",
+    "caranddriver": "https://www.caranddriver.com/subaru/solterra",
+    "motortrend": "https://www.motortrend.com/cars/subaru/solterra/2026"
+  },
+  "subaru-trailseeker": {
+    "maker": "https://www.subaru.com/vehicles/trailseeker.html",
+    "caranddriver": "https://www.caranddriver.com/subaru/trailseeker-2027",
+    "motortrend": "https://www.motortrend.com/cars/subaru/trailseeker/2027"
+  },
+  "subaru-uncharted": {
+    "maker": "https://www.subaru.com/vehicles/uncharted.html",
+    "caranddriver": "https://www.caranddriver.com/subaru/uncharted-2027",
+    "motortrend": "https://www.motortrend.com/cars/subaru/uncharted/2027"
+  },
+  "tesla-model-y": {
+    "maker": "https://www.tesla.com/modely",
+    "caranddriver": "https://www.caranddriver.com/tesla/model-y",
+    "motortrend": "https://www.motortrend.com/cars/tesla/model-y"
+  },
+  "toyota-bz": {
+    "maker": "https://www.toyota.com/bz/",
+    "caranddriver": "https://www.caranddriver.com/toyota/bz-2027",
+    "motortrend": "https://www.motortrend.com/cars/toyota/bz"
+  },
+  "toyota-c-hr": {
+    "maker": "https://www.toyota.com/c-hr/",
+    "caranddriver": "https://www.caranddriver.com/toyota/c-hr-2027",
+    "motortrend": "https://www.motortrend.com/cars/toyota/c-hr-electric"
+  },
+  "volkswagen-id4": {
+    "maker": "https://www.vw.com/en/models/id-4.html",
+    "caranddriver": "https://www.caranddriver.com/volkswagen/id4",
+    "motortrend": "https://www.motortrend.com/cars/volkswagen/id4/2026"
+  },
+  "volvo-ec40": {
+    "maker": null,
+    "caranddriver": "https://www.caranddriver.com/volvo/ec40",
+    "motortrend": "https://www.motortrend.com/cars/volvo/ec40"
+  },
+  "volvo-ex30": {
+    "maker": "https://www.volvocars.com/us/cars/ex30-electric/",
+    "caranddriver": "https://www.caranddriver.com/volvo/ex30",
+    "motortrend": "https://www.motortrend.com/cars/volvo/ex30/2026"
+  },
+  "volvo-ex40": {
+    "maker": "https://www.volvocars.com/us/cars/ex40-electric/",
+    "caranddriver": "https://www.caranddriver.com/volvo/ex40",
+    "motortrend": "https://www.motortrend.com/cars/volvo/ex40/2026"
+  },
+  "volvo-ex60": {
+    "maker": "https://www.volvocars.com/us/cars/ex60-electric/",
+    "caranddriver": "https://www.caranddriver.com/volvo/ex60",
+    "motortrend": "https://www.motortrend.com/cars/volvo/ex60/2027"
+  }
+}

@@ -169,6 +169,37 @@
   "supercharger_reports": [
     { "claim": "Hyundai's 2027 spec sheet lists 10-80% in 30 min on a 150 kW (400V) charger under 'Charge Time: NACS', against 20 min on a >250 kW (800V) charger via CCS adapter.", "source": "https://www.hyundainews.com/assets/applications/original/72136-2027-ioniq-5-specs-features-20260715.pdf", "retrieved": "2026-09-19" }
   ],
+  "ratings": {
+    "caranddriver": [
+      { "model_year": "2027", "value": 9.5, "source": "https://www.caranddriver.com/hyundai/ioniq-5-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Hyundai Ioniq 5 Review, Pricing, and Specs'." },
+      { "model_year": "2026", "value": 9.5, "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Hyundai Ioniq 5 Review, Pricing, and Specs'." },
+      { "model_year": "2025", "value": 10, "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Hyundai Ioniq 5 Review, Pricing, and Specs'." },
+      { "model_year": "2024", "value": 10, "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Hyundai Ioniq 5 Review, Pricing, and Specs'." },
+      { "model_year": "2023", "value": 10, "source": "https://www.caranddriver.com/hyundai/ioniq-5", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Hyundai Ioniq 5 Review, Pricing, and Specs'." }
+    ],
+    "motortrend": [
+      { "model_year": "2027", "value": 9.3, "source": "https://www.motortrend.com/cars/hyundai/ioniq-5/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Hyundai Ioniq 5 Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2026", "value": 9.3, "source": "https://www.motortrend.com/cars/hyundai/ioniq-5/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Hyundai Ioniq 5 Review: Expert Insights, Pricing, and Trims'." },
+      { "model_year": "2025", "value": 9.3, "source": "https://www.motortrend.com/cars/hyundai/ioniq-5", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Hyundai Ioniq 5 Review: Expert Insights, Pricing, and Trims'." }
+    ]
+  },
+  "links": {
+    "maker": {
+      "url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5",
+      "retrieved": "2026-09-19",
+      "note": "Loaded, not saved: HTTP 200, titled '2027 IONIQ 5 | Electric SUV, Overview | Hyundai USA'."
+    },
+    "caranddriver": {
+      "url": "https://www.caranddriver.com/hyundai/ioniq-5-2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    },
+    "motortrend": {
+      "url": "https://www.motortrend.com/cars/hyundai/ioniq-5/2027",
+      "retrieved": "2026-09-19",
+      "note": "Saved in sources/ (fetch-log.tsv)."
+    }
+  },
   "notes": [
     { "tag": "reader", "section": "tesla", "text": "Hyundai's own figures: 10-80% takes about 30 minutes on a 400-volt charger such as a Tesla Supercharger, against about 20 on the fastest 800-volt chargers." },
     { "tag": "provenance", "text": "Peak DC rate is from Car and Driver's test sheet; Hyundai publishes charger ratings, not the car's peak." }
