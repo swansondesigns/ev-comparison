@@ -1,0 +1,62 @@
+---
+// The outbound buttons: the maker's page for photos, Car and Driver and MotorTrend for the reviews this
+// site doesn't carry. Each is coloured after where it goes. Every car shows all three; one with no
+// page to go to is inert rather than absent. `stacked` is the compact column used in page two's rows.
+interface Props {
+  links: { kind: string; label: string; href: string | null }[];
+  stacked?: boolean;
+}
+const { links, stacked = false } = Astro.props;
+---
+<ul class:list={['out-links', { stacked }]}>
+  {links.map((l) => (
+    <li>
+      {l.href
+        ? <a class={`out out-${l.kind}`} href={l.href} target="_blank" rel="noopener">{l.label}<span class="arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+        : <span class="out is-inert" aria-disabled="true" title="No page for this car">{l.label}<span class="sr-only">: no page for this car</span></span>}
+    </li>
+  ))}
+</ul>
+
+<style>
+  .out-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
+  .out-links.stacked { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 0.25rem; }
+
+  .out {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.6em;
+    padding: 0.4rem 0.75rem 0.4rem 0.65rem;
+    border-left: 3px solid var(--edge);
+    background: var(--fill);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .stacked .out { padding: 0.2rem 0.5rem 0.2rem 0.45rem; font-size: 0.75rem; }
+  .arrow { font-weight: 400; opacity: 0.75; }
+
+  a.out:hover { filter: brightness(1.2); }
+  a.out:hover .arrow { opacity: 1; }
+  a.out:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  /* Fills are dark enough for white text (4.5:1 or better); the edge carries the second brand colour. */
+  .out-maker { --fill: var(--muted); --edge: var(--ink); }
+  .out-caranddriver { --fill: #0060AE; --edge: #C3122F; } /* both sampled from Car and Driver's own icon */
+  .out-motortrend { --fill: #141414; --edge: #D8232A; }
+
+  /* No page to go to: hollow and dashed, with nothing of the brand left, so it can't pass for a link. */
+  .is-inert {
+    --edge: var(--rule);
+    background: transparent;
+    outline: 1px dashed var(--rule);
+    outline-offset: -1px;
+    color: color-mix(in srgb, var(--muted) 60%, var(--paper));
+    font-weight: 400;
+    cursor: default;
+  }
+</style>

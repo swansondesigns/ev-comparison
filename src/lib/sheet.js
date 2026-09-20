@@ -3,6 +3,7 @@
 // (ev-research-reply-2.md). Ground clearance is kept in the data and not shown.
 import { val, COROLLA } from './gates.mjs';
 import { awdText, plug, awdRanges, widthText, lengthText, mirrorsText, refs } from './compare.js';
+import { outLinks } from './links.js';
 
 const GENERIC = /^all (trims|versions)$/i;
 const scope = (e, many) => {
@@ -87,6 +88,7 @@ export function sheet(m) {
     make: m.make,
     model: [m.model, m.flair].filter(Boolean).join(' '),
     year: m.model_year?.value ?? null,
+    out: outLinks(m),
     isRef,
     size: {
       length,

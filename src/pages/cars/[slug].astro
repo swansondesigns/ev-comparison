@@ -12,6 +12,7 @@ import SourcesList from '../../components/SourcesList.astro';
 import { bodyFor } from '../../lib/data.js';
 import { passers } from '../../lib/compare.js';
 import { sheet } from '../../lib/sheet.js';
+import OutLinks from '../../components/OutLinks.astro';
 
 export function getStaticPaths() {
   return passers.map((m) => ({ params: { slug: m.slug }, props: { m } }));
@@ -26,6 +27,7 @@ const anyEstimate = s.ranges.some((r) => r.estimate);
     <p class="make">{s.make}</p>
     <h1>{s.model}</h1>
     {s.year && <p class="year">{s.year} model year</p>}
+    <div class="out"><OutLinks links={s.out} /></div>
   </header>
 
   <p class="lede">What you asked for</p>
@@ -85,6 +87,7 @@ const anyEstimate = s.ranges.some((r) => r.estimate);
   .make { margin: 0; font-size: 0.875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
   h1 { margin: 0.1rem 0 0.25rem; }
   .year { margin: 0; font-family: var(--font-data); font-size: 0.875rem; color: var(--muted); }
+  .out { margin-top: 1.25rem; }
 
   .lede { margin: 0 0 1.25rem; font-family: var(--font-display); font-size: 1.5rem; line-height: 1.2; }
 
