@@ -42,6 +42,19 @@ h1 {
 
 a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
 
+/* The key under a page's title: what a column or a line on the table below stands for. */
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.75rem;
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.key div { display: flex; gap: 0.4em; align-items: baseline; }
+.key dt { font-weight: 700; color: var(--ink); }
+.key dd { margin: 0; }
+
 .sr-only {
   position: absolute;
   width: 1px; height: 1px;
