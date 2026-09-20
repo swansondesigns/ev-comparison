@@ -10,3 +10,7 @@ input/
 
 # Netlify CLI's link to the site (site id), written by `netlify sites:create` / `netlify link`
 .netlify/
+
+# Saved source pages: the local audit trail behind data/. Only the fetch log is tracked.
+sources/*
+!sources/fetch-log.tsv
