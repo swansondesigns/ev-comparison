@@ -37,7 +37,7 @@ const { rating: r, site, id } = Astro.props;
     box-sizing: border-box;
     width: 1.05rem;
     height: 1.05rem;
-    border: 1px solid var(--rule);
+    border: 1px solid var(--info-edge, var(--rule)); /* a banded column sets a darker edge */
     border-radius: 50%;
     font-family: var(--font-display);
     font-style: italic;

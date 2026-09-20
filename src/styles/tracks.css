@@ -1,13 +1,14 @@
 /* The size and range tracks (SizeTrack.astro, RangeTrack.astro). A track is absolutely placed inside a
    positioned host and fills its height, so reference lines and ticks run unbroken from row to row.
-   The host sets --track-w, and --track-gap where the track is inset. */
+   The host sets --track-w, and --track-gap where the track is inset. A host that isn't on plain paper
+   sets --track-bg (what the labels mask their line with) and --track-tick. */
 .track { position: absolute; top: 0; bottom: 0; left: var(--track-gap, 0); width: var(--track-w); }
 .track-head { top: auto; height: var(--track-head-h, 1.4rem); bottom: -1px; }
 
 .track-ref, .track-tick { position: absolute; top: 0; bottom: 0; left: var(--x); width: 0; }
 .track-ref-corolla { border-left: 1.5px dashed var(--muted); }
 .track-ref-feels-right { border-left: 1.5px solid var(--pass); }
-.track-tick { border-left: 1px solid color-mix(in srgb, var(--rule) 60%, transparent); }
+.track-tick { border-left: 1px solid var(--track-tick, color-mix(in srgb, var(--rule) 60%, transparent)); }
 
 .track-lbl {
   position: absolute;
@@ -19,7 +20,7 @@
   letter-spacing: 0;
   text-transform: none;
   white-space: nowrap;
-  background: var(--paper);
+  background: var(--track-bg, var(--paper));
   padding: 0 0.2rem;
   color: var(--muted);
 }

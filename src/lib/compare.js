@@ -60,7 +60,8 @@ export function rating(m, site) {
   };
 }
 
-export const rangeText = (r) => (r.min === r.max ? `${r.min} mi` : `${r.min}–${r.max} mi`);
+// Bare figures: page two prints the unit under them.
+export const rangeText = (r) => (r.min === r.max ? `${r.min}` : `${r.min}–${r.max}`);
 
 const alpha = [...models].sort(byMakeModel).map((m) => m.slug);
 

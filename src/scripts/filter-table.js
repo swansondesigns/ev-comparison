@@ -1,7 +1,8 @@
-// Row filtering for page two: a length trim and per-row hiding, plus which optional columns are open,
+// Row filtering for page two: a length trim and per-row hiding, plus which column groups are open,
 // all remembered in localStorage so the table comes back the way she left it. Rows are hidden with the
-// `hidden` attribute, which leaves sorting alone. Columns open and close in CSS from their [data-col]
-// boxes; this only remembers them, and Reset leaves them alone.
+// `hidden` attribute, which leaves sorting alone. Groups open and close in CSS from their [data-col]
+// boxes; this remembers the ones she has changed from how they start, and says which open groups are
+// banded (root's data-bands). Reset leaves the groups alone.
 const KEY = 'ev-research:compare:v1';
 const NO_LENGTH = 1e9; // data-length of a row with no length; the trim never removes those
 
@@ -27,10 +28,13 @@ export function filterable(root) {
 
   const stored = load();
   const slugs = new Set(rows.map((r) => r.dataset.slug));
+  // cols is { name: open } for the boxes changed from their default. It used to be a list of the open
+  // ones, from when every box started closed.
+  const storedCols = Array.isArray(stored.cols) ? Object.fromEntries(stored.cols.map((c) => [c, true])) : stored.cols || {};
   const state = {
     hidden: (stored.hidden || []).filter((s) => slugs.has(s)),
     length: Array.isArray(stored.length) ? stored.length : [min, max],
-    cols: (stored.cols || []).filter((c) => colBoxes.some((b) => b.dataset.col === c)),
+    cols: Object.fromEntries(Object.entries(storedCols).filter(([c]) => colBoxes.some((b) => b.dataset.col === c))),
   };
   let showHidden = false;
 
@@ -64,9 +68,11 @@ export function filterable(root) {
     el('toggle-hidden').setAttribute('aria-pressed', String(showHidden));
     el('reset').hidden = !trimmed && hiddenCount === 0;
 
-    for (const box of colBoxes) box.checked = state.cols.includes(box.dataset.col);
+    for (const box of colBoxes) box.checked = state.cols[box.dataset.col] ?? box.defaultChecked;
+    // The boxes are in column order. The open groups alternate, banded first.
+    root.dataset.bands = colBoxes.filter((b) => b.checked).filter((_, i) => i % 2 === 0).map((b) => b.dataset.col).join(' ');
 
-    save({ hidden: state.hidden, ...(trimmed ? { length: state.length } : {}), ...(state.cols.length ? { cols: state.cols } : {}) });
+    save({ hidden: state.hidden, ...(trimmed ? { length: state.length } : {}), ...(Object.keys(state.cols).length ? { cols: state.cols } : {}) });
   }
 
   // Each handle stops short of the other, so they never cross or stack.
@@ -81,7 +87,7 @@ export function filterable(root) {
 
   root.addEventListener('change', (e) => {
     if (e.target.closest('[data-col]')) {
-      state.cols = colBoxes.filter((b) => b.checked).map((b) => b.dataset.col);
+      state.cols = Object.fromEntries(colBoxes.filter((b) => b.checked !== b.defaultChecked).map((b) => [b.dataset.col, b.checked]));
       apply();
       return;
     }
