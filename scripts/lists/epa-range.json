@@ -1,307 +1,535 @@
 {
   "audi-q4-e-tron": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50182, "applies_to": "Q4 55 e-tron quattro" },
-      { "id": 50183, "applies_to": "Q4 Sportback 55 e-tron quattro" },
-      { "id": 49612, "applies_to": "Q4 45 e-tron" }
-    ],
-    "note": "Both body styles (Q4 and Q4 Sportback 55 e-tron quattro) are rated 251 mi."
+    "2026": {
+      "ids": [
+        { "id": 50182, "applies_to": "Q4 55 e-tron quattro" },
+        { "id": 50183, "applies_to": "Q4 Sportback 55 e-tron quattro" },
+        { "id": 49612, "applies_to": "Q4 45 e-tron" }
+      ],
+      "note": "Both body styles (Q4 and Q4 Sportback 55 e-tron quattro) are rated 251 mi."
+    }
   },
   "genesis-gv60": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50636, "applies_to": "19\" AWD" },
-      { "id": 50635, "applies_to": "Prestige AWD" },
-      { "id": 50638, "applies_to": "RWD" }
-    ],
-    "note": "Excludes the 2027 GV60 Magma (EPA 50637, 222 mi), which is a separate model outside this universe (see awd.note)."
+    "2024": {
+      "ids": [46948, 46949, 46950, 47448],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48356, 48354, 48355, 48352],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [49653, 49654, 49655, 49652],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50636, "applies_to": "19\" AWD" },
+        { "id": 50635, "applies_to": "Prestige AWD" },
+        { "id": 50638, "applies_to": "RWD" }
+      ],
+      "note": "Excludes the 2027 GV60 Magma (EPA 50637, 222 mi), which is a separate model outside this universe (see awd.note)."
+    }
   },
   "hyundai-ioniq-5": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50642, "applies_to": "SE AWD, SEL AWD" },
-      { "id": 50643, "applies_to": "Limited AWD" },
-      { "id": 50644, "applies_to": "XRT AWD" },
-      { "id": 50645, "applies_to": "SE RWD, SEL RWD, Limited RWD" },
-      { "id": 50646, "applies_to": "SE RWD Standard Range" }
-    ],
-    "note": "EPA lists no 2027 Ioniq 5 N, so the folded-in N has no range here. Trim mapping from Hyundai's spec sheet ('SE/SEL: 290 miles', 'Limited: 269', 'XRT: 259')."
+    "2024": {
+      "ids": [46962, 46960, 46961],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48710, 48711, 48712, 48713, 48714],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes Ioniq 5 N (EPA 48360, 221 mi) and Ioniq 5 Robo taxi (EPA 49092, 168 mi), left out of this line as in its other years."
+    },
+    "2026": {
+      "ids": [49962, 49963, 49964, 49960, 49961],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes Ioniq 5 N (EPA 49965, 221 mi) and Ioniq 5 Robo taxi (EPA 50028, 168 mi), left out of this line as in its other years."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50642, "applies_to": "SE AWD, SEL AWD" },
+        { "id": 50643, "applies_to": "Limited AWD" },
+        { "id": 50644, "applies_to": "XRT AWD" },
+        { "id": 50645, "applies_to": "SE RWD, SEL RWD, Limited RWD" },
+        { "id": 50646, "applies_to": "SE RWD Standard Range" }
+      ],
+      "note": "EPA lists no 2027 Ioniq 5 N, so the folded-in N has no range here. Trim mapping from Hyundai's spec sheet ('SE/SEL: 290 miles', 'Limited: 269', 'XRT: 259')."
+    }
   },
   "kia-ev3": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50648, "applies_to": "Wind (AWD), Land (AWD), GT-Line" },
-      { "id": 50650, "applies_to": "GT" },
-      { "id": 50649, "applies_to": "Wind (FWD), Land (FWD)" },
-      { "id": 50651, "applies_to": "Light" }
-    ],
-    "note": "Trim mapping from Kia's spec table ('All Electric Range': Light 221, Wind/Land FWD 321, every AWD trim 280)."
+    "2027": {
+      "ids": [
+        { "id": 50648, "applies_to": "Wind (AWD), Land (AWD), GT-Line" },
+        { "id": 50650, "applies_to": "GT" },
+        { "id": 50649, "applies_to": "Wind (FWD), Land (FWD)" },
+        { "id": 50651, "applies_to": "Light" }
+      ],
+      "note": "Trim mapping from Kia's spec table ('All Electric Range': Light 221, Wind/Land FWD 321, every AWD trim 280)."
+    }
   },
   "mini-countryman-electric": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50374, "applies_to": "SE ALL4 with 18-in. wheels" },
-      { "id": 50664, "applies_to": "SE ALL4 with 19-in. wheels" }
-    ]
+    "2025": {
+      "ids": [48398, 48399],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [50222, 50223],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50374, "applies_to": "SE ALL4 with 18-in. wheels" },
+        { "id": 50664, "applies_to": "SE ALL4 with 19-in. wheels" }
+      ]
+    }
   },
   "nissan-ariya": {
-    "model_year": "2025",
-    "ids": [
-      { "id": 48718, "applies_to": "ENGAGE e-4ORCE" },
-      { "id": 48719, "applies_to": "ENGAGE+ e-4ORCE, EVOLVE+ e-4ORCE" },
-      { "id": 48722, "applies_to": "PLATINUM+ e-4ORCE (19-in. wheels)" },
-      { "id": 48723, "applies_to": "PLATINUM+ e-4ORCE (20-in. wheels)" },
-      { "id": 48720, "applies_to": "EVOLVE+ FWD" },
-      { "id": 48721, "applies_to": "ENGAGE FWD" }
-    ],
-    "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 Ariya AWD versions (ids 50224, 50225, 50228: 205, 272 and 267 mi). Trim mapping from EPA's labels and the 2025 brochure."
+    "2024": {
+      "ids": [47853, 47855, 47857, 47858, 47854, 47856, 47859],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [
+        { "id": 48718, "applies_to": "ENGAGE e-4ORCE" },
+        { "id": 48719, "applies_to": "ENGAGE+ e-4ORCE, EVOLVE+ e-4ORCE" },
+        { "id": 48722, "applies_to": "PLATINUM+ e-4ORCE (19-in. wheels)" },
+        { "id": 48723, "applies_to": "PLATINUM+ e-4ORCE (20-in. wheels)" },
+        { "id": 48720, "applies_to": "EVOLVE+ FWD" },
+        { "id": 48721, "applies_to": "ENGAGE FWD" }
+      ],
+      "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 Ariya AWD versions (ids 50224, 50225, 50228: 205, 272 and 267 mi). Trim mapping from EPA's labels and the 2025 brochure."
+    },
+    "2026": {
+      "ids": [50224, 50225, 50228, 50226, 50227],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    }
   },
   "subaru-uncharted": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50695, "applies_to": "Sport" },
-      { "id": 50694, "applies_to": "GT" },
-      { "id": 50693, "applies_to": "Premium" }
-    ],
-    "note": "EPA's 2026 listings (50302, 50303) carry the same figures. Trim mapping from Subaru's spec sheet (Premium FWD 308, Sport 287, GT 273)."
+    "2026": {
+      "ids": [50302, 50303, 50301],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50695, "applies_to": "Sport" },
+        { "id": 50694, "applies_to": "GT" },
+        { "id": 50693, "applies_to": "Premium" }
+      ],
+      "note": "EPA's 2026 listings (50302, 50303) carry the same figures. Trim mapping from Subaru's spec sheet (Premium FWD 308, Sport 287, GT 273)."
+    }
   },
   "toyota-c-hr": {
-    "model_year": "2027",
-    "listing_year": "2026",
-    "ids": [
-      { "id": 50307, "applies_to": "SE" },
-      { "id": 50308, "applies_to": "XSE" }
-    ],
-    "note": "EPA has no 2027 C-HR yet (2027 Toyota model menu checked 2026-09-19, sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 C-HR listings. Toyota's stated 2027 figures are the same: 'an EPA-estimated 287-mile range rating for SE', '273-mile range rating for XSE' (https://www.toyota.com/c-hr/). XSE has 20-in. wheels."
+    "2026": {
+      "ids": [50307, 50308],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "listing_year": "2026",
+      "ids": [
+        { "id": 50307, "applies_to": "SE" },
+        { "id": 50308, "applies_to": "XSE" }
+      ],
+      "note": "EPA has no 2027 C-HR yet (2027 Toyota model menu checked 2026-09-19, sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 C-HR listings. Toyota's stated 2027 figures are the same: 'an EPA-estimated 287-mile range rating for SE', '273-mile range rating for XSE' (https://www.toyota.com/c-hr/). XSE has 20-in. wheels."
+    }
   },
   "volkswagen-id4": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 49988, "applies_to": "Pro AWD, Pro S AWD, Pro S Plus AWD" },
-      { "id": 49987, "applies_to": "Pro RWD, Pro S RWD" }
-    ],
-    "note": "EPA lists a single 2026 ID.4 AWD."
+    "2024": {
+      "ids": [47485, 47486, 47922, 47484, 47923, 47924],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48773, 48774, 49155, 49156, 49157, 49158],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 49988, "applies_to": "Pro AWD, Pro S AWD, Pro S Plus AWD" },
+        { "id": 49987, "applies_to": "Pro RWD, Pro S RWD" }
+      ],
+      "note": "EPA lists a single 2026 ID.4 AWD."
+    }
   },
   "volvo-ec40": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 49750, "applies_to": "Twin Motor AWD" },
-      { "id": 49748, "applies_to": "Single Motor RWD" }
-    ],
-    "note": "EPA 2026 EC40 Twin. The EC40's dimensions and trim list come from C/D's 2024 C40 Recharge, so the years don't match."
+    "2024": {
+      "ids": [46982, 46980],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the C40 Recharge."
+    },
+    "2025": {
+      "ids": [48446, 48448],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 49750, "applies_to": "Twin Motor AWD" },
+        { "id": 49748, "applies_to": "Single Motor RWD" }
+      ],
+      "note": "EPA 2026 EC40 Twin. The EC40's dimensions and trim list come from C/D's 2024 C40 Recharge, so the years don't match."
+    }
   },
   "volvo-ex30": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 49992, "applies_to": "Twin Motor Performance" },
-      { "id": 49990, "applies_to": "Cross Country (18-in. wheels)" },
-      { "id": 49991, "applies_to": "Cross Country (19-in. wheels)" },
-      { "id": 49989, "applies_to": "Single Motor Extended Range" }
-    ],
-    "note": "As listed by EPA, the Cross Country on 18-inch wheels rates lower than on 19-inch (203 vs 227 mi)."
+    "2025": {
+      "ids": [48775, 48776, 48449, 48450],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 49992, "applies_to": "Twin Motor Performance" },
+        { "id": 49990, "applies_to": "Cross Country (18-in. wheels)" },
+        { "id": 49991, "applies_to": "Cross Country (19-in. wheels)" },
+        { "id": 49989, "applies_to": "Single Motor Extended Range" }
+      ],
+      "note": "As listed by EPA, the Cross Country on 18-inch wheels rates lower than on 19-inch (203 vs 227 mi)."
+    }
   },
   "volvo-ex40": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 49749, "applies_to": "Twin Motor" },
-      { "id": 49747, "applies_to": "Single Motor Extended Range" }
-    ]
+    "2024": {
+      "ids": [46983, 46981],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the XC40 Recharge."
+    },
+    "2025": {
+      "ids": [48447, 48451],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 49749, "applies_to": "Twin Motor" },
+        { "id": 49747, "applies_to": "Single Motor Extended Range" }
+      ]
+    }
   },
   "audi-q6-e-tron": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50376, "applies_to": "Q6 e-tron quattro (19-in. tires)" },
-      { "id": 50377, "applies_to": "Q6 e-tron quattro (20-in. tires)" },
-      { "id": 50379, "applies_to": "Q6 Sportback e-tron quattro" },
-      { "id": 50378, "applies_to": "Q6 Sportback e-tron quattro (20-in. tires)" }
-    ],
-    "note": "EPA lists no rear-drive 2027 Q6 e-tron. Sportback is a body variant, included as it is for the Q4."
+    "2025": {
+      "ids": [48297, 48298, 48686, 48687, 48683, 48684, 48685],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50376, "applies_to": "Q6 e-tron quattro (19-in. tires)" },
+        { "id": 50377, "applies_to": "Q6 e-tron quattro (20-in. tires)" },
+        { "id": 50379, "applies_to": "Q6 Sportback e-tron quattro" },
+        { "id": 50378, "applies_to": "Q6 Sportback e-tron quattro (20-in. tires)" }
+      ],
+      "note": "EPA lists no rear-drive 2027 Q6 e-tron. Sportback is a body variant, included as it is for the Q4."
+    }
   },
   "audi-sq6-e-tron": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50380, "applies_to": "SQ6 e-tron (20-in. tires)" },
-      { "id": 50381, "applies_to": "SQ6 e-tron (21-in. tires)" },
-      { "id": 50382, "applies_to": "SQ6 Sportback e-tron (20-in. tires)" },
-      { "id": 50383, "applies_to": "SQ6 Sportback e-tron (21-in. tires)" }
-    ]
+    "2025": {
+      "ids": [48303, 48690],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50380, "applies_to": "SQ6 e-tron (20-in. tires)" },
+        { "id": 50381, "applies_to": "SQ6 e-tron (21-in. tires)" },
+        { "id": 50382, "applies_to": "SQ6 Sportback e-tron (20-in. tires)" },
+        { "id": 50383, "applies_to": "SQ6 Sportback e-tron (21-in. tires)" }
+      ]
+    }
   },
   "bmw-ix3": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50385, "applies_to": "iX3 50 xDrive, 20-in. summer tires" },
-      { "id": 50384, "applies_to": "iX3 50 xDrive, 20-in. all-season tires" },
-      { "id": 50386, "applies_to": "iX3 50 xDrive, 21-in. all-season tires" },
-      { "id": 50611, "applies_to": "iX3 50 xDrive, 21-in. summer tires" },
-      { "id": 50387, "applies_to": "iX3 50 xDrive, 22-in. summer tires" }
-    ],
-    "note": "One version, five EPA listings by wheel and tire."
+    "2027": {
+      "ids": [
+        { "id": 50385, "applies_to": "iX3 50 xDrive, 20-in. summer tires" },
+        { "id": 50384, "applies_to": "iX3 50 xDrive, 20-in. all-season tires" },
+        { "id": 50386, "applies_to": "iX3 50 xDrive, 21-in. all-season tires" },
+        { "id": 50611, "applies_to": "iX3 50 xDrive, 21-in. summer tires" },
+        { "id": 50387, "applies_to": "iX3 50 xDrive, 22-in. summer tires" }
+      ],
+      "note": "One version, five EPA listings by wheel and tire."
+    }
   },
   "cadillac-optiq": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50618, "applies_to": "Dual-motor AWD (11 kW onboard charger)" },
-      { "id": 50619, "applies_to": "Dual-motor AWD (19 kW onboard charger)" },
-      { "id": 50622, "applies_to": "Single-motor RWD (11 kW onboard charger)" },
-      { "id": 50623, "applies_to": "Single-motor RWD (19 kW onboard charger)" }
-    ],
-    "note": "Excludes the Optiq-V (EPA 50620 and 50621, 278 and 250 mi), a performance variant left out like the Ioniq 5 N and GV60 Magma."
+    "2026": {
+      "ids": [49951, 49952, 49949, 49950],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes OPTIQ AWD V SERIES 11 kW Charger (EPA 50026, 278 mi) and OPTIQ AWD V SERIES 19 kW charger (EPA 50027, 250 mi), left out of this line as in its other years."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50618, "applies_to": "Dual-motor AWD (11 kW onboard charger)" },
+        { "id": 50619, "applies_to": "Dual-motor AWD (19 kW onboard charger)" },
+        { "id": 50622, "applies_to": "Single-motor RWD (11 kW onboard charger)" },
+        { "id": 50623, "applies_to": "Single-motor RWD (19 kW onboard charger)" }
+      ],
+      "note": "Excludes the Optiq-V (EPA 50620 and 50621, 278 and 250 mi), a performance variant left out like the Ioniq 5 N and GV60 Magma."
+    }
   },
   "chevrolet-equinox-ev": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50630, "applies_to": "LT AWD, RS AWD" }
-    ],
-    "note": "EPA lists a single 2027 Equinox EV, the AWD. The 2026 FWD listing (49953) was 319 mi."
+    "2024": {
+      "ids": [47815, 47814],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48695, 48696, 48697],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [49955, 49956, 49953],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50630, "applies_to": "LT AWD, RS AWD" }
+      ],
+      "note": "EPA lists a single 2027 Equinox EV, the AWD. The 2026 FWD listing (49953) was 319 mi."
+    }
   },
   "ford-mustang-mach-e": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50200, "applies_to": "eAWD, standard-range battery" },
-      { "id": 50201, "applies_to": "eAWD, extended-range battery" },
-      { "id": 50202, "applies_to": "GT" },
-      { "id": 50203, "applies_to": "Rally" },
-      { "id": 50204, "applies_to": "RWD, standard-range battery" },
-      { "id": 50205, "applies_to": "RWD, extended-range battery" }
-    ],
-    "note": "EPA's labels name the battery, not Ford's trims; Select and Premium both come with eAWD."
+    "2024": {
+      "ids": [47824, 47825, 47826, 47827, 47822, 47823],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [49078, 49079, 49080, 49081, 49082, 49083],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50200, "applies_to": "eAWD, standard-range battery" },
+        { "id": 50201, "applies_to": "eAWD, extended-range battery" },
+        { "id": 50202, "applies_to": "GT" },
+        { "id": 50203, "applies_to": "Rally" },
+        { "id": 50204, "applies_to": "RWD, standard-range battery" },
+        { "id": 50205, "applies_to": "RWD, extended-range battery" }
+      ],
+      "note": "EPA's labels name the battery, not Ford's trims; Select and Premium both come with eAWD."
+    }
   },
   "genesis-electrified-gv70": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50634, "applies_to": "All versions" }
-    ],
-    "note": "EPA lists a single 2027 Electrified GV70. Its 2026 listings split by wheel: 263 mi on 19-in. (49656), 243 mi on 20-in. (49657)."
+    "2024": {
+      "ids": [46947],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48353],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [49656, 49657],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50634, "applies_to": "All versions" }
+      ],
+      "note": "EPA lists a single 2027 Electrified GV70. Its 2026 listings split by wheel: 263 mi on 19-in. (49656), 243 mi on 20-in. (49657)."
+    }
   },
   "jeep-wagoneer-s": {
-    "model_year": "2025",
-    "ids": [
-      { "id": 49093, "applies_to": "Falken tires" },
-      { "id": 49151, "applies_to": "Pirelli tires" }
-    ],
-    "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 (50209, 50210: 294 and 268 mi). EPA's labels name the tire, not Jeep's trims."
+    "2024": {
+      "ids": [48791, 48792],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [
+        { "id": 49093, "applies_to": "Falken tires" },
+        { "id": 49151, "applies_to": "Pirelli tires" }
+      ],
+      "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 (50209, 50210: 294 and 268 mi). EPA's labels name the tire, not Jeep's trims."
+    },
+    "2026": {
+      "ids": [50209, 50210],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    }
   },
   "kia-ev6": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50212, "applies_to": "Light Long Range AWD, Wind AWD" },
-      { "id": 50213, "applies_to": "GT-Line AWD" },
-      { "id": 50214, "applies_to": "Light Long Range RWD, Wind RWD, GT-Line RWD" },
-      { "id": 50215, "applies_to": "Light" }
-    ],
-    "note": "Trim mapping from Kia's 2026 spec table ('All Electric Range (miles) - AWD': 295, 295, 270). Excludes EPA's 2026 EV6 AWD GT (50211, 231 mi): the GT isn't in Kia's 2026 trim list."
+    "2024": {
+      "ids": [46968, 46969, 46970, 46965, 46966],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [49094, 49095, 49096, 49097, 49098],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50212, "applies_to": "Light Long Range AWD, Wind AWD" },
+        { "id": 50213, "applies_to": "GT-Line AWD" },
+        { "id": 50214, "applies_to": "Light Long Range RWD, Wind RWD, GT-Line RWD" },
+        { "id": 50215, "applies_to": "Light" }
+      ],
+      "note": "Trim mapping from Kia's 2026 spec table ('All Electric Range (miles) - AWD': 295, 295, 270). Excludes EPA's 2026 EV6 AWD GT (50211, 231 mi): the GT isn't in Kia's 2026 trim list."
+    }
   },
   "lexus-rz": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50217, "applies_to": "RZ 450e AWD (18-in. wheels)" },
-      { "id": 50218, "applies_to": "RZ 450e AWD (20-in. wheels, 235/50R20)" },
-      { "id": 50219, "applies_to": "RZ 450e AWD (20-in. wheels, 235/50R20 front and 255/45R20 rear)" },
-      { "id": 50220, "applies_to": "RZ 550e F SPORT AWD" },
-      { "id": 50291, "applies_to": "RZ 350e FWD (18-in. wheels)" },
-      { "id": 50216, "applies_to": "RZ 350e FWD (20-in. wheels)" }
-    ]
+    "2024": {
+      "ids": [47834, 47835, 47832, 47833],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [49101, 49102, 49099, 49100],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50217, "applies_to": "RZ 450e AWD (18-in. wheels)" },
+        { "id": 50218, "applies_to": "RZ 450e AWD (20-in. wheels, 235/50R20)" },
+        { "id": 50219, "applies_to": "RZ 450e AWD (20-in. wheels, 235/50R20 front and 255/45R20 rear)" },
+        { "id": 50220, "applies_to": "RZ 550e F SPORT AWD" },
+        { "id": 50291, "applies_to": "RZ 350e FWD (18-in. wheels)" },
+        { "id": 50216, "applies_to": "RZ 350e FWD (20-in. wheels)" }
+      ]
+    }
   },
   "mercedes-benz-glc-class-ev": {
-    "model_year": "2027",
-    "maker_estimate": {
-      "source": "https://media.mbusa.com/releases/release-70533912e1034d30bf148896200161c2-2027-mercedes-benz-glc-400-4matic-electric-quick-reference-guide",
-      "slug": "mbusa-media-2027-glc-400-electric-quick-reference",
-      "entries": [
-        { "trim": "GLC 400 4MATIC", "value": 350, "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" },
-        { "trim": "GLC 400 4MATIC with all-season tires", "value": 331, "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" }
-      ]
-    },
-    "note": "EPA has no electric GLC listing (2027 Mercedes-Benz model menu checked 2026-09-19, sources/fe-menu-model-2027-mercedes-benz.xml). Figures are Mercedes-Benz USA's, from its 2027 quick reference guide."
+    "2027": {
+      "maker_estimate": {
+        "source": "https://media.mbusa.com/releases/release-70533912e1034d30bf148896200161c2-2027-mercedes-benz-glc-400-4matic-electric-quick-reference-guide",
+        "slug": "mbusa-media-2027-glc-400-electric-quick-reference",
+        "entries": [
+          { "trim": "GLC 400 4MATIC", "value": 350, "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" },
+          { "trim": "GLC 400 4MATIC with all-season tires", "value": 331, "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" }
+        ]
+      },
+      "note": "EPA has no electric GLC listing (2027 Mercedes-Benz model menu checked 2026-09-19, sources/fe-menu-model-2027-mercedes-benz.xml). Figures are Mercedes-Benz USA's, from its 2027 quick reference guide."
+    }
   },
   "polestar-3": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50229, "applies_to": "Long range Dual motor (21-in. wheels)" },
-      { "id": 50230, "applies_to": "Long range Dual motor (22-in. wheels)" },
-      { "id": 50231, "applies_to": "Long range Dual motor with Performance pack" },
-      { "id": 50232, "applies_to": "Long range Single motor (20-in. wheels)" },
-      { "id": 50233, "applies_to": "Long range Single motor (21-in. wheels)" }
-    ],
-    "note": "Polestar's US page doesn't state a model year; 2026 is EPA's latest Polestar 3 listing."
+    "2025": {
+      "ids": [48408, 48409, 48410, 48411, 48724, 48725, 48726],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50229, "applies_to": "Long range Dual motor (21-in. wheels)" },
+        { "id": 50230, "applies_to": "Long range Dual motor (22-in. wheels)" },
+        { "id": 50231, "applies_to": "Long range Dual motor with Performance pack" },
+        { "id": 50232, "applies_to": "Long range Single motor (20-in. wheels)" },
+        { "id": 50233, "applies_to": "Long range Single motor (21-in. wheels)" }
+      ],
+      "note": "Polestar's US page doesn't state a model year; 2026 is EPA's latest Polestar 3 listing."
+    }
   },
   "polestar-4": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50034, "applies_to": "Dual motor" },
-      { "id": 50035, "applies_to": "Dual motor with Performance pack" },
-      { "id": 50033, "applies_to": "Rear motor" }
-    ]
+    "2025": {
+      "ids": [48412, 48407],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50034, "applies_to": "Dual motor" },
+        { "id": 50035, "applies_to": "Dual motor with Performance pack" },
+        { "id": 50033, "applies_to": "Rear motor" }
+      ]
+    }
   },
   "porsche-macan-electric": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50294, "applies_to": "Macan 4 Electric" },
-      { "id": 50459, "applies_to": "Macan 4 Electric (20-in. wheels)" },
-      { "id": 50295, "applies_to": "Macan 4S Electric" },
-      { "id": 50297, "applies_to": "Macan GTS Electric" },
-      { "id": 50298, "applies_to": "Macan Turbo Electric" },
-      { "id": 50296, "applies_to": "Macan Electric (RWD)" },
-      { "id": 50458, "applies_to": "Macan Electric (RWD, 20-in. wheels)" }
-    ],
-    "note": "2026 matches the year of the dimensions quoted (C/D). Porsche USA already lists 2027 variants."
+    "2024": {
+      "ids": [48793, 48794],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48727, 48728, 48729, 49119],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50294, "applies_to": "Macan 4 Electric" },
+        { "id": 50459, "applies_to": "Macan 4 Electric (20-in. wheels)" },
+        { "id": 50295, "applies_to": "Macan 4S Electric" },
+        { "id": 50297, "applies_to": "Macan GTS Electric" },
+        { "id": 50298, "applies_to": "Macan Turbo Electric" },
+        { "id": 50296, "applies_to": "Macan Electric (RWD)" },
+        { "id": 50458, "applies_to": "Macan Electric (RWD, 20-in. wheels)" }
+      ],
+      "note": "2026 matches the year of the dimensions quoted (C/D). Porsche USA already lists 2027 variants."
+    }
   },
   "rivian-r2": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50391, "applies_to": "Performance (21-in. wheels)" },
-      { "id": 50390, "applies_to": "Performance (20-in. all-terrain tires)" }
-    ],
-    "note": "EPA lists only the R2 Performance so far; Rivian says the Standard is 'Coming 2027'."
+    "2027": {
+      "ids": [
+        { "id": 50391, "applies_to": "Performance (21-in. wheels)" },
+        { "id": 50390, "applies_to": "Performance (20-in. all-terrain tires)" }
+      ],
+      "note": "EPA lists only the R2 Performance so far; Rivian says the Standard is 'Coming 2027'."
+    }
   },
   "subaru-solterra": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 49982, "applies_to": "18-in. wheels" },
-      { "id": 49981, "applies_to": "20-in. wheels" }
-    ],
-    "note": "2026 matches the year of the spec sheet quoted. EPA's 2027 listings (50690, 50689) carry the same figures. EPA's labels name the wheel size, not Subaru's trims."
+    "2024": {
+      "ids": [47482, 47483],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48762, 48763],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 49982, "applies_to": "18-in. wheels" },
+        { "id": 49981, "applies_to": "20-in. wheels" }
+      ],
+      "note": "2026 matches the year of the spec sheet quoted. EPA's 2027 listings (50690, 50689) carry the same figures. EPA's labels name the wheel size, not Subaru's trims."
+    },
+    "2027": {
+      "ids": [50689, 50690],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    }
   },
   "subaru-trailseeker": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50692, "applies_to": "18-in. wheels" },
-      { "id": 50691, "applies_to": "20-in. wheels" }
-    ],
-    "note": "EPA's labels name the wheel size, not Subaru's trims."
+    "2026": {
+      "ids": [50299, 50300],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2027": {
+      "ids": [
+        { "id": 50692, "applies_to": "18-in. wheels" },
+        { "id": 50691, "applies_to": "20-in. wheels" }
+      ],
+      "note": "EPA's labels name the wheel size, not Subaru's trims."
+    }
   },
   "tesla-model-y": {
-    "model_year": "2026",
-    "ids": [
-      { "id": 50304, "applies_to": "Model Y AWD" },
-      { "id": 49744, "applies_to": "Model Y Premium AWD" },
-      { "id": 50253, "applies_to": "Model Y Performance AWD" },
-      { "id": 49743, "applies_to": "Model Y Premium RWD" },
-      { "id": 50040, "applies_to": "Model Y RWD (18-in. wheels)" },
-      { "id": 50041, "applies_to": "Model Y RWD (19-in. wheels)" }
-    ],
-    "note": "Trim mapping from Tesla's Model Y page (Premium All-Wheel Drive 327 mi, Performance 306 mi, Premium Rear-Wheel Drive 357 mi). Excludes the long-wheelbase Model Y L, a different body that EPA doesn't list."
+    "2024": {
+      "ids": [47913, 48474, 47914, 48475, 48476],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2025": {
+      "ids": [48770, 48772, 48771],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+    },
+    "2026": {
+      "ids": [
+        { "id": 50304, "applies_to": "Model Y AWD" },
+        { "id": 49744, "applies_to": "Model Y Premium AWD" },
+        { "id": 50253, "applies_to": "Model Y Performance AWD" },
+        { "id": 49743, "applies_to": "Model Y Premium RWD" },
+        { "id": 50040, "applies_to": "Model Y RWD (18-in. wheels)" },
+        { "id": 50041, "applies_to": "Model Y RWD (19-in. wheels)" }
+      ],
+      "note": "Trim mapping from Tesla's Model Y page (Premium All-Wheel Drive 327 mi, Performance 306 mi, Premium Rear-Wheel Drive 357 mi). Excludes the long-wheelbase Model Y L, a different body that EPA doesn't list."
+    }
   },
   "toyota-bz": {
-    "model_year": "2027",
-    "listing_year": "2026",
-    "ids": [
-      { "id": 49985, "applies_to": "XLE AWD" },
-      { "id": 49986, "applies_to": "Limited AWD" },
-      { "id": 50042, "applies_to": "FWD (191 Ah battery)" },
-      { "id": 49983, "applies_to": "FWD (200 Ah battery)" },
-      { "id": 50043, "applies_to": "Limited FWD (191 Ah battery)" },
-      { "id": 49984, "applies_to": "Limited FWD (200 Ah battery)" }
-    ],
-    "note": "EPA has no 2027 bZ yet (sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 listings. toyota.com's 2027 page states the same AWD figure: 'a 288-mile EPA-estimated range rating on XLE AWD'. FWD entries carry EPA's own labels; they weren't mapped to Toyota's trims. Excludes the bZ Woodland (50305, 50306), a separate model outside this universe."
+    "2024": {
+      "ids": [47920, 47921, 47918, 47919],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the bZ4X."
+    },
+    "2025": {
+      "ids": [49127, 49128, 49129, 49126, 48997],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the bZ4X."
+    },
+    "2026": {
+      "ids": [49985, 49986, 50042, 49983, 50043, 49984],
+      "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes bZ Woodland AWD 235/60R18 (EPA 50305, 281 mi) and bZ Woodland AWD 235/65R18 (EPA 50306, 260 mi), left out of this line as in its other years."
+    },
+    "2027": {
+      "listing_year": "2026",
+      "ids": [
+        { "id": 49985, "applies_to": "XLE AWD" },
+        { "id": 49986, "applies_to": "Limited AWD" },
+        { "id": 50042, "applies_to": "FWD (191 Ah battery)" },
+        { "id": 49983, "applies_to": "FWD (200 Ah battery)" },
+        { "id": 50043, "applies_to": "Limited FWD (191 Ah battery)" },
+        { "id": 49984, "applies_to": "Limited FWD (200 Ah battery)" }
+      ],
+      "note": "EPA has no 2027 bZ yet (sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 listings. toyota.com's 2027 page states the same AWD figure: 'a 288-mile EPA-estimated range rating on XLE AWD'. FWD entries carry EPA's own labels; they weren't mapped to Toyota's trims. Excludes the bZ Woodland (50305, 50306), a separate model outside this universe."
+    }
   },
   "volvo-ex60": {
-    "model_year": "2027",
-    "ids": [
-      { "id": 50696, "applies_to": "P10 AWD" },
-      { "id": 50697, "applies_to": "P6 (RWD, 22-in. wheels)" }
-    ],
-    "note": "EPA lists no P12 AWD yet; Volvo says P12 deliveries are 'expected to start in 2027'."
+    "2027": {
+      "ids": [
+        { "id": 50696, "applies_to": "P10 AWD" },
+        { "id": 50697, "applies_to": "P6 (RWD, 22-in. wheels)" }
+      ],
+      "note": "EPA lists no P12 AWD yet; Volvo says P12 deliveries are 'expected to start in 2027'."
+    }
   }
 }

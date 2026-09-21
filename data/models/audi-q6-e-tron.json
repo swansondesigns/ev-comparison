@@ -44,6 +44,18 @@
   },
   "years": {
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Q6 e-tron quattro (19 inch wheels)", "drive": "AWD", "wheels_in": 19, "value": 307, "epa_id": 48297, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48297", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Q6 e-tron quattro (20 inch wheels)", "drive": "AWD", "wheels_in": 20, "value": 295, "epa_id": 48298, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48298", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Q6 Sportback e-tron quattro (19 inch wheels)", "drive": "AWD", "wheels_in": 19, "value": 319, "epa_id": 48686, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48686", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Q6 Sportback e-tron quattro (20 inch wheels)", "drive": "AWD", "wheels_in": 20, "value": 305, "epa_id": 48687, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48687", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Q6 e-tron (19 inch wheels)", "drive": "RWD", "wheels_in": 19, "value": 310, "epa_id": 48683, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48683", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Q6 e-tron (20 inch wheels)", "drive": "RWD", "wheels_in": 20, "value": 298, "epa_id": 48684, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48684", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Q6 e-tron ultra", "drive": "RWD", "value": 321, "epa_id": 48685, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48685", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

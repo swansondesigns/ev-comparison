@@ -54,6 +54,18 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "ARIYA ENGAGE e-4ORCE 63kWh", "drive": "AWD", "value": 205, "epa_id": 47853, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47853", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA ENGAGE+/EVOLVE+ e-4ORCE 87kWh", "drive": "AWD", "value": 272, "epa_id": 47855, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47855", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 19in. Wheels", "drive": "AWD", "wheels_in": 19, "value": 267, "epa_id": 47857, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47857", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 20in. Wheels", "drive": "AWD", "wheels_in": 20, "value": 257, "epa_id": 47858, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47858", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA ENGAGE FWD 63kWh", "drive": "FWD", "value": 216, "epa_id": 47854, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47854", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA EVOLVE+/EMPOWER+ FWD 87kWh", "drive": "FWD", "value": 289, "epa_id": 47856, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47856", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA VENTURE Plus FWD 87kWh", "drive": "FWD", "value": 304, "epa_id": 47859, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47859", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -192,6 +204,18 @@
           "retrieved": "2026-09-19",
           "note": "Loaded, not saved: HTTP 200, titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'."
         }
+      }
+    },
+    "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "ARIYA e-4ORCE 63kWh", "drive": "AWD", "value": 205, "epa_id": 50224, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50224", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA e-4ORCE 87kWh", "drive": "AWD", "value": 272, "epa_id": 50225, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50225", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 19in. Wheels", "drive": "AWD", "wheels_in": 19, "value": 267, "epa_id": 50228, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50228", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA FWD 63kWh", "drive": "FWD", "value": 216, "epa_id": 50226, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50226", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ARIYA FWD 87kWh", "drive": "FWD", "value": 289, "epa_id": 50227, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50227", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       }
     }
   },

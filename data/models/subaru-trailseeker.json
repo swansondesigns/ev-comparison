@@ -44,6 +44,13 @@
   },
   "years": {
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Trailseeker 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 274, "epa_id": 50299, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50299", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Trailseeker AWD", "drive": "AWD", "value": 281, "epa_id": 50300, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50300", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,

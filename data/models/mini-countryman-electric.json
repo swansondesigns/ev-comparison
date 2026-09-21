@@ -50,6 +50,13 @@
   },
   "years": {
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Countryman SE ALL4 (18 inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 212, "epa_id": 48398, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48398", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 204, "epa_id": 48399, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48399", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -67,6 +74,13 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Countryman SE ALL4 (18 inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 212, "epa_id": 50222, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50222", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 204, "epa_id": 50223, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50223", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,

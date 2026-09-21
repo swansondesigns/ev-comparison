@@ -38,6 +38,13 @@
   },
   "years": {
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 308, "epa_id": 48793, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48793", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Macan Turbo Electric", "drive": "AWD", "value": 288, "epa_id": 48794, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48794", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -48,6 +55,15 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 308, "epa_id": 48727, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48727", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Macan 4S Electric", "drive": "AWD", "value": 288, "epa_id": 48728, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48728", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Macan Turbo Electric", "drive": "AWD", "value": 288, "epa_id": 48729, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48729", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Macan Electric", "drive": "RWD", "value": 315, "epa_id": 49119, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49119", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,

@@ -54,6 +54,17 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 230, "epa_id": 47824, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47824", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E AWD Extended", "drive": "AWD", "value": 300, "epa_id": 47825, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47825", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E GT", "drive": "AWD", "value": 280, "epa_id": 47826, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47826", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E Rally", "drive": "AWD", "value": 265, "epa_id": 47827, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47827", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E RWD", "drive": "RWD", "value": 250, "epa_id": 47822, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47822", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E RWD Extended", "drive": "RWD", "value": 320, "epa_id": 47823, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47823", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -64,6 +75,17 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 240, "epa_id": 49078, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49078", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E AWD Extended", "drive": "AWD", "value": 300, "epa_id": 49079, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49079", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E GT", "drive": "AWD", "value": 280, "epa_id": 49080, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49080", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E Rally", "drive": "AWD", "value": 265, "epa_id": 49081, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49081", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E RWD", "drive": "RWD", "value": 260, "epa_id": 49082, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49082", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Mustang Mach-E RWD Extended", "drive": "RWD", "value": 320, "epa_id": 49083, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49083", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,

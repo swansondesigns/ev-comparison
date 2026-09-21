@@ -44,6 +44,18 @@
   },
   "years": {
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "3 Long Range Dual Motor (20 Inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 310, "epa_id": 48408, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48408", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "3 Long Range Dual Motor (21 Inch Wheels)", "drive": "AWD", "wheels_in": 21, "value": 315, "epa_id": 48409, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48409", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "3 Long Range Dual Motor (22 Inch Wheels)", "drive": "AWD", "wheels_in": 22, "value": 287, "epa_id": 48410, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48410", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "3 Long Range Dual Motor Performance Pack", "drive": "AWD", "value": 279, "epa_id": 48411, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48411", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "3 Long Range Single Motor (20 Inch Wheels)", "drive": "RWD", "wheels_in": 20, "value": 342, "epa_id": 48724, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48724", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "3 Long Range Single Motor (21 Inch Wheels)", "drive": "RWD", "wheels_in": 21, "value": 350, "epa_id": 48725, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48725", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "3 Long Range Single Motor (22 Inch Wheels)", "drive": "RWD", "wheels_in": 22, "value": 333, "epa_id": 48726, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48726", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

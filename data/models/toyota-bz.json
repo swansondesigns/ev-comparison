@@ -54,6 +54,15 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "bZ4X AWD", "drive": "AWD", "value": 228, "epa_id": 47920, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47920", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X Limited AWD", "drive": "AWD", "value": 222, "epa_id": 47921, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47921", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X", "drive": "FWD", "value": 252, "epa_id": 47918, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47918", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X Limited", "drive": "FWD", "value": 236, "epa_id": 47919, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47919", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the bZ4X."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -64,6 +73,16 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "bZ4X AWD (18inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 228, "epa_id": 49127, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49127", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X AWD (20inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 222, "epa_id": 49128, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49128", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X LIMITED AWD", "drive": "AWD", "value": 222, "epa_id": 49129, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49129", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X", "drive": "FWD", "value": 252, "epa_id": 49126, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49126", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "bZ4X LIMITED", "drive": "FWD", "value": 236, "epa_id": 48997, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48997", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the bZ4X."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -74,6 +93,17 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "bZ AWD", "drive": "AWD", "value": 288, "epa_id": 49985, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49985", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "bZ AWD LIMITED", "drive": "AWD", "value": 278, "epa_id": 49986, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49986", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "bZ (energy capacity 191 Ah)", "drive": "FWD", "value": 314, "epa_id": 50042, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50042", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "bZ (energy capacity 200 Ah)", "drive": "FWD", "value": 236, "epa_id": 49983, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49983", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "bZ LIMITED (energy capacity 191 Ah)", "drive": "FWD", "value": 299, "epa_id": 50043, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50043", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "bZ LIMITED (energy capacity 200 Ah)", "drive": "FWD", "value": 296, "epa_id": 49984, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49984", "retrieved": "2026-09-19" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes bZ Woodland AWD 235/60R18 (EPA 50305, 281 mi) and bZ Woodland AWD 235/65R18 (EPA 50306, 260 mi), left out of this line as in its other years."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

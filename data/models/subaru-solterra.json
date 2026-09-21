@@ -54,6 +54,13 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 227, "epa_id": 47482, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47482", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Solterra Limited/Touring AWD", "drive": "AWD", "value": 222, "epa_id": 47483, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47483", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -64,6 +71,13 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 227, "epa_id": 48762, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48762", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Solterra Limited/Touring AWD", "drive": "AWD", "value": 222, "epa_id": 48763, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48763", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -146,6 +160,13 @@
       }
     },
     "2027": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Solterra 20 AWD", "drive": "AWD", "value": 278, "epa_id": 50689, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50689", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 288, "epa_id": 50690, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50690", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "motortrend": {
           "value": 8.4,

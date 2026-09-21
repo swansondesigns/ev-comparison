@@ -45,6 +45,13 @@
   },
   "years": {
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "C40 Recharge twin", "drive": "AWD", "value": 257, "epa_id": 46982, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46982", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "C40 Recharge", "drive": "RWD", "value": 297, "epa_id": 46980, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46980", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the C40 Recharge."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -53,6 +60,15 @@
           "rated_as": "the C40 Recharge",
           "note": "C/D rating in the page's review data; page titled '2024 Volvo C40 Recharge Review, Pricing, and Specs'."
         }
+      }
+    },
+    "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "EC40 Twin", "drive": "AWD", "value": 268, "epa_id": 48446, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48446", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EC40", "drive": "RWD", "value": 298, "epa_id": 48448, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48448", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       }
     },
     "2026": {

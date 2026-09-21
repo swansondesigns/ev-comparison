@@ -51,6 +51,16 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 310, "epa_id": 47913, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47913", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Model Y Long Range AWD-I", "drive": "AWD", "value": 308, "epa_id": 48474, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48474", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Model Y Performance AWD", "drive": "AWD", "value": 279, "epa_id": 47914, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47914", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Model Y Long Range RWD", "drive": "RWD", "value": 320, "epa_id": 48475, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48475", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Model Y RWD", "drive": "RWD", "value": 260, "epa_id": 48476, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48476", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -61,6 +71,14 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 311, "epa_id": 48770, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48770", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Model Y Performance AWD", "drive": "AWD", "value": 277, "epa_id": 48772, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48772", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Model Y Long Range RWD", "drive": "RWD", "value": 337, "epa_id": 48771, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48771", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

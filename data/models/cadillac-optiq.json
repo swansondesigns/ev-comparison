@@ -54,6 +54,15 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "OPTIQ AWD (11 kW Charger)", "drive": "AWD", "value": 303, "epa_id": 49951, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49951", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "OPTIQ AWD (19 kW Charger)", "drive": "AWD", "value": 303, "epa_id": 49952, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49952", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "OPTIQ RWD (11 kW Charger)", "drive": "RWD", "value": 317, "epa_id": 49949, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49949", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "OPTIQ RWD (19 kW Charger)", "drive": "RWD", "value": 317, "epa_id": 49950, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49950", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes OPTIQ AWD V SERIES 11 kW Charger (EPA 50026, 278 mi) and OPTIQ AWD V SERIES 19 kW charger (EPA 50027, 250 mi), left out of this line as in its other years."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,

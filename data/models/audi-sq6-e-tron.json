@@ -45,6 +45,13 @@
   },
   "years": {
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "SQ6 e-tron", "drive": "AWD", "value": 275, "epa_id": 48303, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48303", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "SQ6 Sportback e-tron", "drive": "AWD", "value": 283, "epa_id": 48690, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48690", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

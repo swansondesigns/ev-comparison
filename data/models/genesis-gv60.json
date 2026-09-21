@@ -60,6 +60,15 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "GV60 Advanced (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 264, "epa_id": 46948, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46948", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 Advanced (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 248, "epa_id": 46949, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46949", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 PERFORMANCE", "drive": "AWD", "value": 235, "epa_id": 46950, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46950", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 Standard", "drive": "RWD", "value": 294, "epa_id": 47448, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47448", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -70,6 +79,15 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "GV60 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 264, "epa_id": 48356, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48356", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 AWD Advanced (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 248, "epa_id": 48354, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48354", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 AWD Performance", "drive": "AWD", "value": 235, "epa_id": 48355, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48355", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 RWD", "drive": "RWD", "value": 294, "epa_id": 48352, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48352", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -86,6 +104,15 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "GV60 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 282, "epa_id": 49653, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49653", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 AWD Advanced (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 267, "epa_id": 49654, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49654", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 AWD Performance", "drive": "AWD", "value": 252, "epa_id": 49655, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49655", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "GV60 RWD", "drive": "RWD", "value": 306, "epa_id": 49652, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49652", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

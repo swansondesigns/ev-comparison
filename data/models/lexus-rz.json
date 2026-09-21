@@ -54,6 +54,15 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "RZ 450e AWD (18 inch wheels)", "drive": "AWD", "wheels_in": 18, "value": 220, "epa_id": 47834, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47834", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "RZ 450e AWD (20 inch wheels)", "drive": "AWD", "wheels_in": 20, "value": 196, "epa_id": 47835, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47835", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "RZ 300e (18 inch wheels)", "drive": "FWD", "wheels_in": 18, "value": 266, "epa_id": 47832, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47832", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "RZ 300e (20 inch wheels)", "drive": "FWD", "wheels_in": 20, "value": 224, "epa_id": 47833, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47833", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7,
@@ -64,6 +73,15 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "RZ 450e AWD (18 inch wheels)", "drive": "AWD", "wheels_in": 18, "value": 220, "epa_id": 49101, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49101", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "RZ 450e AWD (20 inch wheels)", "drive": "AWD", "wheels_in": 20, "value": 196, "epa_id": 49102, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49102", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "RZ 300e (18 inch wheels)", "drive": "FWD", "wheels_in": 18, "value": 266, "epa_id": 49099, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49099", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "RZ 300e (20 inch wheels)", "drive": "FWD", "wheels_in": 20, "value": 224, "epa_id": 49100, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49100", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7,

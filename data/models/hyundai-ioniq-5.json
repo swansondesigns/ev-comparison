@@ -62,6 +62,14 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Ioniq 5 Long range AWD", "drive": "AWD", "value": 260, "epa_id": 46962, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46962", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 Long range RWD", "drive": "RWD", "value": 303, "epa_id": 46960, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46960", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 Standard range RWD", "drive": "RWD", "value": 220, "epa_id": 46961, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46961", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -72,6 +80,16 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Ioniq 5 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 290, "epa_id": 48710, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48710", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 AWD (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 269, "epa_id": 48711, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48711", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 AWD XRT", "drive": "AWD", "value": 259, "epa_id": 48712, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48712", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 RWD", "drive": "RWD", "value": 318, "epa_id": 48713, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48713", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 Standard range", "drive": "RWD", "value": 245, "epa_id": 48714, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48714", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes Ioniq 5 N (EPA 48360, 221 mi) and Ioniq 5 Robo taxi (EPA 49092, 168 mi), left out of this line as in its other years."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -88,6 +106,16 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Ioniq 5 AWD (19inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 290, "epa_id": 49962, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49962", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 AWD (20inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 269, "epa_id": 49963, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49963", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 AWD XRT", "drive": "AWD", "value": 259, "epa_id": 49964, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49964", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 RWD", "drive": "RWD", "value": 318, "epa_id": 49960, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49960", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Ioniq 5 Standard range", "drive": "RWD", "value": 245, "epa_id": 49961, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49961", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes Ioniq 5 N (EPA 49965, 221 mi) and Ioniq 5 Robo taxi (EPA 50028, 168 mi), left out of this line as in its other years."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,

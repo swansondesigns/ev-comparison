@@ -54,6 +54,16 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "EV6 AWD GT", "drive": "AWD", "value": 218, "epa_id": 46968, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46968", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Long Range AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 282, "epa_id": 46969, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46969", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Long Range AWD (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 252, "epa_id": 46970, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46970", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Long Range RWD", "drive": "RWD", "value": 310, "epa_id": 46965, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46965", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Standard Range RWD", "drive": "RWD", "value": 232, "epa_id": 46966, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46966", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,
@@ -64,6 +74,16 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "EV6 AWD GT", "drive": "AWD", "value": 231, "epa_id": 49094, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49094", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Long Range AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 295, "epa_id": 49095, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49095", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Long Range AWD (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 270, "epa_id": 49096, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49096", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Long Range RWD", "drive": "RWD", "value": 319, "epa_id": 49097, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49097", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EV6 Standard Range RWD", "drive": "RWD", "value": 237, "epa_id": 49098, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49098", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,

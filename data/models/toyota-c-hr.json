@@ -47,6 +47,13 @@
   },
   "years": {
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "C-HR AWD 18inch", "drive": "AWD", "wheels_in": 18, "value": 287, "epa_id": 50307, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50307", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "C-HR AWD 20inch", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50308, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50308", "retrieved": "2026-09-19" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,

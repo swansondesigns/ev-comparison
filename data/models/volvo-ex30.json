@@ -50,6 +50,15 @@
   },
   "years": {
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "EX30 Twin Performance (19 Inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 253, "epa_id": 48775, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48775", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EX30 Twin Performance (20 Inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 250, "epa_id": 48776, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48776", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EX30 Single Motor extended range (18 Inch Wheels)", "drive": "RWD", "wheels_in": 18, "value": 257, "epa_id": 48449, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48449", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EX30 Single Motor extended range (19/20 Inch Wheels)", "drive": "RWD", "wheels_in": 20, "value": 261, "epa_id": 48450, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48450", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

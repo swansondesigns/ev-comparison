@@ -44,6 +44,13 @@
   },
   "years": {
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "4 Long Range Dual Motor", "drive": "AWD", "value": 272, "epa_id": 48412, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48412", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "4 Long Range Single Motor", "drive": "RWD", "value": 300, "epa_id": 48407, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48407", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "motortrend": {
           "value": 8.8,

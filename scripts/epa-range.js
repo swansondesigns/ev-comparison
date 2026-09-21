@@ -1,11 +1,13 @@
-// Write a model year's epa_range into data/models/<slug>.json (years[model_year].epa_range) from saved
+// Write each model year's epa_range into data/models/<slug>.json (years[year].epa_range) from saved
 // fueleconomy.gov vehicle records.
 // Usage: node scripts/epa-range.js
-// Reads scripts/lists/epa-range.json ({ slug: { model_year, listing_year?, ids[], maker_estimate?, cross_check_ids?, note? } }).
-// Each id is a number or { id, applies_to } naming the maker's trims that EPA listing covers.
-// listing_year: the EPA model year the ids belong to, where EPA hasn't listed the year the specs are quoted for.
+// Reads scripts/lists/epa-range.json ({ slug: { <year>: { listing_year?, ids[], maker_estimate?, cross_check_ids?, note? } } }).
+// Each id is a number or { id, applies_to } naming the maker's trims that EPA listing covers; a bare
+// number leaves the entry under EPA's own label.
+// listing_year: the EPA model year the ids belong to, where EPA hasn't listed that model year yet.
 // and sources/fe-vehicle-<id>.xml (fetched with scripts/lists/fe-vehicles.json).
-// Replaces that year's existing epa_range; other fields and other years are untouched.
+// Replaces a listed model's epa_range in every year, so a year dropped from the list loses its range;
+// other fields are untouched.
 const fs = require('fs');
 const path = require('path');
 const writeJson = require('./write-json');
@@ -41,11 +43,20 @@ function epaRecord(id) {
   };
 }
 
-for (const [slug, p] of Object.entries(plan)) {
+for (const [slug, years] of Object.entries(plan)) {
   const file = path.join(root, 'data', 'models', `${slug}.json`);
   const m = JSON.parse(fs.readFileSync(file, 'utf8'));
+  for (const [y, e] of Object.entries(m.years)) {
+    if (years[y]) continue;
+    delete e.epa_range;
+    if (!Object.keys(e).length) delete m.years[y];
+  }
+  for (const [year, p] of Object.entries(years)) writeYear(slug, m, year, p);
+  writeJson(file, m);
+}
 
-  const listingYear = p.listing_year || p.model_year;
+function writeYear(slug, m, modelYear, p) {
+  const listingYear = p.listing_year || modelYear;
   const entries = (p.ids || []).map((item) => {
     const { id, applies_to } = typeof item === 'number' ? { id: item } : item;
     const r = epaRecord(id);
@@ -72,12 +83,14 @@ for (const [slug, p] of Object.entries(plan)) {
     }));
   }
 
-  (m.years[p.model_year] ??= {}).epa_range = {
+  const epa_range = {
     ...(p.listing_year ? { listing_year: p.listing_year } : {}),
     entries,
     ...(p.note ? { note: p.note } : {}),
   };
-  writeJson(file, m);
+  // An existing epa_range keeps its place; a new one goes ahead of the year's `ratings` and `links`.
+  const { ratings, links, ...rest } = m.years[modelYear] ?? {};
+  m.years[modelYear] = { ...rest, epa_range, ...(ratings ? { ratings } : {}), ...(links ? { links } : {}) };
   const awd = entries.filter((e) => e.drive === 'AWD').map((e) => e.value);
-  console.log(`${slug}: ${entries.length} entries, AWD ${Math.min(...awd)}-${Math.max(...awd)} mi${p.maker_estimate ? ' (maker estimate)' : ''}`);
+  console.log(`${slug} ${modelYear}: ${entries.length} entries, AWD ${awd.length ? `${Math.min(...awd)}-${Math.max(...awd)} mi` : 'none'}${p.maker_estimate ? ' (maker estimate)' : ''}`);
 }

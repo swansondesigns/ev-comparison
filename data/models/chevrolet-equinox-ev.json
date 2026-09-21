@@ -37,7 +37,24 @@
     "note": "C/D 2026 LT1 w/PCY 4dr, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
   "years": {
+    "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Equinox EV AWD", "drive": "AWD", "value": 285, "epa_id": 47815, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47815", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Equinox EV FWD", "drive": "FWD", "value": 319, "epa_id": 47814, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47814", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      }
+    },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Equinox EV AWD (11 kW Charger)", "drive": "AWD", "value": 307, "epa_id": 48695, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48695", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Equinox EV AWD (19 kW Charger)", "drive": "AWD", "value": 307, "epa_id": 48696, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48696", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Equinox EV FWD", "drive": "FWD", "value": 319, "epa_id": 48697, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48697", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -54,6 +71,14 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Equinox EV AWD (11 kW Charger)", "drive": "AWD", "value": 307, "epa_id": 49955, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49955", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Equinox EV AWD (19 kW Charger)", "drive": "AWD", "value": 288, "epa_id": 49956, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49956", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Equinox EV FWD", "drive": "FWD", "value": 319, "epa_id": 49953, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49953", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

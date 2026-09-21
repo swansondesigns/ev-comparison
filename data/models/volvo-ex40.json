@@ -62,6 +62,13 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "XC40 Recharge twin", "drive": "AWD", "value": 254, "epa_id": 46983, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46983", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "XC40 Recharge", "drive": "RWD", "value": 293, "epa_id": 46981, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46981", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the XC40 Recharge."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -72,6 +79,13 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "EX40 Twin", "drive": "AWD", "value": 260, "epa_id": 48447, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48447", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "EX40", "drive": "RWD", "value": 296, "epa_id": 48451, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48451", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

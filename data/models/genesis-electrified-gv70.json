@@ -54,6 +54,12 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Electrified GV70", "drive": "AWD", "value": 236, "epa_id": 46947, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46947", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -64,6 +70,12 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Electrified GV70", "drive": "AWD", "value": 236, "epa_id": 48353, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48353", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -74,6 +86,13 @@
       }
     },
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Electrified GV70 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 263, "epa_id": 49656, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49656", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Electrified GV70 AWD (20 inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 243, "epa_id": 49657, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49657", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

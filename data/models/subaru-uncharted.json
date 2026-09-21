@@ -50,6 +50,14 @@
   },
   "years": {
     "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Uncharted 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50302, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50302", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "Uncharted AWD", "drive": "AWD", "value": 287, "epa_id": 50303, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50303", "retrieved": "2026-09-19" },
+          { "epa_vehicle": "Uncharted", "drive": "FWD", "value": 308, "epa_id": 50301, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50301", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,

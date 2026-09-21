@@ -60,6 +60,17 @@
       }
     },
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "ID.4 AWD Pro", "drive": "AWD", "value": 263, "epa_id": 47485, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47485", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 AWD Pro S", "drive": "AWD", "value": 263, "epa_id": 47486, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47486", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4", "drive": "RWD", "value": 206, "epa_id": 47922, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47922", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 Pro", "drive": "RWD", "value": 291, "epa_id": 47484, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47484", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 Pro S", "drive": "RWD", "value": 291, "epa_id": 47923, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47923", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 S", "drive": "RWD", "value": 206, "epa_id": 47924, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47924", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -70,6 +81,17 @@
       }
     },
     "2025": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "ID.4 AWD Pro", "drive": "AWD", "value": 263, "epa_id": 48773, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48773", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 AWD Pro S", "drive": "AWD", "value": 263, "epa_id": 48774, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48774", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4", "drive": "RWD", "value": 206, "epa_id": 49155, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49155", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 Pro", "drive": "RWD", "value": 291, "epa_id": 49156, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49156", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 Pro S", "drive": "RWD", "value": 291, "epa_id": 49157, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49157", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "ID.4 S", "drive": "RWD", "value": 206, "epa_id": 49158, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49158", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

@@ -16,6 +16,13 @@
   },
   "years": {
     "2024": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Wagoneer S AWD (Falken tire)", "drive": "AWD", "value": 303, "epa_id": 48791, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48791", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Wagoneer S AWD (Pirelli tire)", "drive": "AWD", "value": 270, "epa_id": 48792, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48792", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -88,6 +95,15 @@
           "retrieved": "2026-09-19",
           "note": "Loaded, not saved: HTTP 200, titled '2025 Jeep Wagoneer S Review: Expert Insights, Pricing, and Trims'."
         }
+      }
+    },
+    "2026": {
+      "epa_range": {
+        "entries": [
+          { "epa_vehicle": "Wagoneer S AWD (Falken tire)", "drive": "AWD", "value": 294, "epa_id": 50209, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50209", "retrieved": "2026-09-21" },
+          { "epa_vehicle": "Wagoneer S AWD (Pirelli tire)", "drive": "AWD", "value": 268, "epa_id": 50210, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50210", "retrieved": "2026-09-21" }
+        ],
+        "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       }
     }
   },
