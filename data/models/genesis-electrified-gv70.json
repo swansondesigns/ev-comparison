@@ -1,10 +1,6 @@
 {
   "make": "Genesis",
   "model": "Electrified GV70",
-  "model_year": {
-    "value": "2027",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 185.6,
     "source": "https://www.genesisnewsusa.com/assets/applications/original/6671-2027-electrified-gv70-features-and-specs-1.pdf",
@@ -23,44 +19,6 @@
     "cross_check": [
       { "value": 75.2, "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
     ]
-  },
-  "awd": {
-    "value": "standard",
-    "trims": ["Electrified GV70 19\" AWD", "Electrified GV70 Advanced 20\" AWD", "Electrified GV70 Prestige 20\" AWD"],
-    "source": "https://www.genesisnewsusa.com/api/press-kits/2027-electrified-gv70-overview",
-    "retrieved": "2026-09-19",
-    "note": "2027 trim list, all AWD. Spec sheet 'Drive System: AWD'."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
-    "retrieved": "2026-09-19",
-    "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
-    "retrieved": "2026-09-19",
-    "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Genesis among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2027",
-    "on_sale_date": null,
-    "source": "https://www.genesisnewsusa.com/api/models/2027-electrified-gv70",
-    "retrieved": "2026-09-19",
-    "note": "2027 model page published Jul 28, 2026 with trim pricing; 2026 page published Feb 19, 2026. No explicit on-sale date found; treated as on sale (continuing model)."
-  },
-  "epa_range": {
-    "model_year": "2027",
-    "entries": [
-      { "applies_to": "All versions", "epa_vehicle": "Electrified GV70 AWD", "drive": "AWD", "value": 250, "epa_id": 50634, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50634", "retrieved": "2026-09-19" }
-    ],
-    "note": "EPA lists a single 2027 Electrified GV70. Its 2026 listings split by wheel: 263 mi on 19-in. (49656), 243 mi on 20-in. (49657)."
   },
   "height_in": {
     "value": 64.2,
@@ -84,30 +42,112 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 19\" AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2027", "value": 8.5, "source": "https://www.caranddriver.com/genesis/electrified-gv70-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Genesis Electrified GV70 Review, Pricing, and Specs'." },
-      { "model_year": "2026", "value": 8.5, "source": "https://www.caranddriver.com/genesis/electrified-gv70", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'." },
-      { "model_year": "2025", "value": 10, "source": "https://www.caranddriver.com/genesis/electrified-gv70", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'." },
-      { "model_year": "2024", "value": 10, "source": "https://www.caranddriver.com/genesis/electrified-gv70", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'." },
-      { "model_year": "2023", "value": 8.5, "source": "https://www.caranddriver.com/genesis/electrified-gv70", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'." }
-    ]
+  "years": {
+    "2023": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8.5,
+          "source": "https://www.caranddriver.com/genesis/electrified-gv70",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2024": {
+      "ratings": {
+        "caranddriver": {
+          "value": 10,
+          "source": "https://www.caranddriver.com/genesis/electrified-gv70",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2025": {
+      "ratings": {
+        "caranddriver": {
+          "value": 10,
+          "source": "https://www.caranddriver.com/genesis/electrified-gv70",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2026": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8.5,
+          "source": "https://www.caranddriver.com/genesis/electrified-gv70",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2027": {
+      "awd": {
+        "value": "standard",
+        "trims": ["Electrified GV70 19\" AWD", "Electrified GV70 Advanced 20\" AWD", "Electrified GV70 Prestige 20\" AWD"],
+        "source": "https://www.genesisnewsusa.com/api/press-kits/2027-electrified-gv70-overview",
+        "retrieved": "2026-09-19",
+        "note": "2027 trim list, all AWD. Spec sheet 'Drive System: AWD'."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
+        "retrieved": "2026-09-19",
+        "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
+        "retrieved": "2026-09-19",
+        "note": "2026 page: 'Electrified GV70: NACS Comes Standard'; 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'. 2027 is listed as a carryover.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Genesis among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2027",
+        "on_sale_date": null,
+        "source": "https://www.genesisnewsusa.com/api/models/2027-electrified-gv70",
+        "retrieved": "2026-09-19",
+        "note": "2027 model page published Jul 28, 2026 with trim pricing; 2026 page published Feb 19, 2026. No explicit on-sale date found; treated as on sale (continuing model)."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "All versions", "epa_vehicle": "Electrified GV70 AWD", "drive": "AWD", "value": 250, "epa_id": 50634, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50634", "retrieved": "2026-09-19" }
+        ],
+        "note": "EPA lists a single 2027 Electrified GV70. Its 2026 listings split by wheel: 263 mi on 19-in. (49656), 243 mi on 20-in. (49657)."
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 8.5,
+          "source": "https://www.caranddriver.com/genesis/electrified-gv70-2027",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2027 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/genesis/electrified-gv70-2027",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/genesis/electrified-gv70/2027",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2027 Genesis Electrified GV70 Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.genesis.com/us/en/electrified-gv70",
       "retrieved": "2026-09-19",
       "note": "Loaded, not saved: HTTP 200, titled '2027 Electrified GV70 | Luxury Electric SUV | Genesis USA'."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/genesis/electrified-gv70-2027",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/genesis/electrified-gv70/2027",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2027 Genesis Electrified GV70 Review: Expert Insights, Pricing, and Trims'."
     }
   }
 }

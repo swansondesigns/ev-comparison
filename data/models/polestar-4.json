@@ -1,10 +1,6 @@
 {
   "make": "Polestar",
   "model": "4",
-  "model_year": {
-    "value": "2026",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 190.5,
     "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
@@ -22,52 +18,6 @@
     "note": "Polestar gives only '(I) Car width, mirrors folded: 81.4 in' and '(J) Car width, mirrors extended: 84.2 in'; no body width without mirrors. Not comparable with other models' mirrorless widths. C/D's 'without mirrors' figure (81.4) matches the mirrors-folded number.",
     "cross_check": [
       { "value": 81.4, "source": "https://www.caranddriver.com/polestar/polestar-4/specs", "retrieved": "2026-09-19", "note": "Labelled 'Width, without mirrors'" }
-    ]
-  },
-  "awd": {
-    "value": "available",
-    "label": "Dual motor",
-    "trims": ["Dual motor", "Dual motor with Performance pack"],
-    "not_awd": ["Rear motor"],
-    "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
-    "retrieved": "2026-09-19",
-    "note": "'Drivetrain': Rear motor 'Rear-wheel drive'; Dual motor 'All-wheel drive'."
-  },
-  "charge_port": {
-    "value": "CCS1",
-    "inferred": true,
-    "adapter": {
-      "value": "sold",
-      "note": "'NACS adapters are available for purchase from a Polestar Service Point.'"
-    },
-    "source": "https://www.polestar.com/us/polestar-4/",
-    "retrieved": "2026-09-19",
-    "note": "Polestar doesn't name the port; CCS1 inferred from NACS adapters being sold for Supercharger access."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "adapter",
-    "source": "https://www.polestar.com/us/polestar-4/",
-    "retrieved": "2026-09-19",
-    "note": "Polestar 4 page: 'Polestar drivers have access to a growing number of public charging stations compatible with the Combined Charging System (CCS) and the North American Charging Standard (NACS). NACS adapters are available for purchase from a Polestar Service Point.'",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Polestar among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2026",
-    "on_sale_date": null,
-    "source": "https://www.polestar.com/us/polestar-4/",
-    "retrieved": "2026-09-19",
-    "note": "Polestar US page offers leases on a 'new 2026 Polestar 4 Dual motor' and links stock cars."
-  },
-  "epa_range": {
-    "model_year": "2026",
-    "entries": [
-      { "applies_to": "Dual motor", "epa_vehicle": "4 Long Range Dual Motor", "drive": "AWD", "value": 280, "epa_id": 50034, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50034", "retrieved": "2026-09-19" },
-      { "applies_to": "Dual motor with Performance pack", "epa_vehicle": "4 Long Range Dual Motor Performance", "drive": "AWD", "value": 255, "epa_id": 50035, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50035", "retrieved": "2026-09-19" },
-      { "applies_to": "Rear motor", "epa_vehicle": "4 Long Range Single Motor", "drive": "RWD", "value": 310, "epa_id": 50033, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50033", "retrieved": "2026-09-19" }
     ]
   },
   "height_in": {
@@ -92,28 +42,94 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/polestar/polestar-4", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Polestar 4 Review, Pricing, and Specs'." }
-    ],
-    "motortrend": [
-      { "model_year": "2026", "value": 8.8, "source": "https://www.motortrend.com/cars/polestar/4/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Polestar Polestar 4 Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2025", "value": 8.8, "source": "https://www.motortrend.com/cars/polestar/4", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Polestar Polestar 4 Review: Expert Insights, Pricing, and Trims'." }
-    ]
+  "years": {
+    "2025": {
+      "ratings": {
+        "motortrend": {
+          "value": 8.8,
+          "source": "https://www.motortrend.com/cars/polestar/4",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2025 Polestar Polestar 4 Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    },
+    "2026": {
+      "awd": {
+        "value": "available",
+        "label": "Dual motor",
+        "trims": ["Dual motor", "Dual motor with Performance pack"],
+        "not_awd": ["Rear motor"],
+        "source": "https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/",
+        "retrieved": "2026-09-19",
+        "note": "'Drivetrain': Rear motor 'Rear-wheel drive'; Dual motor 'All-wheel drive'."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "inferred": true,
+        "adapter": {
+          "value": "sold",
+          "note": "'NACS adapters are available for purchase from a Polestar Service Point.'"
+        },
+        "source": "https://www.polestar.com/us/polestar-4/",
+        "retrieved": "2026-09-19",
+        "note": "Polestar doesn't name the port; CCS1 inferred from NACS adapters being sold for Supercharger access."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.polestar.com/us/polestar-4/",
+        "retrieved": "2026-09-19",
+        "note": "Polestar 4 page: 'Polestar drivers have access to a growing number of public charging stations compatible with the Combined Charging System (CCS) and the North American Charging Standard (NACS). NACS adapters are available for purchase from a Polestar Service Point.'",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Polestar among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2026",
+        "on_sale_date": null,
+        "source": "https://www.polestar.com/us/polestar-4/",
+        "retrieved": "2026-09-19",
+        "note": "Polestar US page offers leases on a 'new 2026 Polestar 4 Dual motor' and links stock cars."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "Dual motor", "epa_vehicle": "4 Long Range Dual Motor", "drive": "AWD", "value": 280, "epa_id": 50034, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50034", "retrieved": "2026-09-19" },
+          { "applies_to": "Dual motor with Performance pack", "epa_vehicle": "4 Long Range Dual Motor Performance", "drive": "AWD", "value": 255, "epa_id": 50035, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50035", "retrieved": "2026-09-19" },
+          { "applies_to": "Rear motor", "epa_vehicle": "4 Long Range Single Motor", "drive": "RWD", "value": 310, "epa_id": 50033, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50033", "retrieved": "2026-09-19" }
+        ]
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/polestar/polestar-4",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2026 Polestar 4 Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.8,
+          "source": "https://www.motortrend.com/cars/polestar/4/2026",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2026 Polestar Polestar 4 Review: Expert Insights, Pricing, and Trims'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/polestar/polestar-4",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2026 Polestar 4 Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/polestar/4/2026",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.polestar.com/us/polestar-4/",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/polestar/polestar-4",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2026 Polestar 4 Review, Pricing, and Specs'."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/polestar/4/2026",
       "retrieved": "2026-09-19",
       "note": "Saved in sources/ (fetch-log.tsv)."
     }

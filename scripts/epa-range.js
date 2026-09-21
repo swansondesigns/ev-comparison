@@ -1,10 +1,11 @@
-// Write epa_range into data/models/<slug>.json from saved fueleconomy.gov vehicle records.
+// Write a model year's epa_range into data/models/<slug>.json (years[model_year].epa_range) from saved
+// fueleconomy.gov vehicle records.
 // Usage: node scripts/epa-range.js
 // Reads scripts/lists/epa-range.json ({ slug: { model_year, listing_year?, ids[], maker_estimate?, cross_check_ids?, note? } }).
 // Each id is a number or { id, applies_to } naming the maker's trims that EPA listing covers.
 // listing_year: the EPA model year the ids belong to, where EPA hasn't listed the year the specs are quoted for.
 // and sources/fe-vehicle-<id>.xml (fetched with scripts/lists/fe-vehicles.json).
-// Replaces any existing epa_range; other fields are untouched.
+// Replaces that year's existing epa_range; other fields and other years are untouched.
 const fs = require('fs');
 const path = require('path');
 const writeJson = require('./write-json');
@@ -71,8 +72,7 @@ for (const [slug, p] of Object.entries(plan)) {
     }));
   }
 
-  m.epa_range = {
-    model_year: p.model_year,
+  (m.years[p.model_year] ??= {}).epa_range = {
     ...(p.listing_year ? { listing_year: p.listing_year } : {}),
     entries,
     ...(p.note ? { note: p.note } : {}),

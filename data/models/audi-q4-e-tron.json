@@ -1,10 +1,6 @@
 {
   "make": "Audi",
   "model": "Q4 e-tron",
-  "model_year": {
-    "value": "2026",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 180.7,
     "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
@@ -23,81 +19,6 @@
     "note": "'Overall Width without Mirrors' 73.4 in, all three versions; with mirrors 83.0 in.",
     "cross_check": [
       { "value": 73.4, "source": "https://www.caranddriver.com/audi/q4-e-tron/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
-    ]
-  },
-  "awd": {
-    "value": "available",
-    "label": "55 e-tron quattro",
-    "trims": ["Q4 55 e-tron quattro", "Q4 Sportback 55 e-tron quattro"],
-    "not_awd": ["Q4 45 e-tron (RWD)"],
-    "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
-    "retrieved": "2026-09-19",
-    "note": "'Driven Wheels': Rear-Wheel Drive (45) / All-Wheel Drive (55 quattro). C/D 2026 trims: Premium and Premium Plus in 45 RWD and 55 quattro. Sportback is a body variant filed under Q4 e-tron by Audi."
-  },
-  "charge_port": {
-    "value": "CCS1",
-    "adapter": {
-      "value": "not supported",
-      "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
-      "retrieved": "2026-09-19",
-      "note": "Audi NACS FAQ: 'The Q4 e-tron is subject to a future announcement. The Q4 e-tron is not currently able to utilize the Audi NACS DC adapter or any other NACS adapter.' Adapters go to Q6 e-tron, A6 Sportback e-tron and e-tron GT buyers."
-    },
-    "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
-    "retrieved": "2026-09-19",
-    "note": "'AC/DC Combo Port J1772 / CCS', 'Charge Port (Driver side)'."
-  },
-  "supercharger_access": {
-    "value": "no",
-    "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
-    "retrieved": "2026-09-19",
-    "note": "Audi NACS FAQ: 'The Q4 e-tron is subject to a future announcement. The Q4 e-tron is not currently able to utilize the Audi NACS DC adapter or any other NACS adapter.'"
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2026",
-    "on_sale_date": null,
-    "source": "https://media.audiusa.com/api/models/q4-e-tron",
-    "retrieved": "2026-09-19",
-    "note": "Audi USA media has a 2026 Q4 e-tron press kit and 2026MY technical specs (rev. Aug 3, 2026). No explicit on-sale date."
-  },
-  "epa_range": {
-    "model_year": "2026",
-    "entries": [
-      { "applies_to": "Q4 55 e-tron quattro", "epa_vehicle": "Q4 55 e-tron quattro", "drive": "AWD", "value": 251, "epa_id": 50182, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50182", "retrieved": "2026-09-19" },
-      { "applies_to": "Q4 Sportback 55 e-tron quattro", "epa_vehicle": "Q4 Sportback 55 e-tron quattro", "drive": "AWD", "value": 251, "epa_id": 50183, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50183", "retrieved": "2026-09-19" },
-      { "applies_to": "Q4 45 e-tron", "epa_vehicle": "Q4 45 e-tron", "drive": "RWD", "value": 288, "epa_id": 49612, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49612", "retrieved": "2026-09-19" }
-    ],
-    "note": "Both body styles (Q4 and Q4 Sportback 55 e-tron quattro) are rated 251 mi."
-  },
-  "trims": {
-    "list": [
-      { "name": "Q4 45 e-tron", "drive": "RWD" },
-      { "name": "Q4 55 e-tron quattro", "drive": "AWD" },
-      { "name": "Q4 Sportback 55 e-tron quattro", "drive": "AWD" }
-    ],
-    "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
-    "retrieved": "2026-09-19",
-    "note": "Columns of the 2026MY technical specs (rev. Aug 3, 2026). Premium and Premium Plus trim levels (C/D) sit within each."
-  },
-  "battery": {
-    "entries": [
-      { "applies_to": "All versions", "kwh": 77, "basis": "usable", "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf", "retrieved": "2026-09-19", "note": "'Battery Size (Gross) 82 kWh', 'Battery Size (Net) 77 kWh'." }
-    ]
-  },
-  "dc_peak_kw": {
-    "entries": [
-      { "applies_to": "All versions", "value": 175, "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf", "retrieved": "2026-09-19", "note": "'Max Charging Capacity AC / DC: up to 11.5 kW / 175 kW'." }
-    ]
-  },
-  "dc_10_80": {
-    "entries": [
-      { "applies_to": "All versions", "minutes": 28, "charger_kw": 175, "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf", "retrieved": "2026-09-19", "note": "'28 minutes (10% - 80% charge @ 175 kW)'; footnote: 'Based on charging at a 175 kW or higher charger'." }
-    ]
-  },
-  "heat_pump": {
-    "entries": [
-      { "applies_to": "Q4 55 e-tron quattro (all trim levels)", "value": "optional", "package": "Cold weather package", "source": "https://media.audiusa.com/api/models/q4-e-tron", "retrieved": "2026-09-19", "note": "MY2025 release in Audi's media API: 'A new Cold weather package ... is available on all Q4 55 e-tron trim levels and includes a heated windshield and heat pump.' Not confirmed for MY2026; the 2026 sheet doesn't mention it." },
-      { "applies_to": "Q4 45 e-tron (RWD)", "value": "unknown", "note": "The MY2025 release names only the 55 e-tron." }
     ]
   },
   "cargo_cu_ft": {
@@ -131,24 +52,102 @@
     "retrieved": "2026-09-19",
     "note": "'Ground Clearance (in.)' 5.8 in every column, read from staggered columns; C/D lists NA, so there's no cross-check."
   },
-  "warranty": {
-    "battery": {
-      "years": 8,
-      "miles": 100000,
-      "text": "Hybrid / Drive Battery: 8 Years / 100,000 Miles, 70% retention of battery capacity"
-    },
-    "powertrain": {
-      "years": 4,
-      "miles": 50000,
-      "text": "Powertrain: 4 years / 50,000 Miles"
-    },
-    "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
-    "retrieved": "2026-09-19",
-    "note": "Rows New Vehicle / Powertrain / Hybrid-Drive Battery, read from staggered columns; footnote 7 confirms the battery terms."
+  "years": {
+    "2026": {
+      "awd": {
+        "value": "available",
+        "label": "55 e-tron quattro",
+        "trims": ["Q4 55 e-tron quattro", "Q4 Sportback 55 e-tron quattro"],
+        "not_awd": ["Q4 45 e-tron (RWD)"],
+        "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
+        "retrieved": "2026-09-19",
+        "note": "'Driven Wheels': Rear-Wheel Drive (45) / All-Wheel Drive (55 quattro). C/D 2026 trims: Premium and Premium Plus in 45 RWD and 55 quattro. Sportback is a body variant filed under Q4 e-tron by Audi."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "adapter": {
+          "value": "not supported",
+          "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
+          "retrieved": "2026-09-19",
+          "note": "Audi NACS FAQ: 'The Q4 e-tron is subject to a future announcement. The Q4 e-tron is not currently able to utilize the Audi NACS DC adapter or any other NACS adapter.' Adapters go to Q6 e-tron, A6 Sportback e-tron and e-tron GT buyers."
+        },
+        "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
+        "retrieved": "2026-09-19",
+        "note": "'AC/DC Combo Port J1772 / CCS', 'Charge Port (Driver side)'."
+      },
+      "supercharger_access": {
+        "value": "no",
+        "source": "https://www.audiusa.com/en/ev-hub/layer/nacs-faqs/",
+        "retrieved": "2026-09-19",
+        "note": "Audi NACS FAQ: 'The Q4 e-tron is subject to a future announcement. The Q4 e-tron is not currently able to utilize the Audi NACS DC adapter or any other NACS adapter.'"
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2026",
+        "on_sale_date": null,
+        "source": "https://media.audiusa.com/api/models/q4-e-tron",
+        "retrieved": "2026-09-19",
+        "note": "Audi USA media has a 2026 Q4 e-tron press kit and 2026MY technical specs (rev. Aug 3, 2026). No explicit on-sale date."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "Q4 55 e-tron quattro", "epa_vehicle": "Q4 55 e-tron quattro", "drive": "AWD", "value": 251, "epa_id": 50182, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50182", "retrieved": "2026-09-19" },
+          { "applies_to": "Q4 Sportback 55 e-tron quattro", "epa_vehicle": "Q4 Sportback 55 e-tron quattro", "drive": "AWD", "value": 251, "epa_id": 50183, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50183", "retrieved": "2026-09-19" },
+          { "applies_to": "Q4 45 e-tron", "epa_vehicle": "Q4 45 e-tron", "drive": "RWD", "value": 288, "epa_id": 49612, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49612", "retrieved": "2026-09-19" }
+        ],
+        "note": "Both body styles (Q4 and Q4 Sportback 55 e-tron quattro) are rated 251 mi."
+      },
+      "trims": {
+        "list": [
+          { "name": "Q4 45 e-tron", "drive": "RWD" },
+          { "name": "Q4 55 e-tron quattro", "drive": "AWD" },
+          { "name": "Q4 Sportback 55 e-tron quattro", "drive": "AWD" }
+        ],
+        "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
+        "retrieved": "2026-09-19",
+        "note": "Columns of the 2026MY technical specs (rev. Aug 3, 2026). Premium and Premium Plus trim levels (C/D) sit within each."
+      },
+      "battery": {
+        "entries": [
+          { "applies_to": "All versions", "kwh": 77, "basis": "usable", "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf", "retrieved": "2026-09-19", "note": "'Battery Size (Gross) 82 kWh', 'Battery Size (Net) 77 kWh'." }
+        ]
+      },
+      "dc_peak_kw": {
+        "entries": [
+          { "applies_to": "All versions", "value": 175, "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf", "retrieved": "2026-09-19", "note": "'Max Charging Capacity AC / DC: up to 11.5 kW / 175 kW'." }
+        ]
+      },
+      "dc_10_80": {
+        "entries": [
+          { "applies_to": "All versions", "minutes": 28, "charger_kw": 175, "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf", "retrieved": "2026-09-19", "note": "'28 minutes (10% - 80% charge @ 175 kW)'; footnote: 'Based on charging at a 175 kW or higher charger'." }
+        ]
+      },
+      "heat_pump": {
+        "entries": [
+          { "applies_to": "Q4 55 e-tron quattro (all trim levels)", "value": "optional", "package": "Cold weather package", "source": "https://media.audiusa.com/api/models/q4-e-tron", "retrieved": "2026-09-19", "note": "MY2025 release in Audi's media API: 'A new Cold weather package ... is available on all Q4 55 e-tron trim levels and includes a heated windshield and heat pump.' Not confirmed for MY2026; the 2026 sheet doesn't mention it." },
+          { "applies_to": "Q4 45 e-tron (RWD)", "value": "unknown", "note": "The MY2025 release names only the 55 e-tron." }
+        ]
+      },
+      "warranty": {
+        "battery": {
+          "years": 8,
+          "miles": 100000,
+          "text": "Hybrid / Drive Battery: 8 Years / 100,000 Miles, 70% retention of battery capacity"
+        },
+        "powertrain": {
+          "years": 4,
+          "miles": 50000,
+          "text": "Powertrain: 4 years / 50,000 Miles"
+        },
+        "source": "https://media.audiusa.com/assets/applications/original/17280-2026my-audi-q4-e-tron-technical-specs-rev-260803.pdf",
+        "retrieved": "2026-09-19",
+        "note": "Rows New Vehicle / Powertrain / Hybrid-Drive Battery, read from staggered columns; footnote 7 confirms the battery terms."
+      },
+      "highway_tests": [
+        { "source": "https://www.caranddriver.com/audi/q4-e-tron", "retrieved": "2026-09-19", "trim_tested": "Sportback 55 e-tron quattro", "result_mi": 220, "temp_f": null, "note": "C/D 75-mph highway range test. Model year of the test car not stated on the page." }
+      ]
+    }
   },
-  "highway_tests": [
-    { "source": "https://www.caranddriver.com/audi/q4-e-tron", "retrieved": "2026-09-19", "trim_tested": "Sportback 55 e-tron quattro", "result_mi": 220, "temp_f": null, "note": "C/D 75-mph highway range test. Model year of the test car not stated on the page." }
-  ],
   "notes": [
     { "tag": "reader", "section": "tesla", "text": "Audi says the Q4 e-tron can't currently use any NACS adapter, so it has no Tesla Supercharger access for now." },
     { "tag": "reader", "section": "range", "text": "Audi's 2026 sheet calls the 55 quattro's range 'EPA estimated' at 258 miles; EPA's own 2026 listing says 251. The pages use EPA's figure." },

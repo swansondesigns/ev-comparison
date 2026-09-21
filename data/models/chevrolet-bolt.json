@@ -14,36 +14,40 @@
     "retrieved": "2026-09-19",
     "note": "C/D 'Width, without mirrors', 2027 Bolt."
   },
-  "awd": {
-    "value": "none",
-    "trims": [],
-    "not_awd": ["LT (FWD)", "RS (FWD)"],
-    "source": "https://www.caranddriver.com/chevrolet/bolt/specs/2027/chevrolet_bolt-ev_chevrolet-bolt-ev_2027",
-    "retrieved": "2026-09-19",
-    "note": "C/D 2027 trims: 'Bolt FWD 4dr LT', 'Bolt FWD 4dr RS'. Chevrolet's own savings calculator (on https://www.chevrolet.com/electric/equinox-ev, saved as sources/chevy-equinox-ev.html) lists '2027 Bolt RS FWD' and '2027 Bolt LT FWD' only."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://www.chevrolet.com/electric/bolt-ev",
-    "retrieved": "2026-09-19",
-    "note": "'NACS: Standard charge port'; 'Chevy Bolt can be charged through its standard NACS charge port'."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.chevrolet.com/electric/bolt-ev",
-    "retrieved": "2026-09-19",
-    "note": "'DC Public Fast Charging ... from most public chargers — including Tesla Superchargers. The new battery and standard NACS DC port make it all possible.'",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists General Motors (GM) among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2027",
-    "on_sale_date": null,
-    "source": "https://www.chevrolet.com/electric/bolt-ev",
-    "retrieved": "2026-09-19",
-    "note": "'The New 2027 Bolt', starting price, current financing offer and 2027 configurator link."
+  "years": {
+    "2027": {
+      "awd": {
+        "value": "none",
+        "trims": [],
+        "not_awd": ["LT (FWD)", "RS (FWD)"],
+        "source": "https://www.caranddriver.com/chevrolet/bolt/specs/2027/chevrolet_bolt-ev_chevrolet-bolt-ev_2027",
+        "retrieved": "2026-09-19",
+        "note": "C/D 2027 trims: 'Bolt FWD 4dr LT', 'Bolt FWD 4dr RS'. Chevrolet's own savings calculator (on https://www.chevrolet.com/electric/equinox-ev, saved as sources/chevy-equinox-ev.html) lists '2027 Bolt RS FWD' and '2027 Bolt LT FWD' only."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.chevrolet.com/electric/bolt-ev",
+        "retrieved": "2026-09-19",
+        "note": "'NACS: Standard charge port'; 'Chevy Bolt can be charged through its standard NACS charge port'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.chevrolet.com/electric/bolt-ev",
+        "retrieved": "2026-09-19",
+        "note": "'DC Public Fast Charging ... from most public chargers — including Tesla Superchargers. The new battery and standard NACS DC port make it all possible.'",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists General Motors (GM) among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2027",
+        "on_sale_date": null,
+        "source": "https://www.chevrolet.com/electric/bolt-ev",
+        "retrieved": "2026-09-19",
+        "note": "'The New 2027 Bolt', starting price, current financing offer and 2027 configurator link."
+      }
+    }
   }
 }

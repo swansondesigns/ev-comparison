@@ -1,12 +1,13 @@
-// Apply the gates to data/models/*.json and write data/gates.md.
+// Apply the gates to data/models/*.json and write data/gates.md. Each line is judged on its newest model year.
 // Usage: node scripts/build-gates.js
 const fs = require('fs');
 const path = require('path');
+const { resolve } = require('../src/lib/model.mjs');
 
 const root = path.join(__dirname, '..');
 const dir = path.join(root, 'data', 'models');
 const models = fs.readdirSync(dir).filter((f) => f.endsWith('.json'))
-  .map((f) => ({ file: f, ...JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) }));
+  .map((f) => ({ file: f, ...resolve(JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))) }));
 
 // Gate rules live in src/lib/gates.mjs so the site and this report can't disagree.
 const { COROLLA, SIZE_REFERENCE, val, gates } = require('../src/lib/gates.mjs');

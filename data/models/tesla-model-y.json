@@ -1,10 +1,6 @@
 {
   "make": "Tesla",
   "model": "Model Y",
-  "model_year": {
-    "value": "2026",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 188.6,
     "source": "https://www.tesla.com/modely",
@@ -20,48 +16,6 @@
     "source": "https://www.tesla.com/modely",
     "retrieved": "2026-09-19",
     "note": "Tesla gives only mirror figures: 'Overall Width: Folded mirrors: 78.0\" | Extended mirrors: 83.8\"'. C/D's 83.8 in 'without mirrors' is Tesla's mirrors-extended figure. Read through headless Edge (sources/tesla-modely-rendered.html); curl gets HTTP 403."
-  },
-  "awd": {
-    "value": "available",
-    "label": "AWD, Premium AWD, Performance",
-    "trims": ["Model Y AWD", "Model Y Premium AWD", "Model Y Performance AWD"],
-    "not_awd": ["Model Y RWD", "Model Y Premium RWD"],
-    "source": "https://www.caranddriver.com/tesla/model-y/specs",
-    "retrieved": "2026-09-19",
-    "note": "Secondary source: C/D 2026 trim list. C/D review: 'Drivetrain: All-Wheel Drive, Rear-Wheel Drive'."
-  },
-  "charge_port": {
-    "value": null,
-    "source": "https://www.tesla.com/modely",
-    "retrieved": "2026-09-19",
-    "note": "Not fetched: tesla.com returned HTTP 403. C/D's review doesn't name the port."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.tesla.com/modely",
-    "retrieved": "2026-09-19",
-    "note": "Tesla's Model Y page lists 'Supercharging Max/Payment Type: 250 kW Max; Pay Per Use' for every version. Read through headless Edge (sources/tesla-modely-rendered.html); curl gets HTTP 403."
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2026",
-    "on_sale_date": null,
-    "source": "https://www.caranddriver.com/tesla/model-y",
-    "retrieved": "2026-09-19",
-    "note": "Secondary source: C/D '2026 Tesla Model Y Review, Pricing, and Specs', ranked #5 in Best Electric Compact SUVs; also ranked by MotorTrend and Edmunds. C/D also lists a 2027 Model Y and a 2027 Model Y L submodel."
-  },
-  "epa_range": {
-    "model_year": "2026",
-    "entries": [
-      { "applies_to": "Model Y AWD", "epa_vehicle": "Model Y Standard AWD", "drive": "AWD", "value": 294, "epa_id": 50304, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50304", "retrieved": "2026-09-19" },
-      { "applies_to": "Model Y Premium AWD", "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 327, "epa_id": 49744, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49744", "retrieved": "2026-09-19" },
-      { "applies_to": "Model Y Performance AWD", "epa_vehicle": "Model Y Performance AWD", "drive": "AWD", "value": 306, "epa_id": 50253, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50253", "retrieved": "2026-09-19" },
-      { "applies_to": "Model Y Premium RWD", "epa_vehicle": "Model Y Long Range RWD", "drive": "RWD", "value": 357, "epa_id": 49743, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49743", "retrieved": "2026-09-19" },
-      { "applies_to": "Model Y RWD (18-in. wheels)", "epa_vehicle": "Model Y Standard RWD (18in Wheels)", "drive": "RWD", "value": 321, "epa_id": 50040, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50040", "retrieved": "2026-09-19" },
-      { "applies_to": "Model Y RWD (19-in. wheels)", "epa_vehicle": "Model Y Standard RWD (19in Wheels)", "drive": "RWD", "value": 303, "epa_id": 50041, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50041", "retrieved": "2026-09-19" }
-    ],
-    "note": "Trim mapping from Tesla's Model Y page (Premium All-Wheel Drive 327 mi, Performance 306 mi, Premium Rear-Wheel Drive 357 mi). Excludes the long-wheelbase Model Y L, a different body that EPA doesn't list."
   },
   "height_in": {
     "value": 63.9,
@@ -85,34 +39,128 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Long Range Launch Series AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2026", "value": 9, "source": "https://www.caranddriver.com/tesla/model-y", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Tesla Model Y Review, Pricing, and Specs'." },
-      { "model_year": "2025", "value": 7.5, "source": "https://www.caranddriver.com/tesla/model-y", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Tesla Model Y Review, Pricing, and Specs'." },
-      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/tesla/model-y", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Tesla Model Y Review, Pricing, and Specs'." },
-      { "model_year": "2023", "value": 7.5, "source": "https://www.caranddriver.com/tesla/model-y", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Tesla Model Y Review, Pricing, and Specs'." }
-    ],
-    "motortrend": [
-      { "model_year": "2027", "value": 8.8, "source": "https://www.motortrend.com/cars/tesla/model-y/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Tesla Model Y Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2026", "value": 8.8, "source": "https://www.motortrend.com/cars/tesla/model-y", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Tesla Model Y Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2025", "value": 8.8, "source": "https://www.motortrend.com/cars/tesla/model-y/2025", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Tesla Model Y Review: Expert Insights, Pricing, and Trims'." }
-    ]
+  "years": {
+    "2023": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Tesla Model Y Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2024": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Tesla Model Y Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2025": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Tesla Model Y Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.8,
+          "source": "https://www.motortrend.com/cars/tesla/model-y/2025",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2025 Tesla Model Y Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    },
+    "2026": {
+      "awd": {
+        "value": "available",
+        "label": "AWD, Premium AWD, Performance",
+        "trims": ["Model Y AWD", "Model Y Premium AWD", "Model Y Performance AWD"],
+        "not_awd": ["Model Y RWD", "Model Y Premium RWD"],
+        "source": "https://www.caranddriver.com/tesla/model-y/specs",
+        "retrieved": "2026-09-19",
+        "note": "Secondary source: C/D 2026 trim list. C/D review: 'Drivetrain: All-Wheel Drive, Rear-Wheel Drive'."
+      },
+      "charge_port": {
+        "value": null,
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Not fetched: tesla.com returned HTTP 403. C/D's review doesn't name the port."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page lists 'Supercharging Max/Payment Type: 250 kW Max; Pay Per Use' for every version. Read through headless Edge (sources/tesla-modely-rendered.html); curl gets HTTP 403."
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2026",
+        "on_sale_date": null,
+        "source": "https://www.caranddriver.com/tesla/model-y",
+        "retrieved": "2026-09-19",
+        "note": "Secondary source: C/D '2026 Tesla Model Y Review, Pricing, and Specs', ranked #5 in Best Electric Compact SUVs; also ranked by MotorTrend and Edmunds. C/D also lists a 2027 Model Y and a 2027 Model Y L submodel."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "Model Y AWD", "epa_vehicle": "Model Y Standard AWD", "drive": "AWD", "value": 294, "epa_id": 50304, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50304", "retrieved": "2026-09-19" },
+          { "applies_to": "Model Y Premium AWD", "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 327, "epa_id": 49744, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49744", "retrieved": "2026-09-19" },
+          { "applies_to": "Model Y Performance AWD", "epa_vehicle": "Model Y Performance AWD", "drive": "AWD", "value": 306, "epa_id": 50253, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50253", "retrieved": "2026-09-19" },
+          { "applies_to": "Model Y Premium RWD", "epa_vehicle": "Model Y Long Range RWD", "drive": "RWD", "value": 357, "epa_id": 49743, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49743", "retrieved": "2026-09-19" },
+          { "applies_to": "Model Y RWD (18-in. wheels)", "epa_vehicle": "Model Y Standard RWD (18in Wheels)", "drive": "RWD", "value": 321, "epa_id": 50040, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50040", "retrieved": "2026-09-19" },
+          { "applies_to": "Model Y RWD (19-in. wheels)", "epa_vehicle": "Model Y Standard RWD (19in Wheels)", "drive": "RWD", "value": 303, "epa_id": 50041, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50041", "retrieved": "2026-09-19" }
+        ],
+        "note": "Trim mapping from Tesla's Model Y page (Premium All-Wheel Drive 327 mi, Performance 306 mi, Premium Rear-Wheel Drive 357 mi). Excludes the long-wheelbase Model Y L, a different body that EPA doesn't list."
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 9,
+          "source": "https://www.caranddriver.com/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2026 Tesla Model Y Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.8,
+          "source": "https://www.motortrend.com/cars/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2026 Tesla Model Y Review: Expert Insights, Pricing, and Trims'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/tesla/model-y",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2026 Tesla Model Y Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    },
+    "2027": {
+      "ratings": {
+        "motortrend": {
+          "value": 8.8,
+          "source": "https://www.motortrend.com/cars/tesla/model-y/2027",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2027 Tesla Model Y Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.tesla.com/modely",
       "retrieved": "2026-09-19",
       "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/tesla/model-y",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/tesla/model-y",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2026 Tesla Model Y Review: Expert Insights, Pricing, and Trims'."
     }
   }
 }

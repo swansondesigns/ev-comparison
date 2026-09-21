@@ -1,6 +1,7 @@
 // Rebuilds `ratings` in every listed model from the pages in scripts/lists/ratings-pages.json, saved in
-// sources/ by `node scripts/fetch-batch.js scripts/lists/ratings-pages.json 4`. `ratings` is replaced
-// wholesale, so edit the list, never a model file's `ratings`.
+// sources/ by `node scripts/fetch-batch.js scripts/lists/ratings-pages.json 4`. A rating is filed under
+// its model year (years[year].ratings[site]); a year nothing else describes yet holds only that. Every
+// year's `ratings` is replaced wholesale, so edit the list, never a model file's `ratings`.
 //
 // Both sites score out of 10 and score each model year separately. The model year is read from the
 // page's own title, never from its address: a year-less address shows whichever year the site chooses.
@@ -15,6 +16,7 @@
 const fs = require('fs');
 const path = require('path');
 const writeJson = require('./write-json');
+const { newestYear } = require('../src/lib/model.mjs');
 
 const root = path.join(__dirname, '..');
 const pages = JSON.parse(fs.readFileSync(path.join(__dirname, 'lists', 'ratings-pages.json'), 'utf8'));
@@ -63,24 +65,30 @@ for (const pg of pages) {
 for (const model of new Set(pages.map((p) => p.model))) {
   const file = path.join(root, 'data', 'models', `${model}.json`);
   const m = JSON.parse(fs.readFileSync(file, 'utf8'));
-  const sites = byModel.get(model) ?? {};
-  const ratings = {};
-  for (const [site, list] of Object.entries(sites)) if (list.length) ratings[site] = list.sort((a, b) => b.model_year.localeCompare(a.model_year));
-  delete m.ratings;
-  // `ratings` goes ahead of `links` and `notes`, which stay last.
-  const { links, notes, ...rest } = m;
-  writeJson(file, { ...rest, ...(Object.keys(ratings).length ? { ratings } : {}), ...(links ? { links } : {}), ...(notes ? { notes } : {}) });
+  for (const [y, e] of Object.entries(m.years)) {
+    delete e.ratings;
+    if (!Object.keys(e).length) delete m.years[y];
+  }
+  for (const [site, list] of Object.entries(byModel.get(model) ?? {})) {
+    for (const { model_year, ...r } of list) {
+      // `ratings` goes ahead of the year's `links`, which stay last.
+      const { links, ...rest } = m.years[model_year] ?? {};
+      m.years[model_year] = { ...rest, ratings: { ...rest.ratings, [site]: r }, ...(links ? { links } : {}) };
+    }
+  }
+  writeJson(file, m);
 }
 
-// Coverage: does each site rate the model year the file quotes?
+// Coverage: does each site rate the line's newest model year, the one the site shows?
 let cd = 0, mt = 0, n = 0;
 for (const model of new Set(pages.map((p) => p.model))) {
   const m = JSON.parse(fs.readFileSync(path.join(root, 'data', 'models', `${model}.json`), 'utf8'));
-  const y = m.model_year?.value;
-  const has = (site) => (m.ratings?.[site] || []).some((r) => r.model_year === y);
-  const years = (site) => (m.ratings?.[site] || []).map((r) => `${r.model_year}:${r.value}`).join(' ') || '-';
+  const y = newestYear(m);
+  const of = (site, year) => m.years[year]?.ratings?.[site];
+  const has = (site) => !!of(site, y);
+  const years = (site) => Object.keys(m.years).filter((x) => of(site, x)).sort().reverse().map((x) => `${x}:${of(site, x).value}`).join(' ') || '-';
   n++; if (has('caranddriver')) cd++; if (has('motortrend')) mt++;
   console.log(`${model.padEnd(28)} ${y}  C/D ${has('caranddriver') ? 'yes' : ' no'} [${years('caranddriver')}]  MT ${has('motortrend') ? 'yes' : ' no'} [${years('motortrend')}]`);
 }
-console.log(`\nRated for the quoted model year: Car and Driver ${cd} of ${n}, MotorTrend ${mt} of ${n}`);
+console.log(`\nRated for the newest model year:Car and Driver ${cd} of ${n}, MotorTrend ${mt} of ${n}`);
 if (report.length) console.log(`\n${report.join('\n')}`);

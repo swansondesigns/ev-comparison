@@ -1,10 +1,6 @@
 {
   "make": "Volvo",
   "model": "EX60",
-  "model_year": {
-    "value": "2027",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 189.1,
     "source": "https://www.volvocars.com/us/cars/ex60-electric/specifications/",
@@ -23,48 +19,6 @@
     "cross_check": [
       { "value": 78.5, "source": "https://www.caranddriver.com/volvo/ex60/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
     ]
-  },
-  "awd": {
-    "value": "available",
-    "label": "P10, P12",
-    "trims": ["P10 AWD", "P12 AWD"],
-    "not_awd": ["P6 (RWD)"],
-    "source": "https://www.volvocars.com/us/cars/ex60-electric/specifications/",
-    "retrieved": "2026-09-19",
-    "note": "'Driveline': P6 'RWD'; P10 AWD 'AWD'. Overview: 'The P12 AWD and P10 AWD powertrains ... distribute torque between front and rear motors'."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://www.volvocars.com/us/cars/ex60-electric/",
-    "retrieved": "2026-09-19",
-    "note": "'A NACS charging port is built in.'"
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.volvocars.com/us/cars/ex60-electric/",
-    "retrieved": "2026-09-19",
-    "note": "'The EX60 will be the first Volvo car to feature a native North American Charging Standard (NACS) charging port, giving EX60 customers direct access to more than 29,000 DC fast chargers on the Tesla Supercharger network without the need for an adapter.'",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Volvo among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "announced",
-    "model_year": "2027",
-    "on_sale_date": null,
-    "on_sale_by": "2026-12-21",
-    "source": "https://www.volvocars.com/us/cars/ex60-electric/",
-    "retrieved": "2026-09-19",
-    "note": "P10 AWD: 'Customer deliveries expected to start in Fall 2026'; P6 and P12 AWD: 'expected to start in 2027'. on_sale_by is the end of fall 2026, not a Volvo date. US MSRPs published."
-  },
-  "epa_range": {
-    "model_year": "2027",
-    "entries": [
-      { "applies_to": "P10 AWD", "epa_vehicle": "EX60 P10 AWD electric", "drive": "AWD", "value": 330, "epa_id": 50696, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50696", "retrieved": "2026-09-19" },
-      { "applies_to": "P6 (RWD, 22-in. wheels)", "epa_vehicle": "EX60 P6 electric (22 Inch Wheels)", "drive": "RWD", "wheels_in": 22, "value": 295, "epa_id": 50697, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50697", "retrieved": "2026-09-19" }
-    ],
-    "note": "EPA lists no P12 AWD yet; Volvo says P12 deliveries are 'expected to start in 2027'."
   },
   "height_in": {
     "value": 64.4,
@@ -88,24 +42,74 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2027 Plus Single Motor RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2027", "value": 9.5, "source": "https://www.caranddriver.com/volvo/ex60", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Volvo EX60 Review, Pricing, and Specs'." }
-    ]
+  "years": {
+    "2027": {
+      "awd": {
+        "value": "available",
+        "label": "P10, P12",
+        "trims": ["P10 AWD", "P12 AWD"],
+        "not_awd": ["P6 (RWD)"],
+        "source": "https://www.volvocars.com/us/cars/ex60-electric/specifications/",
+        "retrieved": "2026-09-19",
+        "note": "'Driveline': P6 'RWD'; P10 AWD 'AWD'. Overview: 'The P12 AWD and P10 AWD powertrains ... distribute torque between front and rear motors'."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.volvocars.com/us/cars/ex60-electric/",
+        "retrieved": "2026-09-19",
+        "note": "'A NACS charging port is built in.'"
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.volvocars.com/us/cars/ex60-electric/",
+        "retrieved": "2026-09-19",
+        "note": "'The EX60 will be the first Volvo car to feature a native North American Charging Standard (NACS) charging port, giving EX60 customers direct access to more than 29,000 DC fast chargers on the Tesla Supercharger network without the need for an adapter.'",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Volvo among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "announced",
+        "model_year": "2027",
+        "on_sale_date": null,
+        "on_sale_by": "2026-12-21",
+        "source": "https://www.volvocars.com/us/cars/ex60-electric/",
+        "retrieved": "2026-09-19",
+        "note": "P10 AWD: 'Customer deliveries expected to start in Fall 2026'; P6 and P12 AWD: 'expected to start in 2027'. on_sale_by is the end of fall 2026, not a Volvo date. US MSRPs published."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "P10 AWD", "epa_vehicle": "EX60 P10 AWD electric", "drive": "AWD", "value": 330, "epa_id": 50696, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50696", "retrieved": "2026-09-19" },
+          { "applies_to": "P6 (RWD, 22-in. wheels)", "epa_vehicle": "EX60 P6 electric (22 Inch Wheels)", "drive": "RWD", "wheels_in": 22, "value": 295, "epa_id": 50697, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50697", "retrieved": "2026-09-19" }
+        ],
+        "note": "EPA lists no P12 AWD yet; Volvo says P12 deliveries are 'expected to start in 2027'."
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 9.5,
+          "source": "https://www.caranddriver.com/volvo/ex60",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2027 Volvo EX60 Review, Pricing, and Specs'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/volvo/ex60",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2027 Volvo EX60 Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/volvo/ex60/2027",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.volvocars.com/us/cars/ex60-electric/",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/volvo/ex60",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2027 Volvo EX60 Review, Pricing, and Specs'."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/volvo/ex60/2027",
       "retrieved": "2026-09-19",
       "note": "Saved in sources/ (fetch-log.tsv)."
     }

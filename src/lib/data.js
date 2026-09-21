@@ -1,5 +1,7 @@
 // Loads data/models/*.json for the pages. Pages render from here only; no spec values in templates.
+// A file is a car line with its model years inside (model.mjs); the pages get each line's newest year.
 import { gates, passes } from './gates.mjs';
+import { resolve } from './model.mjs';
 
 const files = import.meta.glob('../../data/models/*.json', { eager: true, import: 'default' });
 
@@ -7,7 +9,8 @@ const files = import.meta.glob('../../data/models/*.json', { eager: true, import
 // here so the sourced files, and the scripts that read them, never see it.
 const FLAIR = { 'tesla-model-y': '🤮' };
 
-export const models = Object.entries(files).map(([file, m]) => {
+export const models = Object.entries(files).map(([file, line]) => {
+  const m = resolve(line);
   const g = gates(m);
   const slug = file.split('/').pop().replace(/\.json$/, '');
   const flair = FLAIR[slug] ?? '';

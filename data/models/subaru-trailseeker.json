@@ -1,10 +1,6 @@
 {
   "make": "Subaru",
   "model": "Trailseeker",
-  "model_year": {
-    "value": "2027",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 190.8,
     "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
@@ -23,45 +19,6 @@
     "cross_check": [
       { "value": 73.2, "source": "https://www.caranddriver.com/subaru/trailseeker/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
     ]
-  },
-  "awd": {
-    "value": "standard",
-    "trims": ["Premium", "Limited", "Touring"],
-    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
-    "retrieved": "2026-09-19",
-    "note": "'Standard Subaru Symmetrical All-Wheel Drive'."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
-    "retrieved": "2026-09-19",
-    "note": "'NACS charge port on right fender'; 'standard NACS charge port'."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
-    "retrieved": "2026-09-19",
-    "note": "'NACS charge port on right fender'; 'standard NACS charge port'.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Subaru among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2026",
-    "on_sale_date": null,
-    "source": "https://media.subaru.com/newsrelease.do?id=2472&mid=396",
-    "retrieved": "2026-09-19",
-    "note": "2027 press kit: 'After a successful debut in early 2026'; 2027 'Available at retailers nationwide later this fall'."
-  },
-  "epa_range": {
-    "model_year": "2027",
-    "entries": [
-      { "applies_to": "18-in. wheels", "epa_vehicle": "Trailseeker AWD", "drive": "AWD", "value": 281, "epa_id": 50692, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50692", "retrieved": "2026-09-19" },
-      { "applies_to": "20-in. wheels", "epa_vehicle": "Trailseeker 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 274, "epa_id": 50691, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50691", "retrieved": "2026-09-19" }
-    ],
-    "note": "EPA's labels name the wheel size, not Subaru's trims."
   },
   "height_in": {
     "value": 65.9,
@@ -85,31 +42,95 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2027", "value": 8, "source": "https://www.caranddriver.com/subaru/trailseeker-2027", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Subaru Trailseeker Review, Pricing, and Specs'." },
-      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/subaru/trailseeker", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Subaru Trailseeker Review, Pricing, and Specs'." }
-    ],
-    "motortrend": [
-      { "model_year": "2027", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/trailseeker/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Subaru Trailseeker Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2026", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/trailseeker", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Subaru Trailseeker Review: Expert Insights, Pricing, and Trims'." }
-    ]
+  "years": {
+    "2026": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/subaru/trailseeker",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2026 Subaru Trailseeker Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.4,
+          "source": "https://www.motortrend.com/cars/subaru/trailseeker",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2026 Subaru Trailseeker Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    },
+    "2027": {
+      "awd": {
+        "value": "standard",
+        "trims": ["Premium", "Limited", "Touring"],
+        "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+        "retrieved": "2026-09-19",
+        "note": "'Standard Subaru Symmetrical All-Wheel Drive'."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+        "retrieved": "2026-09-19",
+        "note": "'NACS charge port on right fender'; 'standard NACS charge port'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://media.subaru.com/view-spec.do?bFileId=50559",
+        "retrieved": "2026-09-19",
+        "note": "'NACS charge port on right fender'; 'standard NACS charge port'.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Subaru among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2026",
+        "on_sale_date": null,
+        "source": "https://media.subaru.com/newsrelease.do?id=2472&mid=396",
+        "retrieved": "2026-09-19",
+        "note": "2027 press kit: 'After a successful debut in early 2026'; 2027 'Available at retailers nationwide later this fall'."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "18-in. wheels", "epa_vehicle": "Trailseeker AWD", "drive": "AWD", "value": 281, "epa_id": 50692, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50692", "retrieved": "2026-09-19" },
+          { "applies_to": "20-in. wheels", "epa_vehicle": "Trailseeker 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 274, "epa_id": 50691, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50691", "retrieved": "2026-09-19" }
+        ],
+        "note": "EPA's labels name the wheel size, not Subaru's trims."
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/subaru/trailseeker-2027",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2027 Subaru Trailseeker Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.4,
+          "source": "https://www.motortrend.com/cars/subaru/trailseeker/2027",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2027 Subaru Trailseeker Review: Expert Insights, Pricing, and Trims'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/subaru/trailseeker-2027",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/subaru/trailseeker/2027",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.subaru.com/vehicles/trailseeker.html",
       "retrieved": "2026-09-19",
       "note": "Loaded, not saved: HTTP 200, titled '2027 Subaru Trailseeker | New All-Wheel Drive EV SUV'."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/subaru/trailseeker-2027",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/subaru/trailseeker/2027",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
     }
   }
 }

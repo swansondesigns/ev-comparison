@@ -1,10 +1,6 @@
 {
   "make": "Nissan",
   "model": "Ariya",
-  "model_year": {
-    "value": "2025",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 182.9,
     "source": "https://www.caranddriver.com/nissan/ariya/specs",
@@ -17,91 +13,6 @@
     "source": "https://www.caranddriver.com/nissan/ariya/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 'Width, without mirrors', 2025."
-  },
-  "awd": {
-    "value": "available",
-    "label": "ENGAGE, ENGAGE+, EVOLVE+, PLATINUM+",
-    "trims": ["ENGAGE e-4ORCE", "ENGAGE+ e-4ORCE", "EVOLVE+ e-4ORCE", "PLATINUM+ e-4ORCE"],
-    "not_awd": ["ENGAGE FWD", "EVOLVE+ FWD"],
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
-    "retrieved": "2026-09-19",
-    "note": "Nissan: 'Yes, AWD was available on select trims' (e-4ORCE dual-motor). Trim names from C/D's 2025 list."
-  },
-  "charge_port": {
-    "value": "CCS1",
-    "inferred": true,
-    "adapter": {
-      "value": null,
-      "note": "'It was compatible with Tesla Superchargers via NACS adapter'. Included or sold not stated."
-    },
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
-    "retrieved": "2026-09-19",
-    "note": "Port not named; CCS1 inferred from the NACS adapter requirement."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "adapter",
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
-    "retrieved": "2026-09-19",
-    "note": "'It was compatible with Tesla Superchargers via NACS adapter'.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Nissan among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "discontinued",
-    "model_year": "2025",
-    "on_sale_date": null,
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
-    "retrieved": "2026-09-19",
-    "note": "'No Longer in Production. 2025 was the final year of production in the US for the Nissan ARIYA. Although no longer available...'. Page sits under Nissan USA 'Discontinued Vehicles'."
-  },
-  "epa_range": {
-    "model_year": "2025",
-    "entries": [
-      { "applies_to": "ENGAGE e-4ORCE", "epa_vehicle": "ARIYA e-4ORCE 63kWh", "drive": "AWD", "value": 205, "epa_id": 48718, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48718", "retrieved": "2026-09-19" },
-      { "applies_to": "ENGAGE+ e-4ORCE, EVOLVE+ e-4ORCE", "epa_vehicle": "ARIYA ENGAGE+/EVOLVE+ e-4ORCE 87kWh", "drive": "AWD", "value": 272, "epa_id": 48719, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48719", "retrieved": "2026-09-19" },
-      { "applies_to": "PLATINUM+ e-4ORCE (19-in. wheels)", "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 19in. Wheels", "drive": "AWD", "wheels_in": 19, "value": 267, "epa_id": 48722, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48722", "retrieved": "2026-09-19" },
-      { "applies_to": "PLATINUM+ e-4ORCE (20-in. wheels)", "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 20in. Wheels", "drive": "AWD", "wheels_in": 20, "value": 257, "epa_id": 48723, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48723", "retrieved": "2026-09-19" },
-      { "applies_to": "EVOLVE+ FWD", "epa_vehicle": "ARIYA EVOLVE+ FWD 87kWh", "drive": "FWD", "value": 289, "epa_id": 48720, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48720", "retrieved": "2026-09-19" },
-      { "applies_to": "ENGAGE FWD", "epa_vehicle": "ARIYA FWD 63kWh", "drive": "FWD", "value": 216, "epa_id": 48721, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48721", "retrieved": "2026-09-19" }
-    ],
-    "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 Ariya AWD versions (ids 50224, 50225, 50228: 205, 272 and 267 mi). Trim mapping from EPA's labels and the 2025 brochure."
-  },
-  "trims": {
-    "list": [
-      { "name": "ENGAGE FWD", "drive": "FWD" },
-      { "name": "ENGAGE e-4ORCE", "drive": "AWD" },
-      { "name": "ENGAGE+ e-4ORCE", "drive": "AWD" },
-      { "name": "EVOLVE+ FWD", "drive": "FWD" },
-      { "name": "EVOLVE+ e-4ORCE", "drive": "AWD" },
-      { "name": "PLATINUM+ e-4ORCE", "drive": "AWD" }
-    ],
-    "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf",
-    "retrieved": "2026-09-19",
-    "note": "2025 ARIYA brochure trim table."
-  },
-  "battery": {
-    "entries": [
-      { "applies_to": "ENGAGE FWD, ENGAGE e-4ORCE", "kwh": 63, "basis": "not stated", "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'63 kWh lithium-ion battery'." },
-      { "applies_to": "ENGAGE+, EVOLVE+, PLATINUM+", "kwh": 87, "basis": "not stated", "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'87 kWh lithium-ion battery'. C/D's test sheet lists 87.0 kWh." }
-    ]
-  },
-  "dc_peak_kw": {
-    "entries": [
-      { "applies_to": "All trims", "value": 130, "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "Footnote 11: 'Level 3 charging time estimated at the vehicle's maximum charging rate of 130kW'. C/D's test sheet agrees." }
-    ]
-  },
-  "dc_10_80": {
-    "entries": [
-      { "applies_to": "63 kWh versions", "minutes": 35, "charger_kw": null, "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'Charge Time (est.) 35 min (80%)', estimated at the car's 130 kW maximum rate. Nissan's ARIYA page: 'charged from 10% to 80% in 35-40 minutes'." },
-      { "applies_to": "87 kWh versions", "minutes": 40, "charger_kw": null, "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'40 min (80%)'; see the 63 kWh note." }
-    ]
-  },
-  "heat_pump": {
-    "entries": [
-      { "applies_to": "All trims", "value": "unknown", "note": "Not in the 2025 brochure text or the ARIYA page." }
-    ]
   },
   "cargo_cu_ft": {
     "seats_up": 22.8,
@@ -131,50 +42,164 @@
     "value": null,
     "note": "Not in the saved Nissan text; C/D lists NA."
   },
-  "warranty": {
-    "battery": {
-      "years": 8,
-      "miles": 100000,
-      "text": "Lithium-ion battery and battery capacity limited warranty: 96 months/100,000 miles"
+  "years": {
+    "2023": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/nissan/ariya",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2025 Nissan Ariya Review, Pricing, and Specs'."
+        }
+      }
     },
-    "powertrain": {
-      "years": 5,
-      "miles": 60000,
-      "text": "Powertrain coverage: 60 months or 60,000 miles (2025 Nissan warranty booklet)"
+    "2024": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/nissan/ariya",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2025 Nissan Ariya Review, Pricing, and Specs'."
+        }
+      }
     },
-    "source": "https://www.nissanusa.com/parts-service/en/service-maintenance/electric-vehicles",
-    "retrieved": "2026-09-19",
-    "note": "Battery terms from Nissan's EV service page; powertrain from https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/shared/2025/2025-nissan-warranty-booklet.pdf, which covers Nissan vehicles generally."
-  },
-  "highway_tests": [
-    { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "e-4ORCE Platinum+", "result_mi": 210, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." },
-    { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "Empower+ (FWD)", "result_mi": 240, "temp_f": null, "note": "Front-drive version, not AWD." }
-  ],
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2025", "value": 8, "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2025 Nissan Ariya Review, Pricing, and Specs'." },
-      { "model_year": "2024", "value": 8, "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2025 Nissan Ariya Review, Pricing, and Specs'." },
-      { "model_year": "2023", "value": 8, "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2025 Nissan Ariya Review, Pricing, and Specs'." }
-    ],
-    "motortrend": [
-      { "model_year": "2025", "value": 7.8, "source": "https://www.motortrend.com/cars/nissan/ariya", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'." }
-    ]
+    "2025": {
+      "awd": {
+        "value": "available",
+        "label": "ENGAGE, ENGAGE+, EVOLVE+, PLATINUM+",
+        "trims": ["ENGAGE e-4ORCE", "ENGAGE+ e-4ORCE", "EVOLVE+ e-4ORCE", "PLATINUM+ e-4ORCE"],
+        "not_awd": ["ENGAGE FWD", "EVOLVE+ FWD"],
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+        "retrieved": "2026-09-19",
+        "note": "Nissan: 'Yes, AWD was available on select trims' (e-4ORCE dual-motor). Trim names from C/D's 2025 list."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "inferred": true,
+        "adapter": {
+          "value": null,
+          "note": "'It was compatible with Tesla Superchargers via NACS adapter'. Included or sold not stated."
+        },
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+        "retrieved": "2026-09-19",
+        "note": "Port not named; CCS1 inferred from the NACS adapter requirement."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+        "retrieved": "2026-09-19",
+        "note": "'It was compatible with Tesla Superchargers via NACS adapter'.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Nissan among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "discontinued",
+        "model_year": "2025",
+        "on_sale_date": null,
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
+        "retrieved": "2026-09-19",
+        "note": "'No Longer in Production. 2025 was the final year of production in the US for the Nissan ARIYA. Although no longer available...'. Page sits under Nissan USA 'Discontinued Vehicles'."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "ENGAGE e-4ORCE", "epa_vehicle": "ARIYA e-4ORCE 63kWh", "drive": "AWD", "value": 205, "epa_id": 48718, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48718", "retrieved": "2026-09-19" },
+          { "applies_to": "ENGAGE+ e-4ORCE, EVOLVE+ e-4ORCE", "epa_vehicle": "ARIYA ENGAGE+/EVOLVE+ e-4ORCE 87kWh", "drive": "AWD", "value": 272, "epa_id": 48719, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48719", "retrieved": "2026-09-19" },
+          { "applies_to": "PLATINUM+ e-4ORCE (19-in. wheels)", "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 19in. Wheels", "drive": "AWD", "wheels_in": 19, "value": 267, "epa_id": 48722, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48722", "retrieved": "2026-09-19" },
+          { "applies_to": "PLATINUM+ e-4ORCE (20-in. wheels)", "epa_vehicle": "ARIYA PLATINUM+ e-4ORCE 87kWh 20in. Wheels", "drive": "AWD", "wheels_in": 20, "value": 257, "epa_id": 48723, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48723", "retrieved": "2026-09-19" },
+          { "applies_to": "EVOLVE+ FWD", "epa_vehicle": "ARIYA EVOLVE+ FWD 87kWh", "drive": "FWD", "value": 289, "epa_id": 48720, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48720", "retrieved": "2026-09-19" },
+          { "applies_to": "ENGAGE FWD", "epa_vehicle": "ARIYA FWD 63kWh", "drive": "FWD", "value": 216, "epa_id": 48721, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48721", "retrieved": "2026-09-19" }
+        ],
+        "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 Ariya AWD versions (ids 50224, 50225, 50228: 205, 272 and 267 mi). Trim mapping from EPA's labels and the 2025 brochure."
+      },
+      "trims": {
+        "list": [
+          { "name": "ENGAGE FWD", "drive": "FWD" },
+          { "name": "ENGAGE e-4ORCE", "drive": "AWD" },
+          { "name": "ENGAGE+ e-4ORCE", "drive": "AWD" },
+          { "name": "EVOLVE+ FWD", "drive": "FWD" },
+          { "name": "EVOLVE+ e-4ORCE", "drive": "AWD" },
+          { "name": "PLATINUM+ e-4ORCE", "drive": "AWD" }
+        ],
+        "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf",
+        "retrieved": "2026-09-19",
+        "note": "2025 ARIYA brochure trim table."
+      },
+      "battery": {
+        "entries": [
+          { "applies_to": "ENGAGE FWD, ENGAGE e-4ORCE", "kwh": 63, "basis": "not stated", "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'63 kWh lithium-ion battery'." },
+          { "applies_to": "ENGAGE+, EVOLVE+, PLATINUM+", "kwh": 87, "basis": "not stated", "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'87 kWh lithium-ion battery'. C/D's test sheet lists 87.0 kWh." }
+        ]
+      },
+      "dc_peak_kw": {
+        "entries": [
+          { "applies_to": "All trims", "value": 130, "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "Footnote 11: 'Level 3 charging time estimated at the vehicle's maximum charging rate of 130kW'. C/D's test sheet agrees." }
+        ]
+      },
+      "dc_10_80": {
+        "entries": [
+          { "applies_to": "63 kWh versions", "minutes": 35, "charger_kw": null, "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'Charge Time (est.) 35 min (80%)', estimated at the car's 130 kW maximum rate. Nissan's ARIYA page: 'charged from 10% to 80% in 35-40 minutes'." },
+          { "applies_to": "87 kWh versions", "minutes": 40, "charger_kw": null, "source": "https://www.nissanusa.com/content/dam/Nissan/us/vehicle-brochures/2025/2025-nissan-ariya-brochure-en.pdf", "retrieved": "2026-09-19", "note": "'40 min (80%)'; see the 63 kWh note." }
+        ]
+      },
+      "heat_pump": {
+        "entries": [
+          { "applies_to": "All trims", "value": "unknown", "note": "Not in the 2025 brochure text or the ARIYA page." }
+        ]
+      },
+      "warranty": {
+        "battery": {
+          "years": 8,
+          "miles": 100000,
+          "text": "Lithium-ion battery and battery capacity limited warranty: 96 months/100,000 miles"
+        },
+        "powertrain": {
+          "years": 5,
+          "miles": 60000,
+          "text": "Powertrain coverage: 60 months or 60,000 miles (2025 Nissan warranty booklet)"
+        },
+        "source": "https://www.nissanusa.com/parts-service/en/service-maintenance/electric-vehicles",
+        "retrieved": "2026-09-19",
+        "note": "Battery terms from Nissan's EV service page; powertrain from https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/shared/2025/2025-nissan-warranty-booklet.pdf, which covers Nissan vehicles generally."
+      },
+      "highway_tests": [
+        { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "e-4ORCE Platinum+", "result_mi": 210, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." },
+        { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "Empower+ (FWD)", "result_mi": 240, "temp_f": null, "note": "Front-drive version, not AWD." }
+      ],
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/nissan/ariya",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2025 Nissan Ariya Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 7.8,
+          "source": "https://www.motortrend.com/cars/nissan/ariya",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/nissan/ariya",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/nissan/ariya",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.nissanusa.com/vehicles/electric-cars/ariya.html",
       "retrieved": "2026-09-19",
       "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/nissan/ariya",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/nissan/ariya",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2025 Nissan Ariya Review: Expert Insights, Pricing, and Trims'."
     }
   },
   "notes": [

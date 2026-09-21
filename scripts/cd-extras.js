@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const writeJson = require('./write-json');
 const { gates, passes } = require('../src/lib/gates.mjs');
+const { resolve } = require('../src/lib/model.mjs');
 
 const root = path.join(__dirname, '..');
 const dir = path.join(root, 'data', 'models');
@@ -26,7 +27,7 @@ function specs(savedAs) {
 for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
   const file = path.join(dir, f);
   const m = JSON.parse(fs.readFileSync(file, 'utf8'));
-  if (!passes(gates(m))) continue; // only models that get a one-sheet
+  if (!passes(gates(resolve(m)))) continue; // only models that get a one-sheet
   const entry = cd.find((c) => norm(c.model) === norm(`${m.make} ${m.model}`));
   if (!entry || entry.http !== '200' || !entry.style_shown) continue;
   const spec = specs(entry.saved_as);
@@ -55,6 +56,8 @@ for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
   }
 
   if (!added.length) continue;
-  writeJson(file, m);
+  // These belong to the line, so they go ahead of `years`, `links` and `notes`, which stay last.
+  const { years, links, notes, ...facts } = m;
+  writeJson(file, { ...facts, years, ...(links ? { links } : {}), ...(notes ? { notes } : {}) });
   console.log(`${f.replace(/\.json$/, '')}: ${added.join(', ')} (${shown})`);
 }

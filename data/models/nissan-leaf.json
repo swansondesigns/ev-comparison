@@ -14,36 +14,40 @@
     "retrieved": "2026-09-19",
     "note": "C/D 'Width, without mirrors', 2026."
   },
-  "awd": {
-    "value": "none",
-    "trims": [],
-    "not_awd": ["S FWD", "S+ FWD", "SV+ FWD", "PLATINUM+ FWD"],
-    "source": "https://www.caranddriver.com/nissan/leaf/specs",
-    "retrieved": "2026-09-19",
-    "note": "Secondary source: C/D 2026 trims are all FWD. Nissan's page has a 'Drivetrain' trim filter but no AWD option in its text."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
-    "retrieved": "2026-09-19",
-    "note": "'Access level 3 fast charging including Tesla Superchargers with an integrated NACS port'; 'no adapter required'."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
-    "retrieved": "2026-09-19",
-    "note": "'Access level 3 fast charging including Tesla Superchargers with an integrated NACS port'; 'no adapter required'.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Nissan among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2026",
-    "on_sale_date": null,
-    "source": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
-    "retrieved": "2026-09-19",
-    "note": "'All-New 2026 Nissan LEAF', Build & Price and offers. C/D also lists a 2027 Leaf entry."
+  "years": {
+    "2026": {
+      "awd": {
+        "value": "none",
+        "trims": [],
+        "not_awd": ["S FWD", "S+ FWD", "SV+ FWD", "PLATINUM+ FWD"],
+        "source": "https://www.caranddriver.com/nissan/leaf/specs",
+        "retrieved": "2026-09-19",
+        "note": "Secondary source: C/D 2026 trims are all FWD. Nissan's page has a 'Drivetrain' trim filter but no AWD option in its text."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
+        "retrieved": "2026-09-19",
+        "note": "'Access level 3 fast charging including Tesla Superchargers with an integrated NACS port'; 'no adapter required'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
+        "retrieved": "2026-09-19",
+        "note": "'Access level 3 fast charging including Tesla Superchargers with an integrated NACS port'; 'no adapter required'.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Nissan among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2026",
+        "on_sale_date": null,
+        "source": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
+        "retrieved": "2026-09-19",
+        "note": "'All-New 2026 Nissan LEAF', Build & Price and offers. C/D also lists a 2027 Leaf entry."
+      }
+    }
   }
 }

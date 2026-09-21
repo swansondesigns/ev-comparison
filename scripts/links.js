@@ -1,7 +1,8 @@
 // Rebuilds `links` in every listed model from scripts/lists/links.json: where the outbound buttons go
 // (the maker's consumer page, Car and Driver, MotorTrend). null in the list means no page is known,
-// and the site shows that button inert. `links` is replaced wholesale, so edit the list, never a model
-// file's `links`.
+// and the site shows that button inert. The maker's page belongs to the line (`links.maker`); the review
+// sites' pages are per model year and go under the line's newest (years[year].links). Both are replaced
+// wholesale, so edit the list, never a model file's `links`.
 //
 // A link is recorded only once it has loaded. A URL with an HTTP 200 in sources/fetch-log.tsv takes that
 // row's date. Any other is requested now, paced, and recorded with its status and page title; the body
@@ -13,6 +14,7 @@ const os = require('os');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const writeJson = require('./write-json');
+const { newestYear, resolve } = require('../src/lib/model.mjs');
 
 const root = path.join(__dirname, '..');
 const list = JSON.parse(fs.readFileSync(path.join(__dirname, 'lists', 'links.json'), 'utf8'));
@@ -57,11 +59,14 @@ function check(url) {
   for (const [slug, targets] of Object.entries(list)) {
     const file = path.join(root, 'data', 'models', `${slug}.json`);
     const m = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const year = newestYear(m);
+    if (!year) throw new Error(`${slug}: no model year to file the review links under`);
+    const recorded = resolve(m, year).links;
     const links = {};
     for (const kind of KINDS) {
       const url = targets[kind];
       if (!url) continue;
-      const prior = m.links?.[kind];
+      const prior = recorded[kind];
       if (prior?.url === url) { links[kind] = prior; continue; }
       if (fetched.has(url)) {
         links[kind] = { url, retrieved: fetched.get(url), note: 'Saved in sources/ (fetch-log.tsv).' };
@@ -76,10 +81,13 @@ function check(url) {
       if (status === '200') links[kind] = { url, retrieved: today, note: `Loaded, not saved: HTTP 200, titled '${title}'.${moved}` };
       else failed.push(`${status} ${slug} ${kind} ${url}`);
     }
+    const { maker, ...review } = links;
+    for (const e of Object.values(m.years)) delete e.links;
+    if (Object.keys(review).length) m.years[year].links = review; // last in its year
     delete m.links;
     // `links` goes ahead of `notes`, which stays last.
     const { notes, ...rest } = m;
-    writeJson(file, { ...rest, ...(Object.keys(links).length ? { links } : {}), ...(notes ? { notes } : {}) });
+    writeJson(file, { ...rest, ...(maker ? { links: { maker } } : {}), ...(notes ? { notes } : {}) });
   }
   if (failed.length) console.log(`\nNot recorded:\n${failed.join('\n')}`);
 })();

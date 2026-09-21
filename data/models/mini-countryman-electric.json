@@ -1,10 +1,6 @@
 {
   "make": "Mini",
   "model": "Countryman Electric",
-  "model_year": {
-    "value": "2027",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 175,
     "source": "https://www.miniusa.com/model/electric/countryman.html",
@@ -23,77 +19,6 @@
     "note": "Secondary source for the mirrorless figure: C/D 'Width, without mirrors', 2026 SE ALL4. MINI USA gives only 'C: Overall Width including mirrors: 81.5 in'.",
     "cross_check": [
       { "value": 81.5, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "Including mirrors" }
-    ]
-  },
-  "awd": {
-    "value": "standard",
-    "trims": ["Countryman SE ALL4"],
-    "source": "https://www.miniusa.com/model/electric/countryman.html",
-    "retrieved": "2026-09-19",
-    "note": "Only US electric version is the SE ALL4: 'ALL4: Intelligent All-Wheel Drive'. C/D's only trim is 'Countryman SE ALL4'."
-  },
-  "charge_port": {
-    "value": "CCS1",
-    "inferred": true,
-    "adapter": {
-      "value": null,
-      "note": "'With a compatible adapter, MINI EV drivers can now charge at Tesla Supercharger stations'. Whether it's included or sold isn't stated on this page."
-    },
-    "source": "https://www.miniusa.com/model/electric/countryman.html",
-    "retrieved": "2026-09-19",
-    "note": "MINI doesn't name the port; CCS1 inferred from the adapter requirement for Superchargers."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "adapter",
-    "source": "https://www.miniusa.com/model/electric/countryman.html",
-    "retrieved": "2026-09-19",
-    "note": "'With a compatible adapter, MINI EV drivers can now charge at Tesla Supercharger stations'.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists BMW among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' MINI is not named separately; it is a BMW Group brand. Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2027",
-    "on_sale_date": null,
-    "source": "https://www.miniusa.com/model/electric/countryman.html",
-    "retrieved": "2026-09-19",
-    "note": "'The 2027 MINI Countryman SE ALL4 ... starts at $45,200.'"
-  },
-  "epa_range": {
-    "model_year": "2027",
-    "entries": [
-      { "applies_to": "SE ALL4 with 18-in. wheels", "epa_vehicle": "Countryman SE ALL4 (18 inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 216, "epa_id": 50374, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50374", "retrieved": "2026-09-19" },
-      { "applies_to": "SE ALL4 with 19-in. wheels", "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 214, "epa_id": 50664, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50664", "retrieved": "2026-09-19" }
-    ]
-  },
-  "trims": {
-    "list": [
-      { "name": "Countryman SE ALL4", "drive": "AWD" }
-    ],
-    "source": "https://www.miniusa.com/model/electric/countryman.html",
-    "retrieved": "2026-09-19",
-    "note": "Only US electric version."
-  },
-  "battery": {
-    "entries": [
-      { "applies_to": "SE ALL4", "kwh": 64.7, "basis": "not stated", "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'64.7 kWh Battery Capacity'. MINI's specs FAQ says the same. C/D's review says 64.6." }
-    ]
-  },
-  "dc_peak_kw": {
-    "entries": [
-      { "applies_to": "SE ALL4", "value": 130, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'130 kW DC Fast Charging'." }
-    ]
-  },
-  "dc_10_80": {
-    "entries": [
-      { "applies_to": "SE ALL4", "minutes": 29, "charger_kw": null, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'29 min 10-80% battery state of charge with DC Fast Charging'. FAQ on the same page: 'as little as 30 minutes'. Charger power not stated." }
-    ]
-  },
-  "heat_pump": {
-    "entries": [
-      { "applies_to": "SE ALL4", "value": "unknown", "note": "Not in the text of MINI's Countryman pages, including the compare page rendered in a browser on 2026-09-19 (no heat pump row)." }
     ]
   },
   "cargo_cu_ft": {
@@ -123,48 +48,156 @@
     "retrieved": "2026-09-19",
     "note": "C/D; MINI's compare page, read in the browser on 2026-09-19, has no ground clearance row."
   },
-  "warranty": {
-    "battery": {
-      "years": 8,
-      "miles": 100000,
-      "text": "'an 8-year/100,000-mile battery warranty'"
+  "years": {
+    "2025": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/mini/countryman-electric",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 9.3,
+          "source": "https://www.motortrend.com/cars/mini/countryman",
+          "retrieved": "2026-09-19",
+          "rated_as": "all Countryman models",
+          "note": "MotorTrend score in the page's review data; page titled '2025 Mini Countryman Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
     },
-    "powertrain": {
-      "years": 4,
-      "miles": 50000,
-      "text": "No separate powertrain warranty; New Vehicle Warranty 4 years/50,000 miles (MY2025 warranty book)"
+    "2026": {
+      "ratings": {
+        "caranddriver": {
+          "value": 8,
+          "source": "https://www.caranddriver.com/mini/countryman-electric",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 9.3,
+          "source": "https://www.motortrend.com/cars/mini/countryman/2026",
+          "retrieved": "2026-09-19",
+          "rated_as": "all Countryman models",
+          "note": "MotorTrend score in the page's review data; page titled '2026 Mini Countryman Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
     },
-    "source": "https://www.miniusa.com/model/electric/countryman.html",
-    "retrieved": "2026-09-19",
-    "note": "Battery from the 2027 Countryman page FAQ; new-vehicle term from https://www.miniusa.com/content/dam/mini/PDF/warranties/2025_Model_Warranty_Book.pdf (the 2026 and 2027 books returned 404)."
-  },
-  "highway_tests": [
-    { "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "trim_tested": "Countryman SE ALL4", "result_mi": 180, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
-  ],
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2026", "value": 8, "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'." },
-      { "model_year": "2025", "value": 8, "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'." }
-    ],
-    "motortrend": [
-      { "model_year": "2027", "value": 9.3, "source": "https://www.motortrend.com/cars/mini/countryman/2027", "retrieved": "2026-09-19", "rated_as": "all Countryman models", "note": "MotorTrend score in the page's review data; page titled '2027 Mini Countryman Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2026", "value": 9.3, "source": "https://www.motortrend.com/cars/mini/countryman/2026", "retrieved": "2026-09-19", "rated_as": "all Countryman models", "note": "MotorTrend score in the page's review data; page titled '2026 Mini Countryman Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2025", "value": 9.3, "source": "https://www.motortrend.com/cars/mini/countryman", "retrieved": "2026-09-19", "rated_as": "all Countryman models", "note": "MotorTrend score in the page's review data; page titled '2025 Mini Countryman Review: Expert Insights, Pricing, and Trims'." }
-    ]
+    "2027": {
+      "awd": {
+        "value": "standard",
+        "trims": ["Countryman SE ALL4"],
+        "source": "https://www.miniusa.com/model/electric/countryman.html",
+        "retrieved": "2026-09-19",
+        "note": "Only US electric version is the SE ALL4: 'ALL4: Intelligent All-Wheel Drive'. C/D's only trim is 'Countryman SE ALL4'."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "inferred": true,
+        "adapter": {
+          "value": null,
+          "note": "'With a compatible adapter, MINI EV drivers can now charge at Tesla Supercharger stations'. Whether it's included or sold isn't stated on this page."
+        },
+        "source": "https://www.miniusa.com/model/electric/countryman.html",
+        "retrieved": "2026-09-19",
+        "note": "MINI doesn't name the port; CCS1 inferred from the adapter requirement for Superchargers."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.miniusa.com/model/electric/countryman.html",
+        "retrieved": "2026-09-19",
+        "note": "'With a compatible adapter, MINI EV drivers can now charge at Tesla Supercharger stations'.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists BMW among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' MINI is not named separately; it is a BMW Group brand. Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2027",
+        "on_sale_date": null,
+        "source": "https://www.miniusa.com/model/electric/countryman.html",
+        "retrieved": "2026-09-19",
+        "note": "'The 2027 MINI Countryman SE ALL4 ... starts at $45,200.'"
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "SE ALL4 with 18-in. wheels", "epa_vehicle": "Countryman SE ALL4 (18 inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 216, "epa_id": 50374, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50374", "retrieved": "2026-09-19" },
+          { "applies_to": "SE ALL4 with 19-in. wheels", "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 214, "epa_id": 50664, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50664", "retrieved": "2026-09-19" }
+        ]
+      },
+      "trims": {
+        "list": [
+          { "name": "Countryman SE ALL4", "drive": "AWD" }
+        ],
+        "source": "https://www.miniusa.com/model/electric/countryman.html",
+        "retrieved": "2026-09-19",
+        "note": "Only US electric version."
+      },
+      "battery": {
+        "entries": [
+          { "applies_to": "SE ALL4", "kwh": 64.7, "basis": "not stated", "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'64.7 kWh Battery Capacity'. MINI's specs FAQ says the same. C/D's review says 64.6." }
+        ]
+      },
+      "dc_peak_kw": {
+        "entries": [
+          { "applies_to": "SE ALL4", "value": 130, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'130 kW DC Fast Charging'." }
+        ]
+      },
+      "dc_10_80": {
+        "entries": [
+          { "applies_to": "SE ALL4", "minutes": 29, "charger_kw": null, "source": "https://www.miniusa.com/model/electric/countryman.html", "retrieved": "2026-09-19", "note": "'29 min 10-80% battery state of charge with DC Fast Charging'. FAQ on the same page: 'as little as 30 minutes'. Charger power not stated." }
+        ]
+      },
+      "heat_pump": {
+        "entries": [
+          { "applies_to": "SE ALL4", "value": "unknown", "note": "Not in the text of MINI's Countryman pages, including the compare page rendered in a browser on 2026-09-19 (no heat pump row)." }
+        ]
+      },
+      "warranty": {
+        "battery": {
+          "years": 8,
+          "miles": 100000,
+          "text": "'an 8-year/100,000-mile battery warranty'"
+        },
+        "powertrain": {
+          "years": 4,
+          "miles": 50000,
+          "text": "No separate powertrain warranty; New Vehicle Warranty 4 years/50,000 miles (MY2025 warranty book)"
+        },
+        "source": "https://www.miniusa.com/model/electric/countryman.html",
+        "retrieved": "2026-09-19",
+        "note": "Battery from the 2027 Countryman page FAQ; new-vehicle term from https://www.miniusa.com/content/dam/mini/PDF/warranties/2025_Model_Warranty_Book.pdf (the 2026 and 2027 books returned 404)."
+      },
+      "highway_tests": [
+        { "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "trim_tested": "Countryman SE ALL4", "result_mi": 180, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
+      ],
+      "ratings": {
+        "motortrend": {
+          "value": 9.3,
+          "source": "https://www.motortrend.com/cars/mini/countryman/2027",
+          "retrieved": "2026-09-19",
+          "rated_as": "all Countryman models",
+          "note": "MotorTrend score in the page's review data; page titled '2027 Mini Countryman Review: Expert Insights, Pricing, and Trims'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/mini/countryman-electric",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/mini/countryman/2027",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.miniusa.com/model/electric/countryman.html",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/mini/countryman-electric",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/mini/countryman/2027",
       "retrieved": "2026-09-19",
       "note": "Saved in sources/ (fetch-log.tsv)."
     }

@@ -19,7 +19,7 @@ export function plug(m) {
     return { text: 'Adapter', detail: /^sold/.test(a.value ?? '') ? 'sold separately' : null };
   }
   const yrs = a.model_years;
-  if (yrs && !yrs.includes(m.model_year?.value)) {
+  if (yrs && !yrs.includes(m.year)) {
     const note = `included with ${yrs.join(', ')} models`;
     return { text: 'Adapter', note, detail: note };
   }
@@ -51,12 +51,13 @@ export function range(m) {
 // One site's rating for the model year the row quotes. The sites score each model year separately, so
 // another year's score never stands in for it; the others ride along for the info button.
 export function rating(m, site) {
-  const list = m.ratings?.[site] || [];
-  const own = list.find((r) => r.model_year === m.model_year?.value);
+  const of = (y) => m.years[y]?.ratings?.[site];
+  const own = of(m.year);
+  const others = Object.keys(m.years).filter((y) => y !== m.year && of(y)).sort().reverse();
   return {
     value: own?.value ?? null,
-    ratedAs: (own ?? list[0])?.rated_as ?? null,
-    others: list.filter((r) => r !== own).map((r) => ({ year: r.model_year, value: r.value })),
+    ratedAs: (own ?? of(others[0]))?.rated_as ?? null,
+    others: others.map((y) => ({ year: y, value: of(y).value })),
   };
 }
 
@@ -71,7 +72,7 @@ export const rows = passers
   .map((m) => ({
     slug: m.slug,
     name: m.name,
-    year: m.model_year?.value ?? null,
+    year: m.year,
     length: val(m.length_in),
     // A width given only with mirrors can't be compared, so it gets its figure in words, not a delta.
     widthDelta: mirrorsText(m) ? null : widthDelta(val(m.width_in)),

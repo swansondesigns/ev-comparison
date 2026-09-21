@@ -1,10 +1,6 @@
 {
   "make": "Volvo",
   "model": "EC40",
-  "model_year": {
-    "value": "2026",
-    "note": "EPA range is the 2026 EC40 Twin. Dimensions and trims come from C/D's 2024 C40 Recharge (the EC40 before its rename); the Supercharger adapter statement is for MY2025."
-  },
   "length_in": {
     "value": 174.8,
     "source": "https://www.caranddriver.com/volvo/c40-recharge/specs",
@@ -17,88 +13,6 @@
     "source": "https://www.caranddriver.com/volvo/c40-recharge/specs",
     "retrieved": "2026-09-19",
     "note": "C/D 'Width, without mirrors', 2024 C40 Recharge. Same caveats as length."
-  },
-  "awd": {
-    "value": "available",
-    "label": "Twin Motor (Core, Plus, Ultimate)",
-    "trims": ["Twin AWD Core", "Twin AWD Plus", "Twin AWD Ultimate"],
-    "not_awd": ["RWD Core", "RWD Plus", "RWD Ultimate"],
-    "source": "https://www.caranddriver.com/volvo/c40-recharge/specs",
-    "retrieved": "2026-09-19",
-    "note": "C/D trim list for the 2024 C40 Recharge. Not confirmed for a current EC40."
-  },
-  "charge_port": {
-    "value": "CCS1",
-    "inferred": true,
-    "adapter": {
-      "value": "included",
-      "model_years": ["2025"],
-      "note": "'Adapters will be included as standard equipment with MY2025 EX90, EX40 and EC40. For existing customers, adapters are available for purchase at your Volvo Cars retailer.'"
-    },
-    "source": "https://www.volvocars.com/us/l/north-american-charging-standard/",
-    "retrieved": "2026-09-19",
-    "note": "Volvo's NACS page lists EC40 among models that reach Superchargers via the 'NACS Fast Charging Adapter', which implies a CCS1 port."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "adapter",
-    "source": "https://www.volvocars.com/us/l/north-american-charging-standard/",
-    "retrieved": "2026-09-19",
-    "note": "Volvo's NACS page, 'Which fully electric Volvo models can access the Tesla Supercharger Network?': 'The Volvo EX90, EX30, EX40, EC40, XC40 Recharge and C40 Recharge can access the network.'",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Volvo among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": null,
-    "model_year": null,
-    "on_sale_date": null,
-    "source": "https://www.media.volvocars.com/us/en-us",
-    "retrieved": "2026-09-19",
-    "note": "Unclear. Volvo's US media home links a '/us/media/models/ec40/2027/' page (HTTP 503 when fetched). But volvocars.com/us/cars/ec40-electric/ returns 404, the consumer site's nav lists EX30 and EX40 but not EC40, and C/D's 2026 EC40 entry has no trims. Not on any of the six ranking lists."
-  },
-  "epa_range": {
-    "model_year": "2026",
-    "entries": [
-      { "applies_to": "Twin Motor AWD", "epa_vehicle": "EC40 Twin", "drive": "AWD", "value": 268, "epa_id": 49750, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49750", "retrieved": "2026-09-19" },
-      { "applies_to": "Single Motor RWD", "epa_vehicle": "EC40", "drive": "RWD", "value": 298, "epa_id": 49748, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49748", "retrieved": "2026-09-19" }
-    ],
-    "note": "EPA 2026 EC40 Twin. The EC40's dimensions and trim list come from C/D's 2024 C40 Recharge, so the years don't match."
-  },
-  "trims": {
-    "list": [
-      { "name": "RWD Core", "drive": "RWD" },
-      { "name": "RWD Plus", "drive": "RWD" },
-      { "name": "RWD Ultimate", "drive": "RWD" },
-      { "name": "Twin AWD Core", "drive": "AWD" },
-      { "name": "Twin AWD Plus", "drive": "AWD" },
-      { "name": "Twin AWD Ultimate", "drive": "AWD" }
-    ],
-    "source": "https://www.caranddriver.com/volvo/c40-recharge/specs",
-    "retrieved": "2026-09-19",
-    "secondary": true,
-    "note": "C/D trim list for the 2024 C40 Recharge; no Volvo EC40 source (media page HTTP 503 again on 2026-09-19)."
-  },
-  "battery": {
-    "entries": [
-      { "applies_to": "Twin Motor AWD", "kwh": 75, "basis": "usable", "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "C/D 2024 C40 Recharge review: 'a battery pack with 75.0-kWh of usable energy storage'. C/D's spec page lists '78 kWh Capacity'." },
-      { "applies_to": "Single Motor RWD", "kwh": 79, "basis": "not stated", "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "'a 79.0-kWh battery pack'." }
-    ]
-  },
-  "dc_peak_kw": {
-    "entries": [
-      { "applies_to": "All versions", "value": 200, "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "C/D: 'all C40 Recharge models are capable of 200-kW DC fast charging'. Its test sheet lists '150 or 200 kW'." }
-    ]
-  },
-  "dc_10_80": {
-    "entries": [
-      { "applies_to": "All versions", "minutes": 28, "charger_kw": null, "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "C/D: 'said to be capable of juicing the battery from 10 to 80 percent charge in just 28 mins'. Charger power not stated." }
-    ]
-  },
-  "heat_pump": {
-    "entries": [
-      { "applies_to": "All versions", "value": "unknown", "note": "No Volvo EC40 source available." }
-    ]
   },
   "cargo_cu_ft": {
     "seats_up": 15,
@@ -129,39 +43,131 @@
     "retrieved": "2026-09-19",
     "note": "2024 C40 Recharge."
   },
-  "warranty": {
-    "battery": {
-      "years": 8,
-      "miles": 100000,
-      "text": "High Voltage Battery & System: 8 years 100,000 miles"
+  "years": {
+    "2024": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/volvo/ec40",
+          "retrieved": "2026-09-19",
+          "rated_as": "the C40 Recharge",
+          "note": "C/D rating in the page's review data; page titled '2024 Volvo C40 Recharge Review, Pricing, and Specs'."
+        }
+      }
     },
-    "powertrain": {
-      "years": 4,
-      "miles": 50000,
-      "text": "No separate powertrain warranty listed for fully electric models; New Vehicle Limited Warranty (U.S.) 4 years/50,000 miles"
-    },
-    "source": "https://www.volvocars.com/images/cs/v3/assets/bltccbab8edae0354cd/blt79f8a67d798c8d78/68befcffe94f786661a1f43a/MY2026_WTY572.06.25_Fully_Elec_Wty_Manual_Rev2_WEB_06-18-25.pdf?branch=prod_alias",
-    "retrieved": "2026-09-19",
-    "note": "Volvo's MY2026 Fully Electric Models warranty manual, which covers EX30, EX40 and EC40."
-  },
-  "highway_tests": [
-    { "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "trim_tested": "C40 Recharge (version not stated)", "result_mi": 200, "temp_f": null, "note": "C/D 75-mph highway route; the page doesn't say which version was tested." }
-  ],
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/volvo/ec40", "retrieved": "2026-09-19", "rated_as": "the C40 Recharge", "note": "C/D rating in the page's review data; page titled '2024 Volvo C40 Recharge Review, Pricing, and Specs'." }
-    ]
-  },
-  "links": {
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/volvo/ec40",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/volvo/ec40",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2025 Volvo C40 Recharge Review: Expert Insights, Pricing, and Trims'."
+    "2026": {
+      "note": "EPA range is the 2026 EC40 Twin. Dimensions and trims come from C/D's 2024 C40 Recharge (the EC40 before its rename); the Supercharger adapter statement is for MY2025.",
+      "awd": {
+        "value": "available",
+        "label": "Twin Motor (Core, Plus, Ultimate)",
+        "trims": ["Twin AWD Core", "Twin AWD Plus", "Twin AWD Ultimate"],
+        "not_awd": ["RWD Core", "RWD Plus", "RWD Ultimate"],
+        "source": "https://www.caranddriver.com/volvo/c40-recharge/specs",
+        "retrieved": "2026-09-19",
+        "note": "C/D trim list for the 2024 C40 Recharge. Not confirmed for a current EC40."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "inferred": true,
+        "adapter": {
+          "value": "included",
+          "model_years": ["2025"],
+          "note": "'Adapters will be included as standard equipment with MY2025 EX90, EX40 and EC40. For existing customers, adapters are available for purchase at your Volvo Cars retailer.'"
+        },
+        "source": "https://www.volvocars.com/us/l/north-american-charging-standard/",
+        "retrieved": "2026-09-19",
+        "note": "Volvo's NACS page lists EC40 among models that reach Superchargers via the 'NACS Fast Charging Adapter', which implies a CCS1 port."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.volvocars.com/us/l/north-american-charging-standard/",
+        "retrieved": "2026-09-19",
+        "note": "Volvo's NACS page, 'Which fully electric Volvo models can access the Tesla Supercharger Network?': 'The Volvo EX90, EX30, EX40, EC40, XC40 Recharge and C40 Recharge can access the network.'",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Volvo among manufacturers with access to NACS Superchargers; 'can be accessed through an adapter. The adapter has to be provided by your vehicle manufacturer.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": null,
+        "model_year": null,
+        "on_sale_date": null,
+        "source": "https://www.media.volvocars.com/us/en-us",
+        "retrieved": "2026-09-19",
+        "note": "Unclear. Volvo's US media home links a '/us/media/models/ec40/2027/' page (HTTP 503 when fetched). But volvocars.com/us/cars/ec40-electric/ returns 404, the consumer site's nav lists EX30 and EX40 but not EC40, and C/D's 2026 EC40 entry has no trims. Not on any of the six ranking lists."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "Twin Motor AWD", "epa_vehicle": "EC40 Twin", "drive": "AWD", "value": 268, "epa_id": 49750, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49750", "retrieved": "2026-09-19" },
+          { "applies_to": "Single Motor RWD", "epa_vehicle": "EC40", "drive": "RWD", "value": 298, "epa_id": 49748, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49748", "retrieved": "2026-09-19" }
+        ],
+        "note": "EPA 2026 EC40 Twin. The EC40's dimensions and trim list come from C/D's 2024 C40 Recharge, so the years don't match."
+      },
+      "trims": {
+        "list": [
+          { "name": "RWD Core", "drive": "RWD" },
+          { "name": "RWD Plus", "drive": "RWD" },
+          { "name": "RWD Ultimate", "drive": "RWD" },
+          { "name": "Twin AWD Core", "drive": "AWD" },
+          { "name": "Twin AWD Plus", "drive": "AWD" },
+          { "name": "Twin AWD Ultimate", "drive": "AWD" }
+        ],
+        "source": "https://www.caranddriver.com/volvo/c40-recharge/specs",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "C/D trim list for the 2024 C40 Recharge; no Volvo EC40 source (media page HTTP 503 again on 2026-09-19)."
+      },
+      "battery": {
+        "entries": [
+          { "applies_to": "Twin Motor AWD", "kwh": 75, "basis": "usable", "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "C/D 2024 C40 Recharge review: 'a battery pack with 75.0-kWh of usable energy storage'. C/D's spec page lists '78 kWh Capacity'." },
+          { "applies_to": "Single Motor RWD", "kwh": 79, "basis": "not stated", "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "'a 79.0-kWh battery pack'." }
+        ]
+      },
+      "dc_peak_kw": {
+        "entries": [
+          { "applies_to": "All versions", "value": 200, "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "C/D: 'all C40 Recharge models are capable of 200-kW DC fast charging'. Its test sheet lists '150 or 200 kW'." }
+        ]
+      },
+      "dc_10_80": {
+        "entries": [
+          { "applies_to": "All versions", "minutes": 28, "charger_kw": null, "secondary": true, "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "note": "C/D: 'said to be capable of juicing the battery from 10 to 80 percent charge in just 28 mins'. Charger power not stated." }
+        ]
+      },
+      "heat_pump": {
+        "entries": [
+          { "applies_to": "All versions", "value": "unknown", "note": "No Volvo EC40 source available." }
+        ]
+      },
+      "warranty": {
+        "battery": {
+          "years": 8,
+          "miles": 100000,
+          "text": "High Voltage Battery & System: 8 years 100,000 miles"
+        },
+        "powertrain": {
+          "years": 4,
+          "miles": 50000,
+          "text": "No separate powertrain warranty listed for fully electric models; New Vehicle Limited Warranty (U.S.) 4 years/50,000 miles"
+        },
+        "source": "https://www.volvocars.com/images/cs/v3/assets/bltccbab8edae0354cd/blt79f8a67d798c8d78/68befcffe94f786661a1f43a/MY2026_WTY572.06.25_Fully_Elec_Wty_Manual_Rev2_WEB_06-18-25.pdf?branch=prod_alias",
+        "retrieved": "2026-09-19",
+        "note": "Volvo's MY2026 Fully Electric Models warranty manual, which covers EX30, EX40 and EC40."
+      },
+      "highway_tests": [
+        { "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "trim_tested": "C40 Recharge (version not stated)", "result_mi": 200, "temp_f": null, "note": "C/D 75-mph highway route; the page doesn't say which version was tested." }
+      ],
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/volvo/ec40",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/volvo/ec40",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2025 Volvo C40 Recharge Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
     }
   },
   "notes": [

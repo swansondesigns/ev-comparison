@@ -1,10 +1,6 @@
 {
   "make": "Subaru",
   "model": "Solterra",
-  "model_year": {
-    "value": "2026",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 184.6,
     "source": "https://media.subaru.com/view-spec.do?bFileId=47029",
@@ -23,45 +19,6 @@
     "cross_check": [
       { "value": 73.2, "source": "https://www.caranddriver.com/subaru/solterra/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
     ]
-  },
-  "awd": {
-    "value": "standard",
-    "trims": ["Premium", "Limited", "Limited XT", "Touring XT"],
-    "source": "https://media.subaru.com/newsrelease.do?id=2376&mid=333",
-    "retrieved": "2026-09-19",
-    "note": "2026 press kit: 'Every 2026 Solterra is equipped with standard Symmetrical All-Wheel Drive'. 2027 press kit: 'Standard Symmetrical All-Wheel Drive'."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://media.subaru.com/newsrelease.do?id=2376&mid=333",
-    "retrieved": "2026-09-19",
-    "note": "2026 press kit: 'All 2026 Solterra models feature a North American Charging Standard charging port'. 2026 spec sheet: 'NACS charge inlet on right fender'. 2027 press kit: 'All 2027 Solterra models feature a North American Charging Standard (NACS) charging port'."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
-    "retrieved": "2026-09-19",
-    "note": "Subaru release, Oct. 22, 2025: 'The 2026 Subaru Solterra EV is equipped with the North American Charging Standard (NACS) port, which is compatible with applicable Tesla Superchargers'; 'all owners of Subaru Solterra models now have easier access to more than 25,000 Tesla Superchargers'.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Subaru among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": "2026",
-    "on_sale_date": null,
-    "source": "https://media.subaru.com/newsrelease.do?id=2460&mid=333",
-    "retrieved": "2026-09-19",
-    "note": "2027 press kit: 'The 2027 Subaru Solterra EV arrives at retailers nationwide this fall.' 2026 press kit said the 2026 would be 'Available at retailers nationwide later this fall' (2025)."
-  },
-  "epa_range": {
-    "model_year": "2026",
-    "entries": [
-      { "applies_to": "18-in. wheels", "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 288, "epa_id": 49982, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49982", "retrieved": "2026-09-19" },
-      { "applies_to": "20-in. wheels", "epa_vehicle": "Solterra 20 AWD", "drive": "AWD", "value": 278, "epa_id": 49981, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49981", "retrieved": "2026-09-19" }
-    ],
-    "note": "2026 matches the year of the spec sheet quoted. EPA's 2027 listings (50690, 50689) carry the same figures. EPA's labels name the wheel size, not Subaru's trims."
   },
   "height_in": {
     "value": 65,
@@ -85,34 +42,125 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2026", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2026 Subaru Solterra Review, Pricing, and Specs'." },
-      { "model_year": "2025", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'." },
-      { "model_year": "2024", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'." },
-      { "model_year": "2023", "value": 7.5, "source": "https://www.caranddriver.com/subaru/solterra", "retrieved": "2026-09-19", "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'." }
-    ],
-    "motortrend": [
-      { "model_year": "2027", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/solterra/2027", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2027 Subaru Solterra Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2026", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/solterra/2026", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2026 Subaru Solterra Review: Expert Insights, Pricing, and Trims'." },
-      { "model_year": "2025", "value": 8.4, "source": "https://www.motortrend.com/cars/subaru/solterra", "retrieved": "2026-09-19", "note": "MotorTrend score in the page's review data; page titled '2025 Subaru Solterra Review: Expert Insights, Pricing, and Trims'." }
-    ]
+  "years": {
+    "2023": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/subaru/solterra",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2024": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/subaru/solterra",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+        }
+      }
+    },
+    "2025": {
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/subaru/solterra",
+          "retrieved": "2026-09-19",
+          "note": "Listed among earlier model years on the page titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.4,
+          "source": "https://www.motortrend.com/cars/subaru/solterra",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2025 Subaru Solterra Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    },
+    "2026": {
+      "awd": {
+        "value": "standard",
+        "trims": ["Premium", "Limited", "Limited XT", "Touring XT"],
+        "source": "https://media.subaru.com/newsrelease.do?id=2376&mid=333",
+        "retrieved": "2026-09-19",
+        "note": "2026 press kit: 'Every 2026 Solterra is equipped with standard Symmetrical All-Wheel Drive'. 2027 press kit: 'Standard Symmetrical All-Wheel Drive'."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://media.subaru.com/newsrelease.do?id=2376&mid=333",
+        "retrieved": "2026-09-19",
+        "note": "2026 press kit: 'All 2026 Solterra models feature a North American Charging Standard charging port'. 2026 spec sheet: 'NACS charge inlet on right fender'. 2027 press kit: 'All 2027 Solterra models feature a North American Charging Standard (NACS) charging port'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
+        "retrieved": "2026-09-19",
+        "note": "Subaru release, Oct. 22, 2025: 'The 2026 Subaru Solterra EV is equipped with the North American Charging Standard (NACS) port, which is compatible with applicable Tesla Superchargers'; 'all owners of Subaru Solterra models now have easier access to more than 25,000 Tesla Superchargers'.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Subaru among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": "2026",
+        "on_sale_date": null,
+        "source": "https://media.subaru.com/newsrelease.do?id=2460&mid=333",
+        "retrieved": "2026-09-19",
+        "note": "2027 press kit: 'The 2027 Subaru Solterra EV arrives at retailers nationwide this fall.' 2026 press kit said the 2026 would be 'Available at retailers nationwide later this fall' (2025)."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "18-in. wheels", "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 288, "epa_id": 49982, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49982", "retrieved": "2026-09-19" },
+          { "applies_to": "20-in. wheels", "epa_vehicle": "Solterra 20 AWD", "drive": "AWD", "value": 278, "epa_id": 49981, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49981", "retrieved": "2026-09-19" }
+        ],
+        "note": "2026 matches the year of the spec sheet quoted. EPA's 2027 listings (50690, 50689) carry the same figures. EPA's labels name the wheel size, not Subaru's trims."
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 7.5,
+          "source": "https://www.caranddriver.com/subaru/solterra",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "value": 8.4,
+          "source": "https://www.motortrend.com/cars/subaru/solterra/2026",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2026 Subaru Solterra Review: Expert Insights, Pricing, and Trims'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/subaru/solterra",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/subaru/solterra/2026",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    },
+    "2027": {
+      "ratings": {
+        "motortrend": {
+          "value": 8.4,
+          "source": "https://www.motortrend.com/cars/subaru/solterra/2027",
+          "retrieved": "2026-09-19",
+          "note": "MotorTrend score in the page's review data; page titled '2027 Subaru Solterra Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.subaru.com/vehicles/solterra.html",
       "retrieved": "2026-09-19",
       "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra | All-Wheel Drive Electric SUV | Learn More'."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/subaru/solterra",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra Review, Pricing, and Specs'."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/subaru/solterra/2026",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2026 Subaru Solterra Review: Expert Insights, Pricing, and Trims'."
     }
   }
 }

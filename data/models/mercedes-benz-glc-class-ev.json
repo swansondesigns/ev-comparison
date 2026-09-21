@@ -1,10 +1,6 @@
 {
   "make": "Mercedes-Benz",
   "model": "GLC-Class EV",
-  "model_year": {
-    "value": "2027",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability. Mercedes-Benz USA's model page doesn't state the year; its media site titles the guide '2027 Mercedes-Benz GLC 400 4MATIC Electric'."
-  },
   "length_in": {
     "value": 190.8,
     "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
@@ -24,46 +20,6 @@
     "cross_check": [
       { "value": 75.3, "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
     ]
-  },
-  "awd": {
-    "value": "available",
-    "label": "GLC 400 4MATIC",
-    "trims": ["GLC 400 4MATIC"],
-    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
-    "retrieved": "2026-09-19",
-    "note": "'Drive configuration: Fully variable 4MATIC All-Wheel Drive with Torque Shift'. C/D also lists a 2027 'GLC300+' submodel; its drivetrain wasn't checked."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
-    "retrieved": "2026-09-19",
-    "note": "'DC charging connector type: North American Charging Standard (NACS)'; 'An adapter may be required for Combined Charging System (CCS1) connectors.'"
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
-    "retrieved": "2026-09-19",
-    "note": "'DC charging connector type: North American Charging Standard (NACS)'; 'An adapter may be required for Combined Charging System (CCS1) connectors.'",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Mercedes-Benz among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "on sale",
-    "model_year": null,
-    "on_sale_date": null,
-    "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
-    "retrieved": "2026-09-19",
-    "note": "Starting MSRP and 'View Inventory' link on Mercedes-Benz USA. Model year not stated on the page; C/D lists it as 2027."
-  },
-  "epa_range": {
-    "model_year": "2027",
-    "entries": [
-      { "applies_to": "GLC 400 4MATIC", "drive": "AWD", "value": 350, "estimate": true, "source": "https://media.mbusa.com/releases/release-70533912e1034d30bf148896200161c2-2027-mercedes-benz-glc-400-4matic-electric-quick-reference-guide", "retrieved": "2026-09-19", "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" },
-      { "applies_to": "GLC 400 4MATIC with all-season tires", "drive": "AWD", "value": 331, "estimate": true, "source": "https://media.mbusa.com/releases/release-70533912e1034d30bf148896200161c2-2027-mercedes-benz-glc-400-4matic-electric-quick-reference-guide", "retrieved": "2026-09-19", "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" }
-    ],
-    "note": "EPA has no electric GLC listing (2027 Mercedes-Benz model menu checked 2026-09-19, sources/fe-menu-model-2027-mercedes-benz.xml). Figures are Mercedes-Benz USA's, from its 2027 quick reference guide."
   },
   "height_in": {
     "value": 64.7,
@@ -87,26 +43,75 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2027 GLC 400 Electric 4MATIC SUV, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
-  "ratings": {
-    "caranddriver": [
-      { "model_year": "2027", "value": 9, "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev", "retrieved": "2026-09-19", "note": "C/D rating in the page's review data; page titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'." }
-    ]
+  "years": {
+    "2027": {
+      "note": "Mercedes-Benz USA's model page doesn't state the year; its media site titles the guide '2027 Mercedes-Benz GLC 400 4MATIC Electric'.",
+      "awd": {
+        "value": "available",
+        "label": "GLC 400 4MATIC",
+        "trims": ["GLC 400 4MATIC"],
+        "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+        "retrieved": "2026-09-19",
+        "note": "'Drive configuration: Fully variable 4MATIC All-Wheel Drive with Torque Shift'. C/D also lists a 2027 'GLC300+' submodel; its drivetrain wasn't checked."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+        "retrieved": "2026-09-19",
+        "note": "'DC charging connector type: North American Charging Standard (NACS)'; 'An adapter may be required for Combined Charging System (CCS1) connectors.'"
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+        "retrieved": "2026-09-19",
+        "note": "'DC charging connector type: North American Charging Standard (NACS)'; 'An adapter may be required for Combined Charging System (CCS1) connectors.'",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Mercedes-Benz among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "on sale",
+        "model_year": null,
+        "on_sale_date": null,
+        "source": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
+        "retrieved": "2026-09-19",
+        "note": "Starting MSRP and 'View Inventory' link on Mercedes-Benz USA. Model year not stated on the page; C/D lists it as 2027."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "GLC 400 4MATIC", "drive": "AWD", "value": 350, "estimate": true, "source": "https://media.mbusa.com/releases/release-70533912e1034d30bf148896200161c2-2027-mercedes-benz-glc-400-4matic-electric-quick-reference-guide", "retrieved": "2026-09-19", "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" },
+          { "applies_to": "GLC 400 4MATIC with all-season tires", "drive": "AWD", "value": 331, "estimate": true, "source": "https://media.mbusa.com/releases/release-70533912e1034d30bf148896200161c2-2027-mercedes-benz-glc-400-4matic-electric-quick-reference-guide", "retrieved": "2026-09-19", "note": "'Electric range (EPA): 350 mi (331 mi with all-season tires)'" }
+        ],
+        "note": "EPA has no electric GLC listing (2027 Mercedes-Benz model menu checked 2026-09-19, sources/fe-menu-model-2027-mercedes-benz.xml). Figures are Mercedes-Benz USA's, from its 2027 quick reference guide."
+      },
+      "ratings": {
+        "caranddriver": {
+          "value": 9,
+          "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev",
+          "retrieved": "2026-09-19",
+          "note": "C/D rating in the page's review data; page titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'."
+        }
+      },
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/mercedes-benz/glc-class-ev",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/mercedes-benz/glc-class-electric",
+          "retrieved": "2026-09-19",
+          "note": "Loaded, not saved: HTTP 200, titled '2027 Mercedes-Benz GLC-Class EV Review: Expert Insights, Pricing, and Trims'."
+        }
+      }
+    }
   },
   "links": {
     "maker": {
       "url": "https://www.mbusa.com/en/vehicles/model/glc/suv/glc400e4",
       "retrieved": "2026-09-19",
       "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/mercedes-benz/glc-class-ev",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/mercedes-benz/glc-class-electric",
-      "retrieved": "2026-09-19",
-      "note": "Loaded, not saved: HTTP 200, titled '2027 Mercedes-Benz GLC-Class EV Review: Expert Insights, Pricing, and Trims'."
     }
   }
 }

@@ -1,10 +1,6 @@
 {
   "make": "Kia",
   "model": "EV3",
-  "model_year": {
-    "value": "2027",
-    "note": "Label for the year whose specs are quoted. Not a statement about availability."
-  },
   "length_in": {
     "value": 169.3,
     "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications",
@@ -22,89 +18,6 @@
     "note": "'Width (in.)', all trims; mirrors not stated. C/D lists the same figure as width without mirrors.",
     "cross_check": [
       { "value": 72.8, "source": "https://www.caranddriver.com/kia/ev3/specs", "retrieved": "2026-09-19", "note": "Width, without mirrors" }
-    ]
-  },
-  "awd": {
-    "value": "available",
-    "label": "Wind, Land, GT-Line, GT",
-    "trims": ["Wind AWD", "Land AWD", "GT-Line AWD", "GT AWD"],
-    "not_awd": ["Light FWD", "Wind FWD", "Land FWD"],
-    "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications",
-    "retrieved": "2026-09-19",
-    "note": "'Drive type' row. Pricing release (Aug. 12, 2026) lists the same trims."
-  },
-  "charge_port": {
-    "value": "NACS",
-    "source": "https://www.kiamedia.com/us/en/media/pressreleases/25004/kia-announces-pricing-for-2027-ev3",
-    "retrieved": "2026-09-19",
-    "note": "'Built-in NACS charge port ... (no adapter required for NACS)'."
-  },
-  "supercharger_access": {
-    "value": "yes",
-    "via": "port",
-    "source": "https://www.kiamedia.com/us/en/media/pressreleases/25004/kia-announces-pricing-for-2027-ev3",
-    "retrieved": "2026-09-19",
-    "note": "'Built-in NACS charge port ... (no adapter required for NACS)'.",
-    "cross_check": [
-      { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Kia among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
-    ]
-  },
-  "us_status": {
-    "value": "announced",
-    "model_year": "2027",
-    "on_sale_date": null,
-    "on_sale_by": "2026-12-31",
-    "source": "https://www.kiamedia.com/us/en/media/pressreleases/25050/kia-ev3-named-green-car-of-the-yearand-carnival-hybrid-named-green-minivan-of-the-year-by-green-car",
-    "retrieved": "2026-09-19",
-    "note": "Release dated September 8, 2026: 'The EV3 will be available in Kia showrooms nationwide in late 2026.' on_sale_by is the end of that stated window, not a Kia date. US pricing announced Aug. 12, 2026. New to the US; debuted at the New York auto show."
-  },
-  "epa_range": {
-    "model_year": "2027",
-    "entries": [
-      { "applies_to": "Wind (AWD), Land (AWD), GT-Line", "epa_vehicle": "EV3 Long Range AWD", "drive": "AWD", "value": 280, "epa_id": 50648, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50648", "retrieved": "2026-09-19" },
-      { "applies_to": "GT", "epa_vehicle": "EV3 Long Range GT AWD", "drive": "AWD", "value": 280, "epa_id": 50650, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50650", "retrieved": "2026-09-19" },
-      { "applies_to": "Wind (FWD), Land (FWD)", "epa_vehicle": "EV3 Long Range FWD", "drive": "FWD", "value": 321, "epa_id": 50649, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50649", "retrieved": "2026-09-19" },
-      { "applies_to": "Light", "epa_vehicle": "EV3 Standard Range FWD", "drive": "FWD", "value": 221, "epa_id": 50651, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50651", "retrieved": "2026-09-19" }
-    ],
-    "note": "Trim mapping from Kia's spec table ('All Electric Range': Light 221, Wind/Land FWD 321, every AWD trim 280)."
-  },
-  "trims": {
-    "list": [
-      { "name": "Light", "drive": "FWD" },
-      { "name": "Wind (FWD)", "drive": "FWD" },
-      { "name": "Land (FWD)", "drive": "FWD" },
-      { "name": "Wind (AWD)", "drive": "AWD" },
-      { "name": "Land (AWD)", "drive": "AWD" },
-      { "name": "GT-Line", "drive": "AWD" },
-      { "name": "GT", "drive": "AWD" }
-    ],
-    "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications",
-    "retrieved": "2026-09-19",
-    "note": "Kia media 2027 EV3 specifications columns and 'Drive type' row."
-  },
-  "battery": {
-    "entries": [
-      { "applies_to": "Light", "kwh": 58.3, "basis": "not stated", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'Battery Energy (kWh)'." },
-      { "applies_to": "All other trims", "kwh": 81.4, "basis": "not stated", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'Battery Energy (kWh)'." }
-    ]
-  },
-  "dc_peak_kw": {
-    "entries": [
-      { "applies_to": "All trims", "value": null, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "Not published in the fetched Kia sources (media specifications, features, pricing release) or on Kia's consumer compare page (https://www.kia.com/us/en/ev3/specs-compare, rendered in a browser on 2026-09-19), which lists only 10-80% times at 50 kW and 350 kW chargers. C/D hasn't tested the EV3." }
-    ]
-  },
-  "dc_10_80": {
-    "entries": [
-      { "applies_to": "Light", "minutes": 29, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 29 minutes." },
-      { "applies_to": "All other trims", "minutes": 31, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 31 minutes." },
-      { "applies_to": "Light", "minutes": 55, "charger_kw": 50, "source": "https://www.kia.com/us/en/ev3/specs-compare", "retrieved": "2026-09-19", "note": "'DC Fast Charge Time (10-80% @ 50 kW via Electric Vehicle Supply Equipment)' Approx. 55 min. Compare page rendered in a browser; its 350 kW row (29 min.) matches Kia media." },
-      { "applies_to": "All other trims", "minutes": 79, "charger_kw": 50, "source": "https://www.kia.com/us/en/ev3/specs-compare", "retrieved": "2026-09-19", "note": "'DC Fast Charge Time (10-80% @ 50 kW via Electric Vehicle Supply Equipment)' Approx. 79 min. Compare page rendered in a browser; its 350 kW row (31 min.) matches Kia media." }
-    ]
-  },
-  "heat_pump": {
-    "entries": [
-      { "applies_to": "Wind (AWD), Land (AWD), GT-Line, GT", "value": "standard", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/features", "retrieved": "2026-09-19", "note": "Features table 'Heat Pump': S." },
-      { "applies_to": "Light, Wind (FWD), Land (FWD)", "value": "not offered", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/features", "retrieved": "2026-09-19", "note": "Features table 'Heat Pump': --." }
     ]
   },
   "cargo_cu_ft": {
@@ -133,36 +46,124 @@
     "retrieved": "2026-09-19",
     "note": "'Min. ground clearance (in.)': 5.9 on Wind and Land AWD; GT-Line 6.2; GT 6.0."
   },
-  "warranty": {
-    "battery": {
-      "years": 10,
-      "miles": 100000,
-      "text": "EV System Warranty (electric motor, high voltage battery, EPCU, OBC): 10 years or 100,000 miles; Battery Coverage for capacity loss below 70%: 10 years or 100,000 miles"
-    },
-    "powertrain": {
-      "years": 10,
-      "miles": 100000,
-      "text": "10-year/100,000-mile Powertrain Limited Warranty"
-    },
-    "source": "https://www.kia.com/us/en/warranty",
-    "retrieved": "2026-09-19"
+  "years": {
+    "2027": {
+      "awd": {
+        "value": "available",
+        "label": "Wind, Land, GT-Line, GT",
+        "trims": ["Wind AWD", "Land AWD", "GT-Line AWD", "GT AWD"],
+        "not_awd": ["Light FWD", "Wind FWD", "Land FWD"],
+        "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications",
+        "retrieved": "2026-09-19",
+        "note": "'Drive type' row. Pricing release (Aug. 12, 2026) lists the same trims."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.kiamedia.com/us/en/media/pressreleases/25004/kia-announces-pricing-for-2027-ev3",
+        "retrieved": "2026-09-19",
+        "note": "'Built-in NACS charge port ... (no adapter required for NACS)'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.kiamedia.com/us/en/media/pressreleases/25004/kia-announces-pricing-for-2027-ev3",
+        "retrieved": "2026-09-19",
+        "note": "'Built-in NACS charge port ... (no adapter required for NACS)'.",
+        "cross_check": [
+          { "value": "yes", "source": "https://www.tesla.com/support/charging/supercharging-other-evs", "retrieved": "2026-09-19", "note": "Tesla lists Kia among manufacturers with access to NACS Superchargers; 'For new vehicles that are NACS-equipped, no adapter will be necessary.' Read through headless Edge (sources/tesla-supercharging-other-evs-rendered.html); curl gets HTTP 403." }
+        ]
+      },
+      "us_status": {
+        "value": "announced",
+        "model_year": "2027",
+        "on_sale_date": null,
+        "on_sale_by": "2026-12-31",
+        "source": "https://www.kiamedia.com/us/en/media/pressreleases/25050/kia-ev3-named-green-car-of-the-yearand-carnival-hybrid-named-green-minivan-of-the-year-by-green-car",
+        "retrieved": "2026-09-19",
+        "note": "Release dated September 8, 2026: 'The EV3 will be available in Kia showrooms nationwide in late 2026.' on_sale_by is the end of that stated window, not a Kia date. US pricing announced Aug. 12, 2026. New to the US; debuted at the New York auto show."
+      },
+      "epa_range": {
+        "entries": [
+          { "applies_to": "Wind (AWD), Land (AWD), GT-Line", "epa_vehicle": "EV3 Long Range AWD", "drive": "AWD", "value": 280, "epa_id": 50648, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50648", "retrieved": "2026-09-19" },
+          { "applies_to": "GT", "epa_vehicle": "EV3 Long Range GT AWD", "drive": "AWD", "value": 280, "epa_id": 50650, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50650", "retrieved": "2026-09-19" },
+          { "applies_to": "Wind (FWD), Land (FWD)", "epa_vehicle": "EV3 Long Range FWD", "drive": "FWD", "value": 321, "epa_id": 50649, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50649", "retrieved": "2026-09-19" },
+          { "applies_to": "Light", "epa_vehicle": "EV3 Standard Range FWD", "drive": "FWD", "value": 221, "epa_id": 50651, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50651", "retrieved": "2026-09-19" }
+        ],
+        "note": "Trim mapping from Kia's spec table ('All Electric Range': Light 221, Wind/Land FWD 321, every AWD trim 280)."
+      },
+      "trims": {
+        "list": [
+          { "name": "Light", "drive": "FWD" },
+          { "name": "Wind (FWD)", "drive": "FWD" },
+          { "name": "Land (FWD)", "drive": "FWD" },
+          { "name": "Wind (AWD)", "drive": "AWD" },
+          { "name": "Land (AWD)", "drive": "AWD" },
+          { "name": "GT-Line", "drive": "AWD" },
+          { "name": "GT", "drive": "AWD" }
+        ],
+        "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications",
+        "retrieved": "2026-09-19",
+        "note": "Kia media 2027 EV3 specifications columns and 'Drive type' row."
+      },
+      "battery": {
+        "entries": [
+          { "applies_to": "Light", "kwh": 58.3, "basis": "not stated", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'Battery Energy (kWh)'." },
+          { "applies_to": "All other trims", "kwh": 81.4, "basis": "not stated", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'Battery Energy (kWh)'." }
+        ]
+      },
+      "dc_peak_kw": {
+        "entries": [
+          { "applies_to": "All trims", "value": null, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "Not published in the fetched Kia sources (media specifications, features, pricing release) or on Kia's consumer compare page (https://www.kia.com/us/en/ev3/specs-compare, rendered in a browser on 2026-09-19), which lists only 10-80% times at 50 kW and 350 kW chargers. C/D hasn't tested the EV3." }
+        ]
+      },
+      "dc_10_80": {
+        "entries": [
+          { "applies_to": "Light", "minutes": 29, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 29 minutes." },
+          { "applies_to": "All other trims", "minutes": 31, "charger_kw": 350, "source": "https://www.kiamedia.com/us/en/models/ev3/2027/specifications", "retrieved": "2026-09-19", "note": "'DC Fast Charge with 350kW EVSE' 31 minutes." },
+          { "applies_to": "Light", "minutes": 55, "charger_kw": 50, "source": "https://www.kia.com/us/en/ev3/specs-compare", "retrieved": "2026-09-19", "note": "'DC Fast Charge Time (10-80% @ 50 kW via Electric Vehicle Supply Equipment)' Approx. 55 min. Compare page rendered in a browser; its 350 kW row (29 min.) matches Kia media." },
+          { "applies_to": "All other trims", "minutes": 79, "charger_kw": 50, "source": "https://www.kia.com/us/en/ev3/specs-compare", "retrieved": "2026-09-19", "note": "'DC Fast Charge Time (10-80% @ 50 kW via Electric Vehicle Supply Equipment)' Approx. 79 min. Compare page rendered in a browser; its 350 kW row (31 min.) matches Kia media." }
+        ]
+      },
+      "heat_pump": {
+        "entries": [
+          { "applies_to": "Wind (AWD), Land (AWD), GT-Line, GT", "value": "standard", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/features", "retrieved": "2026-09-19", "note": "Features table 'Heat Pump': S." },
+          { "applies_to": "Light, Wind (FWD), Land (FWD)", "value": "not offered", "source": "https://www.kiamedia.com/us/en/models/ev3/2027/features", "retrieved": "2026-09-19", "note": "Features table 'Heat Pump': --." }
+        ]
+      },
+      "warranty": {
+        "battery": {
+          "years": 10,
+          "miles": 100000,
+          "text": "EV System Warranty (electric motor, high voltage battery, EPCU, OBC): 10 years or 100,000 miles; Battery Coverage for capacity loss below 70%: 10 years or 100,000 miles"
+        },
+        "powertrain": {
+          "years": 10,
+          "miles": 100000,
+          "text": "10-year/100,000-mile Powertrain Limited Warranty"
+        },
+        "source": "https://www.kia.com/us/en/warranty",
+        "retrieved": "2026-09-19"
+      },
+      "highway_tests": [],
+      "links": {
+        "caranddriver": {
+          "url": "https://www.caranddriver.com/kia/ev3",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        },
+        "motortrend": {
+          "url": "https://www.motortrend.com/cars/kia/ev3/2027",
+          "retrieved": "2026-09-19",
+          "note": "Saved in sources/ (fetch-log.tsv)."
+        }
+      }
+    }
   },
-  "highway_tests": [],
   "links": {
     "maker": {
       "url": "https://www.kia.com/us/en/ev3",
       "retrieved": "2026-09-19",
       "note": "Loaded, not saved: HTTP 200, titled '2027 Kia EV3 Compact Electric SUV: Available e-AWD, Fast Charging, and 321-mile Driving Range (EPA-est.) | MSRP & Features | Kia'."
-    },
-    "caranddriver": {
-      "url": "https://www.caranddriver.com/kia/ev3",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
-    },
-    "motortrend": {
-      "url": "https://www.motortrend.com/cars/kia/ev3/2027",
-      "retrieved": "2026-09-19",
-      "note": "Saved in sources/ (fetch-log.tsv)."
     }
   },
   "notes": [
