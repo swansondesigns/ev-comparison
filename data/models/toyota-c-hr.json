@@ -45,6 +45,20 @@
     "retrieved": "2026-09-19",
     "note": "'Ground clearance (in.)' 8 (whole inches)."
   },
+  "recall_campaigns": {
+    "26V570000": {
+      "date": "2026-09-02",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 C-HR battery electric vehicles. A software programming error may cause the electric drive system battery to become overcharged under certain driving conditions, which can shut down the electric drive system and result in a loss of drive power.",
+      "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will update the battery electric vehicle electronic control unit (BEV ECU) software, free of charge. Owner notification letters are expected to be mailed October 18, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's number for this recall is 26TA17.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2026",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2026": {
       "epa_range": {
@@ -53,6 +67,12 @@
           { "epa_vehicle": "C-HR AWD 20inch", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50308, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50308", "retrieved": "2026-09-19" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V570000"],
+        "asked": [
+          { "name": "C-HR", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -149,6 +169,13 @@
       "highway_tests": [
         { "source": "https://www.caranddriver.com/toyota/c-hr", "retrieved": "2026-09-19", "trim_tested": "XSE", "result_mi": 230, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
       ],
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "C-HR", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,

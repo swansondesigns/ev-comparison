@@ -42,8 +42,64 @@
     "value": null,
     "note": "Not in the saved Nissan text; C/D lists NA."
   },
+  "recall_campaigns": {
+    "24V560000": {
+      "date": "2024-07-25",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:INVERTER",
+      "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2023 Ariya vehicles. The inverter software may misdiagnose an error, which can shut down the EV system, resulting in a loss of drive power.",
+      "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will inspect the vehicle's inverter software version and update the software, if necessary, free of charge. Owner notification letters were mailed September 12, 2024. Owners may contact Nissan's customer service at 1-800-867-7669. Nissan's number for this recall is R24A8.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2023",
+      "retrieved": "2026-09-21"
+    },
+    "24V391000": {
+      "date": "2024-06-03",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION MOTOR",
+      "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2023 Ariya vehicles. O-rings inside the electric front traction motor may have been damaged during assembly, which can result in an internal oil leak and an unexpected loss of drive power.",
+      "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will replace the front traction motor assembly, free of charge. Owner notification letters were mailed July 26, 2024. Owners may contact Nissan's customer service at 1-800-867-7669. Nissan's number for this recall is R24A3.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2023",
+      "retrieved": "2026-09-21"
+    },
+    "23V657000": {
+      "date": "2023-09-28",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:INVERTER",
+      "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2023 Ariya vehicles. The inverter software may detect a short circuit and shut down the EV system, resulting in a loss of drive power.",
+      "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will reprogram the inverter software, free of charge. Owner notification letters were mailed October 20, 2023. Owners may contact Nissan's customer service at 1-800-867-7669. Nissan's number for this recall is R23C6.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2023",
+      "retrieved": "2026-09-21"
+    },
+    "23V131000": {
+      "date": "2023-02-28",
+      "component": "STEERING:CRITICAL FASTENERS",
+      "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2023 Ariya vehicles. The steering wheel bolt may have been tightened incorrectly or not installed.",
+      "consequence": "A steering wheel with a loose or missing bolt can detach from the steering column, causing a loss of steering control, increasing the risk of a crash.",
+      "remedy": "Owners are advised to contact their dealer for transport and immediate repair if the steering wheel feels loose when gently rocking the wheel forward and back with their hands. Dealers will replace the steering wheel bolt, free of charge. Nissan began notifying owners on March 2, 2023 via phone and will follow up with owner notification letters beginning on March 30, 2023. Owners may contact Nissan's customer service at 1-800-867-7669. Nissan's number for this recall is PC956.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2023",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
+      "recalls": {
+        "campaigns": ["24V560000", "24V391000", "23V657000", "23V131000"],
+        "asked": [
+          { "name": "ARIYA", "found": 4, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2023", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -65,6 +121,13 @@
           { "epa_vehicle": "ARIYA VENTURE Plus FWD 87kWh", "drive": "FWD", "value": 304, "epa_id": 47859, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47859", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "ARIYA", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2024", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {
@@ -179,6 +242,13 @@
         { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "e-4ORCE Platinum+", "result_mi": 210, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." },
         { "source": "https://www.caranddriver.com/nissan/ariya", "retrieved": "2026-09-19", "trim_tested": "Empower+ (FWD)", "result_mi": 240, "temp_f": null, "note": "Front-drive version, not AWD." }
       ],
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "ARIYA", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2025", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -216,6 +286,13 @@
           { "epa_vehicle": "ARIYA FWD 87kWh", "drive": "FWD", "value": 289, "epa_id": 50227, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50227", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "ARIYA", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2026", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       }
     }
   },

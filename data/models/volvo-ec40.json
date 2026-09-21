@@ -43,6 +43,56 @@
     "retrieved": "2026-09-19",
     "note": "2024 C40 Recharge."
   },
+  "recall_campaigns": {
+    "25V908000": {
+      "date": "2025-12-23",
+      "component": "BACK OVER PREVENTION:SOFTWARE",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2021-2025 XC40, 2022 V90, 2022-2024 C40BEV, 2022-2025 S90, V90CC, XC60, 2023-2025 S60, V60, V60CC, XC90, and 2025 EC40, and EX40 vehicles. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera image that does not display reduces the driver's view behind the vehicle, increasing the risk of a crash.",
+      "remedy": "The software will be updated by a dealer or through an over-the-air (OTA) update, free of charge. Owner notification letters were mailed February 24, 2026. Owners may contact Volvo Car’s customer service at 1-800-458-1552. Volvo Car's number for this recall is R10333. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning February 16, 2026. This recall replaces previous NHTSA recall number 25V282. Vehicles previously repaired under recall 25V282 will need to have the new remedy performed.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V392000": {
+      "date": "2025-06-12",
+      "component": "SERVICE BRAKES, HYDRAULIC:POWER ASSIST:ELECTRIC:CONTROL MODULE:SOFTWARE",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2023 Volvo C40 BEV, 2025 EC40, 2023-2024 XC40 BEV, 2020-2026 XC90 PHEV, 2022-2026 XC60 PHEV, 2023-2025 S60 PHEV, 2024-2025 V60 PHEV, and 2025-2026 EX40 and 2025 S90 PHEV vehicles. In certain driving scenarios while coasting down a hill and using \"B\" mode or \"One Pedal Drive,\" the vehicle may lose brake function.",
+      "consequence": "A loss of brake function increases the risk of a crash.",
+      "remedy": "Owners are advised not to use \"B\" Mode (for plug-in hybrid vehicles) or \"One Pedal Drive\" (for pure electric vehicles) until the repair has been completed. The brake module software will be updated over-the-air (OTA) or by a dealer, free of charge. Owner notification letters were mailed July 15, 2025. Owners may contact Volvo Car's customer service at 1-800-458-1552. Volvo Car's number for this recall is R10329.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V282000": {
+      "date": "2025-05-08",
+      "component": "BACK OVER PREVENTION:SOFTWARE",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2021-2025 XC40, 2022 V90, 2022-2025 S90, V90CC, C40, XC60, 2023-2025 S60, V60, V60CC, XC90, and 2025 EC40 and EX40 vehicles. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera image that does not display reduces the driver's view of what is behind the vehicle, increasing the risk of a crash.",
+      "remedy": "The software will be updated by a dealer or through an over-the-air (OTA) update, free of charge. Owner notification letters were mailed June 27, 2025. Owners may contact Volvo Car customer service at 1-800-458-1552. Volvo Car's number for this recall is R10320.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": true,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V938000": {
+      "date": "2024-12-18",
+      "component": "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2023-2024 Volvo C40 vehicles. The clamps may be improperly crimped on the driver's side inner far side air bag module (FSAB), which can cause the air bag to deploy improperly.",
+      "consequence": "An air bag that deploys improperly may not protect the driver as intended during a crash, increasing the risk of injury.",
+      "remedy": "Dealers will replace the driver's side inner FSAB, free of charge. Owner notification letters were mailed January 24, 2025. Owners may contact Volvo Car customer service at 1-800-458-1552. Volvo Car's number for this recall is R10296.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=C40&modelYear=2024",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2024": {
       "epa_range": {
@@ -51,6 +101,12 @@
           { "epa_vehicle": "C40 Recharge", "drive": "RWD", "value": 297, "epa_id": 46980, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46980", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the C40 Recharge."
+      },
+      "recalls": {
+        "campaigns": ["24V938000"],
+        "asked": [
+          { "name": "C40", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=C40&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -69,6 +125,12 @@
           { "epa_vehicle": "EC40", "drive": "RWD", "value": 298, "epa_id": 48448, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48448", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V908000", "25V392000", "25V282000"],
+        "asked": [
+          { "name": "EC40", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       }
     },
     "2026": {
@@ -172,6 +234,13 @@
       "highway_tests": [
         { "source": "https://www.caranddriver.com/volvo/c40-recharge", "retrieved": "2026-09-19", "trim_tested": "C40 Recharge (version not stated)", "result_mi": 200, "temp_f": null, "note": "C/D 75-mph highway route; the page doesn't say which version was tested." }
       ],
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "EC40", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2026", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
       "links": {
         "caranddriver": {
           "url": "https://www.caranddriver.com/volvo/ec40",

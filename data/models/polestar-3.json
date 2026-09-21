@@ -42,6 +42,80 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2025 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V037000": {
+      "date": "2026-01-23",
+      "component": "SEATS:CRITICAL FASTENERS",
+      "summary": "Polestar Automotive USA, Inc. (Polestar) is recalling certain 2025 Polestar 3 vehicles. The striker brackets that secure the rear seat backrest may be loose. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 207, \"Seating Systems.\"",
+      "consequence": "A loose rear seat backrest may fall forward and allow cargo to enter the cabin during a crash, increasing the risk of injury.",
+      "remedy": "Dealers will inspect and tighten the rear seat backrest striker bracket mounting nuts as necessary, free of charge. Owner notification letters were mailed March 4, 2026. Owners may contact Polestar's customer service at 1-800-806-2504. Polestar's number for this recall is RP1079. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning January 30, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V555000": {
+      "date": "2025-08-26",
+      "component": "STRUCTURE:BODY:BUMPERS",
+      "summary": "Polestar Automotive USA, Inc. (Polestar) is recalling certain 2025 Polestar 3 vehicles. The hood wing front bumper may be missing bolts, allowing the bumper to detach.",
+      "consequence": "A detached bumper can become a road hazard, increasing the risk of a crash.",
+      "remedy": "Polestar will inspect the hood wing bumper for missing screws. If any screws are missing, the bumper and screws will be replaced. Repairs will be performed free of charge. Owner notification letters were mailed September 30, 2025. Owners may contact Polestar's customer service at 1-800-806-2504. Polestar's number for this recall is RP1064.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V420000": {
+      "date": "2025-07-14",
+      "component": "VISIBILITY:SUN/MOON ROOF ASSEMBLY",
+      "summary": "Polestar Automotive USA, Inc. (Polestar) is recalling certain 2025 Polestar 3 vehicles. The panoramic glass sunroof may not be properly secured and can detach.",
+      "consequence": "A detached glass sunroof can become a road hazard, increasing the risk of a crash.",
+      "remedy": "Polestar will replace the panoramic glass sunroof, free of charge. Owner notification letters were mailed July 28, 2025. Owners may contact Polestar's customer service at 1-800-806-2504. Polestar's number for this recall is RP1060.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V453000": {
+      "date": "2025-07-07",
+      "component": "ELECTRICAL SYSTEM:WIRING",
+      "summary": "Polestar Automotive USA, Inc. (Polestar) is recalling certain 2025 Polestar 3 vehicles. Water may damage the electrical connectors between the engine bay and front bumper cable harnesses.",
+      "consequence": "Damage to harnesses can cause various electrical malfunctions, such as a loss of power steering assist, increasing the risk of a crash or injury.",
+      "remedy": "Polestar will replace the bumper harness and the inline front bumper/engine bay connector on the engine bay harness, free of charge. Owner notification letters were mailed July 31, 2025. Owners may contact Polestar's customer service at 1-800-806-2504. Polestar's number for this recall is RP1063.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V293000": {
+      "date": "2025-05-07",
+      "component": "BACK OVER PREVENTION:SOFTWARE",
+      "summary": "Polestar Automotive USA, Inc. (Polestar) is recalling certain Polestar 3 vehicles. The rearview camera image may not display when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera image that does not display reduces the driver's view of what is behind the vehicle, increasing the risk of a crash.",
+      "remedy": "The software will be updated by a dealer or through an over-the-air (OTA) update, free of charge. Owner notification letters are expected to be mailed June 24, 2025. Owners may contact Polestar's customer service at 1-800-806-2504. Polestar's number for this recall is RP1057.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": true,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V940000": {
+      "date": "2024-12-18",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+      "summary": "Polestar Automotive USA, Inc. (Polestar) is recalling certain 2025 Polestar 3 hybrid electric vehicles. Fluctuations in the 12-volt system may have damaged the High to Low Voltage Converter Module (HLCM).",
+      "consequence": "A damaged HLCM reduces the system's ability to convert energy, causing a sudden loss in drive power and increasing the risk of a crash.",
+      "remedy": "Dealers will replace the High to Low Voltage Converter Module (HLCM), free of charge. Owner notification letters were mailed January 17, 2025. Owners may contact Polestar customer service at 1-800-806-2504. Polestar's number for this recall is RP1043.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2025": {
       "epa_range": {
@@ -55,6 +129,12 @@
           { "epa_vehicle": "3 Long Range Single Motor (22 Inch Wheels)", "drive": "RWD", "wheels_in": 22, "value": 333, "epa_id": 48726, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48726", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V037000", "25V555000", "25V420000", "25V453000", "25V293000", "24V940000"],
+        "asked": [
+          { "name": "POLESTAR 3", "found": 6, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -120,6 +200,13 @@
           { "applies_to": "Long range Single motor (21-in. wheels)", "epa_vehicle": "3 Long Range Single Motor (21 Inch Wheels)", "drive": "RWD", "wheels_in": 21, "value": 291, "epa_id": 50233, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50233", "retrieved": "2026-09-19" }
         ],
         "note": "Polestar's US page doesn't state a model year; 2026 is EPA's latest Polestar 3 listing."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "POLESTAR 3", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2026", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "motortrend": {

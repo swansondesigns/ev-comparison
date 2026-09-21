@@ -42,6 +42,44 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Light RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V431000": {
+      "date": "2026-07-02",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+      "summary": "Kia America, Inc. (Kia) is recalling certain 2022-2024 EV6 and 2024 EV9 vehicles. The high voltage battery cells may contain misaligned electrodes, which can lead to a fire while parked or driving.",
+      "consequence": "A fire increases the risk of injury.",
+      "remedy": "Owners are advised to park outside and away from structures and limit their charge to a maximum of 80% until the recall repair is complete. Dealers will replace the high voltage battery system assembly, free of charge. Owner notification letters are expected to be mailed August 7, 2026. Owners may contact Kia customer service at 1-800-333-4542. Kia's number for this recall is SC375. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning July 17, 2026.",
+      "park_it": false,
+      "park_outside": true,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "24V867000": {
+      "date": "2024-11-18",
+      "component": "ELECTRICAL SYSTEM:12V/24V/48V BATTERY",
+      "summary": "Kia America, Inc. (Kia) is recalling certain 2022-2024 EV6 vehicles. The Integrated Charging Control Unit (ICCU) may become damaged and stop charging the 12-volt battery, which can result in a loss of drive power.",
+      "consequence": "A loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will inspect and replace the ICCU and its fuse, as necessary. In addition, dealers will update the ICCU software. All repairs will be performed free of charge. Owner notification letters were mailed December 13, 2024. Owners may contact Kia customer service at 1-800-333-4542. Kia's number for this recall is SC327. This recall expands and replaces previous recall number 24V-200. Vehicles previously repaired under recall 24V-200 will need to have the new remedy completed.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "24V200000": {
+      "date": "2024-03-14",
+      "component": "ELECTRICAL SYSTEM:12V/24V/48V BATTERY",
+      "summary": "Kia America, Inc. (Kia) is recalling certain 2022-2024 EV6 vehicles. The Integrated Charging Control Unit (ICCU) may become damaged and stop charging the 12-Volt battery, which can result in a loss of drive power.",
+      "consequence": "A loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will inspect and replace the ICCU and its fuse, as necessary. In addition, dealers will update the ICCU software. All repairs will be performed free of charge. Owner notification letters are expected to be mailed April 29, 2024. Owners may contact Kia customer service at 1-800-333-4542. Kia's number for this recall is SC302.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2024",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
       "ratings": {
@@ -64,6 +102,12 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       },
+      "recalls": {
+        "campaigns": ["26V431000", "24V867000", "24V200000"],
+        "asked": [
+          { "name": "EV6", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,
@@ -83,6 +127,13 @@
           { "epa_vehicle": "EV6 Standard Range RWD", "drive": "RWD", "value": 237, "epa_id": 49098, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49098", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "EV6", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2025", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {
@@ -135,6 +186,13 @@
           { "applies_to": "Light", "epa_vehicle": "EV6 Standard Range RWD", "drive": "RWD", "value": 237, "epa_id": 50215, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50215", "retrieved": "2026-09-19" }
         ],
         "note": "Trim mapping from Kia's 2026 spec table ('All Electric Range (miles) - AWD': 295, 295, 270). Excludes EPA's 2026 EV6 AWD GT (50211, 231 mi): the GT isn't in Kia's 2026 trim list."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "EV6", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2026", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {

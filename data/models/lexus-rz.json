@@ -42,6 +42,44 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 RZ 350e FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V393000": {
+      "date": "2026-06-18",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Toyota BZ, Lexus RZ, and Subaru Solterra battery electric vehicles. The electronic control unit (ECU) that controls the high voltage battery may experience a fault, resulting in a loss of drive power.",
+      "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will update the battery ECU software, free of charge. Owner notification letters were mailed August 17, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LA07 and 26TA11. Subaru's number for this recall is WRG26.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V744000": {
+      "date": "2025-10-30",
+      "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+      "remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V577000": {
+      "date": "2025-09-04",
+      "component": "VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2023-2025 bZ4X, Lexus RZ, and Subaru Solterra vehicles. During certain HVAC system faults, such as electrical compressor failure, the defroster and defogger system may become inoperative.",
+      "consequence": "An inoperative defroster and defogger system can decrease the driver's visibility under certain driving conditions, increasing the risk of a crash.",
+      "remedy": "Dealers will update the HVAC control ECU software, free of charge. Dealers will also inspect the electrical compressor, and replace it, if necessary, free of charge. Owner notification letters were mailed October 17, 2025. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB07 and 25TA07. Lexus' numbers for this recall are 25LB04 and 25LA04. Subaru's number for this recall is WRD-25.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
       "ratings": {
@@ -63,6 +101,12 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       },
+      "recalls": {
+        "campaigns": ["25V744000", "25V577000"],
+        "asked": [
+          { "name": "RZ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 7,
@@ -81,6 +125,12 @@
           { "epa_vehicle": "RZ 300e (20 inch wheels)", "drive": "FWD", "wheels_in": 20, "value": 224, "epa_id": 49100, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49100", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V744000", "25V577000"],
+        "asked": [
+          { "name": "RZ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -133,6 +183,12 @@
           { "applies_to": "RZ 550e F SPORT AWD", "epa_vehicle": "RZ 550e AWD", "drive": "AWD", "value": 229, "epa_id": 50220, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50220", "retrieved": "2026-09-19" },
           { "applies_to": "RZ 350e FWD (18-in. wheels)", "epa_vehicle": "RZ 350e FWD (18 inch wheels)", "drive": "FWD", "wheels_in": 18, "value": 301, "epa_id": 50291, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50291", "retrieved": "2026-09-19" },
           { "applies_to": "RZ 350e FWD (20-in. wheels)", "epa_vehicle": "RZ 350e FWD (20 inch wheels)", "drive": "FWD", "wheels_in": 20, "value": 284, "epa_id": 50216, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50216", "retrieved": "2026-09-19" }
+        ]
+      },
+      "recalls": {
+        "campaigns": ["26V393000"],
+        "asked": [
+          { "name": "RZ", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
       "ratings": {

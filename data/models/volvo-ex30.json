@@ -48,6 +48,44 @@
     "retrieved": "2026-09-19",
     "note": "Not given on the specifications page; C/D lists NA."
   },
+  "recall_campaigns": {
+    "26V136000": {
+      "date": "2026-03-11",
+      "component": "SEAT BELTS:FRONT:WARNING LIGHT/DEVICES",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2025-2026 EX30 and 2026 EX30CC vehicles. The seat belt warning system may not activate the audible warning chime as intended. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+      "consequence": "An audible warning chime that does not properly alert of an unbelted seat belt can increase the risk of injury during a crash.",
+      "remedy": "Dealers will replace the terminals at the audio module connector, free of charge. Owner notification letters were mailed March 26, 2026. Owners may contact Volvo Car’s customer service at 1-800-458-1552. Volvo Car’s number for this recall is R10365. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on March 13, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30CC&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "26V103000": {
+      "date": "2026-02-20",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2025 EX30 vehicles. The high voltage battery may experience a short circuit and overheat.",
+      "consequence": "A high voltage battery that overheats increases the risk of a fire.",
+      "remedy": "Owners are advised to limit their charge to a maximum of 70% until the recall repair is complete. Dealers will inspect and replace the battery modules as necessary, free of charge. Owner letters were mailed August 20, 2026. Owners may contact Volvo Car’s customer service at 1-800-458-1552. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on February 23, 2026. This recall replaces and expands previous NHTSA recall number 26V001.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "26V001000": {
+      "date": "2026-01-02",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+      "summary": "Volvo Car USA, LLC (Volvo Car) is recalling certain 2025 EX30 vehicles. The high-voltage battery may experience a short circuit and overheat.",
+      "consequence": "A high-voltage battery that overheats increases the risk of a fire.",
+      "remedy": "Owners are advised to park outside and away from structures and limit their charge to a maximum of 70% until the recall repair is complete. Dealers will inspect and replace the battery modules as necessary, free of charge. Owners may contact Volvo Car’s customer service at 1-800-458-1552. Volvo Car's number for this recall is R10355. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning January 26, 2026. This recall was replaced by recall number 26V103.",
+      "park_it": false,
+      "park_outside": true,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2025": {
       "epa_range": {
@@ -58,6 +96,13 @@
           { "epa_vehicle": "EX30 Single Motor extended range (19/20 Inch Wheels)", "drive": "RWD", "wheels_in": 20, "value": 261, "epa_id": 48450, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48450", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V136000", "26V103000", "26V001000"],
+        "asked": [
+          { "name": "EX30", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30&modelYear=2025", "retrieved": "2026-09-21" },
+          { "name": "EX30CC", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30CC&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -165,6 +210,13 @@
       "highway_tests": [
         { "source": "https://www.caranddriver.com/volvo/ex30", "retrieved": "2026-09-19", "trim_tested": "Twin Motor Performance", "result_mi": 160, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
       ],
+      "recalls": {
+        "campaigns": ["26V136000"],
+        "asked": [
+          { "name": "EX30", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30&modelYear=2026", "retrieved": "2026-09-21" },
+          { "name": "EX30CC", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30CC&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

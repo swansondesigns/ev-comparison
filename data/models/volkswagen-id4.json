@@ -48,6 +48,116 @@
     "retrieved": "2026-09-19",
     "note": "'Ground Clearance' 6.9 in AWD; 6.1/6.2 RWD."
   },
+  "recall_campaigns": {
+    "26V030000": {
+      "date": "2026-01-21",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2025 ID.4 vehicles. The high-voltage battery may overheat.",
+      "consequence": "A high-voltage battery that overheats increases the risk of a fire.",
+      "remedy": "Dealers will update the high-voltage battery software, and replace the high-voltage battery, as necessary, free of charge. Owner notification letters were mailed March 18, 2026. Owners may contact Volkswagen customer service at 1-800-893-5298. Volkswagen's number for this recall is 93EA. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on January 23, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "26V028000": {
+      "date": "2026-01-21",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2024 ID.4 vehicles. The high voltage (HV) battery cell modules may contain misaligned electrodes that can result in a battery fire.",
+      "consequence": "A vehicle fire while parked or driving can increase the risk of injury.",
+      "remedy": "Owners are advised to park outside immediately after charging and not leave their vehicles charging indoors overnight until the recall repair is complete. Also, owners are advised not to use Level 3 DC chargers and to limit the maximum charge of the battery to 80% until the remedy has been completed. Dealers will replace the high voltage battery cell modules as necessary, free of charge. Owner notification letters were mailed March 18, 2026. Owners may contact Volkswagen customer service at 1-800-893-5298. Volkswagen's number for this recall is 93EW. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on January 23, 2026.",
+      "park_it": false,
+      "park_outside": true,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "25V836000": {
+      "date": "2025-12-03",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2024 ID.4 vehicles. The high voltage (HV) battery cell modules may contain misaligned electrodes that can result in a battery fire.",
+      "consequence": "A vehicle fire while parked or driving can increase the risk of injury.",
+      "remedy": "Owners are advised to park outside immediately after charging and not leave their vehicles charging indoors overnight until the recall repair is complete. Also, owners are advised not to use Level 3 DC chargers and to limit the maximum charge of the battery to 80% until the remedy has been completed. Dealers will replace the high voltage battery cell modules as necessary, free of charge. Owner notification letters were mailed February 11, 2026. Owners may contact Volkswagen customer service at 1-800-893-5298. Volkswagen's number for this recall is 93EV. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on December 5, 2025.",
+      "park_it": false,
+      "park_outside": true,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "25V835000": {
+      "date": "2025-12-03",
+      "component": "WHEELS:LUGS/NUTS/BOLTS/STUDS",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2026 Atlas, Atlas Cross Sport, and ID.4 vehicles. The incorrect wheel bolts may have been installed during vehicle manufacturing.",
+      "consequence": "Incorrect wheel bolts can allow a wheel to detach from the vehicle, increasing the risk of a crash.",
+      "remedy": "Owners are advised not to drive their vehicles until they have been repaired. Dealers will inspect and replace the wheel bolts as necessary, free of charge. Owner notification letters were mailed December 12, 2025. Owners may contact Volkswagen customer service at 1-800-893-5298. Volkswagen's number for this recall is 44BW. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on December 5, 2025.",
+      "park_it": true,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V434000": {
+      "date": "2025-06-30",
+      "component": "SERVICE BRAKES",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2025 Atlas, Atlas Cross Sport and 2023-2024 ID.4 vehicles. Certain bolts on the chassis, brake system and/or suspension (such as bolts for certain cross member, engine mount, control arm, subframe, rear brake carrier, etc.) of affected vehicles may not have been correctly tightened during the manufacturing process.",
+      "consequence": "A loss of vehicle control increases the risk of a crash.",
+      "remedy": "Dealers will replace the bolts as necessary, free of charge. Owner notification letters were mailed July 25, 2025. Owners may contact Audi customer service at 1-800-253-2834. Volkswagen's number for this recall is 42HX.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "25V125000": {
+      "date": "2025-02-28",
+      "component": "ELECTRICAL SYSTEM:12V/24V/48V BATTERY",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2024-2025 AUDI Q4 E-Tron SUV, AUDI Q4 E-Tron Sportback, and 2024 ID.4 vehicles. The on-board charger (OCDC) may fail and stop charging the 12-volt battery, which can result in a loss of drive power.",
+      "consequence": "A loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will replace the OCDC, free of charge. Owner notification letters were mailed on May 20, 2025. Owners may contact Volkswagen customer service at 1-800-893-5298 or Audi customer service at 1-800-253-2834. Volkswagen's number for this recall is 93CJ. Audi's number for this recall is 93FR.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "24V651000": {
+      "date": "2024-09-04",
+      "component": "STRUCTURE:BODY:DOOR:HANDLE:EXTERIOR",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2021-2024 ID.4 vehicles. The door handles may allow water to enter the circuit board assembly, which can cause the doors to open unexpectedly.",
+      "consequence": "A vehicle door that opens unexpectedly while driving increases the risk of injury.",
+      "remedy": "Volkswagen dealers will inspect and replace the door handles as necessary, and update the vehicle software, free of charge. Owner notification letters were mailed on December 27, 2024. Owners may contact Volkswagen's customer service at 1-800-893-5298. Volkswagen's number for this recall is 57J9. This recall expands previous recall numbers 23V-312 and 23V-213. Vehicles previously repaired under 23V-312 and 23V-213 will need to have the new remedy completed.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "24V643000": {
+      "date": "2024-08-28",
+      "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+      "summary": "Volkswagen Group of America, Inc. (VW) is recalling certain 2023-2024 ID4 vehicles. The fasteners securing the passenger frontal air bag inflator may be loose.",
+      "consequence": "An improperly secured air bag inflator may not deploy as intended, increasing the risk of injury during a crash.",
+      "remedy": "Dealers will inspect and replace the air bag as necessary, free of charge. Owner notification letters were mailed October 10, 2024. Owners may contact Volkswagen customer service at 1-800-893-5298. Volkswagens number for this recall is 69E8.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "23V750000": {
+      "date": "2023-12-07",
+      "component": "STRUCTURE",
+      "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2023-2024 ID.4 vehicles. The interior sunshade for the panoramic glass roof may be insufficiently fire retardant. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 302, \"Flammability of Interior Materials.\"",
+      "consequence": "In a fire, fabric that is not fire retardant may further fuel a fire, increasing the risk of injury.",
+      "remedy": "Dealers will apply flame retardant to the sunshade fabric, free of charge. Owner notification letters were mailed December 15, 2023. Owners may contact Volkswagen's customer service at 1-800-893-5298. Volkswagen's number for this recall is 60G3.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
       "ratings": {
@@ -71,6 +181,12 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       },
+      "recalls": {
+        "campaigns": ["26V030000", "26V028000", "25V836000", "25V434000", "25V125000", "24V651000", "24V643000", "23V750000"],
+        "asked": [
+          { "name": "ID.4", "found": 8, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -91,6 +207,12 @@
           { "epa_vehicle": "ID.4 S", "drive": "RWD", "value": 206, "epa_id": 49158, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49158", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V030000"],
+        "asked": [
+          { "name": "ID.4", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -212,6 +334,12 @@
       "highway_tests": [
         { "source": "https://www.caranddriver.com/volkswagen/id4", "retrieved": "2026-09-19", "trim_tested": "Pro S AWD (2024)", "result_mi": 240, "temp_f": null, "note": "C/D: 'When we last tested an ID.4 on our 75-mph highway range test in 2024, an all-wheel drive Pro S model...'. Temperature not stated." }
       ],
+      "recalls": {
+        "campaigns": ["25V835000"],
+        "asked": [
+          { "name": "ID.4", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

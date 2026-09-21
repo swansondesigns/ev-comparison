@@ -1,0 +1,317 @@
+[
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Audi&issueType=r",
+  "slug": "nhtsa-models-audi-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Audi&issueType=r",
+  "slug": "nhtsa-models-audi-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=BMW&issueType=r",
+  "slug": "nhtsa-models-bmw-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Cadillac&issueType=r",
+  "slug": "nhtsa-models-cadillac-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Cadillac&issueType=r",
+  "slug": "nhtsa-models-cadillac-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Cadillac&issueType=r",
+  "slug": "nhtsa-models-cadillac-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Chevrolet&issueType=r",
+  "slug": "nhtsa-models-chevrolet-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Chevrolet&issueType=r",
+  "slug": "nhtsa-models-chevrolet-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Chevrolet&issueType=r",
+  "slug": "nhtsa-models-chevrolet-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Chevrolet&issueType=r",
+  "slug": "nhtsa-models-chevrolet-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Ford&issueType=r",
+  "slug": "nhtsa-models-ford-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Ford&issueType=r",
+  "slug": "nhtsa-models-ford-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Ford&issueType=r",
+  "slug": "nhtsa-models-ford-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Genesis&issueType=r",
+  "slug": "nhtsa-models-genesis-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Genesis&issueType=r",
+  "slug": "nhtsa-models-genesis-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Genesis&issueType=r",
+  "slug": "nhtsa-models-genesis-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Genesis&issueType=r",
+  "slug": "nhtsa-models-genesis-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Hyundai&issueType=r",
+  "slug": "nhtsa-models-hyundai-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Hyundai&issueType=r",
+  "slug": "nhtsa-models-hyundai-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Hyundai&issueType=r",
+  "slug": "nhtsa-models-hyundai-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Hyundai&issueType=r",
+  "slug": "nhtsa-models-hyundai-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Jeep&issueType=r",
+  "slug": "nhtsa-models-jeep-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Jeep&issueType=r",
+  "slug": "nhtsa-models-jeep-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Jeep&issueType=r",
+  "slug": "nhtsa-models-jeep-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Kia&issueType=r",
+  "slug": "nhtsa-models-kia-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Kia&issueType=r",
+  "slug": "nhtsa-models-kia-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Kia&issueType=r",
+  "slug": "nhtsa-models-kia-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Kia&issueType=r",
+  "slug": "nhtsa-models-kia-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Lexus&issueType=r",
+  "slug": "nhtsa-models-lexus-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Lexus&issueType=r",
+  "slug": "nhtsa-models-lexus-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Lexus&issueType=r",
+  "slug": "nhtsa-models-lexus-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Mercedes-Benz&issueType=r",
+  "slug": "nhtsa-models-mercedes-benz-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Mini&issueType=r",
+  "slug": "nhtsa-models-mini-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Mini&issueType=r",
+  "slug": "nhtsa-models-mini-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Mini&issueType=r",
+  "slug": "nhtsa-models-mini-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Nissan&issueType=r",
+  "slug": "nhtsa-models-nissan-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Nissan&issueType=r",
+  "slug": "nhtsa-models-nissan-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Nissan&issueType=r",
+  "slug": "nhtsa-models-nissan-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Polestar&issueType=r",
+  "slug": "nhtsa-models-polestar-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Polestar&issueType=r",
+  "slug": "nhtsa-models-polestar-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Porsche&issueType=r",
+  "slug": "nhtsa-models-porsche-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Porsche&issueType=r",
+  "slug": "nhtsa-models-porsche-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Porsche&issueType=r",
+  "slug": "nhtsa-models-porsche-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Rivian&issueType=r",
+  "slug": "nhtsa-models-rivian-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Subaru&issueType=r",
+  "slug": "nhtsa-models-subaru-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Subaru&issueType=r",
+  "slug": "nhtsa-models-subaru-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Subaru&issueType=r",
+  "slug": "nhtsa-models-subaru-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Subaru&issueType=r",
+  "slug": "nhtsa-models-subaru-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Tesla&issueType=r",
+  "slug": "nhtsa-models-tesla-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Tesla&issueType=r",
+  "slug": "nhtsa-models-tesla-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Tesla&issueType=r",
+  "slug": "nhtsa-models-tesla-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Tesla&issueType=r",
+  "slug": "nhtsa-models-tesla-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Toyota&issueType=r",
+  "slug": "nhtsa-models-toyota-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Toyota&issueType=r",
+  "slug": "nhtsa-models-toyota-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Toyota&issueType=r",
+  "slug": "nhtsa-models-toyota-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Toyota&issueType=r",
+  "slug": "nhtsa-models-toyota-2027",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Volkswagen&issueType=r",
+  "slug": "nhtsa-models-volkswagen-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Volkswagen&issueType=r",
+  "slug": "nhtsa-models-volkswagen-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Volkswagen&issueType=r",
+  "slug": "nhtsa-models-volkswagen-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2024&make=Volvo&issueType=r",
+  "slug": "nhtsa-models-volvo-2024",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2025&make=Volvo&issueType=r",
+  "slug": "nhtsa-models-volvo-2025",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2026&make=Volvo&issueType=r",
+  "slug": "nhtsa-models-volvo-2026",
+  "ext": "json"
+ },
+ {
+  "url": "https://api.nhtsa.gov/products/vehicle/models?modelYear=2027&make=Volvo&issueType=r",
+  "slug": "nhtsa-models-volvo-2027",
+  "ext": "json"
+ }
+]

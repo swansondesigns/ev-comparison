@@ -1,0 +1,722 @@
+[
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20E-TRON&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-audi-q6-e-tron",
+  "ext": "json",
+  "model": "audi-q6-e-tron",
+  "model_year": "2025",
+  "name": "Q6 E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-audi-q6-sportback-e-tron",
+  "ext": "json",
+  "model": "audi-q6-e-tron",
+  "model_year": "2025",
+  "name": "Q6 SPORTBACK E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20E-TRON&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-audi-q6-e-tron",
+  "ext": "json",
+  "model": "audi-q6-e-tron",
+  "model_year": "2027",
+  "name": "Q6 E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-audi-q6-sportback-e-tron",
+  "ext": "json",
+  "model": "audi-q6-e-tron",
+  "model_year": "2027",
+  "name": "Q6 SPORTBACK E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=SQ6%20E-TRON&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-audi-sq6-e-tron",
+  "ext": "json",
+  "model": "audi-sq6-e-tron",
+  "model_year": "2025",
+  "name": "SQ6 E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=SQ6%20SPORTBACK%20E-TRON&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-audi-sq6-sportback-e-tron",
+  "ext": "json",
+  "model": "audi-sq6-e-tron",
+  "model_year": "2025",
+  "name": "SQ6 SPORTBACK E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=SQ6%20E-TRON&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-audi-sq6-e-tron",
+  "ext": "json",
+  "model": "audi-sq6-e-tron",
+  "model_year": "2027",
+  "name": "SQ6 E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=SQ6%20SPORTBACK%20E-TRON&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-audi-sq6-sportback-e-tron",
+  "ext": "json",
+  "model": "audi-sq6-e-tron",
+  "model_year": "2027",
+  "name": "SQ6 SPORTBACK E-TRON"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=BMW&model=IX3&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-bmw-ix3",
+  "ext": "json",
+  "model": "bmw-ix3",
+  "model_year": "2027",
+  "name": "IX3"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-cadillac-optiq",
+  "ext": "json",
+  "model": "cadillac-optiq",
+  "model_year": "2025",
+  "name": "OPTIQ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-cadillac-optiq",
+  "ext": "json",
+  "model": "cadillac-optiq",
+  "model_year": "2026",
+  "name": "OPTIQ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-cadillac-optiq",
+  "ext": "json",
+  "model": "cadillac-optiq",
+  "model_year": "2027",
+  "name": "OPTIQ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-chevrolet-equinox-ev",
+  "ext": "json",
+  "model": "chevrolet-equinox-ev",
+  "model_year": "2024",
+  "name": "EQUINOX EV"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-chevrolet-equinox-ev",
+  "ext": "json",
+  "model": "chevrolet-equinox-ev",
+  "model_year": "2025",
+  "name": "EQUINOX EV"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-chevrolet-equinox-ev",
+  "ext": "json",
+  "model": "chevrolet-equinox-ev",
+  "model_year": "2026",
+  "name": "EQUINOX EV"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-chevrolet-equinox-ev",
+  "ext": "json",
+  "model": "chevrolet-equinox-ev",
+  "model_year": "2027",
+  "name": "EQUINOX EV"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-ford-mustang-mach-e",
+  "ext": "json",
+  "model": "ford-mustang-mach-e",
+  "model_year": "2024",
+  "name": "MUSTANG MACH E"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-ford-mustang-mach-e",
+  "ext": "json",
+  "model": "ford-mustang-mach-e",
+  "model_year": "2025",
+  "name": "MUSTANG MACH E"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-ford-mustang-mach-e",
+  "ext": "json",
+  "model": "ford-mustang-mach-e",
+  "model_year": "2026",
+  "name": "MUSTANG MACH E"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-genesis-gv70-electrified",
+  "ext": "json",
+  "model": "genesis-electrified-gv70",
+  "model_year": "2024",
+  "name": "GV70 ELECTRIFIED"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-genesis-gv70-electrified",
+  "ext": "json",
+  "model": "genesis-electrified-gv70",
+  "model_year": "2025",
+  "name": "GV70 ELECTRIFIED"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-genesis-gv70-electrified",
+  "ext": "json",
+  "model": "genesis-electrified-gv70",
+  "model_year": "2026",
+  "name": "GV70 ELECTRIFIED"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-genesis-gv70-electrified",
+  "ext": "json",
+  "model": "genesis-electrified-gv70",
+  "model_year": "2027",
+  "name": "GV70 ELECTRIFIED"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-genesis-gv60",
+  "ext": "json",
+  "model": "genesis-gv60",
+  "model_year": "2024",
+  "name": "GV60"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-genesis-gv60",
+  "ext": "json",
+  "model": "genesis-gv60",
+  "model_year": "2025",
+  "name": "GV60"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-genesis-gv60",
+  "ext": "json",
+  "model": "genesis-gv60",
+  "model_year": "2026",
+  "name": "GV60"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-genesis-gv60",
+  "ext": "json",
+  "model": "genesis-gv60",
+  "model_year": "2027",
+  "name": "GV60"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-hyundai-ioniq-5",
+  "ext": "json",
+  "model": "hyundai-ioniq-5",
+  "model_year": "2024",
+  "name": "IONIQ 5"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-hyundai-ioniq-5",
+  "ext": "json",
+  "model": "hyundai-ioniq-5",
+  "model_year": "2025",
+  "name": "IONIQ 5"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-hyundai-ioniq-5",
+  "ext": "json",
+  "model": "hyundai-ioniq-5",
+  "model_year": "2026",
+  "name": "IONIQ 5"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-hyundai-ioniq-5",
+  "ext": "json",
+  "model": "hyundai-ioniq-5",
+  "model_year": "2027",
+  "name": "IONIQ 5"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-jeep-wagoneer-s",
+  "ext": "json",
+  "model": "jeep-wagoneer-s",
+  "model_year": "2024",
+  "name": "WAGONEER S"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-jeep-wagoneer-s",
+  "ext": "json",
+  "model": "jeep-wagoneer-s",
+  "model_year": "2025",
+  "name": "WAGONEER S"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-jeep-wagoneer-s",
+  "ext": "json",
+  "model": "jeep-wagoneer-s",
+  "model_year": "2026",
+  "name": "WAGONEER S"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV3&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-kia-ev3",
+  "ext": "json",
+  "model": "kia-ev3",
+  "model_year": "2027",
+  "name": "EV3"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-kia-ev6",
+  "ext": "json",
+  "model": "kia-ev6",
+  "model_year": "2024",
+  "name": "EV6"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-kia-ev6",
+  "ext": "json",
+  "model": "kia-ev6",
+  "model_year": "2025",
+  "name": "EV6"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-kia-ev6",
+  "ext": "json",
+  "model": "kia-ev6",
+  "model_year": "2026",
+  "name": "EV6"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-lexus-rz",
+  "ext": "json",
+  "model": "lexus-rz",
+  "model_year": "2024",
+  "name": "RZ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-lexus-rz",
+  "ext": "json",
+  "model": "lexus-rz",
+  "model_year": "2025",
+  "name": "RZ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-lexus-rz",
+  "ext": "json",
+  "model": "lexus-rz",
+  "model_year": "2026",
+  "name": "RZ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-mini-countryman-se-all4",
+  "ext": "json",
+  "model": "mini-countryman-electric",
+  "model_year": "2025",
+  "name": "COUNTRYMAN SE ALL4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-mini-countryman-se-all4",
+  "ext": "json",
+  "model": "mini-countryman-electric",
+  "model_year": "2026",
+  "name": "COUNTRYMAN SE ALL4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-mini-countryman-se-all4",
+  "ext": "json",
+  "model": "mini-countryman-electric",
+  "model_year": "2027",
+  "name": "COUNTRYMAN SE ALL4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2023",
+  "slug": "nhtsa-recalls-2023-nissan-ariya",
+  "ext": "json",
+  "model": "nissan-ariya",
+  "model_year": "2023",
+  "name": "ARIYA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-nissan-ariya",
+  "ext": "json",
+  "model": "nissan-ariya",
+  "model_year": "2024",
+  "name": "ARIYA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-nissan-ariya",
+  "ext": "json",
+  "model": "nissan-ariya",
+  "model_year": "2025",
+  "name": "ARIYA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=ARIYA&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-nissan-ariya",
+  "ext": "json",
+  "model": "nissan-ariya",
+  "model_year": "2026",
+  "name": "ARIYA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-polestar-polestar-3",
+  "ext": "json",
+  "model": "polestar-3",
+  "model_year": "2025",
+  "name": "POLESTAR 3"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-polestar-polestar-3",
+  "ext": "json",
+  "model": "polestar-3",
+  "model_year": "2026",
+  "name": "POLESTAR 3"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%204&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-polestar-polestar-4",
+  "ext": "json",
+  "model": "polestar-4",
+  "model_year": "2025",
+  "name": "POLESTAR 4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%204&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-polestar-polestar-4",
+  "ext": "json",
+  "model": "polestar-4",
+  "model_year": "2026",
+  "name": "POLESTAR 4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-porsche-macan-electric",
+  "ext": "json",
+  "model": "porsche-macan-electric",
+  "model_year": "2024",
+  "name": "MACAN ELECTRIC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-porsche-macan-4-electric",
+  "ext": "json",
+  "model": "porsche-macan-electric",
+  "model_year": "2024",
+  "name": "MACAN 4 ELECTRIC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-porsche-macan-electric",
+  "ext": "json",
+  "model": "porsche-macan-electric",
+  "model_year": "2025",
+  "name": "MACAN ELECTRIC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-porsche-macan-4-electric",
+  "ext": "json",
+  "model": "porsche-macan-electric",
+  "model_year": "2025",
+  "name": "MACAN 4 ELECTRIC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-porsche-macan-electric",
+  "ext": "json",
+  "model": "porsche-macan-electric",
+  "model_year": "2026",
+  "name": "MACAN ELECTRIC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-porsche-macan-4-electric",
+  "ext": "json",
+  "model": "porsche-macan-electric",
+  "model_year": "2026",
+  "name": "MACAN 4 ELECTRIC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Rivian&model=R2&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-rivian-r2",
+  "ext": "json",
+  "model": "rivian-r2",
+  "model_year": "2027",
+  "name": "R2"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-subaru-solterra",
+  "ext": "json",
+  "model": "subaru-solterra",
+  "model_year": "2024",
+  "name": "SOLTERRA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-subaru-solterra",
+  "ext": "json",
+  "model": "subaru-solterra",
+  "model_year": "2025",
+  "name": "SOLTERRA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-subaru-solterra",
+  "ext": "json",
+  "model": "subaru-solterra",
+  "model_year": "2026",
+  "name": "SOLTERRA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-subaru-solterra",
+  "ext": "json",
+  "model": "subaru-solterra",
+  "model_year": "2027",
+  "name": "SOLTERRA"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=TRAILSEEKER&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-subaru-trailseeker",
+  "ext": "json",
+  "model": "subaru-trailseeker",
+  "model_year": "2026",
+  "name": "TRAILSEEKER"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=TRAILSEEKER&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-subaru-trailseeker",
+  "ext": "json",
+  "model": "subaru-trailseeker",
+  "model_year": "2027",
+  "name": "TRAILSEEKER"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=UNCHARTED&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-subaru-uncharted",
+  "ext": "json",
+  "model": "subaru-uncharted",
+  "model_year": "2026",
+  "name": "UNCHARTED"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=UNCHARTED&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-subaru-uncharted",
+  "ext": "json",
+  "model": "subaru-uncharted",
+  "model_year": "2027",
+  "name": "UNCHARTED"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-tesla-model-y",
+  "ext": "json",
+  "model": "tesla-model-y",
+  "model_year": "2024",
+  "name": "MODEL Y"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-tesla-model-y",
+  "ext": "json",
+  "model": "tesla-model-y",
+  "model_year": "2025",
+  "name": "MODEL Y"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-tesla-model-y",
+  "ext": "json",
+  "model": "tesla-model-y",
+  "model_year": "2026",
+  "name": "MODEL Y"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-tesla-model-y",
+  "ext": "json",
+  "model": "tesla-model-y",
+  "model_year": "2027",
+  "name": "MODEL Y"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-toyota-bz4x",
+  "ext": "json",
+  "model": "toyota-bz",
+  "model_year": "2024",
+  "name": "BZ4X"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-toyota-bz4x",
+  "ext": "json",
+  "model": "toyota-bz",
+  "model_year": "2025",
+  "name": "BZ4X"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-toyota-bz",
+  "ext": "json",
+  "model": "toyota-bz",
+  "model_year": "2026",
+  "name": "BZ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-toyota-bz",
+  "ext": "json",
+  "model": "toyota-bz",
+  "model_year": "2027",
+  "name": "BZ"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-toyota-c-hr",
+  "ext": "json",
+  "model": "toyota-c-hr",
+  "model_year": "2026",
+  "name": "C-HR"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-toyota-c-hr",
+  "ext": "json",
+  "model": "toyota-c-hr",
+  "model_year": "2027",
+  "name": "C-HR"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-volkswagen-id-4",
+  "ext": "json",
+  "model": "volkswagen-id4",
+  "model_year": "2024",
+  "name": "ID.4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-volkswagen-id-4",
+  "ext": "json",
+  "model": "volkswagen-id4",
+  "model_year": "2025",
+  "name": "ID.4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-volkswagen-id-4",
+  "ext": "json",
+  "model": "volkswagen-id4",
+  "model_year": "2026",
+  "name": "ID.4"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=C40&modelYear=2024",
+  "slug": "nhtsa-recalls-2024-volvo-c40",
+  "ext": "json",
+  "model": "volvo-ec40",
+  "model_year": "2024",
+  "name": "C40"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-volvo-ec40",
+  "ext": "json",
+  "model": "volvo-ec40",
+  "model_year": "2025",
+  "name": "EC40"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EC40&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-volvo-ec40",
+  "ext": "json",
+  "model": "volvo-ec40",
+  "model_year": "2026",
+  "name": "EC40"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-volvo-ex30",
+  "ext": "json",
+  "model": "volvo-ex30",
+  "model_year": "2025",
+  "name": "EX30"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30CC&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-volvo-ex30cc",
+  "ext": "json",
+  "model": "volvo-ex30",
+  "model_year": "2025",
+  "name": "EX30CC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-volvo-ex30",
+  "ext": "json",
+  "model": "volvo-ex30",
+  "model_year": "2026",
+  "name": "EX30"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30CC&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-volvo-ex30cc",
+  "ext": "json",
+  "model": "volvo-ex30",
+  "model_year": "2026",
+  "name": "EX30CC"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX40&modelYear=2025",
+  "slug": "nhtsa-recalls-2025-volvo-ex40",
+  "ext": "json",
+  "model": "volvo-ex40",
+  "model_year": "2025",
+  "name": "EX40"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX40&modelYear=2026",
+  "slug": "nhtsa-recalls-2026-volvo-ex40",
+  "ext": "json",
+  "model": "volvo-ex40",
+  "model_year": "2026",
+  "name": "EX40"
+ },
+ {
+  "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX60&modelYear=2027",
+  "slug": "nhtsa-recalls-2027-volvo-ex60",
+  "ext": "json",
+  "model": "volvo-ex60",
+  "model_year": "2027",
+  "name": "EX60"
+ }
+]

@@ -36,6 +36,92 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 LT1 w/PCY 4dr, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V114000": {
+      "date": "2026-02-26",
+      "component": "EQUIPMENT:OTHER:OWNERS/SERVICE/OTHER MANUAL",
+      "summary": "General Motors has decided that certain 2027 Chevrolet Bolt EV, 2025-2026 Cadillac OPTIQ, Chevrolet Colorado, Equinox EV, GMC Canyon, 2026 Buick Enclave, Envision, Cadillac CT5, Escalade, Escalade ESV, Escalade IQ, Escalade IQL, LYRIQ, VISTIQ, Chevrolet Blazer EV, Corvette Convertible, Corvette Coupe, Corvette Convertible E-Ray, Equinox, Silverado 1500, 2500, 3500, Silverado EV, Suburban 1500, Tahoe, Traverse, GMC Acadia, Hummer EV Pickup, Hummer EV SUV, Sierra 1500, 2500, 3500, Sierra EV, Terrain, Yukon, and Yukon XL vehicles. The radio may not have been set to the correct status to download the electronic owner's manual during production. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, “Occupant Protection.”",
+      "consequence": "Without an owner's manual to consult, owners may not know how to safely use and operate the vehicle, increasing the risk of injury in a crash.",
+      "remedy": "Dealers will reset the vehicle radio, which will facilitate automatic download of the electronic owner’s manual, free of charge. Owner notification letters were mailed April 16, 2026. Owners may contact GM customer service at 1-866-467-9700, Chevrolet customer service at 1-800-222-1020 or Cadillac customer service at 1-800-333-4223. The manufacturer's number for this recall is N252540430. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on February 26, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V878000": {
+      "date": "2025-12-18",
+      "component": "BACK OVER PREVENTION:WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+      "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Equinox EV vehicles. The pedestrian alert sound system may not produce a sufficient change in volume between the vehicle being stopped and moving at low speeds. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 141, \"Minimum Sound Requirements for Hybrid and Electric Vehicles.\"",
+      "consequence": "A vehicle that does not emit sufficient sound may fail to alert pedestrians of a moving vehicle, increasing the risk of a crash or injury.",
+      "remedy": "The body control module software will be updated by a dealer, or through an over-the-air (OTA) software update, free of charge. Owner notification letters were mailed January 29, 2026. Owners may contact GM customer service at 1-800-222-1020. GM's number for this recall is N252530690. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on December 18, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V704000": {
+      "date": "2025-10-16",
+      "component": "TIRES:TREAD/BELT",
+      "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Cadillac Optic and 2025-2026 Chevrolet Equinox EV vehicles equipped with 21-inch Continental all-season tires. One or more of these tires may experience partial or full tread detachment.",
+      "consequence": "Tire tread detachment increases the risk of a crash.",
+      "remedy": "Dealers will inspect all four tires and replace those manufactured during DOT week 4024, free of charge. Owner notification letters were mailed November 19, 2025. Owners may contact Cadillac customer service at 1-800-333-4223, or Chevrolet customer service at 1-800-222-1020. GM's number for this recall is N252525030. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning October 16, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V639000": {
+      "date": "2025-09-25",
+      "component": "FORWARD COLLISION AVOIDANCE: WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+      "summary": "General Motors LLC (GM) is recalling certain 2024 Chevrolet Equinox EV vehicles. The pedestrian alert sound system may not produce a sufficient change in volume between the vehicle being stopped and moving at low speeds. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 141, \"Minimum Sound Requirements for Hybrid and Electric Vehicles.\"",
+      "consequence": "A vehicle that fails to make sufficient sound may result in pedestrians being unaware of an approaching vehicle, increasing the risk of injury.",
+      "remedy": "The vehicle's body control module software will be updated by a dealer, or through an over-the-air (OTA) update, free of charge. Owner notification letters were mailed November 17, 2025. Owners may contact Chevrolet customer service at 1-800-222-1020. GM's number for this recall is N252527170.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "25V012000": {
+      "date": "2025-01-16",
+      "component": "SERVICE BRAKES, HYDRAULIC",
+      "summary": "General Motors, LLC (GM) is recalling certain 2025 Chevrolet Equinox EV all-wheel drive electric vehicles. The adaptive cruise control may fail to engage the brakes as expected, due to incorrect brake module software.",
+      "consequence": "A vehicle that does not automatically brake as expected increases the risk of a crash.",
+      "remedy": "Dealers will update the software calibration in the brake system control module, free of charge. Owner notification letters were mailed February 13, 2025. Owners may contact Chevrolet customer service at 1-800-222-1020. GM's number for this recall is N242481530.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V925000": {
+      "date": "2024-12-12",
+      "component": "ELECTRICAL SYSTEM:BODY CONTROL MODULE/BCM",
+      "summary": "General Motors LLC (GM) is recalling certain 2025 Chevrolet Equinox EV vehicles. The pedestrian alert sound system may have incorrect software and not produce sound at a sufficient volume. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 141, \"Minimum Sound Requirements for Hybrid and Electric Vehicles.\"",
+      "consequence": "A vehicle that fails to make sufficient sound may result in pedestrians being unaware of an approaching vehicle, increasing the risk of injury.",
+      "remedy": "Dealers will update the software in the body control module (BCM), free of charge. Owner notification letters were mailed January 21, 2025. Owners may contact Chevrolet customer service at 1-800-222-1020. GM's number for this recall is N242479760.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V737000": {
+      "date": "2024-10-02",
+      "component": "LATCHES/LOCKS/LINKAGES:DOORS:LATCH",
+      "summary": "General Motors, LLC (GM) is recalling certain 2025 Chevrolet Blazer, Blazer EV, and Equinox vehicles. The door strikers were not properly heat-treated, which can cause them to break.",
+      "consequence": "A broken door striker can cause the door to open unexpectedly, increasing the risk of injury.",
+      "remedy": "Dealers will replace all four side door strikers and attachment bolts, free of charge. All affected vehicles are still in dealership inventory and therefore no owner notification letters are expected to be mailed. Owners may call Chevrolet customer service at 1-800-222-1020. GM's number for this recall is N242477131.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2024": {
       "epa_range": {
@@ -44,6 +130,12 @@
           { "epa_vehicle": "Equinox EV FWD", "drive": "FWD", "value": 319, "epa_id": 47814, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47814", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V639000"],
+        "asked": [
+          { "name": "EQUINOX EV", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
       }
     },
     "2025": {
@@ -54,6 +146,12 @@
           { "epa_vehicle": "Equinox EV FWD", "drive": "FWD", "value": 319, "epa_id": 48697, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48697", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V114000", "25V878000", "25V704000", "25V012000", "24V925000", "24V737000"],
+        "asked": [
+          { "name": "EQUINOX EV", "found": 6, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -78,6 +176,12 @@
           { "epa_vehicle": "Equinox EV FWD", "drive": "FWD", "value": 319, "epa_id": 49953, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49953", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V114000", "25V878000", "25V704000"],
+        "asked": [
+          { "name": "EQUINOX EV", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -133,6 +237,13 @@
           { "applies_to": "LT AWD, RS AWD", "epa_vehicle": "Equinox EV AWD", "drive": "AWD", "value": 307, "epa_id": 50630, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50630", "retrieved": "2026-09-19" }
         ],
         "note": "EPA lists a single 2027 Equinox EV, the AWD. The 2026 FWD listing (49953) was 319 mi."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "EQUINOX EV", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {

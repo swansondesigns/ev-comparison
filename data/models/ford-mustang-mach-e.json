@@ -42,6 +42,104 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Select RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V582000": {
+      "date": "2026-09-09",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:TRACTION BATTERY:MANAGEMENT SYSTEM/ENERGY CONTROL MODULE (BMS/BECM):SOFTWARE",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2023-2025 Mustang Mache E vehicles that received a new Battery Energy Control Module (BECM) during a prior repair. The battery energy control module software may cause an incorrect state of charge to display in the vehicle, or lead to an increased risk of a high voltage battery fire after repeated DC Fast Charging cycles.",
+      "consequence": "An inaccurate state-of-charge reading can lead to an unexpected loss of drive power, increasing the risk of crash. Additionally, a high voltage battery fire increases the risk of injury.",
+      "remedy": "Dealers will update the BECM software, free of charge. Interim letters, notifying owners of the safety risk, are expected to be mailed October 26, 2026. Additional letters will be sent once the remedy is available, anticipated in December 2026. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 26S68. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on September 9, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "26V487000": {
+      "date": "2026-07-28",
+      "component": "STRUCTURE:EXTERIOR TRIM",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2023-2025 Mustang Mach E vehicles. The rear side quarter window glass trim may be improperly secured, which can allow it to detach.",
+      "consequence": "Detached trim pieces can create a road hazard, increasing the risk of a crash.",
+      "remedy": "Dealers will inspect and replace the quarter window glass assemblies, as necessary, free of charge. Interim letters, notifying owners of the safety risk, were mailed September 14, 2026. Additional letters will be sent once the remedy is available. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 26S56. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning September 7, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V885000": {
+      "date": "2025-12-18",
+      "component": "EXTERIOR LIGHTING:LIGHTING CONTROL MODULE",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2025-2026 Mustang Mache E vehicles. The Light Driver Control Module B (LDCMB) may fail, preventing the turn signals, daytime running lights, low beam, and high beam headlights from illuminating. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+      "consequence": "A loss of exterior lighting can reduce the driver's visibility and the visibility of the vehicle to other drivers, increasing the risk of a crash.",
+      "remedy": "Ford will release an over-the-air (OTA) update or dealers will update the LDCMB software, free of charge. Owner notification letters were mailed January 28, 2026. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 25C71. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning January 12, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V863000": {
+      "date": "2025-12-12",
+      "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:INTERNAL:PARK PAWL",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2022-2026 F-150 Lightning BEV, 2024-2026 Mustang Mach-E, and 2025-2026 Maverick vehicles. The integrated park module may fail to lock into the park position when the driver shifts into park. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 114, \"Theft Protection and Rollaway Prevention.\"",
+      "consequence": "A loss of park function can allow the vehicle to rollaway, increasing the risk of a crash.",
+      "remedy": "The park module software will be updated over-the-air (OTA) or by a dealer, free of charge. Owner notification letters were mailed February 3, 2026. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 25C69. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning January 26, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V519000": {
+      "date": "2025-08-08",
+      "component": "EXTERIOR LIGHTING:LIGHTING CONTROL MODULE",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2025 Lincoln Nautilus, Mustang Mach E, and Mustang vehicles. The LED Driver Modules may contain a burnt diode, which can cause the low-beam and high-beam headlights, daytime running lights, front position lights, and front turn signals to fail in the affected headlight. On Nautilus vehicles only, this condition may also cause the rear tail light, rear turn signal, and rear position light to fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+      "consequence": "Exterior lighting failure can reduce visibility for the driver and other road users, increasing the risk of a crash.",
+      "remedy": "Dealers will inspect and replace the LED Driver Modules, as necessary, free of charge. Owner notification letters were mailed September 22, 2025. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 25C39.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V404000": {
+      "date": "2025-06-13",
+      "component": "ELECTRICAL SYSTEM:BODY CONTROL MODULE:SOFTWARE",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2021-2025 Mustang Mach E vehicles. In the event of a low battery charge, the electronic door latches may remain locked once the driver or front passenger exits and shuts the door, possibly trapping someone who is unable to use the inside door release handles, such as a child in the back seat.",
+      "consequence": "The inability to enter or exit the vehicle in an emergency increases the risk of injury.",
+      "remedy": "Dealers will update the Powertrain Control Module (PCM) and the Secondary On-Board Diagnostic Control Module C (SOBDMC) software, free of charge. Owner notification letters were mailed to 2021-2025 Mustang Mach-E owners September 12, 2025. Additionally, Owner notification letters were mailed to 2024-2025 Mustang Mach-E owners July 10, 2025. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 25S65.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V394000": {
+      "date": "2025-06-13",
+      "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:INTERNAL:PARK PAWL",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2025 Mustang Mach E vehicles. The park rod may fail to engage when the vehicle is placed in the park (P) position. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 114, \"Theft Protection and Rollaway Prevention.\"",
+      "consequence": "A park rod that fails to engage can result in a vehicle rollaway, increasing the risk of a crash.",
+      "remedy": "Dealers will replace the transmission park rod assembly, free of charge. Owner notification letters were mailed October 3, 2025. Owners may contact Ford Customer Service at 1-866-436-7332. Ford's number for this recall is 25C25.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V594000": {
+      "date": "2024-08-09",
+      "component": "VISIBILITY:WINDSHIELD WIPER/WASHER:MOTOR",
+      "summary": "Ford Motor Company (Ford) is recalling certain 2023-2024 Maverick, Ford Bronco Sport, and Mustang Mach-E vehicles. The front windshield wiper motor may become inoperative, causing the wipers to fail.",
+      "consequence": "Inoperative windshield wipers can reduce visibility in certain conditions, increasing the risk of a crash.",
+      "remedy": "Dealers will inspect and replace the windshield wiper motor as necessary, free of charge. Owner notification letters were mailed on December 6, 2024. Owners may contact Ford customer service at 1-866-436-7332. Ford's number for this recall is 24S51.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2024",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
       "ratings": {
@@ -65,6 +163,12 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       },
+      "recalls": {
+        "campaigns": ["26V582000", "26V487000", "25V863000", "25V404000", "24V594000"],
+        "asked": [
+          { "name": "MUSTANG MACH E", "found": 5, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -85,6 +189,12 @@
           { "epa_vehicle": "Mustang Mach-E RWD Extended", "drive": "RWD", "value": 320, "epa_id": 49083, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49083", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V582000", "26V487000", "25V885000", "25V863000", "25V519000", "25V404000", "25V394000"],
+        "asked": [
+          { "name": "MUSTANG MACH E", "found": 7, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -150,6 +260,12 @@
           { "applies_to": "RWD, extended-range battery", "epa_vehicle": "Mustang Mach-E RWD Extended", "drive": "RWD", "value": 320, "epa_id": 50205, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50205", "retrieved": "2026-09-19" }
         ],
         "note": "EPA's labels name the battery, not Ford's trims; Select and Premium both come with eAWD."
+      },
+      "recalls": {
+        "campaigns": ["25V885000", "25V863000"],
+        "asked": [
+          { "name": "MUSTANG MACH E", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {

@@ -36,6 +36,44 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Electric 4 AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "25V492000": {
+      "date": "2025-07-28",
+      "component": "AIR BAGS:FRONTAL",
+      "summary": "Porsche Cars North America, Inc. (Porsche) is recalling certain 2024-2025 Macan 4 Electric vehicles. The front seat air bags may be improperly secured to the backrest frame, which can prevent the air bags from deploying properly.",
+      "consequence": "An improper air bag deployment can increase the risk of injury during a crash. In addition, an improperly secured air bag may project loose components into the vehicle, increasing the risk of injury.",
+      "remedy": "Dealers will inspect and repair the backrest frame screws as necessary, free of charge. Owner notification letters are expected to be mailed on September 26, 2025. Owners may contact Porsche customer service at 1-800-767-7243. Porsche's number for this recall is ASA7.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V220000": {
+      "date": "2025-04-08",
+      "component": "BACK OVER PREVENTION:SOFTWARE",
+      "summary": "Porsche Cars North America, Inc. (Porsche) is recalling certain 2024-2025 Macan Electric vehicles. The rearview camera may show a blurry image or fail to display. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera that does not display an image decreases the driver's visibility, increasing the risk of a crash.",
+      "remedy": "Dealers will update the control unit software, inspect, and replace the rearview camera as necessary, free of charge. Owner notification letters were mailed May 23, 2025. Owners may contact Porsche customer service at 1-800-767-7243. Porsche's number for this recall is ASA3.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V889000": {
+      "date": "2024-11-25",
+      "component": "EXTERIOR LIGHTING:LIGHTING CONTROL MODULE:SOFTWARE",
+      "summary": "Porsche Cars North America, Inc. (Porsche) is recalling certain 2024-2025 Macan Electric vehicles. The headlights may be too bright and exceed the maximum light output, which may adversely affect the vision of drivers. As such, these vehicles fail to comply with the requirements of the Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+      "consequence": "Headlights that are excessively bright can reduce visibility for oncoming drivers, increasing the risk of a crash.",
+      "remedy": "Dealers will reprogram the headlight control unit software, free of charge. Owner notification letters were mailed January 23, 2025. Owners may contact Porsche customer service at 1-800-767-7243. Porsche's number for this recall is ARC5.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2024": {
       "epa_range": {
@@ -44,6 +82,13 @@
           { "epa_vehicle": "Macan Turbo Electric", "drive": "AWD", "value": 288, "epa_id": 48794, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48794", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V492000", "25V220000", "24V889000"],
+        "asked": [
+          { "name": "MACAN ELECTRIC", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2024", "retrieved": "2026-09-21" },
+          { "name": "MACAN 4 ELECTRIC", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -63,6 +108,13 @@
           { "epa_vehicle": "Macan Electric", "drive": "RWD", "value": 315, "epa_id": 49119, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49119", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V492000", "25V220000", "24V889000"],
+        "asked": [
+          { "name": "MACAN ELECTRIC", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2025", "retrieved": "2026-09-21" },
+          { "name": "MACAN 4 ELECTRIC", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -125,6 +177,14 @@
           { "applies_to": "Macan Electric (RWD, 20-in. wheels)", "epa_vehicle": "Macan Electric 20in Wheels", "drive": "RWD", "value": 332, "epa_id": 50458, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50458", "retrieved": "2026-09-19" }
         ],
         "note": "2026 matches the year of the dimensions quoted (C/D). Porsche USA already lists 2027 variants."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "MACAN ELECTRIC", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%20ELECTRIC&modelYear=2026", "retrieved": "2026-09-21" },
+          { "name": "MACAN 4 ELECTRIC", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Porsche&model=MACAN%204%20ELECTRIC&modelYear=2026", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {

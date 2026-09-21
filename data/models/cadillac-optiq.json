@@ -36,8 +36,40 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Luxury 4dr w/1SC, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V114000": {
+      "date": "2026-02-26",
+      "component": "EQUIPMENT:OTHER:OWNERS/SERVICE/OTHER MANUAL",
+      "summary": "General Motors has decided that certain 2027 Chevrolet Bolt EV, 2025-2026 Cadillac OPTIQ, Chevrolet Colorado, Equinox EV, GMC Canyon, 2026 Buick Enclave, Envision, Cadillac CT5, Escalade, Escalade ESV, Escalade IQ, Escalade IQL, LYRIQ, VISTIQ, Chevrolet Blazer EV, Corvette Convertible, Corvette Coupe, Corvette Convertible E-Ray, Equinox, Silverado 1500, 2500, 3500, Silverado EV, Suburban 1500, Tahoe, Traverse, GMC Acadia, Hummer EV Pickup, Hummer EV SUV, Sierra 1500, 2500, 3500, Sierra EV, Terrain, Yukon, and Yukon XL vehicles. The radio may not have been set to the correct status to download the electronic owner's manual during production. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, “Occupant Protection.”",
+      "consequence": "Without an owner's manual to consult, owners may not know how to safely use and operate the vehicle, increasing the risk of injury in a crash.",
+      "remedy": "Dealers will reset the vehicle radio, which will facilitate automatic download of the electronic owner’s manual, free of charge. Owner notification letters were mailed April 16, 2026. Owners may contact GM customer service at 1-866-467-9700, Chevrolet customer service at 1-800-222-1020 or Cadillac customer service at 1-800-333-4223. The manufacturer's number for this recall is N252540430. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on February 26, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V704000": {
+      "date": "2025-10-16",
+      "component": "TIRES:TREAD/BELT",
+      "summary": "General Motors, LLC (GM) is recalling certain 2025-2026 Cadillac Optic and 2025-2026 Chevrolet Equinox EV vehicles equipped with 21-inch Continental all-season tires. One or more of these tires may experience partial or full tread detachment.",
+      "consequence": "Tire tread detachment increases the risk of a crash.",
+      "remedy": "Dealers will inspect all four tires and replace those manufactured during DOT week 4024, free of charge. Owner notification letters were mailed November 19, 2025. Owners may contact Cadillac customer service at 1-800-333-4223, or Chevrolet customer service at 1-800-222-1020. GM's number for this recall is N252525030. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning October 16, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2026",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2025": {
+      "recalls": {
+        "campaigns": ["26V114000", "25V704000"],
+        "asked": [
+          { "name": "OPTIQ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -62,6 +94,12 @@
           { "epa_vehicle": "OPTIQ RWD (19 kW Charger)", "drive": "RWD", "value": 317, "epa_id": 49950, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49950", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes OPTIQ AWD V SERIES 11 kW Charger (EPA 50026, 278 mi) and OPTIQ AWD V SERIES 19 kW charger (EPA 50027, 250 mi), left out of this line as in its other years."
+      },
+      "recalls": {
+        "campaigns": ["26V114000", "25V704000"],
+        "asked": [
+          { "name": "OPTIQ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -120,6 +158,13 @@
           { "applies_to": "Single-motor RWD (19 kW onboard charger)", "epa_vehicle": "OPTIQ RWD 19kW Charger", "drive": "RWD", "value": 317, "epa_id": 50623, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50623", "retrieved": "2026-09-19" }
         ],
         "note": "Excludes the Optiq-V (EPA 50620 and 50621, 278 and 250 mi), a performance variant left out like the Ioniq 5 N and GV60 Magma."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "OPTIQ", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {

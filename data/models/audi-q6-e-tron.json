@@ -42,6 +42,44 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2025 Premium RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "25V899000": {
+      "date": "2025-12-19",
+      "component": "SEAT BELTS:REAR/OTHER:RETRACTOR",
+      "summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2025 SQ6 E-Tron, SQ6 Sportback E-Tron, Q6 Sportback E-Tron, A6, A5, A6 Sportback E-Tron, Q6 E-Tron, S5, and S6 Sportback E-Tron vehicles. The automatic locking retractor may fail to engage when a child seat is installed using the seat belt. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) numbers 208, \"Occupant Crash Protection\" and 209, \"Seat Belt Assemblies.\"",
+      "consequence": "An improperly secured child seat can increase risk of injury during a crash.",
+      "remedy": "Dealers will inspect and replace the right and left rear seat belt assembly as necessary, free of charge. Owner notification letters were mailed February 16, 2026. Owners may contact Audi customer service at 1-800-253-2834. Audi's number for this recall is 69D8. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on December 23, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V226000": {
+      "date": "2025-04-09",
+      "component": "BACK OVER PREVENTION:SOFTWARE",
+      "summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2025 SQ6 and Q6 vehicles. The rearview camera image may be delayed or deactivated after shifting into reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera with a delayed or deactivated image reduces the driver's view of what is behind the vehicle, increasing the risk of injury or crash.",
+      "remedy": "Dealers will update the rearview camera control unit software, free of charge. Owner notification letters were mailed May 20, 2025. Owners may contact Volkswagen customer service at 800-893-5298. Volkswagen's number for this recall is 916C.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20E-TRON&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V225000": {
+      "date": "2025-04-09",
+      "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+      "summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2025 SQ6 e-tron and Q6 e-tron vehicles. The rearview camera may show a blurry image. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "consequence": "A blurry rearview image can reduce the driver's view of what is behind the vehicle, increasing the risk of a crash.",
+      "remedy": "Dealers will replace the rearview camera. In addition, dealers will inspect and replace surround view cameras as necessary. All repairs will be performed free of charge. Owner notification letters were mailed May 2, 2025. Owners may contact Audi customer service at 1-800-253-2834. Audi's number for this recall is 90XM.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20E-TRON&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2025": {
       "epa_range": {
@@ -55,6 +93,13 @@
           { "epa_vehicle": "Q6 e-tron ultra", "drive": "RWD", "value": 321, "epa_id": 48685, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48685", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V899000", "25V226000", "25V225000"],
+        "asked": [
+          { "name": "Q6 E-TRON", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20E-TRON&modelYear=2025", "retrieved": "2026-09-21" },
+          { "name": "Q6 SPORTBACK E-TRON", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -118,6 +163,14 @@
           { "applies_to": "Q6 Sportback e-tron quattro (20-in. tires)", "epa_vehicle": "Q6 e-tron SB quattro (20 inch Tires)", "drive": "AWD", "wheels_in": 20, "value": 301, "epa_id": 50378, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50378", "retrieved": "2026-09-19" }
         ],
         "note": "EPA lists no rear-drive 2027 Q6 e-tron. Sportback is a body variant, included as it is for the Q4."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "Q6 E-TRON", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20E-TRON&modelYear=2027", "retrieved": "2026-09-21" },
+          { "name": "Q6 SPORTBACK E-TRON", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {

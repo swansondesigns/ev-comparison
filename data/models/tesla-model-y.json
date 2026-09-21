@@ -39,6 +39,164 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 Long Range Launch Series AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V558000": {
+      "date": "2026-09-01",
+      "component": "SUSPENSION:CRITICAL FASTENERS",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y vehicles. One or more front suspension lateral link fasteners may not have been properly tightened, allowing the lateral link to loosen or separate from the sub-frame.",
+      "consequence": "A lateral link separation could shift the wheel alignment, causing a loss of vehicle control and increasing the risk of a crash.",
+      "remedy": "Tesla Service will tighten or replace the fasteners and check wheel the alignment, free of charge. In addition, Tesla Service will replace any related parts that may have been damaged as necessary. Owner notification letters are expected to be mailed October 30, 2026. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-26-31-004.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "26V445000": {
+      "date": "2026-07-07",
+      "component": "STRUCTURE:BODY:BUMPERS",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y and 2024 Model 3 vehicles. The vehicles were originally built for a foreign market and do not have knee air bags, may not be equipped with certain interior safety countermeasures, and may not have been tested for bumper impact resistance procedures. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard numbers, 208, \"Occupant Crash Protection,\" 201, \"Occupant Protection in Interior Impact,\" and Part 581, \"Bumper Standards.\"",
+      "consequence": "A noncompliant vehicle may have reduced occupant protections, increasing the risk of injury during a crash.",
+      "remedy": "Tesla will repurchase noncompliant vehicles currently registered in the United States, free of charge. Owner notification letters are expected to be mailed September 5, 2026. Owners may contact Tesla customer service at 1-877-798-3752 or resolutions@tesla.com. Tesla's number for this recall is SB-26-00-004.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "26V315000": {
+      "date": "2026-05-19",
+      "component": "EQUIPMENT:OTHER:LABELS",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2025-2026 Model Y vehicles. The certification label may not have been installed. As such, these vehicles fail to comply with the requirements of 49 C.F.R. Part 567, \"Certification.\"",
+      "consequence": "Missing weight information provided by the label may lead to unintentionally overloading the vehicle, increasing the risk of a crash.",
+      "remedy": "Tesla Service will inspect and install a certification label as necessary, free of charge. Owner notification letters were mailed July 17, 2026. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-26-19-002.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V690000": {
+      "date": "2025-10-10",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:FUSES, RELAYS, CONTACTS, AND SHUNTS",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2025 Model 3 and 2026 Model Y vehicles. The battery pack contactors may fail, causing a loss of drive power.",
+      "consequence": "A loss of drive power can increase the risk of a crash.",
+      "remedy": "Tesla Service will replace the battery pack contactors, free of charge. Owner notification letters were mailed December 9, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-25-16-005.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V658000": {
+      "date": "2025-10-01",
+      "component": "ELECTRICAL SYSTEM:WIRING",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y vehicles. The reverse lights may fail to illuminate while the vehicle is in reverse, due to a defect in the wiring. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+      "consequence": "Reverse lights that fail to illuminate reduce visibility and may not alert pedestrians or other drivers that the vehicle is backing up, increasing the risk of a crash.",
+      "remedy": "Tesla Service will replace the reverse lights and reverse facia harness, free of charge. Owner notification letters were mailed November 26, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-25-17-011.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V490000": {
+      "date": "2025-07-28",
+      "component": "ELECTRICAL SYSTEM:HORN",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y vehicles. The ring terminal of the horn ground wire may be improperly secured, allowing the circuit to open and preventing the horn from sounding.",
+      "consequence": "An inoperable horn may prevent the driver from alerting other drivers as needed, increasing the risk of a crash.",
+      "remedy": "Tesla service will replace the steering wheel, free of charge. Owner notification letters were be mailed September 23, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-25-17-009.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V410000": {
+      "date": "2025-06-18",
+      "component": "SEATS:CRITICAL FASTENERS",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model 3 and Model Y vehicles. The fasteners attaching the seat back to the seat bottom may have been improperly tightened.",
+      "consequence": "The seat may not properly restrain the occupant, increasing the risk of injury during a crash.",
+      "remedy": "Tesla Service Centers will inspect and tighten or replace the seat assembly fasteners as necessary, free of charge. Owner notification letters were mailed August 16, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-25-13-003.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V359000": {
+      "date": "2025-05-30",
+      "component": "VISIBILITY:WINDSHIELD WIPER/WASHER:LINKAGES",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2026 Model Y vehicles. The hose connector may block the windshield washer nozzles, preventing washer fluid from reaching the windshield. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 104, \"Windshield Wiping and Washing Systems.\"",
+      "consequence": "The inability to clean the windshield reduces the driver’s visibility and increases the risk of a crash.",
+      "remedy": "Tesla service will inspect and replace the wiper arm elbow connector as necessary, free of charge. Owner notification letters were mailed July 25, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-25-20-001.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V002000": {
+      "date": "2025-01-07",
+      "component": "BACK OVER PREVENTION:SOFTWARE",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2024-2025 Model 3, Model S, 2023-2025 Model X, and Model Y vehicles. The computer circuit board may short, resulting in the loss of the rearview camera image. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera that does not display an image reduces the driver's rear view, increasing the risk of a crash.",
+      "remedy": "Tesla released an over-the-air (OTA) software update, free of charge. Tesla will also identify any vehicles that experienced a circuit board failure, or stress that may lead to a circuit board failure, and replace the affected computers, free of charge. Owner notification letters were mailed March 7, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-25-00-001.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V935000": {
+      "date": "2024-12-17",
+      "component": "TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2024 Cybertruck, 2017-2025 Model 3, and 2020-2025 Model Y vehicles. The tire pressure monitoring system (TPMS) warning light may not remain illuminated between drive cycles, failing to warn the driver of low tire pressure. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 138, \"Tire Pressure Monitoring Systems.\"",
+      "consequence": "Driving with improperly inflated tires increases the risk of a crash.",
+      "remedy": "Tesla released an over-the-air (OTA) software update, free of charge. Owner notification letters were mailed February 15, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-24-00-018.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": true,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V886000": {
+      "date": "2024-11-22",
+      "component": "SEATS:FRONT ASSEMBLY:RECLINER",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2024 Model Y vehicles. The weld attaching the seat recliner mechanism to the front seat backs may fail.",
+      "consequence": "The seat back frame may not properly restrain the occupant during a crash, increasing the risk of injury.",
+      "remedy": "Tesla service will replace the seat assembly, free of charge. Owner notification letters were mailed January 21, 2025. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-24-13-004.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "24V554000": {
+      "date": "2024-07-24",
+      "component": "LATCHES/LOCKS/LINKAGES:HOOD:LATCH",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2024 Model 3, Model S, Model X, and 2020-2024 Model Y vehicles. The hood latch assembly may fail to detect an unlatched hood condition after the hood has been opened.",
+      "consequence": "An unlatched hood can fully open, obstructing the driver's view and increasing the risk of a crash.",
+      "remedy": "Tesla has released an over-the-air (OTA) software update, free of charge. Owner notification letters were mailed September 24, 2024. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-24-00-012.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": true,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2024",
+      "retrieved": "2026-09-21"
+    },
+    "24V051000": {
+      "date": "2024-01-30",
+      "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+      "summary": "Tesla, Inc. (Tesla) is recalling certain 2012-2023 Model S, 2016-2024 Model X, 2017-2023 Model 3, 2019-2024 Model Y, and 2024 Cybertruck vehicles. An incorrect font size is displayed on the instrument panel for the Brake, Park, and Antilock Brake System (ABS) warning lights. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 105, \"Hydraulic and Electric Brake Systems\" and 135, \"Light Vehicle Brake Systems.\"",
+      "consequence": "Warning lights with a smaller font size can make critical safety information on the instrument panel difficult to read, increasing the risk of a crash.",
+      "remedy": "Tesla began releasing an over-the-air (OTA) software update, free of charge. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-24-00-003.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": true,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2024",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
       "ratings": {
@@ -61,6 +219,12 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       },
+      "recalls": {
+        "campaigns": ["25V002000", "24V935000", "24V886000", "24V554000", "24V051000"],
+        "asked": [
+          { "name": "MODEL Y", "found": 5, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -78,6 +242,12 @@
           { "epa_vehicle": "Model Y Long Range RWD", "drive": "RWD", "value": 337, "epa_id": 48771, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48771", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V315000", "25V002000", "24V935000"],
+        "asked": [
+          { "name": "MODEL Y", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -136,6 +306,12 @@
         ],
         "note": "Trim mapping from Tesla's Model Y page (Premium All-Wheel Drive 327 mi, Performance 306 mi, Premium Rear-Wheel Drive 357 mi). Excludes the long-wheelbase Model Y L, a different body that EPA doesn't list."
       },
+      "recalls": {
+        "campaigns": ["26V558000", "26V445000", "26V315000", "25V690000", "25V658000", "25V490000", "25V410000", "25V359000"],
+        "asked": [
+          { "name": "MODEL Y", "found": 8, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -164,6 +340,13 @@
       }
     },
     "2027": {
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "MODEL Y", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
       "ratings": {
         "motortrend": {
           "value": 8.8,

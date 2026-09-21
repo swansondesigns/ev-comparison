@@ -48,6 +48,20 @@
     "retrieved": "2026-09-19",
     "note": "C/D; MINI's compare page, read in the browser on 2026-09-19, has no ground clearance row."
   },
+  "recall_campaigns": {
+    "25V616000": {
+      "date": "2025-09-17",
+      "component": "SEAT BELTS:FRONT:RETRACTOR",
+      "summary": "BMW of North America, LLC is recalling certain 2025-2026 X1 and X2, MINI Cooper Convertible, MINI Cooper, Mini Countryman S ALL4, and 2025 MINI Countryman SE ALL4 vehicles. The torsion bar in both front seat belt retractors may have been damaged during production.",
+      "consequence": "A damaged seat belt retractor may not properly restrain an occupant during a crash, increasing the risk of injury.",
+      "remedy": "Dealers will replace both front seat belt retractors, free of charge. Owner notification letters were mailed November 13, 2025. Owners may contact BMW customer service at 1-800-525-7417. Vehicle Identification Numbers (VINs) will be searchable on NHTSA.gov on November 7, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2025": {
       "epa_range": {
@@ -56,6 +70,12 @@
           { "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 204, "epa_id": 48399, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48399", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["25V616000"],
+        "asked": [
+          { "name": "COUNTRYMAN SE ALL4", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -80,6 +100,13 @@
           { "epa_vehicle": "Countryman SE ALL4 (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 204, "epa_id": 50223, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50223", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "COUNTRYMAN SE ALL4", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2026", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {
@@ -186,6 +213,13 @@
       "highway_tests": [
         { "source": "https://www.caranddriver.com/mini/countryman-electric", "retrieved": "2026-09-19", "trim_tested": "Countryman SE ALL4", "result_mi": 180, "temp_f": null, "note": "C/D 75-mph highway range test. Temperature not stated." }
       ],
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "COUNTRYMAN SE ALL4", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
       "ratings": {
         "motortrend": {
           "value": 9.3,

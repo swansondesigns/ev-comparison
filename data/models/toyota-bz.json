@@ -42,6 +42,56 @@
     "retrieved": "2026-09-19",
     "note": "C/D 2026 XLE Plus FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
   },
+  "recall_campaigns": {
+    "26V393000": {
+      "date": "2026-06-18",
+      "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2026 Toyota BZ, Lexus RZ, and Subaru Solterra battery electric vehicles. The electronic control unit (ECU) that controls the high voltage battery may experience a fault, resulting in a loss of drive power.",
+      "consequence": "An unexpected loss of drive power increases the risk of a crash.",
+      "remedy": "Dealers will update the battery ECU software, free of charge. Owner notification letters were mailed August 17, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 26LA07 and 26TA11. Subaru's number for this recall is WRG26.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V744000": {
+      "date": "2025-10-30",
+      "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2026 Toyota, Lexus, and Subaru Solterra vehicles equipped with a Panoramic View Monitor (PVM) system. Please see the recall report for a complete list of models. A software error may cause the rearview camera to freeze or display a blank screen when the vehicle is in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 111, \"Rear Visibility.\"",
+      "consequence": "A rearview camera that fails to display an image can reduce the driver's view behind the vehicle, increasing the risk of a crash.",
+      "remedy": "Dealers will update the parking assist software, free of charge. Owner letters were mailed January 2, 2026. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB13 and 25LB06. Subaru's number for this recall is WRE25.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V577000": {
+      "date": "2025-09-04",
+      "component": "VISIBILITY:DEFROSTER/DEFOGGER/HVAC SYSTEM",
+      "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2023-2025 bZ4X, Lexus RZ, and Subaru Solterra vehicles. During certain HVAC system faults, such as electrical compressor failure, the defroster and defogger system may become inoperative.",
+      "consequence": "An inoperative defroster and defogger system can decrease the driver's visibility under certain driving conditions, increasing the risk of a crash.",
+      "remedy": "Dealers will update the HVAC control ECU software, free of charge. Dealers will also inspect the electrical compressor, and replace it, if necessary, free of charge. Owner notification letters were mailed October 17, 2025. Owners may contact Toyota's customer service at 1-800-331-4331. Toyota's numbers for this recall are 25TB07 and 25TA07. Lexus' numbers for this recall are 25LB04 and 25LA04. Subaru's number for this recall is WRD-25.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "24V548000": {
+      "date": "2024-07-23",
+      "component": "EQUIPMENT:OTHER:LABELS",
+      "summary": "Gulf States Toyota, Inc. (GST) is recalling certain Toyota 2023 GR Supra, 2024 4 Runner, Corolla, Grand Highlander, Grand Highlander Hybrid, Land Cruiser Hybrid, Tacoma, Tacoma Hybrid, 2023-2024 BZ4X, Corolla Cross Hybrid, GR Corolla, GR86, Highlander, Highlander Hybrid, Prius, Prius Prime, Sequoia Hybrid, Tundra, Tundra Hybrid, Venza Hybrid, 2023-2025 Crown, and 2025 Camry Hybrid vehicles equipped with GST accessories. The load carrying capacity modification label may display inaccurate added weight values. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, \"Tire Selection and Rims.\"",
+      "consequence": "A vehicle with an incorrect maximum capacity weight value may be overloaded, which can increase the risk of a crash.",
+      "remedy": "GST will mail new labels to owners, free of charge. Owner notification letters were mailed September 16, 2024. Owners may contact GST customer service at 1-800-444-1074. GST's number for this recall is 24R2.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2024",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2023": {
       "ratings": {
@@ -63,6 +113,12 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the bZ4X."
       },
+      "recalls": {
+        "campaigns": ["25V744000", "25V577000", "24V548000"],
+        "asked": [
+          { "name": "BZ4X", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -82,6 +138,12 @@
           { "epa_vehicle": "bZ4X LIMITED", "drive": "FWD", "value": 236, "epa_id": 48997, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48997", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the bZ4X."
+      },
+      "recalls": {
+        "campaigns": ["25V744000", "25V577000"],
+        "asked": [
+          { "name": "BZ4X", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -103,6 +165,12 @@
           { "epa_vehicle": "bZ LIMITED (energy capacity 200 Ah)", "drive": "FWD", "value": 296, "epa_id": 49984, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49984", "retrieved": "2026-09-19" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims. Excludes bZ Woodland AWD 235/60R18 (EPA 50305, 281 mi) and bZ Woodland AWD 235/65R18 (EPA 50306, 260 mi), left out of this line as in its other years."
+      },
+      "recalls": {
+        "campaigns": ["26V393000"],
+        "asked": [
+          { "name": "BZ", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -158,6 +226,13 @@
           { "applies_to": "Limited FWD (200 Ah battery)", "epa_vehicle": "bZ LIMITED (energy capacity 200 Ah)", "drive": "FWD", "value": 296, "epa_id": 49984, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49984", "retrieved": "2026-09-19" }
         ],
         "note": "EPA has no 2027 bZ yet (sources/fe-menu-model-2027-toyota.xml), so these are EPA's 2026 listings. toyota.com's 2027 page states the same AWD figure: 'a 288-mile EPA-estimated range rating on XLE AWD'. FWD entries carry EPA's own labels; they weren't mapped to Toyota's trims. Excludes the bZ Woodland (50305, 50306), a separate model outside this universe."
+      },
+      "recalls": {
+        "campaigns": [],
+        "asked": [
+          { "name": "BZ", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2027", "retrieved": "2026-09-21" }
+        ],
+        "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "ratings": {
         "caranddriver": {

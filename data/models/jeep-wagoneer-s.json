@@ -14,6 +14,80 @@
     "retrieved": "2026-09-19",
     "note": "'Body width' 74.8 in; 'Overall width (width at mirrors)' 83.6 in."
   },
+  "recall_campaigns": {
+    "26V262000": {
+      "date": "2026-04-23",
+      "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+      "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2025 Jeep Wagoneer S and Dodge Charger electric vehicles. A software error may cause the instrument panel display to fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard numbers 108, \"Lamps, Reflective Devices, and Associated Equipment,\" 126, \"Electronic Stability Control Systems for Light Vehicles,\" 135, \"Light Vehicle Brake Systems,\" 138, \"Tire Pressure Monitoring System,\" and/or 208, \"Occupant Crash Protection.\"",
+      "consequence": "An instrument panel display that fails to show critical safety information, such as gear selection and warning lights, increases the risk of a crash.",
+      "remedy": "Dealers will update the instrument panel software, free of charge. Owner notification letters were mailed May 14, 2026. Owners may contact FCA customer service at 1-800-853-1403. FCA's number for this recall is 39D. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning April 30, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "26V141000": {
+      "date": "2026-03-12",
+      "component": "STRUCTURE:BODY:HATCHBACK/LIFTGATE:HINGE AND ATTACHMENTS",
+      "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2026 Jeep Wagoneer S vehicles. The liftgate hinge cover may not be properly clipped into position and may detach from the vehicle.",
+      "consequence": "A detached hinge cover can become a road hazard for other vehicles, increasing the risk of a crash.",
+      "remedy": "Dealer will inspect, repair, or replace the hinge cover as necessary, free of charge. Owner notification letters were mailed May 1, 2026. Owners may contact FCA US, LLC customer service at 1-800-853-1403. FCA US, LLC's number for this recall is 26D. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov on March 19, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "26V059000": {
+      "date": "2026-02-02",
+      "component": "EXTERIOR LIGHTING:BRAKE LIGHTS",
+      "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2026 Jeep Wagoneer S, 2025-2026 Ram 1500 Pickup, Ram 2500 Pickup, Ram 3500 Pickup, Ram 3500 Cab Chassis, Ram 4500 Cab Chassis, Ram 5500 Cab Chassis, and 2026 Jeep Cherokee vehicles. Due to an improperly designed trailer tow module, the trailer lights may fail to illuminate and the trailer brakes may fail.",
+      "consequence": "Trailer brake lights and turn signals that do not illuminate reduce visibility to other drivers, increasing the risk of a crash. Additionally, trailer brakes that fail increase the risk of a crash.",
+      "remedy": "Dealers will replace the trailer tow module, free of charge. Owner notification letters were mailed beginning March 17, 2026. Owners may contact FCA US, LLC customer service at 1-800-853-1403. FCA US, LLC's number for this recall is 03D. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov on February 10, 2026.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2026",
+      "retrieved": "2026-09-21"
+    },
+    "25V575000": {
+      "date": "2025-09-04",
+      "component": "STRUCTURE:BODY",
+      "summary": "Chrysler (FCA US, LLC) is recalling certain 2025 Jeep Wagoneer S vehicles. The vehicles are equipped with an incorrect cross car beam in the instrument panel. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+      "consequence": "An incorrect cross beam may not adequately protect occupants in a crash, increasing the risk of injury.",
+      "remedy": "Dealers will replace the cross beam, free of charge. Owner notification letters were mailed October 16, 2025. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 71C. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning September 11, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V574000": {
+      "date": "2025-09-04",
+      "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:INTERNAL:PARK PAWL",
+      "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2025 Dodge Charger and Jeep Wagoneer S electric vehicles. An incorrectly installed spring may cause the loss of the park function when the vehicle’s gear selector is placed in the park (P) position, which can result in a vehicle rollaway. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 114, \"Theft Protection and Rollaway Prevention.\"",
+      "consequence": "A vehicle rollaway increases the risk of a crash.",
+      "remedy": "Dealers will replace the electric drive module, free of charge. Owner notification letters were mailed September 25, 2025. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 63C. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning September 11, 2025.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2025",
+      "retrieved": "2026-09-21"
+    },
+    "25V174000": {
+      "date": "2025-03-20",
+      "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+      "summary": "Chrysler (FCA US, LLC) is recalling certain 2024-2025 Jeep Wagoneer S battery electric (BEV) vehicles. The headlight vertical aim adjustment is not accessible, and the horizontal aim adjustment is not covered as intended. As a result, the headlights may not be able to be adjusted properly. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+      "consequence": "Incorrectly adjusted headlights can reduce driver visibility or create a glare for oncoming traffic, increasing the risk of a crash.",
+      "remedy": "Dealers will remove the plugs from the vertical aim and install plugs on the horizontal aim, as necessary free of charge. Owner notification letters were mailed April 3, 2025. Owners may contact Chrysler customer service at 800-853-1403. Chrysler's number for this recall is 23C.",
+      "park_it": false,
+      "park_outside": false,
+      "over_the_air": false,
+      "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2025",
+      "retrieved": "2026-09-21"
+    }
+  },
   "years": {
     "2024": {
       "epa_range": {
@@ -22,6 +96,12 @@
           { "epa_vehicle": "Wagoneer S AWD (Pirelli tire)", "drive": "AWD", "value": 270, "epa_id": 48792, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48792", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V262000", "26V141000", "26V059000", "25V574000", "25V174000"],
+        "asked": [
+          { "name": "WAGONEER S", "found": 5, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2024", "retrieved": "2026-09-21" }
+        ]
       },
       "ratings": {
         "caranddriver": {
@@ -76,6 +156,12 @@
         ],
         "note": "2025 matches the year of the dimensions quoted. EPA also lists 2026 (50209, 50210: 294 and 268 mi). EPA's labels name the tire, not Jeep's trims."
       },
+      "recalls": {
+        "campaigns": ["26V262000", "26V141000", "26V059000", "25V575000", "25V574000", "25V174000"],
+        "asked": [
+          { "name": "WAGONEER S", "found": 6, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2025", "retrieved": "2026-09-21" }
+        ]
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -104,6 +190,12 @@
           { "epa_vehicle": "Wagoneer S AWD (Pirelli tire)", "drive": "AWD", "value": 268, "epa_id": 50210, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50210", "retrieved": "2026-09-21" }
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
+      },
+      "recalls": {
+        "campaigns": ["26V141000", "26V059000"],
+        "asked": [
+          { "name": "WAGONEER S", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=WAGONEER%20S&modelYear=2026", "retrieved": "2026-09-21" }
+        ]
       }
     }
   },
