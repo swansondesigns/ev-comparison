@@ -2,10 +2,16 @@
 // changes from one to the next (AWD trims, the plug, range, ratings, the review sites' pages). Shared
 // by the site and the scripts, like gates.mjs.
 
-// A year counts as a car once it has a gate fact. One that holds only a rating isn't one yet.
+// A year counts as a car once it has every gate fact. One that holds only a rating or a range isn't one
+// yet, and a half-described year never displaces a complete one: hydration writes one fact at a time.
+// A line with no complete year (the Niro EV has no Supercharger fact) falls back to the years with any.
 const GATE_FACTS = ['awd', 'supercharger_access'];
-export const carYears = (line) =>
-  Object.keys(line.years || {}).filter((y) => GATE_FACTS.some((k) => line.years[y][k])).sort().reverse();
+const yearsWith = (line, test) =>
+  Object.keys(line.years || {}).filter((y) => GATE_FACTS[test]((k) => line.years[y][k])).sort().reverse();
+export const carYears = (line) => {
+  const complete = yearsWith(line, 'every');
+  return complete.length ? complete : yearsWith(line, 'some');
+};
 export const newestYear = (line) => carYears(line)[0] ?? null;
 
 // One model year of a line, flat: the line's facts with that year's over them, so a year can restate
