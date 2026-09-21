@@ -104,6 +104,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 184.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 XLE FWD (Natl), 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 XLE FWD (Natl), 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 XLE FWD (Natl), 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 27.7,
+        "seats_down": 56.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 XLE FWD (Natl), cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 40,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 XLE FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "bZ4X AWD", "drive": "AWD", "value": 228, "epa_id": 47920, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47920", "retrieved": "2026-09-21" },
@@ -129,6 +165,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 184.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 XLE FWD (Natl), 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 XLE FWD (Natl), 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 XLE FWD (Natl), 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 27.7,
+        "seats_down": 56.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 XLE FWD (Natl), cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 40,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 XLE FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "bZ4X AWD (18inch Wheels)", "drive": "AWD", "wheels_in": 18, "value": 228, "epa_id": 49127, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49127", "retrieved": "2026-09-21" },
@@ -155,6 +227,42 @@
       }
     },
     "2026": {
+      "length_in": {
+        "value": 184.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 XLE Plus FWD (Natl), 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 XLE Plus FWD (Natl), 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 XLE Plus FWD (Natl), 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 27.7,
+        "seats_down": 56.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 XLE Plus FWD (Natl), cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 40,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 XLE Plus FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "bZ AWD", "drive": "AWD", "value": 288, "epa_id": 49985, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49985", "retrieved": "2026-09-19" },

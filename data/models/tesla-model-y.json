@@ -209,6 +209,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 187,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2024/tesla_model-y_tesla-model-y_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Long Range AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2024/tesla_model-y_tesla-model-y_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Long Range AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2024/tesla_model-y_tesla-model-y_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Long Range AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 30.2,
+        "seats_down": 76.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2024/tesla_model-y_tesla-model-y_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Long Range AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2024/tesla_model-y_tesla-model-y_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Long Range AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 310, "epa_id": 47913, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47913", "retrieved": "2026-09-21" },
@@ -235,6 +271,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 187,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 30.2,
+        "seats_down": 76.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 311, "epa_id": 48770, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48770", "retrieved": "2026-09-21" },

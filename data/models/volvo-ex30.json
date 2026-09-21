@@ -88,6 +88,42 @@
   },
   "years": {
     "2025": {
+      "length_in": {
+        "value": 166.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex30/specs/2025/volvo_ex30_volvo-ex30_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Plus Twin Motor AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 72.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex30/specs/2025/volvo_ex30_volvo-ex30_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Plus Twin Motor AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 61.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex30/specs/2025/volvo_ex30_volvo-ex30_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Plus Twin Motor AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 12.4,
+        "seats_down": 27.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex30/specs/2025/volvo_ex30_volvo-ex30_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Plus Twin Motor AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 35.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex30/specs/2025/volvo_ex30_volvo-ex30_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Plus Twin Motor AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "EX30 Twin Performance (19 Inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 253, "epa_id": 48775, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48775", "retrieved": "2026-09-21" },

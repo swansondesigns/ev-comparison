@@ -152,6 +152,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 185.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Select RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Select RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Select RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 29.7,
+        "seats_down": 59.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Select RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Select RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 230, "epa_id": 47824, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47824", "retrieved": "2026-09-21" },
@@ -179,6 +215,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 185.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Select RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Select RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Select RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 29.7,
+        "seats_down": 59.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Select RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Select RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 240, "epa_id": 49078, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49078", "retrieved": "2026-09-21" },

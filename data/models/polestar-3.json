@@ -118,6 +118,42 @@
   },
   "years": {
     "2025": {
+      "length_in": {
+        "value": 192.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range Dual Motor, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 77.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range Dual Motor, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range Dual Motor, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 17.1,
+        "seats_down": 17.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range Dual Motor, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "3 Long Range Dual Motor (20 Inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 310, "epa_id": 48408, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48408", "retrieved": "2026-09-21" },

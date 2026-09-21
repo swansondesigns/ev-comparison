@@ -124,6 +124,42 @@
   },
   "years": {
     "2024": {
+      "length_in": {
+        "value": 190.55,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2024/chevrolet_equinox-ev_chevrolet-equinox-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 LT 4dr, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 76.94,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2024/chevrolet_equinox-ev_chevrolet-equinox-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 LT 4dr, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2024/chevrolet_equinox-ev_chevrolet-equinox-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 LT 4dr, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26.4,
+        "seats_down": 57.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2024/chevrolet_equinox-ev_chevrolet-equinox-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 LT 4dr, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.06,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2024/chevrolet_equinox-ev_chevrolet-equinox-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 LT 4dr, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Equinox EV AWD", "drive": "AWD", "value": 285, "epa_id": 47815, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47815", "retrieved": "2026-09-21" },
@@ -139,6 +175,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 190.55,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2025/chevrolet_equinox-ev_chevrolet-equinox-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 LT 4dr, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 76.94,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2025/chevrolet_equinox-ev_chevrolet-equinox-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 LT 4dr, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2025/chevrolet_equinox-ev_chevrolet-equinox-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 LT 4dr, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26.4,
+        "seats_down": 57.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2025/chevrolet_equinox-ev_chevrolet-equinox-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 LT 4dr, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.06,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2025/chevrolet_equinox-ev_chevrolet-equinox-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 LT 4dr, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Equinox EV AWD (11 kW Charger)", "drive": "AWD", "value": 307, "epa_id": 48695, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48695", "retrieved": "2026-09-21" },
@@ -169,6 +241,42 @@
       }
     },
     "2026": {
+      "length_in": {
+        "value": 190.55,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2026/chevrolet_equinox-ev_chevrolet-equinox-ev_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 LT1 w/PCY 4dr, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 76.94,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2026/chevrolet_equinox-ev_chevrolet-equinox-ev_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 LT1 w/PCY 4dr, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2026/chevrolet_equinox-ev_chevrolet-equinox-ev_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 LT1 w/PCY 4dr, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26.4,
+        "seats_down": 57.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2026/chevrolet_equinox-ev_chevrolet-equinox-ev_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 LT1 w/PCY 4dr, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.06,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev/specs/2026/chevrolet_equinox-ev_chevrolet-equinox-ev_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 LT1 w/PCY 4dr, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Equinox EV AWD (11 kW Charger)", "drive": "AWD", "value": 307, "epa_id": 49955, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49955", "retrieved": "2026-09-21" },

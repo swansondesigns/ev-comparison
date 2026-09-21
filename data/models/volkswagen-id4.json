@@ -170,6 +170,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 180.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Standard RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 72.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Standard RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Standard RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 30.3,
+        "seats_down": 64.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Standard RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 31.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Standard RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "ID.4 AWD Pro", "drive": "AWD", "value": 263, "epa_id": 47485, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47485", "retrieved": "2026-09-21" },
@@ -197,6 +233,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 180.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Pro RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 72.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Pro RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Pro RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 30.3,
+        "seats_down": 64.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Pro RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 31.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Pro RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "ID.4 AWD Pro", "drive": "AWD", "value": 263, "epa_id": 48773, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48773", "retrieved": "2026-09-21" },

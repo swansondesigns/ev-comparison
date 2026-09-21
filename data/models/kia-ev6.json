@@ -92,6 +92,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 184.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2024/kia_kia-ev6_kia-ev6_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Wind RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2024/kia_kia-ev6_kia-ev6_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Wind RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 60.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2024/kia_kia-ev6_kia-ev6_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Wind RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 24.4,
+        "seats_down": 50.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2024/kia_kia-ev6_kia-ev6_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Wind RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2024/kia_kia-ev6_kia-ev6_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Wind RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "EV6 AWD GT", "drive": "AWD", "value": 218, "epa_id": 46968, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46968", "retrieved": "2026-09-21" },
@@ -118,6 +154,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 184.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2025/kia_kia-ev6_kia-ev6_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Light RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2025/kia_kia-ev6_kia-ev6_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Light RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 60.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2025/kia_kia-ev6_kia-ev6_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Light RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 24.4,
+        "seats_down": 46.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2025/kia_kia-ev6_kia-ev6_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Light RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 38.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2025/kia_kia-ev6_kia-ev6_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Light RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "EV6 AWD GT", "drive": "AWD", "value": 231, "epa_id": 49094, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49094", "retrieved": "2026-09-21" },

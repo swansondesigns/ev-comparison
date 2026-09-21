@@ -92,6 +92,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 184.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Premium AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Premium AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Premium AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 23.8,
+        "seats_down": 63.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Premium AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 36.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 227, "epa_id": 47482, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47482", "retrieved": "2026-09-21" },
@@ -115,6 +151,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 184.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 23.8,
+        "seats_down": 63.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 36.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 227, "epa_id": 48762, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48762", "retrieved": "2026-09-21" },
@@ -216,6 +288,42 @@
       }
     },
     "2027": {
+      "length_in": {
+        "value": 184.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2027 Touring XT AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2027 Touring XT AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2027 Touring XT AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 23.8,
+        "seats_down": 63.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2027 Touring XT AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 36.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2027 Touring XT AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Solterra 20 AWD", "drive": "AWD", "value": 278, "epa_id": 50689, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50689", "retrieved": "2026-09-21" },

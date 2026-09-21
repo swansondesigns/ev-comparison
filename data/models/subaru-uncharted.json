@@ -50,6 +50,42 @@
   },
   "years": {
     "2026": {
+      "length_in": {
+        "value": 177.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/uncharted/specs/2026/subaru_uncharted_subaru-uncharted_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Premium FWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 73.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/uncharted/specs/2026/subaru_uncharted_subaru-uncharted_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Premium FWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/uncharted/specs/2026/subaru_uncharted_subaru-uncharted_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Premium FWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 23,
+        "seats_down": 59.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/uncharted/specs/2026/subaru_uncharted_subaru-uncharted_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Premium FWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 36.1,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/uncharted/specs/2026/subaru_uncharted_subaru-uncharted_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Premium FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Uncharted 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50302, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50302", "retrieved": "2026-09-19" },

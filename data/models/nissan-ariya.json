@@ -110,6 +110,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 182.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 ENGAGE FWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 ENGAGE FWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 ENGAGE FWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 22.8,
+        "seats_down": 59.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 ENGAGE FWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 35.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 ENGAGE FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "ARIYA ENGAGE e-4ORCE 63kWh", "drive": "AWD", "value": 205, "epa_id": 47853, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47853", "retrieved": "2026-09-21" },

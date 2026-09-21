@@ -100,6 +100,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 174.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Core Twin eAWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Core Twin eAWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Core Twin eAWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 16,
+        "seats_down": 57.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Core Twin eAWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 37.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Core Twin eAWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "XC40 Recharge twin", "drive": "AWD", "value": 254, "epa_id": 46983, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46983", "retrieved": "2026-09-21" },
@@ -117,6 +153,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 174.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Core Twin Motor AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Core Twin Motor AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 65.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Core Twin Motor AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 16,
+        "seats_down": 57.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Core Twin Motor AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 37.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Core Twin Motor AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "EX40 Twin", "drive": "AWD", "value": 260, "epa_id": 48447, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48447", "retrieved": "2026-09-21" },

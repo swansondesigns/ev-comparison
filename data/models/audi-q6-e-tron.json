@@ -82,6 +82,42 @@
   },
   "years": {
     "2025": {
+      "length_in": {
+        "value": 187.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/q6-e-tron/specs/2025/audi_q6-e-tron_audi-q6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 76.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/q6-e-tron/specs/2025/audi_q6-e-tron_audi-q6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 66.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/q6-e-tron/specs/2025/audi_q6-e-tron_audi-q6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 30.2,
+        "seats_down": 60.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/q6-e-tron/specs/2025/audi_q6-e-tron_audi-q6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/q6-e-tron/specs/2025/audi_q6-e-tron_audi-q6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Premium RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Q6 e-tron quattro (19 inch wheels)", "drive": "AWD", "wheels_in": 19, "value": 307, "epa_id": 48297, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48297", "retrieved": "2026-09-21" },

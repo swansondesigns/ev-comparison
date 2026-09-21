@@ -105,6 +105,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 185.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Advanced AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Advanced AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Advanced AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 28.7,
+        "seats_down": 56.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Advanced AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 37.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Advanced AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Electrified GV70", "drive": "AWD", "value": 236, "epa_id": 46947, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46947", "retrieved": "2026-09-21" }
@@ -127,6 +163,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 185.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Advanced AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Advanced AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Advanced AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 28.7,
+        "seats_down": 56.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Advanced AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 37.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Advanced AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Electrified GV70", "drive": "AWD", "value": 236, "epa_id": 48353, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48353", "retrieved": "2026-09-21" }
@@ -149,6 +221,42 @@
       }
     },
     "2026": {
+      "length_in": {
+        "value": 185.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 19\" AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 19\" AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.2,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 19\" AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 28.7,
+        "seats_down": 56.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 19\" AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 37.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 19\" AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Electrified GV70 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 263, "epa_id": 49656, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49656", "retrieved": "2026-09-21" },

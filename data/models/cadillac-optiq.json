@@ -64,6 +64,42 @@
   },
   "years": {
     "2025": {
+      "length_in": {
+        "value": 189.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2025/cadillac_optiq_cadillac-optiq_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Luxury AWD 4dr w/1SC, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2025/cadillac_optiq_cadillac-optiq_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Luxury AWD 4dr w/1SC, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2025/cadillac_optiq_cadillac-optiq_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Luxury AWD 4dr w/1SC, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26,
+        "seats_down": 57,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2025/cadillac_optiq_cadillac-optiq_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Luxury AWD 4dr w/1SC, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2025/cadillac_optiq_cadillac-optiq_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Luxury AWD 4dr w/1SC, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "recalls": {
         "campaigns": ["26V114000", "25V704000"],
         "asked": [
@@ -86,6 +122,42 @@
       }
     },
     "2026": {
+      "length_in": {
+        "value": 189.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2026/cadillac_optiq_cadillac-optiq_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Luxury 4dr w/1SC, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 75.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2026/cadillac_optiq_cadillac-optiq_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Luxury 4dr w/1SC, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 64.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2026/cadillac_optiq_cadillac-optiq_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Luxury 4dr w/1SC, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26,
+        "seats_down": 57,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2026/cadillac_optiq_cadillac-optiq_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Luxury 4dr w/1SC, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2026/cadillac_optiq_cadillac-optiq_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 Luxury 4dr w/1SC, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "OPTIQ AWD (11 kW Charger)", "drive": "AWD", "value": 303, "epa_id": 49951, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49951", "retrieved": "2026-09-21" },

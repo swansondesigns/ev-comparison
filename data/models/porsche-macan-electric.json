@@ -76,6 +76,42 @@
   },
   "years": {
     "2024": {
+      "length_in": {
+        "value": 188.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2024/porsche_macan-ev_porsche-macan-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Electric 4 AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 76.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2024/porsche_macan-ev_porsche-macan-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Electric 4 AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63.8,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2024/porsche_macan-ev_porsche-macan-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Electric 4 AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 19,
+        "seats_down": 47.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2024/porsche_macan-ev_porsche-macan-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Electric 4 AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2024/porsche_macan-ev_porsche-macan-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 Electric 4 AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 308, "epa_id": 48793, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48793", "retrieved": "2026-09-21" },
@@ -100,6 +136,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 188.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Electric 4 AWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 76.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Electric 4 AWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63.9,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Electric 4 AWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 19.1,
+        "seats_down": 47.6,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Electric 4 AWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.7,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 Electric 4 AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 308, "epa_id": 48727, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48727", "retrieved": "2026-09-21" },

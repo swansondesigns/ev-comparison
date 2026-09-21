@@ -222,6 +222,42 @@
       }
     },
     "2024": {
+      "length_in": {
+        "value": 182.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2024/hyundai_ioniq-5_hyundai-ioniq-5_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 SE Standard Range RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2024/hyundai_ioniq-5_hyundai-ioniq-5_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 SE Standard Range RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2024/hyundai_ioniq-5_hyundai-ioniq-5_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 SE Standard Range RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 27.2,
+        "seats_down": 59.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2024/hyundai_ioniq-5_hyundai-ioniq-5_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 SE Standard Range RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2024/hyundai_ioniq-5_hyundai-ioniq-5_2024",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2024 SE Standard Range RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Ioniq 5 Long range AWD", "drive": "AWD", "value": 260, "epa_id": 46962, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46962", "retrieved": "2026-09-21" },
@@ -246,6 +282,42 @@
       }
     },
     "2025": {
+      "length_in": {
+        "value": 183.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 SE Standard Range RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 SE Standard Range RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 SE Standard Range RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26.3,
+        "seats_down": 58.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 SE Standard Range RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2025 SE Standard Range RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Ioniq 5 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 290, "epa_id": 48710, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48710", "retrieved": "2026-09-21" },
@@ -278,6 +350,42 @@
       }
     },
     "2026": {
+      "length_in": {
+        "value": 183.3,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2026/hyundai_ioniq-5_hyundai-ioniq-5_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 SE Standard Range RWD, 'Length (inches)'."
+      },
+      "width_in": {
+        "value": 74.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2026/hyundai_ioniq-5_hyundai-ioniq-5_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 SE Standard Range RWD, 'Width, without mirrors (inches)'."
+      },
+      "height_in": {
+        "value": 63,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2026/hyundai_ioniq-5_hyundai-ioniq-5_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 SE Standard Range RWD, 'Height (inches)'."
+      },
+      "cargo_cu_ft": {
+        "seats_up": 26.3,
+        "seats_down": 58.5,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2026/hyundai_ioniq-5_hyundai-ioniq-5_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 SE Standard Range RWD, cargo space behind the second row and behind the front row."
+      },
+      "turning_circle_ft": {
+        "value": 39.4,
+        "secondary": true,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2026/hyundai_ioniq-5_hyundai-ioniq-5_2026",
+        "retrieved": "2026-09-21",
+        "note": "C/D 2026 SE Standard Range RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Ioniq 5 AWD (19inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 290, "epa_id": 49962, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49962", "retrieved": "2026-09-21" },
