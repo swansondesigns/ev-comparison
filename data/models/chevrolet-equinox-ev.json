@@ -291,6 +291,13 @@
           { "name": "EQUINOX EV", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [36795, 45895],
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$36,795–$45,895'); page titled '2026 Chevrolet Equinox EV Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -352,6 +359,13 @@
           { "name": "EQUINOX EV", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=EQUINOX%20EV&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [36795, 45895],
+        "source": "https://www.caranddriver.com/chevrolet/equinox-ev-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$36,795–$45,895'); page titled '2027 Chevrolet Equinox EV Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

@@ -280,6 +280,13 @@
           { "name": "BZ", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [36495, 46895],
+        "source": "https://www.caranddriver.com/toyota/bz",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$36,495–$46,895'); page titled '2026 Toyota bZ Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -341,6 +348,13 @@
           { "name": "BZ", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [36575, 46975],
+        "source": "https://www.caranddriver.com/toyota/bz-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$36,575–$46,975'); page titled '2027 Toyota bZ Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

@@ -316,6 +316,13 @@
           { "name": "EX40", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX40&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [56545, 62245],
+        "source": "https://www.caranddriver.com/volvo/ex40",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$56,545–$62,245'); page titled '2026 Volvo EX40: What We Know So Far'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

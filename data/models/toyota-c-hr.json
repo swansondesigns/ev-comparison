@@ -110,6 +110,13 @@
           { "name": "C-HR", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [38595, 40595],
+        "source": "https://www.caranddriver.com/toyota/c-hr",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$38,595–$40,595'); page titled '2026 Toyota C-HR Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -211,6 +218,13 @@
           { "name": "C-HR", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=C-HR&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [38675, 40675],
+        "source": "https://www.caranddriver.com/toyota/c-hr-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$38,675–$40,675'); page titled '2027 Toyota C-HR Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

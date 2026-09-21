@@ -402,6 +402,13 @@
           { "name": "IONIQ 5", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [36650, 50625],
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$36,650–$50,625'); page titled '2026 Hyundai Ioniq 5 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,
@@ -538,6 +545,13 @@
           { "name": "IONIQ 5", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [36900, 50775],
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$36,900–$50,775'); page titled '2027 Hyundai Ioniq 5 Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

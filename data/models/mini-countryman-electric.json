@@ -180,6 +180,13 @@
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
+      "price": {
+        "value": [46375, 49775],
+        "source": "https://www.caranddriver.com/mini/countryman-electric",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$46,375–$49,775'); page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,

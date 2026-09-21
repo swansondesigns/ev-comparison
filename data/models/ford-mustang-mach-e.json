@@ -339,6 +339,13 @@
           { "name": "MUSTANG MACH E", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [39840, 59735],
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$39,840–$59,735'); page titled '2026 Ford Mustang Mach-E Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

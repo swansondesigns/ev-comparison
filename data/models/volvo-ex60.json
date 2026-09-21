@@ -85,6 +85,13 @@
         ],
         "note": "EPA lists no P12 AWD yet; Volvo says P12 deliveries are 'expected to start in 2027'."
       },
+      "price": {
+        "value": [59795, 74000],
+        "source": "https://www.caranddriver.com/volvo/ex60",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$59,795–$74,000'); page titled '2027 Volvo EX60 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,

@@ -84,6 +84,13 @@
         ],
         "note": "EPA lists only the R2 Performance so far; Rivian says the Standard is 'Coming 2027'."
       },
+      "price": {
+        "value": [55485, 59485],
+        "source": "https://www.caranddriver.com/rivian/r2",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$55,485–$59,485'); page titled '2027 Rivian R2 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,

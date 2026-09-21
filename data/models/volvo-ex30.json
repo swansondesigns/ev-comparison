@@ -253,6 +253,13 @@
           { "name": "EX30CC", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX30CC&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [40345, 49545],
+        "source": "https://www.caranddriver.com/volvo/ex30",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$40,345–$49,545'); page titled '2026 Volvo EX30 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

@@ -172,6 +172,13 @@
           { "name": "POLESTAR 3", "found": 6, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Polestar&model=POLESTAR%203&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [68900, 86300],
+        "source": "https://www.caranddriver.com/polestar/polestar-3",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$68,900–$86,300'); page titled '2025 Polestar 3 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

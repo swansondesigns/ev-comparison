@@ -412,6 +412,13 @@
           { "name": "ID.4", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [46570, 59130],
+        "source": "https://www.caranddriver.com/volkswagen/id4",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$46,570–$59,130'); page titled '2026 Volkswagen ID.4 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,

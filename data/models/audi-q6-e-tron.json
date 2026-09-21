@@ -137,6 +137,13 @@
           { "name": "Q6 SPORTBACK E-TRON", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [65095, 76695],
+        "source": "https://www.caranddriver.com/audi/q6-e-tron",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$65,095–$76,695'); page titled '2025 Audi Q6 e-tron / Q6 e-tron Sportback Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -207,6 +214,13 @@
           { "name": "Q6 SPORTBACK E-TRON", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=Q6%20SPORTBACK%20E-TRON&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [65895, 77295],
+        "source": "https://www.caranddriver.com/audi/q6-e-tron-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$65,895–$77,295'); page titled '2027 Audi Q6 e-tron / Q6 e-tron Sportback Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

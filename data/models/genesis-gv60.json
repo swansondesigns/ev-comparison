@@ -314,6 +314,13 @@
           { "name": "GV60", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [54020, 73370],
+        "source": "https://www.caranddriver.com/genesis/gv60",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$54,020–$73,370'); page titled '2026 Genesis GV60 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -433,6 +440,13 @@
           { "name": "GV60", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [47795, 72145],
+        "source": "https://www.caranddriver.com/genesis/gv60-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$47,795–$72,145'); page titled '2027 Genesis GV60 /GV60 Magma Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

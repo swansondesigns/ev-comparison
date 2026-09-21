@@ -384,6 +384,13 @@
           { "name": "MODEL Y", "found": 8, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=MODEL%20Y&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [41630, 61630],
+        "source": "https://www.caranddriver.com/tesla/model-y",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$41,630–$61,630'); page titled '2026 Tesla Model Y Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,

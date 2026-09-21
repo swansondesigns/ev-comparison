@@ -270,6 +270,13 @@
           { "name": "GV70 ELECTRIFIED", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [65875, 76845],
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$65,875–$76,845'); page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -323,6 +330,13 @@
           { "name": "GV70 ELECTRIFIED", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [60045, 72845],
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$60,045–$72,845'); page titled '2027 Genesis Electrified GV70 Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

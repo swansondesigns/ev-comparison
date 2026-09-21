@@ -108,6 +108,13 @@
           { "name": "C40", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=C40&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [54895, 61845],
+        "source": "https://www.caranddriver.com/volvo/ec40",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$54,895–$61,845'); page titled '2024 Volvo C40 Recharge Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

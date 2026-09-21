@@ -85,6 +85,13 @@
         ],
         "note": "EPA has no electric GLC listing (2027 Mercedes-Benz model menu checked 2026-09-19, sources/fe-menu-model-2027-mercedes-benz.xml). Figures are Mercedes-Benz USA's, from its 2027 quick reference guide."
       },
+      "price": {
+        "value": [60000, 75100],
+        "source": "https://www.caranddriver.com/mercedes-benz/glc-class-ev",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$60,000–$75,100'); page titled '2027 Mercedes-Benz GLC-Class EV: What We Know So Far'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,

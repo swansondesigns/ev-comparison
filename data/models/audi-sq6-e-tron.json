@@ -133,6 +133,13 @@
           { "name": "SQ6 SPORTBACK E-TRON", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=SQ6%20SPORTBACK%20E-TRON&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [74195, 82995],
+        "source": "https://www.caranddriver.com/audi/sq6-e-tron",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$74,195–$82,995'); page titled '2025 Audi SQ6 e-tron Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -202,6 +209,13 @@
           { "name": "SQ6 SPORTBACK E-TRON", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=SQ6%20SPORTBACK%20E-TRON&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [74595, 80395],
+        "source": "https://www.caranddriver.com/audi/sq6-e-tron-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$74,595–$80,395'); page titled '2027 Audi SQ6 e-tron Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

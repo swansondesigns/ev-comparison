@@ -173,6 +173,13 @@
           { "name": "OPTIQ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [51790, 69095],
+        "source": "https://www.caranddriver.com/cadillac/optiq",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$51,790–$69,095'); page titled '2026 Cadillac Optiq Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -237,6 +244,13 @@
           { "name": "OPTIQ", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Cadillac&model=OPTIQ&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": [51790, 69295],
+        "source": "https://www.caranddriver.com/cadillac/optiq-2027",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$51,790–$69,295'); page titled '2027 Cadillac Optiq Review, Pricing, and Specs'."
       },
       "ratings": {
         "caranddriver": {

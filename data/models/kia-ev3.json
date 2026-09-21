@@ -145,6 +145,13 @@
         "retrieved": "2026-09-19"
       },
       "highway_tests": [],
+      "price": {
+        "value": [31385, 47385],
+        "source": "https://www.caranddriver.com/kia/ev3",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$31,385–$47,385'); page titled '2027 Kia EV3: What We Know So Far'."
+      },
       "links": {
         "caranddriver": {
           "url": "https://www.caranddriver.com/kia/ev3",

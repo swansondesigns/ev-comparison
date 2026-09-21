@@ -263,6 +263,13 @@
           { "name": "RZ", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [47395, 58395],
+        "source": "https://www.caranddriver.com/lexus/rz",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$47,395–$58,395'); page titled '2026 Lexus RZ Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

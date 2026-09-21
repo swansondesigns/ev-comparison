@@ -92,9 +92,9 @@ for (const [model, entry] of byModel) {
       asked: good.map((a) => ({ name: a.name, found: a.ids.length, ...a.base })),
       ...(ids.length ? {} : { note: 'NHTSA listed no recalls for this model year on the day it was read.' }),
     };
-    // `recalls` goes ahead of the year's `ratings` and `links`, which stay last.
-    const { ratings, links, ...rest } = m.years[year] ?? {};
-    m.years[year] = { ...rest, recalls, ...(ratings ? { ratings } : {}), ...(links ? { links } : {}) };
+    // `recalls` goes ahead of the year's `price`, `ratings` and `links`, which stay last.
+    const { price, ratings, links, ...rest } = m.years[year] ?? {};
+    m.years[year] = { ...rest, recalls, ...(price ? { price } : {}), ...(ratings ? { ratings } : {}), ...(links ? { links } : {}) };
     counts.push(`${year}:${ids.length}`);
   }
   const used = new Set(Object.values(m.years).flatMap((e) => e.recalls?.campaigns || []));

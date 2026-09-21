@@ -64,6 +64,13 @@
         ],
         "note": "One version, five EPA listings by wheel and tire."
       },
+      "price": {
+        "value": [62850, 62850],
+        "source": "https://www.caranddriver.com/bmw/ix3",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$62,850'); page titled '2027 BMW iX3 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,

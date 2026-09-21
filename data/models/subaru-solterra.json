@@ -260,6 +260,13 @@
           { "name": "SOLTERRA", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2026", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": [39945, 47305],
+        "source": "https://www.caranddriver.com/subaru/solterra",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$39,945–$47,305'); page titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,

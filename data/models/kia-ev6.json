@@ -266,6 +266,13 @@
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
+      "price": {
+        "value": [39445, 54545],
+        "source": "https://www.caranddriver.com/kia/ev6",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$39,445–$54,545'); page titled '2026 Kia EV6 Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,

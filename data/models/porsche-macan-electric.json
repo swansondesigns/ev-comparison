@@ -258,6 +258,13 @@
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
+      "price": {
+        "value": [82650, 115050],
+        "source": "https://www.caranddriver.com/porsche/macan-ev",
+        "retrieved": "2026-09-19",
+        "secondary": true,
+        "note": "Car and Driver's price range for a new one, as printed ('$82,650–$115,050'); page titled '2026 Porsche Macan Electric Review, Pricing, and Specs'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
