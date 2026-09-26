@@ -197,6 +197,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Select RWD' shows Drivetrain 'Rear Wheel Drive'."
       },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://www.fromtheroad.ford.com/us/en/articles/2024/ford-customers-can-now-charge-on-tesla-superchargers-in-u-s---ca",
+        "retrieved": "2026-09-19",
+        "note": "Ford, Feb. 29, 2024: 'Ford F-150 Lightning and Mustang Mach-E retail customers are the first of any non-Tesla automaker to gain access to Tesla Superchargers'; 'The adapter is required'; free to customers ordering by June 30, 2024, then $230. Ford says a NACS connector will be built into future EVs, so the Mach-E's port is CCS1 as on the 2026."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.fromtheroad.ford.com/us/en/articles/2024/ford-customers-can-now-charge-on-tesla-superchargers-in-u-s---ca",
+        "retrieved": "2026-09-19",
+        "note": "Ford, Feb. 29, 2024: 'Ford F-150 Lightning and Mustang Mach-E retail customers are the first of any non-Tesla automaker to gain access to Tesla Superchargers'; 'The adapter is required'; free to customers ordering by June 30, 2024, then $230. Ford says a NACS connector will be built into future EVs, so the Mach-E's port is CCS1 as on the 2026."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 230, "epa_id": 47824, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47824", "retrieved": "2026-09-21" },
@@ -268,6 +281,19 @@
         "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Select RWD' shows Drivetrain 'Rear Wheel Drive'."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://www.fromtheroad.ford.com/us/en/articles/2024/ford-customers-can-now-charge-on-tesla-superchargers-in-u-s---ca",
+        "retrieved": "2026-09-19",
+        "note": "Ford, Feb. 29, 2024: 'Ford F-150 Lightning and Mustang Mach-E retail customers are the first of any non-Tesla automaker to gain access to Tesla Superchargers'; 'Future Ford EV customers can purchase the adapter from Ford for $230'. Ford says a NACS connector will be built into future EVs, so the Mach-E's port is CCS1 as on the 2026."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.fromtheroad.ford.com/us/en/articles/2024/ford-customers-can-now-charge-on-tesla-superchargers-in-u-s---ca",
+        "retrieved": "2026-09-19",
+        "note": "Ford, Feb. 29, 2024: 'Ford F-150 Lightning and Mustang Mach-E retail customers are the first of any non-Tesla automaker to gain access to Tesla Superchargers'; 'Future Ford EV customers can purchase the adapter from Ford for $230'. Ford says a NACS connector will be built into future EVs, so the Mach-E's port is CCS1 as on the 2026."
       },
       "epa_range": {
         "entries": [

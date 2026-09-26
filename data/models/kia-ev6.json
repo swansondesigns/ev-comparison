@@ -208,6 +208,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Light RWD' shows Drivetrain 'Rear Wheel Drive'."
       },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.kiamedia.com/us/en/models/ev6/2025",
+        "retrieved": "2026-09-19",
+        "note": "Kia's 2025 EV6 overview: 'the charge port (excluding EV6 GT models) has been relocated to the left rear fender and is compatible with the North American Charging Standard'. The same page is the 2026's source."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.kiamedia.com/us/en/models/ev6/2025",
+        "retrieved": "2026-09-19",
+        "note": "Kia's 2025 EV6 overview: 'the charge port (excluding EV6 GT models) has been relocated to the left rear fender and is compatible with the North American Charging Standard'. The same page is the 2026's source."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "EV6 AWD GT", "drive": "AWD", "value": 231, "epa_id": 49094, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49094", "retrieved": "2026-09-21" },

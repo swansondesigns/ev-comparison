@@ -326,6 +326,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's '19\" AWD' shows Drivetrain 'All Wheel Drive'."
       },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.genesisnewsusa.com/api/press-kits/2026-gv60",
+        "retrieved": "2026-09-19",
+        "note": "Genesis 2026 GV60 press kit: 'equipped with a native North American Charging Standard (NACS) port'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.genesisnewsusa.com/api/press-kits/2026-gv60",
+        "retrieved": "2026-09-19",
+        "note": "Genesis 2026 GV60 press kit: 'equipped with a native North American Charging Standard (NACS) port'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "GV60 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 282, "epa_id": 49653, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49653", "retrieved": "2026-09-21" },

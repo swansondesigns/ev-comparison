@@ -120,6 +120,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Electric 4 AWD' shows Drivetrain 'All Wheel Drive'."
       },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html",
+        "retrieved": "2026-09-19",
+        "note": "Porsche Cars North America, Sept. 5, 2025: 'Model year 2025 Taycan owners and all existing Macan Electric owners are eligible for a complimentary adapter'; the adapter is for 'CCS-equipped Taycan and Macan Electric models'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html",
+        "retrieved": "2026-09-19",
+        "note": "Porsche Cars North America, Sept. 5, 2025: 'Model year 2025 Taycan owners and all existing Macan Electric owners are eligible for a complimentary adapter'; the adapter is for 'CCS-equipped Taycan and Macan Electric models'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 308, "epa_id": 48793, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48793", "retrieved": "2026-09-21" },
@@ -188,6 +201,19 @@
         "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Electric 4 AWD' shows Drivetrain 'All Wheel Drive'."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html",
+        "retrieved": "2026-09-19",
+        "note": "Porsche Cars North America, Sept. 5, 2025: 'Model year 2025 Taycan owners and all existing Macan Electric owners are eligible for a complimentary adapter'; the adapter is for 'CCS-equipped Taycan and Macan Electric models'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://newsroom.porsche.com/en_US/2025/products/dedicated-to-choice-porsche-owners-can-now-access-the-tesla-supercharger-network.html",
+        "retrieved": "2026-09-19",
+        "note": "Porsche Cars North America, Sept. 5, 2025: 'Model year 2025 Taycan owners and all existing Macan Electric owners are eligible for a complimentary adapter'; the adapter is for 'CCS-equipped Taycan and Macan Electric models'."
       },
       "epa_range": {
         "entries": [

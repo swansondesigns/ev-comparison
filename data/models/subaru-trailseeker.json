@@ -88,6 +88,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's 'Premium AWD' shows Drivetrain 'All Wheel Drive'."
       },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://media.subaru.com/newsrelease.do?id=2400&mid=408",
+        "retrieved": "2026-09-21",
+        "note": "Subaru's 2026 Trailseeker press kit: 'the 2026 Subaru Trailseeker includes a standard North American Charging Standard (NACS) charge port, which unlocks access to more than 25,000 charging stations across the U.S.'"
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://media.subaru.com/newsrelease.do?id=2400&mid=408",
+        "retrieved": "2026-09-21",
+        "note": "Subaru's 2026 Trailseeker press kit: 'the 2026 Subaru Trailseeker includes a standard North American Charging Standard (NACS) charge port, which unlocks access to more than 25,000 charging stations across the U.S.'"
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Trailseeker 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 274, "epa_id": 50299, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50299", "retrieved": "2026-09-21" },

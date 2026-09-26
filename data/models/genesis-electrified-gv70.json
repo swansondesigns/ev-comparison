@@ -281,6 +281,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's '19\" AWD' shows Drivetrain 'All Wheel Drive'."
       },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
+        "retrieved": "2026-09-19",
+        "note": "Genesis 2026 Electrified GV70 page: 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.genesisnewsusa.com/api/models/2026-electrified-gv70",
+        "retrieved": "2026-09-19",
+        "note": "Genesis 2026 Electrified GV70 page: 'comes exclusively with a North American Charging Standard (NACS) charge port, and a Combined Charging System (CCS) adapter'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Electrified GV70 AWD (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 263, "epa_id": 49656, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/49656", "retrieved": "2026-09-21" },

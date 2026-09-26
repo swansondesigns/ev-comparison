@@ -136,6 +136,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Premium AWD' shows Drivetrain 'All Wheel Drive'."
       },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
+        "retrieved": "2026-09-19",
+        "note": "Subaru of America, Oct. 22, 2025: 'This fall, owners of 2023-2025 Subaru Solterra EV models can purchase a Genuine Subaru Accessory Fast Charging Adapter (NACS) to access ... Tesla Superchargers'; the 2026 is the first with a NACS port. The adapter was 'available soon' as of the release; nothing saved confirms it shipped."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
+        "retrieved": "2026-09-19",
+        "note": "Subaru of America, Oct. 22, 2025: 'This fall, owners of 2023-2025 Subaru Solterra EV models can purchase a Genuine Subaru Accessory Fast Charging Adapter (NACS) to access ... Tesla Superchargers'; the 2026 is the first with a NACS port. The adapter was 'available soon' as of the release; nothing saved confirms it shipped."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 227, "epa_id": 47482, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47482", "retrieved": "2026-09-21" },
@@ -202,6 +215,19 @@
         "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Premium AWD' shows Drivetrain 'All Wheel Drive'."
+      },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
+        "retrieved": "2026-09-19",
+        "note": "Subaru of America, Oct. 22, 2025: 'This fall, owners of 2023-2025 Subaru Solterra EV models can purchase a Genuine Subaru Accessory Fast Charging Adapter (NACS) to access ... Tesla Superchargers'; the 2026 is the first with a NACS port. The adapter was 'available soon' as of the release; nothing saved confirms it shipped."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://media.subaru.com/pressrelease/2384/subaru-solterra-ev-adds-tesla-supercharging-access-through",
+        "retrieved": "2026-09-19",
+        "note": "Subaru of America, Oct. 22, 2025: 'This fall, owners of 2023-2025 Subaru Solterra EV models can purchase a Genuine Subaru Accessory Fast Charging Adapter (NACS) to access ... Tesla Superchargers'; the 2026 is the first with a NACS port. The adapter was 'available soon' as of the release; nothing saved confirms it shipped."
       },
       "epa_range": {
         "entries": [

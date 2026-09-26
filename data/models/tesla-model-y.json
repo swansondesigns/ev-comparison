@@ -254,6 +254,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Long Range AWD' shows Drivetrain 'All Wheel Drive'."
       },
+      "charge_port": {
+        "value": null,
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page is year-less and Tesla publishes no model-year documents; the line's facts are taken to hold for every year. (2026: Not fetched: tesla.com returned HTTP 403. C/D's review doesn't name the port.)"
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page is year-less and Tesla publishes no model-year documents; the line's facts are taken to hold for every year. (2026: Tesla's Model Y page lists 'Supercharging Max/Payment Type: 250 kW Max; Pay Per Use' for every version. Read through headless Edge (sources/tesla-modely-rendered.html); curl gets HTTP 403.)"
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 310, "epa_id": 47913, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47913", "retrieved": "2026-09-21" },
@@ -324,6 +337,19 @@
         "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Long Range AWD' shows Drivetrain 'All Wheel Drive'."
+      },
+      "charge_port": {
+        "value": null,
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page is year-less and Tesla publishes no model-year documents; the line's facts are taken to hold for every year. (2026: Not fetched: tesla.com returned HTTP 403. C/D's review doesn't name the port.)"
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page is year-less and Tesla publishes no model-year documents; the line's facts are taken to hold for every year. (2026: Tesla's Model Y page lists 'Supercharging Max/Payment Type: 250 kW Max; Pay Per Use' for every version. Read through headless Edge (sources/tesla-modely-rendered.html); curl gets HTTP 403.)"
       },
       "epa_range": {
         "entries": [
@@ -437,6 +463,19 @@
       }
     },
     "2027": {
+      "charge_port": {
+        "value": null,
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page is year-less and Tesla publishes no model-year documents; the line's facts are taken to hold for every year. (2026: Not fetched: tesla.com returned HTTP 403. C/D's review doesn't name the port.)"
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.tesla.com/modely",
+        "retrieved": "2026-09-19",
+        "note": "Tesla's Model Y page is year-less and Tesla publishes no model-year documents; the line's facts are taken to hold for every year. (2026: Tesla's Model Y page lists 'Supercharging Max/Payment Type: 250 kW Max; Pay Per Use' for every version. Read through headless Edge (sources/tesla-modely-rendered.html); curl gets HTTP 403.)"
+      },
       "recalls": {
         "campaigns": [],
         "asked": [

@@ -267,6 +267,19 @@
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'SE Standard Range RWD' shows Drivetrain 'Rear Wheel Drive'. 1 trim(s) with no drivetrain in the name are left off: IONIQ 5 SE Standard Range."
       },
+      "charge_port": {
+        "value": "CCS1",
+        "source": "https://www.hyundaiusa.com/us/en/electrified/charging",
+        "retrieved": "2026-09-21",
+        "note": "Read by hand by Graham, 2026-09-21. hyundaiusa.com: 'Not only are we providing Tesla Supercharger-compatible NACS adapters for our current EV owners, but starting with the 2025 IONIQ 5 and 2026 IONIQ 9, future electric models will come equipped with NACS ports standard.' The 2025 kit calls the 2025 the first Hyundai with the NACS port, so the 2024's port is CCS1."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "adapter",
+        "source": "https://www.hyundaiusa.com/us/en/electrified/charging",
+        "retrieved": "2026-09-21",
+        "note": "Read by hand by Graham, 2026-09-21. hyundaiusa.com: 'Not only are we providing Tesla Supercharger-compatible NACS adapters for our current EV owners, but starting with the 2025 IONIQ 5 and 2026 IONIQ 9, future electric models will come equipped with NACS ports standard.' The 2025 kit calls the 2025 the first Hyundai with the NACS port, so the 2024's port is CCS1."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Ioniq 5 Long range AWD", "drive": "AWD", "value": 260, "epa_id": 46962, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46962", "retrieved": "2026-09-21" },
@@ -335,6 +348,19 @@
         "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025",
         "retrieved": "2026-09-21",
         "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'SE Standard Range RWD' shows Drivetrain 'Rear Wheel Drive'."
+      },
+      "charge_port": {
+        "value": "NACS",
+        "source": "https://www.hyundainews.com/api/press-kits/2025-ioniq-5-overview",
+        "retrieved": "2026-09-21",
+        "note": "Hyundai, Sept. 3, 2024, on the refreshed 2025: '2025 IONIQ 5 models gain access to 17,000+ Tesla Superchargers via new North American Charging Standard (NACS) port'; 'the first Hyundai model to come equipped with the Tesla North American Charging Standard (NACS) port. This port opens 17,000+ chargers on Tesla's Supercharger network without using an adapter'."
+      },
+      "supercharger_access": {
+        "value": "yes",
+        "via": "port",
+        "source": "https://www.hyundainews.com/api/press-kits/2025-ioniq-5-overview",
+        "retrieved": "2026-09-21",
+        "note": "Hyundai, Sept. 3, 2024, on the refreshed 2025: '2025 IONIQ 5 models gain access to 17,000+ Tesla Superchargers via new North American Charging Standard (NACS) port'; 'the first Hyundai model to come equipped with the Tesla North American Charging Standard (NACS) port. This port opens 17,000+ chargers on Tesla's Supercharger network without using an adapter'."
       },
       "epa_range": {
         "entries": [
