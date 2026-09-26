@@ -1,5 +1,6 @@
 // Loads data/models/*.json for the pages. Pages render from here only; no spec values in templates.
-// A file is a car line with its model years inside (model.mjs); the pages get each line's newest year.
+// A file is a car line with its model years inside (model.mjs); the pages get each line's newest year,
+// and `line`, the file as read, for a view that needs another year (a one-sheet's model-years table).
 import { gates, passes } from './gates.mjs';
 import { resolve } from './model.mjs';
 
@@ -19,6 +20,7 @@ export const models = Object.entries(files).map(([file, line]) => {
     name: [m.make, m.model, flair].filter(Boolean).join(' '),
     flair,
     ...m,
+    line,
     gates: g,
     pass: passes(g),
   };

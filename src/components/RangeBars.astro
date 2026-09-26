@@ -1,6 +1,7 @@
 ---
 // EPA range per AWD version on a one-sheet: one bar per version, on page two's scale and with its
-// treatment (hollow for a maker's estimate), plus the numbers.
+// treatment (hollow for a maker's estimate), plus the numbers. The cheapest AWD version's bar, where it
+// can be told apart, says so under its label.
 import RangeTrack from './RangeTrack.astro';
 
 const { ranges = [] } = Astro.props;
@@ -11,7 +12,7 @@ const { ranges = [] } = Astro.props;
   </div>
   {ranges.map((r) => (
     <div class="bar">
-      <span class="label">{r.label}</span>
+      <span class="label">{r.label}{r.cheapest && <span class="mark">the cheapest with AWD</span>}</span>
       <span class="host"><RangeTrack range={{ min: r.value, max: r.value, estimate: r.estimate }} /></span>
       <span class="num">{r.value} mi{r.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
     </div>
@@ -32,6 +33,7 @@ const { ranges = [] } = Astro.props;
   .host { position: relative; align-self: stretch; min-height: 2.4rem; }
   .bar-head .host { min-height: 0; }
   .label { padding: 0.5rem 0; }
+  .mark { display: block; font-size: 0.8125rem; color: var(--muted); }
   .num { font-family: var(--font-data); font-size: 0.875rem; white-space: nowrap; }
   @media (max-width: 36rem) {
     .bars { --track-w: 7rem; }

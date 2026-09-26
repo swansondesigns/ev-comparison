@@ -10,6 +10,7 @@ import RangeBars from '../../components/RangeBars.astro';
 import ExtrasList from '../../components/ExtrasList.astro';
 import NotesList from '../../components/NotesList.astro';
 import SourcesList from '../../components/SourcesList.astro';
+import YearsTable from '../../components/YearsTable.astro';
 import { bodyFor } from '../../lib/data.js';
 import { passers } from '../../lib/compare.js';
 import { sheet } from '../../lib/sheet.js';
@@ -23,6 +24,11 @@ const s = sheet(Astro.props.m);
 const Body = bodyFor(s.slug);
 const anyEstimate = s.ranges.some((r) => r.estimate);
 const hasAside = s.extras.length > 0 || s.notes.length > 0 || !!Body;
+// The model-years table earns its place once there is more than this sheet's year, or a blank to name.
+const showYears = s.years.length > 1 || s.gaps.length > 0;
+const anyYearEstimate = s.years.some((y) => y.range?.estimate);
+// "2024: price, Tesla charging"
+const gapText = (y) => `${y.year}: ${y.missing.join(', ')}`;
 ---
 <Base title={`${s.make} ${s.model}`}>
   <PageHead kicker={s.make} title={s.model} sub={s.year ? `${s.year} model year` : undefined}>
@@ -62,6 +68,38 @@ const hasAside = s.extras.length > 0 || s.notes.length > 0 || !!Body;
           <NotesList notes={s.notesFor('range')} />
         </Fragment>
       </Section>
+
+      <Section heading="Price" id="price">
+        {s.price
+          ? <>
+              <p class="fact price">{s.price.text}</p>
+              <p class="cap">The {s.price.trim}, the cheapest version with all-wheel drive. New, delivery included, per Car and Driver.</p>
+            </>
+          : <p class="fact"><span class="none">Not found.</span> Model years, below, says where to look.</p>}
+        <NotesList notes={s.notesFor('price')} slot="note" />
+      </Section>
+
+      {showYears && (
+        <Section heading="Model years" id="years">
+          <p class="cap">2024 on, the cheapest version with all-wheel drive in each year. The sheet is the newest year; the rest are the same car in other years, new or used.</p>
+          <YearsTable years={s.years} />
+          <Fragment slot="note">
+            {anyYearEstimate && <p><span aria-hidden="true">*</span> The maker's EPA estimate.</p>}
+            {s.gaps.length > 0 && (
+              <>
+                <p>A dash is something we couldn't find, not something the car lacks. Still to find: {s.gaps.map(gapText).join(' · ')}.</p>
+                <p>
+                  Where to look: {s.maker.url
+                    ? <><a href={s.maker.url} rel="noreferrer">{s.maker.name}'s site</a> shows the current year; for an earlier one, {s.maker.name}'s newsroom keeps that year's press kit.</>
+                    : <>{s.maker.name}'s US site no longer lists this car, so its newsroom, or a dealer, is the place.</>}
+                  {' '}For Tesla charging, look for a page on the NACS adapter or Tesla Superchargers: whether that model year gets one, built in or as an adapter. For the current year's price, the build-and-price tool; for an earlier year, a used listing is the price that matters anyway.
+                </p>
+              </>
+            )}
+            <NotesList notes={s.notesFor('years')} />
+          </Fragment>
+        </Section>
+      )}
     </div>
 
     {hasAside && (
@@ -110,6 +148,8 @@ const hasAside = s.extras.length > 0 || s.notes.length > 0 || !!Body;
 
   .fact { margin: 0; }
   .cap { margin: 0 0 0.5rem; font-size: 0.875rem; color: var(--muted); }
+  .price { margin-bottom: 0.25rem; font-family: var(--font-data); font-size: 1.375rem; font-variant-numeric: tabular-nums; }
+  .none { color: var(--muted); }
 
   .notes :global(p) { margin: 0 0 0.6rem; }
 </style>

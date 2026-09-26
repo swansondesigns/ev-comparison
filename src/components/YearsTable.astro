@@ -1,0 +1,77 @@
+---
+// Model years on a one-sheet, 2024 on: the cheapest all-wheel-drive version of each year of the line,
+// one row per year, newest first. Its price is what it cost new that year, which for an older year is
+// background for a used one. A dash is a blank in the data, never a fact about the car; the page's
+// note under the table says where to look. Cells are set like page two's: the value, and under it
+// its unit or what it covers.
+import { rangeText } from '../lib/compare.js';
+
+const { years = [] } = Astro.props;
+---
+<table class="years">
+  <thead>
+    <tr>
+      <th scope="col">Year</th>
+      <th scope="col">Cheapest with AWD</th>
+      <th scope="col">Price new</th>
+      <th scope="col">Range <span class="cap">EPA</span></th>
+      <th scope="col">Tesla plug</th>
+    </tr>
+  </thead>
+  <tbody>
+    {years.map((y) => (
+      <tr class:list={{ current: y.current }}>
+        <th scope="row">
+          <span class="num">{y.year}</span>
+          {y.current && <span class="sub">this sheet</span>}
+        </th>
+        <td>
+          {y.version ?? (y.awd ? <span class="none">AWD {y.awd.toLowerCase()}</span> : <span class="none">—<span class="sr-only">Not found</span></span>)}
+        </td>
+        <td>
+          {y.price
+            ? <span class="num">{y.price.text}</span>
+            : <span class="none">—<span class="sr-only">Not found</span></span>}
+        </td>
+        <td>
+          {y.range
+            ? <>
+                <span class="num">{rangeText(y.range)}{y.range.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
+                <span class="sub">{y.range.spread ? 'miles, all AWD versions' : 'miles'}</span>
+              </>
+            : <span class="none">—<span class="sr-only">Not found</span></span>}
+        </td>
+        <td>
+          {y.plug
+            ? <>{y.plug.text}{y.plug.note && <span class="sub">{y.plug.note}</span>}</>
+            : <span class="none">—<span class="sr-only">Not found</span></span>}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+<style>
+  .years { width: 100%; border-collapse: collapse; }
+  .years th, .years td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+    vertical-align: top;
+  }
+  .years th:first-child, .years td:first-child { padding-left: 0; }
+  .years thead th {
+    padding-top: 0;
+    border-bottom-color: var(--ink);
+    font-size: 0.75rem;
+    font-weight: 400;
+    white-space: nowrap;
+    color: var(--muted);
+  }
+  .cap { margin-left: 0.35rem; }
+  tbody th { font-weight: 400; }
+  .current th .num { font-weight: 700; }
+  .num { display: block; font-family: var(--font-data); font-size: 0.875rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .sub { display: block; font-size: 0.8125rem; color: var(--muted); }
+  .none { color: var(--muted); }
+</style>
