@@ -112,6 +112,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Electric 4 AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["Macan Electric 4 AWD", "Macan Electric Turbo AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2024/porsche_macan-ev_porsche-macan-ev_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Electric 4 AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Macan 4 Electric", "drive": "AWD", "value": 308, "epa_id": 48793, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48793", "retrieved": "2026-09-21" },
@@ -171,6 +179,15 @@
         "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Electric 4 AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["Macan Electric 4 AWD", "Macan Electric Turbo AWD", "Macan Electric 4S AWD"],
+        "not_awd": ["Macan Electric RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/porsche/macan-ev/specs/2025/porsche_macan-ev_porsche-macan-ev_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Electric 4 AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

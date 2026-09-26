@@ -124,6 +124,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Plus Twin Motor AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["EX30 Twin Motor AWD Plus", "EX30 Twin Motor AWD Ultra"],
+        "not_awd": ["EX30 Single Motor Extended Range RWD Core", "EX30 Single Motor Extended Range RWD Plus", "EX30 Single Motor Extended Range RWD Ultra"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex30/specs/2025/volvo_ex30_volvo-ex30_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Plus Twin Motor AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "EX30 Twin Performance (19 Inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 253, "epa_id": 48775, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48775", "retrieved": "2026-09-21" },

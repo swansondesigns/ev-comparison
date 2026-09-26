@@ -171,6 +171,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Advanced AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["GV60 Advanced AWD", "GV60 Performance AWD"],
+        "not_awd": ["GV60 Standard RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2024/genesis_gv60_genesis-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Advanced AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "GV60 Advanced (19 inch Wheels)", "drive": "AWD", "wheels_in": 19, "value": 264, "epa_id": 46948, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46948", "retrieved": "2026-09-21" },
@@ -231,6 +240,15 @@
         "source": "https://www.caranddriver.com/genesis/gv60/specs/2025/genesis_gv60_genesis-gv60_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Advanced AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["GV60 Advanced AWD", "GV60 Performance AWD", "GV60 Standard AWD"],
+        "not_awd": ["GV60 Standard RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2025/genesis_gv60_genesis-gv60_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Advanced AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [
@@ -298,6 +316,15 @@
         "source": "https://www.caranddriver.com/genesis/gv60/specs/2026/genesis_gv60_genesis-gv60_2026",
         "retrieved": "2026-09-21",
         "note": "C/D 2026 19\" AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["GV60 19\" AWD", "GV60 Advanced 20\" AWD", "GV60 Performance AWD"],
+        "not_awd": ["GV60 RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2026/genesis_gv60_genesis-gv60_2026",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's '19\" AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

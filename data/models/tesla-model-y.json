@@ -245,6 +245,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Long Range AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["Model Y Long Range AWD", "Model Y Performance AWD"],
+        "not_awd": ["Model Y RWD", "Model Y Long Range RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2024/tesla_model-y_tesla-model-y_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Long Range AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Model Y Long Range AWD", "drive": "AWD", "value": 310, "epa_id": 47913, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47913", "retrieved": "2026-09-21" },
@@ -306,6 +315,15 @@
         "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Long Range AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["Model Y Long Range AWD"],
+        "not_awd": ["Model Y Long Range RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/tesla/model-y/specs/2025/tesla_model-y_tesla-model-y_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Long Range AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

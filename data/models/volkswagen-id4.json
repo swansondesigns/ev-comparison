@@ -206,6 +206,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Standard RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["ID.4 Pro AWD", "ID.4 Pro S AWD", "ID.4 Pro S Plus AWD"],
+        "not_awd": ["ID.4 Standard RWD", "ID.4 Pro RWD", "ID.4 S RWD", "ID.4 Pro S RWD", "ID.4 Pro S Plus RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Standard RWD' shows Drivetrain 'Rear Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "ID.4 AWD Pro", "drive": "AWD", "value": 263, "epa_id": 47485, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47485", "retrieved": "2026-09-21" },
@@ -268,6 +277,15 @@
         "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Pro RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["ID.4 Pro AWD", "ID.4 Pro S AWD", "ID.4 Pro S Plus AWD"],
+        "not_awd": ["ID.4 Pro RWD", "ID.4 Pro S RWD", "ID.4 Limited RWD", "ID.4 S Limited RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Pro RWD' shows Drivetrain 'Rear Wheel Drive'."
       },
       "epa_range": {
         "entries": [

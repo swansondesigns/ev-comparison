@@ -80,6 +80,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2026 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["Trailseeker Premium AWD", "Trailseeker Limited AWD", "Trailseeker Touring AWD", "Trailseeker Touring AWD w/Leather"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/trailseeker/specs/2026/subaru_trailseeker_subaru-trailseeker_2026",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's 'Premium AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Trailseeker 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 274, "epa_id": 50299, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50299", "retrieved": "2026-09-21" },

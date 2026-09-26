@@ -188,6 +188,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Select RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["Mustang Mach-E Select AWD", "Mustang Mach-E Premium AWD"],
+        "not_awd": ["Mustang Mach-E Select RWD", "Mustang Mach-E Premium RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Select RWD' shows Drivetrain 'Rear Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Mustang Mach-E AWD", "drive": "AWD", "value": 230, "epa_id": 47824, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47824", "retrieved": "2026-09-21" },
@@ -250,6 +259,15 @@
         "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Select RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["Mustang Mach-E Select AWD", "Mustang Mach-E Premium AWD", "Mustang Mach-E GT AWD"],
+        "not_awd": ["Mustang Mach-E Select RWD", "Mustang Mach-E Premium RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Select RWD' shows Drivetrain 'Rear Wheel Drive'."
       },
       "epa_range": {
         "entries": [

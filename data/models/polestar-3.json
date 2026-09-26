@@ -154,6 +154,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["3 Long Range Dual Motor", "3 Long Range Dual Motor Plus", "3 Long Range Dual Motor Performance", "3 Long Range Dual Motor Performance Plus", "3 Long Range Dual Motor Launch Edition", "3 Long Range Dual Motor Performance Launch Edition"],
+        "not_awd": ["3 Long Range Single Motor Pilot"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Long Range Dual Motor' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "3 Long Range Dual Motor (20 Inch Wheels)", "drive": "AWD", "wheels_in": 20, "value": 310, "epa_id": 48408, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48408", "retrieved": "2026-09-21" },

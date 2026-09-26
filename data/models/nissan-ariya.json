@@ -146,6 +146,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 ENGAGE FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["ARIYA ENGAGE e-4ORCE AWD", "ARIYA ENGAGE+ e-4ORCE AWD", "ARIYA EVOLVE+ e-4ORCE AWD", "ARIYA PLATINUM+ e-4ORCE AWD", "ARIYA PLATINUM+ e-4ORCE AWD w/20\" Wheels"],
+        "not_awd": ["ARIYA ENGAGE FWD", "ARIYA VENTURE+ FWD", "ARIYA EVOLVE+ FWD", "ARIYA EMPOWER+ FWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'ENGAGE FWD' shows Drivetrain 'Front Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "ARIYA ENGAGE e-4ORCE 63kWh", "drive": "AWD", "value": 205, "epa_id": 47853, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47853", "retrieved": "2026-09-21" },

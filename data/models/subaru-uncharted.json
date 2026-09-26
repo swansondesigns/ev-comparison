@@ -86,6 +86,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2026 Premium FWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["Uncharted Sport AWD", "Uncharted GT AWD"],
+        "not_awd": ["Uncharted Premium FWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/uncharted/specs/2026/subaru_uncharted_subaru-uncharted_2026",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's 'Premium FWD' shows Drivetrain 'Front Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Uncharted 20 inch AWD", "drive": "AWD", "wheels_in": 20, "value": 273, "epa_id": 50302, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50302", "retrieved": "2026-09-19" },

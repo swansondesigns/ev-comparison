@@ -141,6 +141,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Advanced AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["Electrified GV70 Advanced AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Advanced AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Electrified GV70", "drive": "AWD", "value": 236, "epa_id": 46947, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46947", "retrieved": "2026-09-21" }
@@ -199,6 +207,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Advanced AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["Electrified GV70 Advanced AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Advanced AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Electrified GV70", "drive": "AWD", "value": 236, "epa_id": 48353, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48353", "retrieved": "2026-09-21" }
@@ -256,6 +272,14 @@
         "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
         "retrieved": "2026-09-21",
         "note": "C/D 2026 19\" AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "standard",
+        "trims": ["Electrified GV70 19\" AWD", "Electrified GV70 Advanced 20\" AWD", "Electrified GV70 Prestige 20\" AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's '19\" AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

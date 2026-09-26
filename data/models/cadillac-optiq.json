@@ -100,6 +100,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Luxury AWD 4dr w/1SC, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["OPTIQ AWD 4dr Luxury w/1SC", "OPTIQ AWD 4dr Luxury w/1SE", "OPTIQ AWD 4dr Sport w/1SF", "OPTIQ AWD 4dr Sport w/1SH"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/cadillac/optiq/specs/2025/cadillac_optiq_cadillac-optiq_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Luxury AWD 4dr w/1SC' shows Drivetrain 'All Wheel Drive'."
+      },
       "recalls": {
         "campaigns": ["26V114000", "25V704000"],
         "asked": [

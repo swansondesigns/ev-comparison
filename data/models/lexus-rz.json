@@ -128,6 +128,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 RZ 450e Premium AWD w/18\" Wheels, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["RZ 450e Premium AWD w/18\" Wheels", "RZ 450e Premium AWD w/20\" Wheels", "RZ 450e Luxury AWD"],
+        "not_awd": ["RZ 300e Premium FWD w/18\" Wheels", "RZ 300e Premium FWD w/20\" Wheels", "RZ 300e Luxury FWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/lexus/rz/specs/2024/lexus_rz_lexus-rz_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'RZ 450e Premium AWD w/18\" Wheels' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "RZ 450e AWD (18 inch wheels)", "drive": "AWD", "wheels_in": 18, "value": 220, "epa_id": 47834, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47834", "retrieved": "2026-09-21" },
@@ -188,6 +197,15 @@
         "source": "https://www.caranddriver.com/lexus/rz/specs/2025/lexus_rz_lexus-rz_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 RZ 450e Premium AWD w/18\" Wheels, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["RZ 450e Premium AWD w/18\" Wheels", "RZ 450e Premium AWD w/20\" Wheels", "RZ 450e Luxury AWD", "RZ 450e AWD"],
+        "not_awd": ["RZ 300e Premium FWD w/18\" Wheels", "RZ 300e Premium FWD w/20\" Wheels", "RZ 300e Luxury FWD", "RZ 300e FWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/lexus/rz/specs/2025/lexus_rz_lexus-rz_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'RZ 450e Premium AWD w/18\" Wheels' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

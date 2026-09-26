@@ -97,6 +97,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2026 SE AWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["C-HR SE AWD (Natl)", "C-HR XSE AWD (Natl)"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/c-hr/specs/2026/toyota_c-hr_toyota-c-hr+_2026",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's 'SE AWD (Natl)' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "C-HR AWD 18inch", "drive": "AWD", "wheels_in": 18, "value": 287, "epa_id": 50307, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50307", "retrieved": "2026-09-19" },

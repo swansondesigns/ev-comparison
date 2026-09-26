@@ -136,6 +136,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Core Twin eAWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["XC40 Recharge Pure Electric Twin eAWD Core", "XC40 Recharge Pure Electric Twin eAWD Plus", "XC40 Recharge Pure Electric Twin eAWD Ultimate"],
+        "not_awd": ["XC40 Recharge Pure Electric RWD Core", "XC40 Recharge Pure Electric RWD Plus", "XC40 Recharge Pure Electric RWD Ultimate"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Core Twin eAWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "XC40 Recharge twin", "drive": "AWD", "value": 254, "epa_id": 46983, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/46983", "retrieved": "2026-09-21" },
@@ -188,6 +197,15 @@
         "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Core Twin Motor AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["EX40 Twin Motor AWD Core", "EX40 Twin Motor AWD Plus", "EX40 Twin Motor AWD Ultra"],
+        "not_awd": ["EX40 Single Motor Extended Range RWD Core", "EX40 Single Motor Extended Range RWD Plus", "EX40 Single Motor Extended Range RWD Ultra"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Core Twin Motor AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

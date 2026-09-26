@@ -118,6 +118,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Premium RWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["Q6 e-tron Premium quattro", "Q6 e-tron Premium Plus quattro", "Q6 e-tron Prestige quattro"],
+        "not_awd": ["Q6 e-tron Premium RWD", "Q6 e-tron Premium Plus RWD", "Q6 e-tron Prestige RWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/q6-e-tron/specs/2025/audi_q6-e-tron_audi-q6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Premium RWD' shows Drivetrain 'Rear Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Q6 e-tron quattro (19 inch wheels)", "drive": "AWD", "wheels_in": 19, "value": 307, "epa_id": 48297, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48297", "retrieved": "2026-09-21" },

@@ -119,6 +119,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Premium quattro, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["SQ6 e-tron Premium quattro", "SQ6 e-tron Premium Plus quattro", "SQ6 e-tron Prestige quattro"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs/2025/audi_sq6-e-tron_audi-sq6-e-tron_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Premium quattro' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "SQ6 e-tron", "drive": "AWD", "value": 275, "epa_id": 48303, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48303", "retrieved": "2026-09-21" },

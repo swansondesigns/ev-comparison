@@ -128,6 +128,14 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "standard",
+        "trims": ["Solterra Premium AWD", "Solterra Limited AWD", "Solterra Touring AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'Premium AWD' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "Solterra AWD", "drive": "AWD", "value": 227, "epa_id": 47482, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47482", "retrieved": "2026-09-21" },
@@ -186,6 +194,14 @@
         "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Premium AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "standard",
+        "trims": ["Solterra Premium AWD", "Solterra Limited AWD", "Solterra Touring AWD", "Solterra Touring Onyx Edition AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Premium AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [
@@ -330,6 +346,14 @@
         "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
         "retrieved": "2026-09-21",
         "note": "C/D 2027 Touring XT AWD, 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "standard",
+        "trims": ["Solterra Touring XT AWD", "Solterra Limited AWD", "Solterra Premium AWD", "Solterra Limited XT AWD"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2027 trim names, as printed. The page's 'Touring XT AWD' shows Drivetrain 'All Wheel Drive'."
       },
       "epa_range": {
         "entries": [

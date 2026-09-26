@@ -140,6 +140,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2024 XLE FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["bZ4X XLE AWD (Natl)", "bZ4X Limited AWD (Natl)"],
+        "not_awd": ["bZ4X XLE FWD (Natl)", "bZ4X Limited FWD (Natl)"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2024 trim names, as printed. The page's 'XLE FWD (Natl)' shows Drivetrain 'Front Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "bZ4X AWD", "drive": "AWD", "value": 228, "epa_id": 47920, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/47920", "retrieved": "2026-09-21" },
@@ -200,6 +209,15 @@
         "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
         "retrieved": "2026-09-21",
         "note": "C/D 2025 XLE FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["bZ4X XLE AWD (Natl)", "bZ4X Limited AWD (Natl)", "bZ4X Nightshade AWD (Natl)"],
+        "not_awd": ["bZ4X XLE FWD (Natl)", "bZ4X Limited FWD (Natl)"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'XLE FWD (Natl)' shows Drivetrain 'Front Wheel Drive'."
       },
       "epa_range": {
         "entries": [
@@ -262,6 +280,15 @@
         "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
         "retrieved": "2026-09-21",
         "note": "C/D 2026 XLE Plus FWD (Natl), 'Turning Diameter / Radius, curb to curb (feet)'."
+      },
+      "awd": {
+        "value": "available",
+        "trims": ["bZ XLE AWD (Natl)", "bZ Limited AWD (Natl)"],
+        "not_awd": ["bZ XLE Plus FWD (Natl)", "bZ Limited FWD (Natl)", "bZ XLE FWD (Natl)"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2026 trim names, as printed. The page's 'XLE Plus FWD (Natl)' shows Drivetrain 'Front Wheel Drive'."
       },
       "epa_range": {
         "entries": [

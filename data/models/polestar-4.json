@@ -80,6 +80,15 @@
         "retrieved": "2026-09-21",
         "note": "C/D 2025 Pilot Long Range Dual Motor, 'Turning Diameter / Radius, curb to curb (feet)'."
       },
+      "awd": {
+        "value": "available",
+        "trims": ["4 Long Range Dual Motor Pilot", "4 Long Range Dual Motor Pro", "4 Long Range Dual Motor Plus", "4 Long Range Dual Motor Performance"],
+        "not_awd": ["4 Long Range Single Motor", "4 Long Range Single Motor Pilot", "4 Long Range Single Motor Pro", "4 Long Range Single Motor Plus"],
+        "secondary": true,
+        "source": "https://www.caranddriver.com/polestar/polestar-4/specs/2025/polestar_polestar-4_polestar-4_2025",
+        "retrieved": "2026-09-21",
+        "note": "Read from the drivetrain words in C/D's 2025 trim names, as printed. The page's 'Pilot Long Range Dual Motor' shows Drivetrain 'All Wheel Drive'."
+      },
       "epa_range": {
         "entries": [
           { "epa_vehicle": "4 Long Range Dual Motor", "drive": "AWD", "value": 272, "epa_id": 48412, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/48412", "retrieved": "2026-09-21" },
