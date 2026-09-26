@@ -162,6 +162,15 @@
           { "name": "SOLTERRA", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 46340,
+        "trim": "Premium AWD",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2024/subaru_solterra_subaru-solterra_2024/451418",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Premium AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -242,6 +251,15 @@
           { "name": "SOLTERRA", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 39915,
+        "trim": "Premium AWD",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2025/subaru_solterra_subaru-solterra_2025/464572",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Premium AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -303,11 +321,13 @@
         ]
       },
       "price": {
-        "value": [39945, 47305],
-        "source": "https://www.caranddriver.com/subaru/solterra",
-        "retrieved": "2026-09-19",
+        "value": 39945,
+        "trim": "Premium AWD",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2026/subaru_solterra_subaru-solterra_2026/481430",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$39,945–$47,305'); page titled '2026 Subaru Solterra Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Premium AWD, the cheapest of the 5 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -394,6 +414,15 @@
           { "name": "SOLTERRA", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=SOLTERRA&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": 39970,
+        "trim": "Premium AWD",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/subaru/solterra/specs/2027/subaru_solterra_subaru-solterra_2027/488121",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Premium AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "motortrend": {

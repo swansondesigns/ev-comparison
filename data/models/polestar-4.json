@@ -96,6 +96,15 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims."
       },
+      "price": {
+        "value": 64300,
+        "trim": "Pilot Long Range Dual Motor",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/polestar/polestar-4/specs/2025/polestar_polestar-4_polestar-4_2025/459090",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Pilot Long Range Dual Motor, the cheapest of the 4 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "motortrend": {
           "value": 8.8,
@@ -150,6 +159,15 @@
           { "applies_to": "Dual motor with Performance pack", "epa_vehicle": "4 Long Range Dual Motor Performance", "drive": "AWD", "value": 255, "epa_id": 50035, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50035", "retrieved": "2026-09-19" },
           { "applies_to": "Rear motor", "epa_vehicle": "4 Long Range Single Motor", "drive": "RWD", "value": 310, "epa_id": 50033, "source": "https://www.fueleconomy.gov/ws/rest/vehicle/50033", "retrieved": "2026-09-19" }
         ]
+      },
+      "price": {
+        "value": 64300,
+        "trim": "Long Range Dual Motor",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/polestar/polestar-4/specs/2026/polestar_polestar-4_polestar-4_2026/478413",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Long Range Dual Motor, the cheapest of the 2 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

@@ -232,6 +232,15 @@
           { "name": "ID.4", "found": 8, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 50180,
+        "trim": "Pro AWD",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2024/volkswagen_i.d.-crozz_volkswagen-id.4_2024/451429",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Pro AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8.5,
@@ -303,6 +312,15 @@
         "asked": [
           { "name": "ID.4", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=ID.4&modelYear=2025", "retrieved": "2026-09-21" }
         ]
+      },
+      "price": {
+        "value": 50420,
+        "trim": "Pro AWD",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2025/volkswagen_i.d.-crozz_volkswagen-id.4_2025/464032",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Pro AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -431,11 +449,13 @@
         ]
       },
       "price": {
-        "value": [46570, 59130],
-        "source": "https://www.caranddriver.com/volkswagen/id4",
-        "retrieved": "2026-09-19",
+        "value": 50470,
+        "trim": "Pro AWD",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/volkswagen/id4/specs/2026/volkswagen_i.d.-crozz_volkswagen-id.4_2026/481603",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$46,570–$59,130'); page titled '2026 Volkswagen ID.4 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Pro AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

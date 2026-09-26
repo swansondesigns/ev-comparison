@@ -227,6 +227,15 @@
           { "name": "MUSTANG MACH E", "found": 5, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 45490,
+        "trim": "Select AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2024/ford_mach-e_ford-mustang-mach-e_2024/450416",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Select AWD, the cheapest of the 2 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -312,6 +321,15 @@
           { "name": "MUSTANG MACH E", "found": 7, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=MUSTANG%20MACH%20E&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 42990,
+        "trim": "Select AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2025/ford_mach-e_ford-mustang-mach-e_2025/466914",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Select AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -384,11 +402,13 @@
         ]
       },
       "price": {
-        "value": [39840, 59735],
-        "source": "https://www.caranddriver.com/ford/mustang-mach-e",
-        "retrieved": "2026-09-19",
+        "value": 42840,
+        "trim": "Select AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/ford/mustang-mach-e/specs/2026/ford_mach-e_ford-mustang-mach-e_2026/481825",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$39,840–$59,735'); page titled '2026 Ford Mustang Mach-E Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Select AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

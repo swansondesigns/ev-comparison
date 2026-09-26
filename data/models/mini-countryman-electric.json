@@ -121,6 +121,15 @@
           { "name": "COUNTRYMAN SE ALL4", "found": 1, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 46375,
+        "trim": "SE ALL4",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/mini/countryman-electric/specs/2025/mini_cooper-countryman-electric_mini-cooper-countryman-electric_2025/461619",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the SE ALL4, the cheapest of the 1 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -197,11 +206,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [46375, 49775],
-        "source": "https://www.caranddriver.com/mini/countryman-electric",
-        "retrieved": "2026-09-19",
+        "value": 46375,
+        "trim": "SE ALL4",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/mini/countryman-electric/specs/2026/mini_cooper-countryman-electric_mini-countryman-electric_2026/481928",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$46,375–$49,775'); page titled '2026 Mini Countryman Electric Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the SE ALL4, the cheapest of the 1 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -314,6 +325,15 @@
           { "name": "COUNTRYMAN SE ALL4", "found": 0, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mini&model=COUNTRYMAN%20SE%20ALL4&modelYear=2027", "retrieved": "2026-09-21" }
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
+      },
+      "price": {
+        "value": 46550,
+        "trim": "SE ALL4",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/mini/countryman-electric/specs/2027/mini_cooper-countryman-electric_mini-countryman-electric_2027/487210",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the SE ALL4, the cheapest of the 1 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "motortrend": {

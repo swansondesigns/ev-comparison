@@ -164,6 +164,15 @@
           { "name": "BZ4X", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 46545,
+        "trim": "XLE AWD (Natl)",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2024/toyota_bz_toyota-bz4x_2024/447860",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the XLE AWD (Natl), the cheapest of the 2 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -234,6 +243,15 @@
         "asked": [
           { "name": "BZ4X", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=BZ4X&modelYear=2025", "retrieved": "2026-09-21" }
         ]
+      },
+      "price": {
+        "value": 40745,
+        "trim": "XLE AWD (Natl)",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2025/toyota_bz_toyota-bz4x_2025/465150",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the XLE AWD (Natl), the cheapest of the 3 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -308,11 +326,13 @@
         ]
       },
       "price": {
-        "value": [36495, 46895],
-        "source": "https://www.caranddriver.com/toyota/bz",
-        "retrieved": "2026-09-19",
+        "value": 41495,
+        "trim": "XLE AWD (Natl)",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2026/toyota_bz_toyota-bz_2026/475995",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$36,495–$46,895'); page titled '2026 Toyota bZ Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the XLE AWD (Natl), the cheapest of the 2 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -377,11 +397,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [36575, 46975],
-        "source": "https://www.caranddriver.com/toyota/bz-2027",
-        "retrieved": "2026-09-19",
+        "value": 41575,
+        "trim": "XLE AWD (Natl)",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/toyota/bz/specs/2027/toyota_bz_toyota-bz_2027/486898",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$36,575–$46,975'); page titled '2027 Toyota bZ Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the XLE AWD (Natl), the cheapest of the 2 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

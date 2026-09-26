@@ -182,11 +182,13 @@
         ]
       },
       "price": {
-        "value": [68900, 86300],
-        "source": "https://www.caranddriver.com/polestar/polestar-3",
-        "retrieved": "2026-09-19",
+        "value": 75300,
+        "trim": "Long Range Dual Motor",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/polestar/polestar-3/specs/2025/polestar_polestar-3_polestar-3_2025/454984",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$68,900–$86,300'); page titled '2025 Polestar 3 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Long Range Dual Motor, the cheapest of the 6 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

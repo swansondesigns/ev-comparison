@@ -294,6 +294,15 @@
           { "name": "IONIQ 5", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 50745,
+        "trim": "SE AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2024/hyundai_ioniq-5_hyundai-ioniq-5_2024/445176",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the SE AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -378,6 +387,15 @@
           { "name": "IONIQ 5", "found": 9, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=IONIQ%205&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 51750,
+        "trim": "SE AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2025/hyundai_ioniq-5_hyundai-ioniq-5_2025/464589",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the SE AWD, the cheapest of the 10 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -456,11 +474,13 @@
         ]
       },
       "price": {
-        "value": [36650, 50625],
-        "source": "https://www.caranddriver.com/hyundai/ioniq-5",
-        "retrieved": "2026-09-19",
+        "value": 42650,
+        "trim": "SE AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2026/hyundai_ioniq-5_hyundai-ioniq-5_2026/474169",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$36,650–$50,625'); page titled '2026 Hyundai Ioniq 5 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the SE AWD, the cheapest of the 5 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -600,11 +620,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [36900, 50775],
-        "source": "https://www.caranddriver.com/hyundai/ioniq-5-2027",
-        "retrieved": "2026-09-19",
+        "value": 42900,
+        "trim": "SE AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/hyundai/ioniq-5/specs/2027/hyundai_ioniq-5_hyundai-ioniq-5_2027/489673",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$36,900–$50,775'); page titled '2027 Hyundai Ioniq 5 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the SE AWD, the cheapest of the 5 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

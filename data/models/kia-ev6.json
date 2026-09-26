@@ -153,6 +153,15 @@
           { "name": "EV6", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=EV6&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 51245,
+        "trim": "Light Long Range AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2024/kia_kia-ev6_kia-ev6_2024/449921",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Light Long Range AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,
@@ -238,6 +247,15 @@
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
+      "price": {
+        "value": 51795,
+        "trim": "Light Long Range AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2025/kia_kia-ev6_kia-ev6_2025/471672",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Light Long Range AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9.5,
@@ -298,11 +316,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [39445, 54545],
-        "source": "https://www.caranddriver.com/kia/ev6",
-        "retrieved": "2026-09-19",
+        "value": 46745,
+        "trim": "Light Long Range AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/kia/ev6/specs/2026/kia_kia-ev6_kia-ev6_2026/483480",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$39,445–$54,545'); page titled '2026 Kia EV6 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Light Long Range AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

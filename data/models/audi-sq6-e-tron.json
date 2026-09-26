@@ -142,11 +142,13 @@
         ]
       },
       "price": {
-        "value": [74195, 82995],
-        "source": "https://www.caranddriver.com/audi/sq6-e-tron",
-        "retrieved": "2026-09-19",
+        "value": 74195,
+        "trim": "Premium quattro",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs/2025/audi_sq6-e-tron_audi-sq6-e-tron_2025/465468",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$74,195–$82,995'); page titled '2025 Audi SQ6 e-tron Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Premium quattro, the cheapest of the 6 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -219,11 +221,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [74595, 80395],
-        "source": "https://www.caranddriver.com/audi/sq6-e-tron-2027",
-        "retrieved": "2026-09-19",
+        "value": 74595,
+        "trim": "Premium Plus quattro",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/audi/sq6-e-tron/specs/2027/audi_sq6-e-tron_audi-sq6-e-tron_2027/483046",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$74,595–$80,395'); page titled '2027 Audi SQ6 e-tron Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Premium Plus quattro, the cheapest of the 4 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

@@ -119,11 +119,13 @@
         ]
       },
       "price": {
-        "value": [38595, 40595],
-        "source": "https://www.caranddriver.com/toyota/c-hr",
-        "retrieved": "2026-09-19",
+        "value": 38595,
+        "trim": "SE AWD (Natl)",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/toyota/c-hr/specs/2026/toyota_c-hr_toyota-c-hr+_2026/482991",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$38,595–$40,595'); page titled '2026 Toyota C-HR Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the SE AWD (Natl), the cheapest of the 2 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -228,11 +230,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [38675, 40675],
-        "source": "https://www.caranddriver.com/toyota/c-hr-2027",
-        "retrieved": "2026-09-19",
+        "value": 38675,
+        "trim": "SE AWD (Natl)",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/toyota/c-hr/specs/2027/toyota_c-hr_toyota-c-hr+_2027/487114",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$38,675–$40,675'); page titled '2027 Toyota C-HR Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the SE AWD (Natl), the cheapest of the 2 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

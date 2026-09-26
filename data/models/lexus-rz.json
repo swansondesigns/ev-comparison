@@ -165,6 +165,15 @@
           { "name": "RZ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 59875,
+        "trim": "RZ 450e Premium AWD w/18\" Wheels",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/lexus/rz/specs/2024/lexus_rz_lexus-rz_2024/452531",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the RZ 450e Premium AWD w/18\" Wheels, the cheapest of the 3 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7,
@@ -248,6 +257,15 @@
           { "name": "RZ", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Lexus&model=RZ&modelYear=2025", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 48675,
+        "trim": "RZ 450e AWD",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/lexus/rz/specs/2025/lexus_rz_lexus-rz_2025/466580",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the RZ 450e AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7,
@@ -308,11 +326,13 @@
         ]
       },
       "price": {
-        "value": [47395, 58395],
-        "source": "https://www.caranddriver.com/lexus/rz",
-        "retrieved": "2026-09-19",
+        "value": 50895,
+        "trim": "RZ 450e AWD",
+        "wheels_in": 18,
+        "source": "https://www.caranddriver.com/lexus/rz/specs/2026/lexus_rz_lexus-rz450e_2026/482176",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$47,395–$58,395'); page titled '2026 Lexus RZ Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the RZ 450e AWD, the cheapest of the 4 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

@@ -163,11 +163,12 @@
         ]
       },
       "price": {
-        "value": [67195, 72195],
+        "value": 67195,
+        "trim": "Limited",
         "source": "https://www.caranddriver.com/jeep/wagoneer-s",
         "retrieved": "2026-09-19",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$67,195–$72,195'); page titled '2025 Jeep Wagoneer S Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the Limited, the cheapest of its 2025 trims, delivery included; every 2025 version is all-wheel drive. From the review page's data: C/D has no page per version for this year."
       },
       "ratings": {
         "caranddriver": {

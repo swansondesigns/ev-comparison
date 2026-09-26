@@ -161,6 +161,15 @@
           { "name": "GV70 ELECTRIFIED", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 67800,
+        "trim": "Advanced AWD",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2024/genesis_electrified-gv70_genesis-electrified-gv70_2024/443876",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Advanced AWD, the cheapest of the 1 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 10,
@@ -226,6 +235,15 @@
         "asked": [
           { "name": "GV70 ELECTRIFIED", "found": 2, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV70%20ELECTRIFIED&modelYear=2025", "retrieved": "2026-09-21" }
         ]
+      },
+      "price": {
+        "value": 68400,
+        "trim": "Advanced AWD",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2025/genesis_electrified-gv70_genesis-electrified-gv70_2025/456982",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Advanced AWD, the cheapest of the 1 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -308,11 +326,13 @@
         ]
       },
       "price": {
-        "value": [65875, 76845],
-        "source": "https://www.caranddriver.com/genesis/electrified-gv70",
-        "retrieved": "2026-09-19",
+        "value": 65875,
+        "trim": "19\" AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2026/genesis_electrified-gv70_genesis-electrified-gv70_2026/474880",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$65,875–$76,845'); page titled '2026 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the 19\" AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -369,11 +389,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [60045, 72845],
-        "source": "https://www.caranddriver.com/genesis/electrified-gv70-2027",
-        "retrieved": "2026-09-19",
+        "value": 60045,
+        "trim": "19\" AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/genesis/electrified-gv70/specs/2027/genesis_electrified-gv70_genesis-electrified-gv70_2027/485881",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$60,045–$72,845'); page titled '2027 Genesis Electrified GV70 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the 19\" AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

@@ -152,6 +152,15 @@
         ],
         "note": "Labels are EPA's own; they weren't mapped to the maker's trims. EPA lists this model year under the car's earlier name, the XC40 Recharge."
       },
+      "price": {
+        "value": 55495,
+        "trim": "Core Twin eAWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2024/volvo_volvo-xc40-recharge_volvo-xc40-recharge_2024/440665",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Core Twin eAWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 7.5,
@@ -219,6 +228,15 @@
         "asked": [
           { "name": "EX40", "found": 3, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volvo&model=EX40&modelYear=2025", "retrieved": "2026-09-21" }
         ]
+      },
+      "price": {
+        "value": 55545,
+        "trim": "Core Twin Motor AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2025/volvo_volvo-xc40-recharge_volvo-ex40_2025/455477",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Core Twin Motor AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -335,11 +353,13 @@
         ]
       },
       "price": {
-        "value": [56545, 62245],
-        "source": "https://www.caranddriver.com/volvo/ex40",
-        "retrieved": "2026-09-19",
+        "value": 58295,
+        "trim": "Plus Twin Motor AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/volvo/ex40/specs/2026/volvo_volvo-xc40-recharge_volvo-ex40_2026/472884",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$56,545–$62,245'); page titled '2026 Volvo EX40: What We Know So Far'."
+        "note": "Car and Driver's price for the Plus Twin Motor AWD, the cheapest of the 2 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

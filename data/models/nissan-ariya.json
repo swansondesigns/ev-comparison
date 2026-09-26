@@ -174,6 +174,15 @@
         ],
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
+      "price": {
+        "value": 44980,
+        "trim": "ENGAGE e-4ORCE AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2024/nissan_ariya_nissan-ariya_2024/442490",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the ENGAGE e-4ORCE AWD, the cheapest of the 5 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 8,
@@ -295,11 +304,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [41265, 55865],
-        "source": "https://www.caranddriver.com/nissan/ariya",
-        "retrieved": "2026-09-19",
+        "value": 45265,
+        "trim": "ENGAGE e-4ORCE AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/nissan/ariya/specs/2025/nissan_ariya_nissan-ariya_2025/457997",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$41,265–$55,865'); page titled '2025 Nissan Ariya Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the ENGAGE e-4ORCE AWD, the cheapest of the 5 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

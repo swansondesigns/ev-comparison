@@ -195,6 +195,15 @@
           { "name": "GV60", "found": 5, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2024", "retrieved": "2026-09-21" }
         ]
       },
+      "price": {
+        "value": 61900,
+        "trim": "Advanced AWD",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2024/genesis_gv60_genesis-gv70_2024/445817",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Advanced AWD, the cheapest of the 2 all-wheel-drive version(s) it lists for 2024, delivery included; its page shows Drivetrain 'All Wheel Drive'."
+      },
       "ratings": {
         "caranddriver": {
           "value": 9,
@@ -264,6 +273,15 @@
         "asked": [
           { "name": "GV60", "found": 4, "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Genesis&model=GV60&modelYear=2025", "retrieved": "2026-09-21" }
         ]
+      },
+      "price": {
+        "value": 57345,
+        "trim": "Standard AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2025/genesis_gv60_genesis-gv60_2025/456098",
+        "retrieved": "2026-09-26",
+        "secondary": true,
+        "note": "Car and Driver's price for the Standard AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2025, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -355,11 +373,13 @@
         ]
       },
       "price": {
-        "value": [54020, 73370],
-        "source": "https://www.caranddriver.com/genesis/gv60",
-        "retrieved": "2026-09-19",
+        "value": 57520,
+        "trim": "19\" AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2026/genesis_gv60_genesis-gv60_2026/481359",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$54,020–$73,370'); page titled '2026 Genesis GV60 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the 19\" AWD, the cheapest of the 3 all-wheel-drive version(s) it lists for 2026, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
@@ -482,11 +502,13 @@
         "note": "NHTSA listed no recalls for this model year on the day it was read."
       },
       "price": {
-        "value": [47795, 72145],
-        "source": "https://www.caranddriver.com/genesis/gv60-2027",
-        "retrieved": "2026-09-19",
+        "value": 51495,
+        "trim": "19\" AWD",
+        "wheels_in": 19,
+        "source": "https://www.caranddriver.com/genesis/gv60/specs/2027/genesis_gv60_genesis-gv60_2027/487300",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$47,795–$72,145'); page titled '2027 Genesis GV60 /GV60 Magma Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the 19\" AWD, the cheapest of the 2 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {

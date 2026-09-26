@@ -65,11 +65,13 @@
         "note": "One version, five EPA listings by wheel and tire."
       },
       "price": {
-        "value": [62850, 62850],
-        "source": "https://www.caranddriver.com/bmw/ix3",
-        "retrieved": "2026-09-19",
+        "value": 62850,
+        "trim": "50 xDrive Sports Activity Vehicle",
+        "wheels_in": 20,
+        "source": "https://www.caranddriver.com/bmw/ix3/specs/2027/bmw_ix3_bmw-ix3_2027/487888",
+        "retrieved": "2026-09-26",
         "secondary": true,
-        "note": "Car and Driver's price range for a new one, as printed ('$62,850'); page titled '2027 BMW iX3 Review, Pricing, and Specs'."
+        "note": "Car and Driver's price for the 50 xDrive Sports Activity Vehicle, the cheapest of the 1 all-wheel-drive version(s) it lists for 2027, delivery included; its page shows Drivetrain 'All Wheel Drive'."
       },
       "ratings": {
         "caranddriver": {
