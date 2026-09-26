@@ -9,5 +9,8 @@
   "preview_urls": true,
   "assets": {
     "directory": "./dist"
-  }
+  },
+  // Required, even empty, for Previews: the per-branch deploys that Workers
+  // Builds makes for non-production branches, and `wrangler preview` by hand.
+  "previews": {}
 }
