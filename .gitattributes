@@ -1,0 +1,3 @@
+# LF in the working copy on every machine. The scripts split sources/fetch-log.tsv on "\n", and
+# fetch.sh and scripts/write-json.js write LF; a CRLF checkout made the scripts see nothing as saved.
+* text=auto eol=lf
