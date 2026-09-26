@@ -1,0 +1,13 @@
+// Cloudflare Workers with static assets. An evaluation deploy alongside
+// Netlify, which stays the live site: `npm run deploy:cloudflare`.
+// Static build only; no Worker code, so no `main` and no @astrojs/cloudflare.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ev-research",
+  "compatibility_date": "2026-09-26",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist"
+  }
+}

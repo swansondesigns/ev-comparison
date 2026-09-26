@@ -11,6 +11,9 @@ input/
 # Netlify CLI's link to the site (site id), written by `netlify sites:create` / `netlify link`
 .netlify/
 
+# Wrangler's local state (Cloudflare evaluation deploy)
+.wrangler/
+
 # MCP config with keys
 .mcp.json
 
