@@ -15,7 +15,7 @@ import RatingCell from './RatingCell.astro';
 import { rows, rangeText } from '../lib/compare.js';
 import { sheetHref } from '../lib/links.js';
 ---
-<div class="compare-wrap" data-filterable data-bands="size reviews">
+<div class="compare-wrap" data-filterable data-bands="size price">
 <div class="controls">
 <div class="pickers">
 <fieldset class="sort">
@@ -23,6 +23,7 @@ import { sheetHref } from '../lib/links.js';
   <span class="seg">
     <label><input type="radio" name="sort" value="length" data-dir="ascending" checked /> Length</label>
     <label><input type="radio" name="sort" value="range" data-dir="descending" /> Range</label>
+    <label><input type="radio" name="sort" value="price" data-dir="ascending" /> Price</label>
     <label><input type="radio" name="sort" value="alpha" data-dir="ascending" /> A–Z</label>
   </span>
 </fieldset>
@@ -33,6 +34,7 @@ import { sheetHref } from '../lib/links.js';
   <label><input type="checkbox" data-col="size" checked /> Size</label>
   <label><input type="checkbox" data-col="plug" /> Tesla plug</label>
   <label><input type="checkbox" data-col="range" checked /> Range</label>
+  <label><input type="checkbox" data-col="price" checked /> Price</label>
   <label><input type="checkbox" data-col="reviews" checked /> Reviews</label>
   <label><input type="checkbox" data-col="web" /> On the web</label>
 </fieldset>
@@ -56,7 +58,8 @@ import { sheetHref } from '../lib/links.js';
         <td></td>
         <th scope="colgroup" colspan="3" class="g-size">Size <span class="cap">drag the ends of the bar to trim</span></th>
         <th scope="col" class="plug g-plug">Tesla plug</th>
-        <th scope="col" class="g-range">Range <span class="cap">EPA, AWD versions</span></th>
+        <th scope="col" class="g-range">Range <span class="cap">EPA, cheapest AWD version</span></th>
+        <th scope="col" class="g-price">Price <span class="cap">cheapest AWD version, new</span></th>
         <th scope="colgroup" colspan="2" class="g-reviews">Reviews <span class="cap">out of 10</span></th>
         <th scope="col" class="out-col g-web">On the web <span class="cap">opens a new tab</span></th>
         <td></td>
@@ -72,6 +75,7 @@ import { sheetHref } from '../lib/links.js';
         <th scope="col" class="width g-size g-end">Width</th>
         <td class="plug g-plug g-end"></td>
         <td class="range g-range g-end"><RangeTrack head /></td>
+        <td class="price g-price g-end"></td>
         <th scope="col" class="rating g-reviews">Car and Driver</th>
         <th scope="col" class="rating g-reviews g-end">MotorTrend, within its class</th>
         <td class="out-col g-web g-end"></td>
@@ -80,7 +84,7 @@ import { sheetHref } from '../lib/links.js';
     </thead>
     <tbody>
       {rows.map((r) => (
-        <tr data-slug={r.slug} data-alpha={r.alpha} data-length={r.length ?? 1e9} data-range={r.range ? r.range.max : -1}>
+        <tr data-slug={r.slug} data-alpha={r.alpha} data-length={r.length ?? 1e9} data-range={r.range ? r.range.max : -1} data-price={r.price ? r.price.value : 1e9}>
           <th scope="row" class="model">
             <a class="name" href={sheetHref(r.slug)}>{r.name}</a>
             {r.year && <span class="year">{r.year}</span>}
@@ -117,8 +121,14 @@ import { sheetHref } from '../lib/links.js';
             {r.range
               ? <>
                   <span class="num">{rangeText(r.range)}{r.range.estimate && <><span aria-hidden="true">*</span><span class="sr-only"> (maker's estimate)</span></>}</span>
-                  <span class="unit">miles</span>
+                  <span class="unit">{r.range.spread ? 'miles, all AWD versions' : 'miles'}</span>
                 </>
+              : <span class="none">—<span class="sr-only">No data</span></span>}
+          </td>
+
+          <td class="price g-price g-end">
+            {r.price
+              ? <><span class="num">{r.price.text}</span><span class="unit">{r.price.trim}</span></>
               : <span class="none">—<span class="sr-only">No data</span></span>}
           </td>
 
@@ -274,6 +284,7 @@ import { sheetHref } from '../lib/links.js';
   .compare-wrap:has([data-col='size']:not(:checked)) .compare .g-size,
   .compare-wrap:has([data-col='plug']:not(:checked)) .compare .g-plug,
   .compare-wrap:has([data-col='range']:not(:checked)) .compare .g-range,
+  .compare-wrap:has([data-col='price']:not(:checked)) .compare .g-price,
   .compare-wrap:has([data-col='reviews']:not(:checked)) .compare .g-reviews,
   .compare-wrap:has([data-col='web']:not(:checked)) .compare .g-web { display: none; }
 
@@ -282,6 +293,7 @@ import { sheetHref } from '../lib/links.js';
   .compare-wrap[data-bands~='size'] .compare :is(.heads, tbody) .g-size,
   .compare-wrap[data-bands~='plug'] .compare :is(.heads, tbody) .g-plug,
   .compare-wrap[data-bands~='range'] .compare :is(.heads, tbody) .g-range,
+  .compare-wrap[data-bands~='price'] .compare :is(.heads, tbody) .g-price,
   .compare-wrap[data-bands~='reviews'] .compare :is(.heads, tbody) .g-reviews,
   .compare-wrap[data-bands~='web'] .compare :is(.heads, tbody) .g-web {
     background: linear-gradient(var(--band), var(--band)) no-repeat left top / var(--band-w, 100%) 100%;

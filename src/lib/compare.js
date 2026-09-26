@@ -2,6 +2,7 @@
 // is read from the data files; the only arithmetic is a dimension minus a reference car's and the
 // min/max of EPA figures.
 import { val, COROLLA, SIZE_REFERENCE } from './gates.mjs';
+import { cheapestAwdRange } from './cheapest.mjs';
 import { models, byMakeModel } from './data.js';
 import { outLinks } from './links.js';
 
@@ -42,11 +43,16 @@ export const lengthText = (l, ref) => deltaText(l, ref, ['longer', 'shorter'], '
 
 // EPA range across AWD versions only; FWD and RWD versions fail her must-have.
 export const awdRanges = (m) => (m.epa_range?.entries || []).filter((e) => e.drive === 'AWD' && e.value != null);
+// She is considering only the cheapest AWD version, so its own EPA figure where it can be told apart
+// (cheapest.mjs); where it can't, the spread across AWD versions, with `spread` set so the page says so.
 export function range(m) {
+  const own = cheapestAwdRange(m);
+  if (own) return { min: own.value, max: own.value, estimate: own.estimate, spread: false };
   const awd = awdRanges(m);
   if (!awd.length) return null;
   const vals = awd.map((e) => e.value);
-  return { min: Math.min(...vals), max: Math.max(...vals), estimate: awd.some((e) => e.estimate) };
+  const [min, max] = [Math.min(...vals), Math.max(...vals)];
+  return { min, max, estimate: awd.some((e) => e.estimate), spread: min !== max };
 }
 // One site's rating for the model year the row quotes. The sites score each model year separately, so
 // another year's score never stands in for it; the others ride along for the info button.
@@ -64,6 +70,16 @@ export function rating(m, site) {
 // Bare figures: page two prints the unit under them.
 export const rangeText = (r) => (r.min === r.max ? `${r.min}` : `${r.min}–${r.max}`);
 
+// What the cheapest all-wheel-drive version cost new that model year, delivery included, per Car and
+// Driver (scripts/price.js), and that version's name. C/D's names carry build codes and market tags
+// ("Luxury AWD 4dr w/1SC", "XLE AWD (Natl)"); `trim` drops those for display.
+const money = (v) => `$${v.toLocaleString('en-US')}`;
+const tidyTrim = (t) => t.replace(/\s*\(Natl\)|\s*\*Ltd Avail\*|\s+4dr\b|\s+w\/[0-9A-Z]{3}\b/g, '').replace(/\s+/g, ' ').trim();
+export function price(m) {
+  if (m.price?.value == null) return null;
+  return { value: m.price.value, text: money(m.price.value), trim: tidyTrim(m.price.trim ?? '') };
+}
+
 const alpha = [...models].sort(byMakeModel).map((m) => m.slug);
 
 export const passers = models.filter((m) => m.pass);
@@ -79,6 +95,7 @@ export const rows = passers
     widthNote: mirrorsText(m) ? `${val(m.width_in)} wide, ${mirrorsText(m)}` : null,
     plug: plug(m),
     range: range(m),
+    price: price(m),
     cd: rating(m, 'caranddriver'),
     mt: rating(m, 'motortrend'),
     out: outLinks(m),
