@@ -13,7 +13,8 @@ A comparison site for one reader: a friend of Graham's choosing a small electric
 ## Commands
 
 - `npm run dev`, `npm run build`
-- `npm run deploy`: builds, then `netlify deploy --prod`. Manual; nothing deploys on push.
+- `npm run deploy`: builds, then `netlify deploy --prod`. Manual; nothing deploys to Netlify on push.
+- `npm run deploy:cloudflare`: the same build to the Cloudflare mirror by hand ([wrangler.jsonc](wrangler.jsonc)); rarely needed, since it also builds on push.
 - `npm run gates`: writes [data/gates.md](data/gates.md), each line judged on its newest model year.
 
 Node 24: the scripts `require()` the site's `.mjs` modules.
@@ -21,6 +22,8 @@ Node 24: the scripts `require()` the site's `.mjs` modules.
 ## Branches
 
 `main` is what is live. Work collects on `stage` and goes to `main` when it is ready to deploy.
+
+Her site is the Netlify one (https://small-ev-comparison-tool.netlify.app), deployed by hand. Cloudflare Workers Builds mirrors `main` on every push at https://ev-research.ev-research.workers.dev, and builds every other pushed branch to `<branch>-ev-research.ev-research.workers.dev`; both are Graham's review surfaces, never hers. The evaluation that set it up is in `.dev/communications/cloudflare-eval-return.md`.
 
 ## Data
 
